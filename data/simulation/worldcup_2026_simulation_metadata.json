@@ -1,0 +1,13 @@
+{
+  "prediction_source_key": "ensemble_predictions",
+  "prediction_source_path": "C:\\Users\\kenic\\OneDrive\\Desktop\\wc_predictor\\data\\predictions\\ensemble_predictions.parquet",
+  "prediction_rows": 103,
+  "n_sims": 100000,
+  "seed": 42,
+  "model_name_counts": {
+    "football_only_ensemble": 103
+  },
+  "feature_set_counts": {
+    "core_football_only": 103
+  }
+}

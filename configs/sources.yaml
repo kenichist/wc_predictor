@@ -1,0 +1,187 @@
+sources:
+  historical:
+    results_url: "https://raw.githubusercontent.com/martj42/international_results/master/results.csv"
+    shootouts_url: "https://raw.githubusercontent.com/martj42/international_results/master/shootouts.csv"
+    goalscorers_url: "https://raw.githubusercontent.com/martj42/international_results/master/goalscorers.csv"
+  football_data:
+    base_url: "https://api.football-data.org/v4/matches"
+    default_days_back: 14
+    default_days_forward: 2
+    timeout_seconds: 30
+    rate_limit_sleep_seconds: 60
+    retry_count: 3
+  worldcup_2026:
+    url: "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2026/worldcup.json"
+
+external_sources:
+  fifa_rankings:
+    source_url: "https://inside.fifa.com/fifa-world-ranking/men"
+    output_path: "data/external/fifa_rankings.csv"
+    raw_dir: "data/raw/fifa_rankings"
+    source_type: "html"
+    required_columns:
+      - date
+      - team
+      - rank
+      - points
+  world_football_elo:
+    source_url: "https://www.eloratings.net/"
+    output_path: "data/external/world_football_elo.csv"
+    raw_dir: "data/raw/world_football_elo"
+    source_type: "html"
+    required_columns:
+      - date
+      - team
+      - elo
+
+paths:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  features_dir: "data/features"
+  external_dir: "data/external"
+  historical_results_raw: "data/raw/historical_results_raw.csv"
+  historical_shootouts_raw: "data/raw/historical_shootouts_raw.csv"
+  historical_goalscorers_raw: "data/raw/historical_goalscorers_raw.csv"
+  worldcup_2026_raw: "data/raw/worldcup_2026_raw.json"
+  historical_matches_clean: "data/processed/historical_matches_clean.parquet"
+  recent_matches_clean: "data/processed/recent_matches_clean.parquet"
+  worldcup_2026_fixtures_clean: "data/processed/worldcup_2026_fixtures_clean.parquet"
+  all_matches_clean: "data/processed/all_matches_clean.parquet"
+  team_name_mapping: "data/processed/team_name_mapping.csv"
+  match_training_dataset_parquet: "data/features/match_training_dataset.parquet"
+  match_training_dataset_csv: "data/features/match_training_dataset.csv"
+  team_form_features: "data/features/team_form_features.parquet"
+  internal_historical_elo: "data/features/internal_historical_elo.csv"
+  worldcup_2026_prediction_input: "data/features/worldcup_2026_prediction_input.parquet"
+  data_dictionary: "data/features/data_dictionary.md"
+  fifa_rankings: "data/external/fifa_rankings.csv"
+  world_football_elo: "data/external/world_football_elo.csv"
+  fifa_rankings_snapshots_dir: "data/external/fifa_rankings_snapshots"
+  world_football_elo_snapshots_dir: "data/external/world_football_elo_snapshots"
+  team_xg_match_stats: "data/external/team_xg_match_stats.csv"
+  squad_player_features: "data/external/squad_player_features.csv"
+  injuries_suspensions: "data/external/injuries_suspensions.csv"
+  betting_odds: "data/external/market_odds.csv"
+  match_training_dataset_advanced_parquet: "data/features/match_training_dataset_advanced.parquet"
+  match_training_dataset_advanced_csv: "data/features/match_training_dataset_advanced.csv"
+  worldcup_2026_prediction_input_advanced: "data/features/worldcup_2026_prediction_input_advanced.parquet"
+  predictions_dir: "data/predictions"
+  match_predictions: "data/predictions/match_predictions.parquet"
+  poisson_predictions: "data/predictions/poisson_predictions.parquet"
+  calibrated_predictions: "data/predictions/calibrated_match_predictions.parquet"
+  ensemble_predictions: "data/predictions/ensemble_predictions.parquet"
+  group_stage_predictions_parquet: "data/predictions/group_stage_predictions.parquet"
+  group_stage_predictions_csv: "data/predictions/group_stage_predictions.csv"
+  actual_team_match_predictions_parquet: "data/predictions/actual_team_match_predictions.parquet"
+  actual_team_match_predictions_csv: "data/predictions/actual_team_match_predictions.csv"
+  placeholder_fixture_predictions_parquet: "data/predictions/placeholder_fixture_predictions.parquet"
+  placeholder_fixture_predictions_csv: "data/predictions/placeholder_fixture_predictions.csv"
+  simulation_dynamic_predictions_parquet: "data/predictions/simulation_dynamic_predictions.parquet"
+  simulation_dynamic_predictions_csv: "data/predictions/simulation_dynamic_predictions.csv"
+  reports_dir: "data/reports"
+  external_data_validation_report_md: "data/reports/external_data_validation_report.md"
+  external_data_validation_report_csv: "data/reports/external_data_validation_report.csv"
+  feature_null_rate_report_md: "data/reports/feature_null_rate_report.md"
+  feature_null_rate_report_csv: "data/reports/feature_null_rate_report.csv"
+  external_rating_acquisition_report_md: "data/reports/external_rating_acquisition_report.md"
+  external_rating_acquisition_report_csv: "data/reports/external_rating_acquisition_report.csv"
+  external_rating_activation_report_md: "data/reports/external_rating_activation_report.md"
+  external_rating_activation_report_csv: "data/reports/external_rating_activation_report.csv"
+  current_external_rating_acquisition_report_md: "data/reports/current_external_rating_acquisition_report.md"
+  external_feature_activation_debug_md: "data/reports/external_feature_activation_debug.md"
+  historical_rating_coverage_report_md: "data/reports/historical_rating_coverage_report.md"
+  historical_rating_coverage_report_csv: "data/reports/historical_rating_coverage_report.csv"
+  internal_elo_reconstruction_report_md: "data/reports/internal_elo_reconstruction_report.md"
+  final_model_recommendation_md: "data/reports/final_model_recommendation.md"
+  worldcup_backtest_report_md: "data/reports/worldcup_backtest_report.md"
+  market_blend_report_md: "data/reports/market_blend_report.md"
+  market_odds_join_debug_md: "data/reports/market_odds_join_debug.md"
+  odds_conversion_benchmark_report_md: "data/reports/odds_conversion_benchmark_report.md"
+  benchmark_significance_report_md: "data/reports/benchmark_significance_report.md"
+  worldcup_tournament_simulation_backtest_report_md: "data/reports/worldcup_tournament_simulation_backtest_report.md"
+  backtests_dir: "data/backtests"
+  worldcup_backtest_predictions: "data/backtests/worldcup_backtest_predictions.csv"
+  worldcup_backtest_metrics: "data/backtests/worldcup_backtest_metrics.csv"
+  worldcup_tournament_simulation_backtest_csv: "data/backtests/worldcup_tournament_simulation_backtest.csv"
+  market_blend_params: "models/market_blend_params.json"
+  experiments_dir: "data/experiments"
+  ablation_results_csv: "data/experiments/ablation_results.csv"
+  ablation_results_md: "data/experiments/ablation_results.md"
+  simulation_dir: "data/simulation"
+  simulation_results: "data/simulation/worldcup_2026_simulation_results.csv"
+  simulation_stage_probabilities: "data/simulation/worldcup_2026_stage_probabilities.csv"
+  simulation_bracket_sample: "data/simulation/worldcup_2026_bracket_sample.json"
+  simulation_metadata: "data/simulation/worldcup_2026_simulation_metadata.json"
+  models_dir: "models"
+  match_model: "models/match_model.joblib"
+  poisson_model: "models/poisson_model.joblib"
+  calibration_params: "models/calibration_params.json"
+
+features:
+  default_start_date: "2010-01-01"
+
+match_weights:
+  recency_decay_days: 730
+  multipliers:
+    world_cup: 1.50
+    continental_championship: 1.25
+    world_cup_qualifier: 1.15
+    continental_qualifier: 1.10
+    nations_league: 1.00
+    friendly: 0.70
+    other: 1.00
+
+elo:
+  default_elo: 1500
+  k_factor: 20
+  home_advantage: 50
+  k_multipliers:
+    world_cup: 1.50
+    continental_championship: 1.25
+    world_cup_qualifier: 1.15
+    continental_qualifier: 1.10
+    nations_league: 1.00
+    friendly: 0.70
+    other: 1.00
+
+internal_historical_elo:
+  default_elo: 1500
+  k_factor: 20
+  home_advantage: 50
+  goal_diff_cap: 4
+  shootout_win_score: 0.75
+  k_multipliers:
+    world_cup: 1.50
+    continental_championship: 1.25
+    world_cup_qualifier: 1.15
+    continental_qualifier: 1.10
+    nations_league: 1.00
+    friendly: 0.70
+    other: 1.00
+
+dynamic_ratings:
+  base_rating: 1500
+  k_factor: 24
+  home_advantage: 55
+  goal_diff_cap: 4
+  k_multipliers:
+    world_cup: 1.70
+    continental_championship: 1.35
+    world_cup_qualifier: 1.20
+    continental_qualifier: 1.12
+    nations_league: 1.00
+    friendly: 0.70
+    other: 1.00
+
+modeling:
+  train_end: "2022-01-01"
+  validation_start: "2022-01-01"
+  validation_end: "2025-01-01"
+  test_start: "2025-01-01"
+  random_seed: 42
+  catboost_use_gpu: true
+  catboost_gpu_devices: "0"
+  catboost_iterations: 300
+  catboost_depth: 6
+  catboost_learning_rate: 0.05
+  market_blend_min_coverage: 0.999

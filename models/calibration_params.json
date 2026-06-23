@@ -1,0 +1,20 @@
+{
+  "method": "temperature_scaling",
+  "temperature": 1.0999999999999999,
+  "before": {
+    "accuracy": 0.5938556067588325,
+    "log_loss": 0.8878982858775745,
+    "brier_score": 0.5223520108906297,
+    "ranked_probability_score": 0.17455600459334714,
+    "calibration_error": 0.033255603924162075
+  },
+  "after": {
+    "accuracy": 0.5938556067588325,
+    "log_loss": 0.8857782416138915,
+    "brier_score": 0.5211418262543378,
+    "ranked_probability_score": 0.1740574949931915,
+    "calibration_error": 0.02258802227487097
+  },
+  "model_name": "catboost",
+  "feature_set": "core_football_only"
+}

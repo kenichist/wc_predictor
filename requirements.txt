@@ -1,0 +1,15 @@
+pandas
+numpy
+requests
+python-dotenv
+pyyaml
+pyarrow
+scikit-learn
+pytest
+joblib
+
+# Optional. The core pipeline and fallback models do not require these.
+# soccerdata
+# catboost
+# xgboost
+# matplotlib

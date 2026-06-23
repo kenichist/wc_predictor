@@ -1,0 +1,10 @@
+feature_set,num_features,new_columns_added,usable_new_columns,null_new_columns,constant_new_columns,identical_to_previous,accuracy,log_loss,brier_score,ranked_probability_score,calibration_error,warning
+v1_baseline,32,32,32,0,0,False,0.589247311827957,0.9044913678997769,0.5319686401244862,0.17783977029939554,0.028364547646355223,
+core_football_only,46,14,14,0,0,False,0.5849462365591398,0.8946617349925275,0.5258780657854755,0.17582993505036404,0.03566165654188659,
+core_plus_internal_elo,52,6,6,0,0,False,0.5864823348694317,0.8987015090058296,0.5286152787227854,0.17672649161302156,0.03460346596788601,internal historical Elo worsened validation log_loss by 0.004040
+v2_baseline_plus_fifa_rankings,42,10,10,0,0,False,0.5855606758832566,0.9126366490451219,0.5361586345640087,0.17911619067653023,0.03242148843238507,FIFA rankings worsened validation log_loss by 0.008145
+v3_plus_external_elo,45,5,0,2,3,True,0.5855606758832566,0.9126366490451219,0.5361586345640087,0.17911619067653023,0.03242148843238507,"v3_plus_external_elo added 5 columns, but none add usable variation. 3 newly added columns are constant. feature set has same usable columns as previous set. metrics are identical to previous feature set. Add data/external/world_football_elo.csv to enable external Elo features"
+v4_plus_dynamic_ratings,48,3,3,0,0,False,0.5812596006144394,0.9122188022983082,0.5368904537398838,0.17927106329337686,0.03878422396897889,
+v5_plus_pi_ratings,59,11,11,0,0,False,0.5834101382488479,0.9049053789094297,0.5314512664248744,0.177276474718514,0.04145318482468062,
+v6_full_rating_stack,59,0,0,0,0,True,0.5834101382488479,0.9049053789094297,0.5314512664248744,0.177276474718514,0.04145318482468062,feature set has same requested columns as previous step
+rating_stack_experimental,59,0,0,0,0,True,0.5834101382488479,0.9049053789094297,0.5314512664248744,0.177276474718514,0.04145318482468062,feature set has same requested columns as previous step. experimental rating stack worsened validation log_loss by 0.010244

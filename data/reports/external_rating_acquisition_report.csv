@@ -1,0 +1,2 @@
+dataset,status,output_path,raw_path,rows,preserved_existing,errors,warnings
+world_football_elo,failed,C:\Users\kenic\OneDrive\Desktop\wc_predictor\data\external\world_football_elo.csv,,0,False,[WinError 2] The system cannot find the file specified,

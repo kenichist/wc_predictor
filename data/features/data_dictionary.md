@@ -1,0 +1,62 @@
+# Data Dictionary
+
+All rolling and Elo features are generated using only matches with dates before the row's match date.
+
+- `match_id`: Stable source-derived match identifier.
+- `source`: Source selected after deduplication.
+- `date`: Match date or kickoff timestamp when available.
+- `home_team`: Pipeline-generated match, feature, or target column.
+- `away_team`: Pipeline-generated match, feature, or target column.
+- `neutral`: Pipeline-generated match, feature, or target column.
+- `tournament`: Pipeline-generated match, feature, or target column.
+- `competition_type`: Pipeline-generated match, feature, or target column.
+- `stage`: Pipeline-generated match, feature, or target column.
+- `group`: Pipeline-generated match, feature, or target column.
+- `country`: Pipeline-generated match, feature, or target column.
+- `city`: Pipeline-generated match, feature, or target column.
+- `venue`: Pipeline-generated match, feature, or target column.
+- `home_score`: Pipeline-generated match, feature, or target column.
+- `away_score`: Pipeline-generated match, feature, or target column.
+- `result`: home_win, draw, or away_win for scored matches.
+- `home_win`: Pipeline-generated match, feature, or target column.
+- `draw`: Pipeline-generated match, feature, or target column.
+- `away_win`: Pipeline-generated match, feature, or target column.
+- `goal_diff`: Pipeline-generated match, feature, or target column.
+- `total_goals`: Pipeline-generated match, feature, or target column.
+- `home_matches_last_5`: Pipeline-generated match, feature, or target column.
+- `away_matches_last_5`: Pipeline-generated match, feature, or target column.
+- `home_matches_last_10`: Pipeline-generated match, feature, or target column.
+- `away_matches_last_10`: Pipeline-generated match, feature, or target column.
+- `home_win_rate_last_5`: Pipeline-generated match, feature, or target column.
+- `away_win_rate_last_5`: Pipeline-generated match, feature, or target column.
+- `home_win_rate_last_10`: Pipeline-generated match, feature, or target column.
+- `away_win_rate_last_10`: Pipeline-generated match, feature, or target column.
+- `home_goals_for_avg_last_5`: Pipeline-generated match, feature, or target column.
+- `away_goals_for_avg_last_5`: Pipeline-generated match, feature, or target column.
+- `home_goals_against_avg_last_5`: Pipeline-generated match, feature, or target column.
+- `away_goals_against_avg_last_5`: Pipeline-generated match, feature, or target column.
+- `home_goal_diff_avg_last_5`: Pipeline-generated match, feature, or target column.
+- `away_goal_diff_avg_last_5`: Pipeline-generated match, feature, or target column.
+- `home_goals_for_avg_last_10`: Pipeline-generated match, feature, or target column.
+- `away_goals_for_avg_last_10`: Pipeline-generated match, feature, or target column.
+- `home_goals_against_avg_last_10`: Pipeline-generated match, feature, or target column.
+- `away_goals_against_avg_last_10`: Pipeline-generated match, feature, or target column.
+- `home_goal_diff_avg_last_10`: Pipeline-generated match, feature, or target column.
+- `away_goal_diff_avg_last_10`: Pipeline-generated match, feature, or target column.
+- `home_days_since_last_match`: Pipeline-generated match, feature, or target column.
+- `away_days_since_last_match`: Pipeline-generated match, feature, or target column.
+- `rest_days_diff`: Pipeline-generated match, feature, or target column.
+- `home_elo_pre_match`: Pipeline-generated match, feature, or target column.
+- `away_elo_pre_match`: Pipeline-generated match, feature, or target column.
+- `elo_diff`: Pipeline-generated match, feature, or target column.
+- `home_fifa_rank`: Pipeline-generated match, feature, or target column.
+- `away_fifa_rank`: Pipeline-generated match, feature, or target column.
+- `fifa_rank_diff`: Pipeline-generated match, feature, or target column.
+- `is_world_cup`: Pipeline-generated match, feature, or target column.
+- `is_qualifier`: Pipeline-generated match, feature, or target column.
+- `is_continental_tournament`: Pipeline-generated match, feature, or target column.
+- `is_friendly`: Pipeline-generated match, feature, or target column.
+- `match_weight`: Recency decay multiplied by tournament importance.
+- `target_result_class`: 0=home loss, 1=draw, 2=home win.
+- `target_home_goals`: Pipeline-generated match, feature, or target column.
+- `target_away_goals`: Pipeline-generated match, feature, or target column.

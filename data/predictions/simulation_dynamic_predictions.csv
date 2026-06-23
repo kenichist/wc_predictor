@@ -1,0 +1,1813 @@
+home_team,away_team,p_home_loss,p_draw,p_home_win,source
+South Africa,Canada,0.5372665500458971,0.24,0.22273344995410302,rating_fallback_dynamic
+Germany,South Korea,0.25236253563253563,0.24,0.5076374643674644,rating_fallback_dynamic
+Scotland,Netherlands,0.5798462486627203,0.24,0.1801537513372798,rating_fallback_dynamic
+Japan,Brazil,0.46123912371990716,0.24,0.2987608762800928,rating_fallback_dynamic
+Norway,Morocco,0.468663737218255,0.24,0.291336262781745,rating_fallback_dynamic
+Mexico,Ecuador,0.35802079082892063,0.24,0.4019792091710794,rating_fallback_dynamic
+Ivory Coast,France,0.6249839450532914,0.24,0.13501605494670865,rating_fallback_dynamic
+United States,Bosnia and Herzegovina,0.17148630813058924,0.24,0.5885136918694108,rating_fallback_dynamic
+Egypt,Saudi Arabia,0.27503192773472585,0.24,0.48496807226527416,rating_fallback_dynamic
+England,Austria,0.2156618973527878,0.24,0.5443381026472123,rating_fallback_dynamic
+DR Congo,Croatia,0.5662004143704212,0.24,0.19379958562957877,rating_fallback_dynamic
+Switzerland,Sweden,0.2842464366846457,0.24,0.4757535633153543,rating_fallback_dynamic
+Uruguay,Algeria,0.3033800435284814,0.24,0.4566199564715186,rating_fallback_dynamic
+Argentina,Spain,0.3618942543030381,0.24,0.3981057456969619,rating_fallback_dynamic
+Australia,Belgium,0.4168856677697766,0.24,0.3431143322302234,rating_fallback_dynamic
+South Africa,Netherlands,0.6448037231534094,0.24,0.11519627684659063,rating_fallback_dynamic
+Germany,Morocco,0.3256033419623558,0.24,0.4343966580376442,rating_fallback_dynamic
+France,United States,0.1855343780497725,0.24,0.5744656219502275,rating_fallback_dynamic
+Brazil,Mexico,0.3075545907324124,0.24,0.4524454092675876,rating_fallback_dynamic
+Saudi Arabia,Austria,0.5573368396453907,0.24,0.20266316035460932,rating_fallback_dynamic
+Croatia,Sweden,0.251647909340723,0.24,0.508352090659277,rating_fallback_dynamic
+Algeria,Spain,0.627895560893893,0.24,0.13210443910610706,rating_fallback_dynamic
+Colombia,Belgium,0.31565480360828124,0.24,0.44434519639171877,rating_fallback_dynamic
+Netherlands,Germany,0.3802607099044391,0.24,0.3797392900955609,rating_fallback_dynamic
+Saudi Arabia,Sweden,0.4783578647017863,0.24,0.2816421352982137,rating_fallback_dynamic
+France,Brazil,0.31530354862945564,0.24,0.44469645137054437,rating_fallback_dynamic
+Spain,Belgium,0.18387234648330664,0.24,0.5761276535166934,rating_fallback_dynamic
+Netherlands,Saudi Arabia,0.12568809938349768,0.24,0.6343119006165023,rating_fallback_dynamic
+Brazil,Belgium,0.27219390489112183,0.24,0.4878060951088782,rating_fallback_dynamic
+Netherlands,Brazil,0.4145226738235833,0.24,0.34547732617641674,rating_fallback_dynamic
+Saudi Arabia,Belgium,0.5864383568337876,0.24,0.17356164316621242,rating_fallback_dynamic
+South Korea,Switzerland,0.4034487774388954,0.24,0.35655122256110466,rating_fallback_dynamic
+Germany,Bosnia and Herzegovina,0.10428378328599934,0.24,0.6557162167140007,rating_fallback_dynamic
+Scotland,Japan,0.5429485082710519,0.24,0.21705149172894816,rating_fallback_dynamic
+Mexico,Sweden,0.22199678744642692,0.24,0.5380032125535731,rating_fallback_dynamic
+United States,Iraq,0.2061454720742035,0.24,0.5538545279257965,rating_fallback_dynamic
+Egypt,Algeria,0.42419176106852047,0.24,0.33580823893147954,rating_fallback_dynamic
+Ghana,Paraguay,0.5470862719487523,0.24,0.21291372805124775,rating_fallback_dynamic
+Portugal,Croatia,0.30543226691003245,0.24,0.45456773308996756,rating_fallback_dynamic
+Canada,Iran,0.3967716086338579,0.24,0.3632283913661421,rating_fallback_dynamic
+Spain,Austria,0.15671041178713768,0.24,0.6032895882128623,rating_fallback_dynamic
+Colombia,Panama,0.20797139850940854,0.24,0.5520286014905914,rating_fallback_dynamic
+Argentina,Cape Verde,0.053845760829905165,0.24,0.7061542391700949,rating_fallback_dynamic
+Switzerland,Japan,0.4406354456428014,0.24,0.3193645543571986,rating_fallback_dynamic
+Algeria,Paraguay,0.35224804121157494,0.24,0.4077519587884251,rating_fallback_dynamic
+Croatia,Canada,0.29484554597669743,0.24,0.4651544540233026,rating_fallback_dynamic
+Spain,Argentina,0.3981057456969619,0.24,0.36189425430303807,rating_fallback_dynamic
+Panama,Belgium,0.4966233559406631,0.24,0.26337664405933686,rating_fallback_dynamic
+Japan,Morocco,0.37338229029250974,0.24,0.38661770970749026,rating_fallback_dynamic
+Algeria,Canada,0.37546039130344566,0.24,0.38453960869655435,rating_fallback_dynamic
+France,Mexico,0.24716957300018458,0.24,0.5128304269998154,rating_fallback_dynamic
+Argentina,Panama,0.10134231522953739,0.24,0.6586576847704626,rating_fallback_dynamic
+Japan,Algeria,0.2752727915796901,0.24,0.4847272084203099,rating_fallback_dynamic
+France,Argentina,0.43846873786103385,0.24,0.32153126213896616,rating_fallback_dynamic
+Japan,Argentina,0.5685299996619547,0.24,0.19147000033804532,rating_fallback_dynamic
+Algeria,France,0.6027858249821648,0.24,0.1572141750178352,rating_fallback_dynamic
+Brazil,Netherlands,0.3454773261764168,0.24,0.4145226738235832,rating_fallback_dynamic
+France,Paraguay,0.13974899083613657,0.24,0.6202510091638634,rating_fallback_dynamic
+Ivory Coast,Senegal,0.44775251465660415,0.24,0.3122474853433959,rating_fallback_dynamic
+Egypt,Spain,0.6514906195587234,0.24,0.10850938044127653,rating_fallback_dynamic
+Canada,Ghana,0.1946634425870733,0.24,0.5653365574129267,rating_fallback_dynamic
+South Korea,Netherlands,0.5074061146472922,0.24,0.25259388535270777,rating_fallback_dynamic
+Germany,France,0.47746432132035055,0.24000000000000002,0.2825356786796495,rating_fallback_dynamic
+Japan,Ecuador,0.36717024265563725,0.24,0.39282975734436276,rating_fallback_dynamic
+Portugal,Belgium,0.30263588998854896,0.24,0.45736411001145105,rating_fallback_dynamic
+South Korea,Germany,0.5076374643674645,0.24,0.2523625356325356,rating_fallback_dynamic
+Spain,Canada,0.1295169138682626,0.24,0.6304830861317374,rating_fallback_dynamic
+Iraq,Japan,0.6023411970108156,0.24,0.15765880298918444,rating_fallback_dynamic
+Argentina,Belgium,0.17090851009782343,0.24,0.5890914899021765,rating_fallback_dynamic
+Germany,Canada,0.22866060982378847,0.24,0.5313393901762116,rating_fallback_dynamic
+Germany,Argentina,0.5300129339479142,0.24,0.2299870660520859,rating_fallback_dynamic
+Canada,Japan,0.48890824911637354,0.24,0.2710917508836265,rating_fallback_dynamic
+South Africa,Switzerland,0.5769993540010891,0.24,0.18300064599891083,rating_fallback_dynamic
+Morocco,Sweden,0.23527659529823944,0.24,0.5247234047017606,rating_fallback_dynamic
+Netherlands,Scotland,0.1801537513372798,0.24,0.5798462486627203,rating_fallback_dynamic
+Mexico,Japan,0.37083264593569937,0.24,0.38916735406430064,rating_fallback_dynamic
+Ivory Coast,Norway,0.42612425849028346,0.24,0.3338757415097165,rating_fallback_dynamic
+Egypt,Senegal,0.45604476574735453,0.24,0.3039552342526455,rating_fallback_dynamic
+England,Algeria,0.1846324485932381,0.24,0.5753675514067619,rating_fallback_dynamic
+DR Congo,Ghana,0.29592440630067013,0.24,0.4640755936993299,rating_fallback_dynamic
+Colombia,Paraguay,0.21890305683050346,0.24,0.5410969431694965,rating_fallback_dynamic
+Austria,Cape Verde,0.185513820194586,0.24,0.5744861798054139,rating_fallback_dynamic
+Germany,Brazil,0.4142640995888429,0.24,0.34573590041115704,rating_fallback_dynamic
+Norway,United States,0.4099898222657141,0.24,0.35001017773428583,rating_fallback_dynamic
+Netherlands,Mexico,0.3414088657814998,0.24,0.4185911342185002,rating_fallback_dynamic
+Senegal,Algeria,0.34738803260570394,0.24,0.41261196739429606,rating_fallback_dynamic
+DR Congo,Iran,0.508586226259367,0.24,0.251413773740633,rating_fallback_dynamic
+Spain,Cape Verde,0.05881665186527592,0.24,0.701183348134724,rating_fallback_dynamic
+Switzerland,Germany,0.4863938862594181,0.24,0.27360611374058186,rating_fallback_dynamic
+Senegal,Iran,0.35957001715671827,0.24,0.40042998284328174,rating_fallback_dynamic
+United States,Mexico,0.4550627779422409,0.24,0.304937222057759,rating_fallback_dynamic
+Spain,Colombia,0.2355974474071903,0.24,0.5244025525928097,rating_fallback_dynamic
+Germany,Senegal,0.2611512667418,0.24,0.4988487332582,rating_fallback_dynamic
+United States,Colombia,0.48104197180981284,0.24,0.27895802819018717,rating_fallback_dynamic
+Germany,United States,0.26834297226758796,0.24,0.49165702773241204,rating_fallback_dynamic
+Senegal,Colombia,0.488360986581711,0.24,0.27163901341828894,rating_fallback_dynamic
+Czechia,Switzerland,0.498990517058746,0.24000000000000002,0.2610094829412541,rating_fallback_dynamic
+Brazil,Japan,0.29876087628009285,0.24,0.46123912371990716,rating_fallback_dynamic
+Netherlands,Morocco,0.3258587345693109,0.24,0.4341412654306891,rating_fallback_dynamic
+France,Scotland,0.11788985722989105,0.24,0.6421101427701089,rating_fallback_dynamic
+Egypt,Uruguay,0.4980437623221527,0.24,0.2619562376778473,rating_fallback_dynamic
+Ghana,Algeria,0.5687762497235794,0.24,0.19122375027642052,rating_fallback_dynamic
+Uzbekistan,England,0.6214402283778488,0.24,0.13855977162215122,rating_fallback_dynamic
+Czechia,Japan,0.5510779385467766,0.24,0.20892206145322342,rating_fallback_dynamic
+Norway,Bosnia and Herzegovina,0.19339514707298686,0.24,0.5666048529270131,rating_fallback_dynamic
+Morocco,Mexico,0.3957784347653196,0.24,0.36422156523468047,rating_fallback_dynamic
+England,Canada,0.1813131571969353,0.24,0.5786868428030647,rating_fallback_dynamic
+Czechia,Germany,0.5872172170918121,0.24,0.172782782908188,rating_fallback_dynamic
+Uruguay,England,0.5124810885171914,0.24,0.24751891148280858,rating_fallback_dynamic
+Norway,Mexico,0.48344002511042966,0.24,0.27655997488957035,rating_fallback_dynamic
+Germany,England,0.43979988688743316,0.24,0.32020011311256685,rating_fallback_dynamic
+Mexico,Spain,0.5472363299749566,0.24,0.21276367002504332,rating_fallback_dynamic
+Germany,Mexico,0.34115086269632905,0.24,0.41884913730367096,rating_fallback_dynamic
+England,Spain,0.459036196178205,0.24,0.300963803821795,rating_fallback_dynamic
+South Korea,Canada,0.35263779661677663,0.24,0.4073622033832234,rating_fallback_dynamic
+Germany,Czechia,0.17278278290818797,0.24,0.5872172170918121,rating_fallback_dynamic
+Norway,Paraguay,0.34176761745037676,0.24,0.41823238254962325,rating_fallback_dynamic
+United States,Sweden,0.28963774542715864,0.24,0.47036225457284137,rating_fallback_dynamic
+Egypt,France,0.6299367172861849,0.24,0.13006328271381506,rating_fallback_dynamic
+England,Jordan,0.11984720503990381,0.24,0.6401527949600961,rating_fallback_dynamic
+Portugal,Panama,0.1974205413407761,0.24,0.5625794586592239,rating_fallback_dynamic
+Switzerland,Iran,0.34598554717058494,0.24,0.41401445282941507,rating_fallback_dynamic
+Colombia,Ghana,0.103380446683256,0.24,0.656619553316744,rating_fallback_dynamic
+Canada,Brazil,0.5591693880761033,0.24,0.20083061192389673,rating_fallback_dynamic
+Czechia,Norway,0.4658319986707987,0.24,0.2941680013292013,rating_fallback_dynamic
+Ivory Coast,Sweden,0.36428836927560065,0.24,0.39571163072439935,rating_fallback_dynamic
+Morocco,Ecuador,0.37378429768470983,0.24,0.3862157023152902,rating_fallback_dynamic
+Egypt,England,0.6060441925786962,0.24,0.15395580742130377,rating_fallback_dynamic
+Panama,Switzerland,0.4661597870550211,0.24,0.2938402129449789,rating_fallback_dynamic
+Brazil,Czechia,0.14983579870019412,0.24,0.6101642012998059,rating_fallback_dynamic
+England,Switzerland,0.22081979315171982,0.24,0.5391802068482802,rating_fallback_dynamic
+Brazil,Switzerland,0.2428055940206475,0.24,0.5171944059793525,rating_fallback_dynamic
+Ecuador,Colombia,0.42919327400683416,0.24000000000000002,0.3308067259931659,rating_fallback_dynamic
+Brazil,Ecuador,0.28660524168306806,0.24,0.47339475831693195,rating_fallback_dynamic
+Switzerland,Colombia,0.4756910262325198,0.24,0.2843089737674802,rating_fallback_dynamic
+Germany,Qatar,0.08280842733735791,0.24,0.6771915726626421,rating_fallback_dynamic
+Morocco,Netherlands,0.43414126543068915,0.24,0.3258587345693109,rating_fallback_dynamic
+Japan,Scotland,0.21705149172894816,0.24,0.5429485082710519,rating_fallback_dynamic
+Mexico,Ivory Coast,0.2352193866335789,0.24,0.5247806133664211,rating_fallback_dynamic
+Ecuador,Norway,0.29723609390013617,0.24,0.46276390609986384,rating_fallback_dynamic
+Iran,Senegal,0.40042998284328174,0.24,0.35957001715671827,rating_fallback_dynamic
+England,Argentina,0.4761887082665184,0.24,0.2838112917334816,rating_fallback_dynamic
+Canada,Belgium,0.46238321931122883,0.24,0.2976167806887712,rating_fallback_dynamic
+Colombia,Australia,0.28040610057707477,0.24,0.47959389942292524,rating_fallback_dynamic
+Algeria,Cape Verde,0.2166356216871481,0.24,0.5433643783128519,rating_fallback_dynamic
+Paraguay,Egypt,0.3634193763322104,0.24,0.3965806236677896,rating_fallback_dynamic
+Switzerland,Morocco,0.4341682620996471,0.24,0.32583173790035286,rating_fallback_dynamic
+Ecuador,United States,0.32630292334999345,0.24,0.43369707665000656,rating_fallback_dynamic
+Japan,Mexico,0.38916735406430064,0.24,0.37083264593569937,rating_fallback_dynamic
+Senegal,England,0.5502682831440746,0.24,0.2097317168559254,rating_fallback_dynamic
+Spain,Algeria,0.13210443910610697,0.24,0.6278955608938931,rating_fallback_dynamic
+Australia,Egypt,0.2949046093607225,0.24,0.4650953906392775,rating_fallback_dynamic
+England,Belgium,0.24882729473452858,0.24,0.5111727052654714,rating_fallback_dynamic
+Ecuador,Mexico,0.4019792091710794,0.24,0.3580207908289206,rating_fallback_dynamic
+Spain,Australia,0.15810347848872658,0.24,0.6018965215112735,rating_fallback_dynamic
+Germany,Belgium,0.30452734777315915,0.24,0.45547265222684086,rating_fallback_dynamic
+Belgium,Spain,0.5761276535166934,0.24,0.1838723464833066,rating_fallback_dynamic
+Norway,Brazil,0.54720803782825,0.24,0.21279196217175,rating_fallback_dynamic
+Curaçao,France,0.7150093145672148,0.24,0.044990685432785116,rating_fallback_dynamic
+United States,Senegal,0.37208049550434297,0.24,0.38791950449565704,rating_fallback_dynamic
+England,Uzbekistan,0.1385597716221512,0.24,0.6214402283778488,rating_fallback_dynamic
+DR Congo,Panama,0.4591102082006728,0.24,0.30088979179932723,rating_fallback_dynamic
+Colombia,Iran,0.2531537254767587,0.24,0.5068462745232413,rating_fallback_dynamic
+England,Iran,0.19378756841087533,0.24,0.5662124315891247,rating_fallback_dynamic
+Spain,Panama,0.1100148369598198,0.24,0.6499851630401802,rating_fallback_dynamic
+Morocco,England,0.49168070199709996,0.24,0.26831929800290005,rating_fallback_dynamic
+France,Spain,0.4206610852533635,0.24,0.3393389147466366,rating_fallback_dynamic
+England,France,0.4192486092478771,0.24,0.34075139075212296,rating_fallback_dynamic
+Morocco,Spain,0.5597304184666576,0.24,0.2002695815333424,rating_fallback_dynamic
+France,Sweden,0.1260730497961444,0.24,0.6339269502038556,rating_fallback_dynamic
+Mexico,Curaçao,0.0877631143321325,0.24,0.6722368856678675,rating_fallback_dynamic
+Iran,Austria,0.4077566168470135,0.24,0.3522433831529865,rating_fallback_dynamic
+England,Colombia,0.3090238603221371,0.24,0.45097613967786293,rating_fallback_dynamic
+Spain,Jordan,0.08308893845152607,0.24,0.6769110615484739,rating_fallback_dynamic
+South Korea,France,0.5872473690963285,0.24,0.1727526309036715,rating_fallback_dynamic
+Iran,Colombia,0.5068462745232414,0.24,0.2531537254767587,rating_fallback_dynamic
+Ghana,Canada,0.5653365574129267,0.24,0.19466344258707335,rating_fallback_dynamic
+Portugal,Australia,0.26796426775019017,0.24,0.49203573224980984,rating_fallback_dynamic
+Japan,France,0.5208103485022973,0.24,0.23918965149770263,rating_fallback_dynamic
+Iran,Ghana,0.1821507878934472,0.24,0.5778492121065528,rating_fallback_dynamic
+Senegal,Netherlands,0.49861347517853355,0.24,0.26138652482146646,rating_fallback_dynamic
+Spain,Portugal,0.24729176013519089,0.24,0.5127082398648091,rating_fallback_dynamic
+France,Iran,0.16540057181292928,0.24,0.5945994281870707,rating_fallback_dynamic
+Netherlands,Spain,0.5146638878599064,0.24,0.2453361121400937,rating_fallback_dynamic
+Iran,Netherlands,0.5167485900951065,0.24,0.24325140990489344,rating_fallback_dynamic
+Portugal,England,0.4378759691038225,0.24,0.3221240308961775,rating_fallback_dynamic
+Colombia,Turkey,0.27798342244840835,0.24,0.48201657755159166,rating_fallback_dynamic
+Egypt,Croatia,0.5020049172583871,0.24,0.2579950827416129,rating_fallback_dynamic
+Portugal,Canada,0.2270055170529961,0.24,0.5329944829470039,rating_fallback_dynamic
+Japan,Germany,0.427898356309285,0.24,0.33210164369071493,rating_fallback_dynamic
+Croatia,Portugal,0.45456773308996756,0.24,0.30543226691003245,rating_fallback_dynamic
+United States,Morocco,0.4397746163791098,0.24,0.32022538362089026,rating_fallback_dynamic
+Argentina,Colombia,0.22038176005854412,0.24,0.5396182399414559,rating_fallback_dynamic
+Japan,Portugal,0.42983693317058586,0.24,0.33016306682941415,rating_fallback_dynamic
+Morocco,Colombia,0.42306877093161466,0.24,0.3369312290683853,rating_fallback_dynamic
+Norway,Scotland,0.30378592385980463,0.24,0.4562140761401954,rating_fallback_dynamic
+Egypt,Austria,0.46307847200514124,0.24,0.2969215279948588,rating_fallback_dynamic
+Colombia,England,0.450976139677863,0.24,0.3090238603221371,rating_fallback_dynamic
+Paraguay,Belgium,0.4842342457411257,0.24,0.2757657542588743,rating_fallback_dynamic
+South Korea,Brazil,0.5371422615847553,0.24,0.22285773841524467,rating_fallback_dynamic
+Germany,Scotland,0.17996521727442122,0.24,0.5800347827255787,rating_fallback_dynamic
+Austria,Croatia,0.42186511607956145,0.24,0.33813488392043856,rating_fallback_dynamic
+Portugal,Paraguay,0.20800658286524085,0.24,0.5519934171347591,rating_fallback_dynamic
+Brazil,Germany,0.3457359004111571,0.24,0.4142640995888429,rating_fallback_dynamic
+Iraq,Morocco,0.597944269220528,0.24,0.162055730779472,rating_fallback_dynamic
+Spain,Paraguay,0.11688782122616512,0.24,0.6431121787738349,rating_fallback_dynamic
+Germany,Spain,0.5144358635679348,0.24,0.24556413643206515,rating_fallback_dynamic
+England,Morocco,0.2683192980029001,0.24,0.4916807019970999,rating_fallback_dynamic
+Curaçao,Iraq,0.49886877991535217,0.24,0.26113122008464784,rating_fallback_dynamic
+United States,Qatar,0.13910773173435176,0.24,0.6208922682656483,rating_fallback_dynamic
+Egypt,Jordan,0.32245760423741276,0.24,0.43754239576258724,rating_fallback_dynamic
+DR Congo,England,0.65002346767719,0.24,0.10997653232281004,rating_fallback_dynamic
+Paraguay,Iran,0.4198965714717027,0.24,0.34010342852829734,rating_fallback_dynamic
+Switzerland,Netherlands,0.4861535674995604,0.24,0.2738464325004396,rating_fallback_dynamic
+Curaçao,United States,0.63607500941177,0.24,0.12392499058823007,rating_fallback_dynamic
+Japan,Ivory Coast,0.24312868559985187,0.24,0.5168713144001481,rating_fallback_dynamic
+DR Congo,Canada,0.4935098749221349,0.24,0.2664901250778651,rating_fallback_dynamic
+Croatia,DR Congo,0.1937995856295788,0.24,0.5662004143704212,rating_fallback_dynamic
+Spain,Iran,0.139285455792411,0.24,0.620714544207589,rating_fallback_dynamic
+Germany,Croatia,0.3073294579518437,0.24,0.4526705420481563,rating_fallback_dynamic
+Curaçao,Spain,0.7232867567194065,0.24,0.03671324328059353,rating_fallback_dynamic
+Croatia,Curaçao,0.10291488818330213,0.24,0.6570851118166978,rating_fallback_dynamic
+Curaçao,Norway,0.6187844940106463,0.24,0.1412155059893537,rating_fallback_dynamic
+United States,Jordan,0.24339380948586095,0.24,0.516606190514139,rating_fallback_dynamic
+England,DR Congo,0.10997653232281002,0.24,0.65002346767719,rating_fallback_dynamic
+Uzbekistan,Ghana,0.24782442606054914,0.24,0.5121755739394509,rating_fallback_dynamic
+Colombia,Croatia,0.3184877077312045,0.24,0.4415122922687955,rating_fallback_dynamic
+Paraguay,New Zealand,0.27446242372340696,0.24,0.48553757627659305,rating_fallback_dynamic
+Norway,Jordan,0.27027047802577214,0.24,0.48972952197422787,rating_fallback_dynamic
+Uzbekistan,Iran,0.460197379863606,0.24000000000000002,0.2998026201363941,rating_fallback_dynamic
+Croatia,New Zealand,0.18293974888589729,0.24,0.5770602511141028,rating_fallback_dynamic
+Argentina,Croatia,0.17294797835621029,0.24,0.5870520216437898,rating_fallback_dynamic
+Germany,Egypt,0.19658615517298486,0.24,0.5634138448270152,rating_fallback_dynamic
+Mexico,Argentina,0.5615354403395941,0.24,0.19846455966040583,rating_fallback_dynamic
+Egypt,Argentina,0.6600627122280655,0.24,0.09993728777193456,rating_fallback_dynamic
+Sweden,Morocco,0.5247234047017606,0.24,0.23527659529823944,rating_fallback_dynamic
+Iran,Algeria,0.3677615471994264,0.24,0.3922384528005736,rating_fallback_dynamic
+England,Egypt,0.1539558074213038,0.24,0.6060441925786962,rating_fallback_dynamic
+Canada,Australia,0.42647558584835293,0.24,0.3335244141516471,rating_fallback_dynamic
+Germany,Norway,0.24156343490609491,0.24,0.5184365650939051,rating_fallback_dynamic
+Sweden,Mexico,0.5380032125535731,0.24,0.22199678744642692,rating_fallback_dynamic
+Algeria,England,0.575367551406762,0.24,0.18463244859323805,rating_fallback_dynamic
+Iraq,Mexico,0.6082861739878713,0.24,0.15171382601212868,rating_fallback_dynamic
+Austria,Colombia,0.4815660860453372,0.24,0.27843391395466277,rating_fallback_dynamic
+Iraq,Colombia,0.625081723673872,0.24,0.134918276326128,rating_fallback_dynamic
+Germany,Iraq,0.12832217089362608,0.24,0.6316778291063739,rating_fallback_dynamic
+Croatia,Colombia,0.4415122922687955,0.24,0.3184877077312045,rating_fallback_dynamic
+France,Haiti,0.05674017694724924,0.24,0.7032598230527508,rating_fallback_dynamic
+England,Portugal,0.3221240308961775,0.24,0.4378759691038225,rating_fallback_dynamic
+Switzerland,Croatia,0.4156311665064853,0.24,0.3443688334935147,rating_fallback_dynamic
+DR Congo,Australia,0.534346637322332,0.24,0.225653362677668,rating_fallback_dynamic
+South Korea,Japan,0.4632643648552441,0.24,0.29673563514475587,rating_fallback_dynamic
+Norway,Sweden,0.31847289136199,0.24,0.44152710863801004,rating_fallback_dynamic
+Colombia,Switzerland,0.28430897376748027,0.24,0.47569102623251974,rating_fallback_dynamic
+Austria,Paraguay,0.31286169084000126,0.24,0.44713830915999875,rating_fallback_dynamic
+France,Switzerland,0.18980035052926847,0.24,0.5701996494707315,rating_fallback_dynamic
+Norway,Austria,0.40942905818443154,0.24,0.35057094181556847,rating_fallback_dynamic
+Switzerland,Austria,0.37370097932200613,0.24,0.3862990206779939,rating_fallback_dynamic
+Brazil,Sweden,0.16647734752562116,0.24,0.5935226524743789,rating_fallback_dynamic
+France,Morocco,0.2335172243671184,0.24,0.5264827756328816,rating_fallback_dynamic
+United States,Japan,0.4462109470392139,0.24,0.31378905296078613,rating_fallback_dynamic
+Uruguay,Austria,0.34248702385674556,0.24,0.41751297614325444,rating_fallback_dynamic
+Australia,New Zealand,0.21368219661679183,0.24,0.5463178033832081,rating_fallback_dynamic
+Ghana,Iran,0.5778492121065528,0.24,0.18215078789344716,rating_fallback_dynamic
+Colombia,New Zealand,0.14145229385499838,0.24,0.6185477061450017,rating_fallback_dynamic
+Morocco,Egypt,0.2414069343868621,0.24,0.5185930656131379,rating_fallback_dynamic
+Mexico,Colombia,0.40741937390315935,0.24,0.35258062609684065,rating_fallback_dynamic
+Egypt,Mexico,0.5320685862977662,0.24,0.22793141370223383,rating_fallback_dynamic
+Senegal,Paraguay,0.3200120561382537,0.24,0.43998794386174633,rating_fallback_dynamic
+United States,France,0.5744656219502275,0.24,0.18553437804977252,rating_fallback_dynamic
+Iran,Cape Verde,0.2067953187218273,0.24,0.5532046812781727,rating_fallback_dynamic
+Switzerland,Egypt,0.2909452463160157,0.24,0.4690547536839843,rating_fallback_dynamic
+Austria,Uruguay,0.41751297614325444,0.24,0.34248702385674556,rating_fallback_dynamic
+Bosnia and Herzegovina,Senegal,0.5829146728062692,0.24,0.17708532719373085,rating_fallback_dynamic
+Iran,Jordan,0.26873073732623015,0.24,0.49126926267376986,rating_fallback_dynamic
+Ghana,Switzerland,0.601538889934181,0.24,0.158461110065819,rating_fallback_dynamic
+Japan,Senegal,0.30613776346997573,0.24,0.4538622365300243,rating_fallback_dynamic
+Iran,Switzerland,0.41401445282941507,0.24,0.34598554717058494,rating_fallback_dynamic
+France,Netherlands,0.2822921623191342,0.24,0.47770783768086583,rating_fallback_dynamic
+Uruguay,Portugal,0.45878870779675274,0.24,0.3012112922032472,rating_fallback_dynamic
+Japan,Iran,0.286682959356627,0.24,0.473317040643373,rating_fallback_dynamic
+France,Portugal,0.28437962242819104,0.24,0.47562037757180897,rating_fallback_dynamic
+Iran,France,0.5945994281870707,0.24,0.16540057181292928,rating_fallback_dynamic
+France,Australia,0.1866856950786643,0.24,0.5733143049213357,rating_fallback_dynamic
+Mexico,Netherlands,0.41859113421850014,0.24,0.34140886578149987,rating_fallback_dynamic
+Iran,Uruguay,0.4448023192157009,0.24,0.3151976807842991,rating_fallback_dynamic
+England,Senegal,0.20973171685592537,0.24,0.5502682831440746,rating_fallback_dynamic
+Uzbekistan,Croatia,0.523749366514841,0.24,0.23625063348515898,rating_fallback_dynamic
+Canada,New Zealand,0.2533798169112252,0.24,0.5066201830887749,rating_fallback_dynamic
+Uzbekistan,Canada,0.4440221164365162,0.24,0.3159778835634839,rating_fallback_dynamic
+Uruguay,Canada,0.299035458798933,0.24,0.460964541201067,rating_fallback_dynamic
+Bosnia and Herzegovina,Mexico,0.6358452268146282,0.24,0.12415477318537177,rating_fallback_dynamic
+Brazil,Canada,0.20083061192389665,0.24,0.5591693880761034,rating_fallback_dynamic
+Canada,Colombia,0.5215327102851384,0.24,0.23846728971486167,rating_fallback_dynamic
+Mexico,Canada,0.26273518110940725,0.24,0.49726481889059276,rating_fallback_dynamic
+South Korea,Sweden,0.3065531749988377,0.24,0.4534468250011623,rating_fallback_dynamic
+Czechia,France,0.6472965190669212,0.24,0.11270348093307889,rating_fallback_dynamic
+Ivory Coast,United States,0.455391875502421,0.24,0.30460812449757907,rating_fallback_dynamic
+Morocco,South Korea,0.30305974670913743,0.24,0.4569402532908626,rating_fallback_dynamic
+Uzbekistan,Switzerland,0.492094252717031,0.24,0.26790574728296906,rating_fallback_dynamic
+Brazil,France,0.44469645137054437,0.24,0.31530354862945564,rating_fallback_dynamic
+Uruguay,Switzerland,0.3487348825450073,0.24,0.4112651174549927,rating_fallback_dynamic
+Ivory Coast,Morocco,0.5110758009152995,0.24,0.24892419908470054,rating_fallback_dynamic
+Brazil,Uruguay,0.2708277519513302,0.24,0.4891722480486698,rating_fallback_dynamic
+Brazil,Spain,0.48347251115785717,0.24,0.2765274888421428,rating_fallback_dynamic
+Uruguay,Morocco,0.4031749490944058,0.24,0.3568250509055942,rating_fallback_dynamic
+Scotland,Sweden,0.3951799187261327,0.24,0.36482008127386734,rating_fallback_dynamic
+United States,Algeria,0.33954089236842233,0.24,0.4204591076315777,rating_fallback_dynamic
+Iran,DR Congo,0.251413773740633,0.24,0.508586226259367,rating_fallback_dynamic
+England,New Zealand,0.10295969635251363,0.24,0.6570403036474863,rating_fallback_dynamic
+Portugal,Ghana,0.09720141764835158,0.24,0.6627985823516485,rating_fallback_dynamic
+Switzerland,Paraguay,0.30677711868269764,0.24,0.4532228813173024,rating_fallback_dynamic
+South Korea,Scotland,0.29205230314083735,0.24,0.46794769685916265,rating_fallback_dynamic
+Ivory Coast,Algeria,0.41568660741767904,0.24,0.3443133925823209,rating_fallback_dynamic
+Iran,England,0.5662124315891247,0.24,0.19378756841087533,rating_fallback_dynamic
+Scotland,France,0.6421101427701089,0.24,0.11788985722989105,rating_fallback_dynamic
+Ivory Coast,Mexico,0.5247806133664211,0.24,0.2352193866335789,rating_fallback_dynamic
+Argentina,Australia,0.14649449310388754,0.24,0.6135055068961125,rating_fallback_dynamic
+Portugal,Mexico,0.3392013364050965,0.24,0.42079866359490353,rating_fallback_dynamic
+Senegal,Brazil,0.5289133075887404,0.24,0.23108669241125962,rating_fallback_dynamic
+Panama,DR Congo,0.30088979179932723,0.24,0.4591102082006728,rating_fallback_dynamic
+Switzerland,New Zealand,0.21032019168284735,0.24,0.5496798083171527,rating_fallback_dynamic
+Canada,Morocco,0.48280364863528946,0.24,0.27719635136471055,rating_fallback_dynamic
+Algeria,Panama,0.3388271423007193,0.24,0.4211728576992807,rating_fallback_dynamic
+Uzbekistan,Egypt,0.4047505295478424,0.24,0.3552494704521576,rating_fallback_dynamic
+Panama,Colombia,0.5520286014905915,0.24,0.20797139850940846,rating_fallback_dynamic
+Ivory Coast,Japan,0.5168713144001481,0.24000000000000002,0.24312868559985196,rating_fallback_dynamic
+Spain,Egypt,0.10850938044127648,0.24,0.6514906195587236,rating_fallback_dynamic
+Ivory Coast,Spain,0.6472116578595174,0.24,0.11278834214048257,rating_fallback_dynamic
+Colombia,Ivory Coast,0.21240740901771252,0.24,0.5475925909822875,rating_fallback_dynamic
+Mexico,Uruguay,0.3411450087160927,0.24,0.4188549912839073,rating_fallback_dynamic
+Ghana,Uzbekistan,0.5121755739394508,0.24,0.24782442606054922,rating_fallback_dynamic
+Bosnia and Herzegovina,Norway,0.5666048529270131,0.24,0.19339514707298686,rating_fallback_dynamic
+Iran,Uzbekistan,0.2998026201363941,0.24,0.4601973798636059,rating_fallback_dynamic
+Croatia,Australia,0.3402311788372287,0.24,0.4197688211627713,rating_fallback_dynamic
+Brazil,Bosnia and Herzegovina,0.08905439285713038,0.24,0.6709456071428697,rating_fallback_dynamic
+Brazil,Uzbekistan,0.15470538112380347,0.24,0.6052946188761965,rating_fallback_dynamic
+Brazil,Argentina,0.5000211019365559,0.24,0.25997889806344404,rating_fallback_dynamic
+Uzbekistan,France,0.6434031120438356,0.24,0.11659688795616444,rating_fallback_dynamic
+Germany,Paraguay,0.20957762226973276,0.24,0.5504223777302673,rating_fallback_dynamic
+Ghana,Portugal,0.6627985823516483,0.24,0.09720141764835165,rating_fallback_dynamic
+Germany,Sweden,0.1911744221165971,0.24,0.5688255778834029,rating_fallback_dynamic
+Senegal,United States,0.38791950449565693,0.24,0.372080495504343,rating_fallback_dynamic
+Cape Verde,Portugal,0.6474080255580646,0.24,0.11259197444193539,rating_fallback_dynamic
+United States,Ecuador,0.43369707665000656,0.24,0.32630292334999345,rating_fallback_dynamic
+United States,Spain,0.6029198636565004,0.24,0.15708013634349957,rating_fallback_dynamic
+England,United States,0.21612088041593722,0.24,0.5438791195840628,rating_fallback_dynamic
+Canada,Egypt,0.34029268269678714,0.24,0.41970731730321287,rating_fallback_dynamic
+Ghana,Egypt,0.533449665764867,0.24,0.226550334235133,rating_fallback_dynamic
+South Korea,England,0.5580271774768873,0.24000000000000002,0.20197282252311272,rating_fallback_dynamic
+Sweden,Australia,0.4718293553893714,0.24,0.28817064461062863,rating_fallback_dynamic
+England,Sweden,0.1494064230877035,0.24,0.6105935769122965,rating_fallback_dynamic
+South Korea,Australia,0.39928320209866464,0.24,0.36071679790133543,rating_fallback_dynamic
+Switzerland,Brazil,0.5171944059793525,0.24,0.2428055940206475,rating_fallback_dynamic
+South Korea,Paraguay,0.3296269356014238,0.24,0.4303730643985762,rating_fallback_dynamic
+Saudi Arabia,Portugal,0.6355393226943923,0.24,0.12446067730560778,rating_fallback_dynamic
+Brazil,South Korea,0.22285773841524467,0.24,0.5371422615847553,rating_fallback_dynamic
+Portugal,Iran,0.24131267537142695,0.24,0.518687324628573,rating_fallback_dynamic
+Austria,Belgium,0.4189852954854497,0.24,0.34101470451455035,rating_fallback_dynamic
+South Korea,Iran,0.3693756406712729,0.24,0.39062435932872713,rating_fallback_dynamic
+Morocco,Belgium,0.35830725584830614,0.24,0.40169274415169387,rating_fallback_dynamic
+South Korea,Belgium,0.43589355394230644,0.24,0.32410644605769356,rating_fallback_dynamic
+Iran,Morocco,0.46707170422571365,0.24,0.29292829577428636,rating_fallback_dynamic
+Argentina,Saudi Arabia,0.060096666928151424,0.24,0.6999033330718486,rating_fallback_dynamic
+Uzbekistan,Australia,0.4882667876231893,0.24,0.27173321237681064,rating_fallback_dynamic
+England,Mexico,0.2829129570792961,0.24,0.4770870429207039,rating_fallback_dynamic
+Canada,Paraguay,0.35676738040749534,0.24,0.40323261959250467,rating_fallback_dynamic
+Croatia,Paraguay,0.2730778202512197,0.24,0.4869221797487803,rating_fallback_dynamic
+Switzerland,South Korea,0.3565512225611047,0.24,0.4034487774388953,rating_fallback_dynamic
+England,Paraguay,0.16495485743627367,0.24,0.5950451425637263,rating_fallback_dynamic
+Norway,Ecuador,0.4627639060998639,0.24,0.29723609390013617,rating_fallback_dynamic
+Switzerland,England,0.5391802068482803,0.24,0.2208197931517198,rating_fallback_dynamic
+England,Ecuador,0.2626676474070796,0.24,0.4973323525929204,rating_fallback_dynamic
+Morocco,Japan,0.3866177097074904,0.24,0.3733822902925097,rating_fallback_dynamic
+Ivory Coast,Iraq,0.2717076255563192,0.24,0.4882923744436808,rating_fallback_dynamic
+Belgium,Uruguay,0.3785126167361484,0.24,0.3814873832638516,rating_fallback_dynamic
+Ghana,France,0.6987312246892292,0.24,0.0612687753107708,rating_fallback_dynamic
+Portugal,Algeria,0.23082763655167207,0.24,0.529172363448328,rating_fallback_dynamic
+Iraq,United States,0.5538545279257966,0.24,0.20614547207420345,rating_fallback_dynamic
+Netherlands,Ecuador,0.31978336786121014,0.24,0.44021663213878987,rating_fallback_dynamic
+Uruguay,France,0.5457608177683816,0.24,0.21423918223161847,rating_fallback_dynamic
+Panama,Egypt,0.37694257174122214,0.24,0.38305742825877787,rating_fallback_dynamic
+Morocco,Germany,0.43439665803764427,0.24,0.32560334196235574,rating_fallback_dynamic
+Uruguay,Egypt,0.26195623767784737,0.24,0.49804376232215264,rating_fallback_dynamic
+United States,Netherlands,0.49141877912316395,0.24,0.2685812208768361,rating_fallback_dynamic
+Argentina,Portugal,0.23165444910917043,0.24,0.5283455508908296,rating_fallback_dynamic
+Morocco,Uruguay,0.3568250509055942,0.24,0.4031749490944058,rating_fallback_dynamic
+Netherlands,Argentina,0.5302329541746819,0.24,0.22976704582531812,rating_fallback_dynamic
+Morocco,Argentina,0.5734760484299379,0.24,0.18652395157006205,rating_fallback_dynamic
+Uruguay,Netherlands,0.45665018542061575,0.24,0.3033498145793843,rating_fallback_dynamic
+Uruguay,Ghana,0.138767213395065,0.24,0.621232786604935,rating_fallback_dynamic
+Croatia,Iran,0.31093406323557377,0.24,0.44906593676442624,rating_fallback_dynamic
+Uruguay,Iran,0.3151976807842991,0.24,0.4448023192157009,rating_fallback_dynamic
+Germany,Iran,0.24302451863198524,0.24,0.5169754813680147,rating_fallback_dynamic
+Iran,Spain,0.620714544207589,0.24,0.13928545579241097,rating_fallback_dynamic
+Uruguay,Argentina,0.5901263169828964,0.24,0.16987368301710365,rating_fallback_dynamic
+Ghana,Belgium,0.6221185528678848,0.24,0.1378814471321152,rating_fallback_dynamic
+United States,Portugal,0.4934552620482887,0.24,0.2665447379517113,rating_fallback_dynamic
+Belgium,United States,0.34157306360763784,0.24,0.41842693639236217,rating_fallback_dynamic
+South Korea,Portugal,0.5093831971522119,0.24,0.25061680284778803,rating_fallback_dynamic
+France,Turkey,0.18476080561042585,0.24,0.5752391943895742,rating_fallback_dynamic
+Canada,DR Congo,0.266490125077865,0.24,0.493509874922135,rating_fallback_dynamic
+Egypt,Norway,0.43457342858362347,0.24,0.32542657141637654,rating_fallback_dynamic
+Austria,Australia,0.38212074704673565,0.24,0.37787925295326436,rating_fallback_dynamic
+Netherlands,Australia,0.2700056618679699,0.24,0.4899943381320301,rating_fallback_dynamic
+England,Australia,0.2173901741595407,0.24,0.5426098258404592,rating_fallback_dynamic
+Uruguay,Jordan,0.21230227872133503,0.24,0.547697721278665,rating_fallback_dynamic
+DR Congo,Belgium,0.563978679635639,0.24,0.196021320364361,rating_fallback_dynamic
+Brazil,Portugal,0.3476919515602928,0.24,0.4123080484397072,rating_fallback_dynamic
+United States,Belgium,0.4184269363923623,0.24,0.3415730636076378,rating_fallback_dynamic
+Portugal,United States,0.2665447379517113,0.24,0.4934552620482887,rating_fallback_dynamic
+Ecuador,France,0.531741692638794,0.24,0.22825830736120603,rating_fallback_dynamic
+Australia,Iran,0.3501348106720257,0.24,0.40986518932797433,rating_fallback_dynamic
+Spain,England,0.300963803821795,0.24,0.459036196178205,rating_fallback_dynamic
+Brazil,Paraguay,0.1832690934598438,0.24,0.5767309065401562,rating_fallback_dynamic
+Spain,Croatia,0.18601766420296983,0.24,0.5739823357970302,rating_fallback_dynamic
+Ecuador,Morocco,0.3862157023152902,0.24,0.37378429768470983,rating_fallback_dynamic
+Paraguay,Croatia,0.4869221797487803,0.24,0.2730778202512197,rating_fallback_dynamic
+Ecuador,Argentina,0.5780424173927108,0.24,0.18195758260728923,rating_fallback_dynamic
+Croatia,Argentina,0.5870520216437898,0.24,0.17294797835621023,rating_fallback_dynamic
+Paraguay,Ecuador,0.49840173172540037,0.24,0.26159826827459964,rating_fallback_dynamic
+Belgium,Austria,0.3410147045145503,0.24,0.4189852954854497,rating_fallback_dynamic
+Panama,Portugal,0.5625794586592239,0.24,0.1974205413407761,rating_fallback_dynamic
+Switzerland,Scotland,0.2701720468264238,0.24,0.4898279531735762,rating_fallback_dynamic
+Belgium,Panama,0.26337664405933686,0.24,0.49662335594066315,rating_fallback_dynamic
+Colombia,Canada,0.23846728971486164,0.24,0.5215327102851384,rating_fallback_dynamic
+Argentina,England,0.28381129173348163,0.24,0.4761887082665184,rating_fallback_dynamic
+Germany,Colombia,0.36848529419191034,0.24,0.39151470580808967,rating_fallback_dynamic
+United States,England,0.5438791195840628,0.24000000000000002,0.2161208804159373,rating_fallback_dynamic
+Colombia,United States,0.2789580281901872,0.24,0.4810419718098128,rating_fallback_dynamic
+Canada,Netherlands,0.5311199721066157,0.24,0.22888002789338438,rating_fallback_dynamic
+DR Congo,New Zealand,0.36544053716130404,0.24,0.394559462838696,rating_fallback_dynamic
+Netherlands,Norway,0.2417896000747087,0.24,0.5182103999252913,rating_fallback_dynamic
+Egypt,Colombia,0.5544506077779287,0.24,0.2055493922220713,rating_fallback_dynamic
+Argentina,New Zealand,0.06491755302468766,0.24,0.6950824469753123,rating_fallback_dynamic
+Netherlands,Colombia,0.36874577012700127,0.24,0.39125422987299874,rating_fallback_dynamic
+Colombia,France,0.4881385769639221,0.24,0.2718614230360779,rating_fallback_dynamic
+Uzbekistan,Panama,0.40779339265062714,0.24,0.3522066073493729,rating_fallback_dynamic
+Switzerland,Turkey,0.37321580763125994,0.24,0.38678419236874007,rating_fallback_dynamic
+Norway,England,0.5674877298763428,0.24,0.19251227012365726,rating_fallback_dynamic
+Panama,Turkey,0.4596982093784781,0.24,0.30030179062152196,rating_fallback_dynamic
+Canada,France,0.6057443470539903,0.24,0.1542556529460098,rating_fallback_dynamic
+England,Turkey,0.2152675679558962,0.24,0.5447324320441038,rating_fallback_dynamic
+France,England,0.3407513907521229,0.24,0.4192486092478771,rating_fallback_dynamic
+United States,Argentina,0.6144718762589823,0.24,0.1455281237410177,rating_fallback_dynamic
+England,Iraq,0.09792225804468029,0.24,0.6620777419553198,rating_fallback_dynamic
+DR Congo,Paraguay,0.47195663032200436,0.24,0.2880433696779956,rating_fallback_dynamic
+Spain,New Zealand,0.07080807059952988,0.24,0.6891919294004701,rating_fallback_dynamic
+South Korea,Morocco,0.4569402532908626,0.24,0.3030597467091374,rating_fallback_dynamic
+South Africa,Morocco,0.613883688246388,0.24,0.146116311753612,rating_fallback_dynamic
+England,Ivory Coast,0.1595879065605368,0.24,0.6004120934394632,rating_fallback_dynamic
+Iran,Iraq,0.22932615964866257,0.24,0.5306738403513375,rating_fallback_dynamic
+Uzbekistan,New Zealand,0.3136787132110155,0.24,0.44632128678898453,rating_fallback_dynamic
+Uzbekistan,Japan,0.5449648301188357,0.24,0.21503516988116433,rating_fallback_dynamic
+Switzerland,Portugal,0.48820789286665517,0.24,0.27179210713334484,rating_fallback_dynamic
+Saudi Arabia,England,0.664297291603472,0.24,0.09570270839652806,rating_fallback_dynamic
+Canada,Germany,0.5313393901762115,0.24,0.2286606098237885,rating_fallback_dynamic
+Iraq,Netherlands,0.6315314142801416,0.24,0.12846858571985845,rating_fallback_dynamic
+England,Netherlands,0.31994588706554666,0.24,0.44005411293445335,rating_fallback_dynamic
+Mexico,Switzerland,0.3104648751775922,0.24,0.4495351248224078,rating_fallback_dynamic
+South Korea,Ivory Coast,0.32179969931316,0.24,0.43820030068684,rating_fallback_dynamic
+Czechia,Brazil,0.6101642012998059,0.24,0.14983579870019417,rating_fallback_dynamic
+France,South Korea,0.17275263090367143,0.24,0.5872473690963286,rating_fallback_dynamic
+Brazil,England,0.4059033474174758,0.24,0.3540966525825242,rating_fallback_dynamic
+South Korea,Argentina,0.6251445223840484,0.24,0.13485547761595165,rating_fallback_dynamic
+Curaçao,Senegal,0.6316903020628809,0.24,0.12830969793711916,rating_fallback_dynamic
+United States,Norway,0.3500101777342858,0.24,0.40998982226571423,rating_fallback_dynamic
+Canada,Portugal,0.5329944829470039,0.24,0.2270055170529961,rating_fallback_dynamic
+Switzerland,France,0.5701996494707315,0.24,0.18980035052926847,rating_fallback_dynamic
+Uruguay,Croatia,0.3843999939875587,0.24,0.3756000060124413,rating_fallback_dynamic
+France,Uruguay,0.21423918223161847,0.24,0.5457608177683816,rating_fallback_dynamic
+Egypt,Cape Verde,0.25455572538092414,0.24,0.5054442746190758,rating_fallback_dynamic
+Cape Verde,England,0.6737955811708009,0.24,0.08620441882919914,rating_fallback_dynamic
+Croatia,Belgium,0.37708725726535763,0.24,0.3829127427346424,rating_fallback_dynamic
+South Korea,United States,0.39773034015715913,0.24,0.3622696598428409,rating_fallback_dynamic
+Netherlands,France,0.47770783768086583,0.24,0.2822921623191342,rating_fallback_dynamic
+Norway,Colombia,0.5083386111852455,0.24,0.25166138881475464,rating_fallback_dynamic
+Germany,South Africa,0.11506223242901224,0.24,0.6449377675709878,rating_fallback_dynamic
+Norway,Japan,0.47489584981449684,0.24,0.28510415018550317,rating_fallback_dynamic
+Cape Verde,Algeria,0.5433643783128519,0.24,0.21663562168714814,rating_fallback_dynamic
+Argentina,Uruguay,0.16987368301710365,0.24,0.5901263169828964,rating_fallback_dynamic
+Cape Verde,Argentina,0.7061542391700949,0.24,0.05384576082990511,rating_fallback_dynamic
+Uzbekistan,Belgium,0.5212461838391871,0.24,0.238753816160813,rating_fallback_dynamic
+Sweden,Germany,0.568825577883403,0.24,0.19117442211659702,rating_fallback_dynamic
+Sweden,England,0.6105935769122965,0.24,0.14940642308770344,rating_fallback_dynamic
+Sweden,Argentina,0.6632706256855895,0.24,0.0967293743144105,rating_fallback_dynamic
+Austria,Saudi Arabia,0.2026631603546094,0.24,0.5573368396453906,rating_fallback_dynamic
+Egypt,Portugal,0.5649220127420864,0.24,0.19507798725791356,rating_fallback_dynamic
+Austria,England,0.5443381026472122,0.24,0.21566189735278782,rating_fallback_dynamic
+Brazil,Egypt,0.17140062158667196,0.24,0.588599378413328,rating_fallback_dynamic
+Netherlands,England,0.4400541129344535,0.24,0.31994588706554655,rating_fallback_dynamic
+Egypt,Netherlands,0.5632138058520567,0.24,0.19678619414794332,rating_fallback_dynamic
+Czechia,Canada,0.4513797531052736,0.24,0.30862024689472634,rating_fallback_dynamic
+Switzerland,Ghana,0.158461110065819,0.24,0.601538889934181,rating_fallback_dynamic
+Czechia,Morocco,0.5457598412494837,0.24,0.21424015875051627,rating_fallback_dynamic
+Croatia,Switzerland,0.3443688334935147,0.24,0.4156311665064853,rating_fallback_dynamic
+Iraq,Turkey,0.5530236359011895,0.24,0.2069763640988105,rating_fallback_dynamic
+Germany,Turkey,0.26738483854400996,0.24,0.49261516145599005,rating_fallback_dynamic
+Curaçao,Sweden,0.5773348682901621,0.24,0.1826651317098379,rating_fallback_dynamic
+Portugal,Switzerland,0.27179210713334484,0.24,0.48820789286665517,rating_fallback_dynamic
+Brazil,Turkey,0.23694349518141147,0.24,0.5230565048185886,rating_fallback_dynamic
+Iraq,Scotland,0.4592855453966889,0.24,0.30071445460331114,rating_fallback_dynamic
+Egypt,Canada,0.4197073173032128,0.24,0.3402926826967872,rating_fallback_dynamic
+Mexico,Brazil,0.4524454092675875,0.24,0.30755459073241254,rating_fallback_dynamic
+Cape Verde,Egypt,0.5054442746190759,0.24000000000000002,0.25455572538092414,rating_fallback_dynamic
+Panama,Paraguay,0.39352794462324886,0.24,0.3664720553767512,rating_fallback_dynamic
+Mexico,Germany,0.41884913730367096,0.24,0.34115086269632905,rating_fallback_dynamic
+Egypt,Paraguay,0.39658062366778973,0.24,0.36341937633221033,rating_fallback_dynamic
+Iraq,South Korea,0.5395296598135948,0.24,0.22047034018640518,rating_fallback_dynamic
+Mexico,Paraguay,0.24210421655729977,0.24,0.5178957834427003,rating_fallback_dynamic
+Paraguay,South Korea,0.4303730643985761,0.24,0.32962693560142386,rating_fallback_dynamic
+Belgium,Jordan,0.2111066351002952,0.24,0.5488933648997049,rating_fallback_dynamic
+Ghana,DR Congo,0.46407559369932994,0.24,0.2959244063006701,rating_fallback_dynamic
+Belgium,DR Congo,0.196021320364361,0.24,0.563978679635639,rating_fallback_dynamic
+Belgium,Portugal,0.45736411001145105,0.24,0.30263588998854896,rating_fallback_dynamic
+Senegal,Morocco,0.44747292493485696,0.24,0.31252707506514305,rating_fallback_dynamic
+Senegal,Argentina,0.6193139409009519,0.24000000000000002,0.14068605909904813,rating_fallback_dynamic
+Portugal,Senegal,0.25937580120854303,0.24,0.5006241987914569,rating_fallback_dynamic
+Netherlands,Czechia,0.17296603633008997,0.24,0.58703396366991,rating_fallback_dynamic
+Uruguay,Paraguay,0.2771427039230227,0.24,0.4828572960769773,rating_fallback_dynamic
+Ecuador,Iraq,0.1662663080795771,0.24,0.5937336919204229,rating_fallback_dynamic
+France,Bosnia and Herzegovina,0.06537113897962751,0.24,0.6946288610203725,rating_fallback_dynamic
+Brazil,Panama,0.17354619653261955,0.24,0.5864538034673805,rating_fallback_dynamic
+Panama,Spain,0.6499851630401802,0.24,0.1100148369598198,rating_fallback_dynamic
+Canada,Scotland,0.31838773090482375,0.24,0.44161226909517626,rating_fallback_dynamic
+Iran,Portugal,0.5186873246285731,0.24,0.24131267537142687,rating_fallback_dynamic
+England,Japan,0.2743965061634783,0.24,0.4856034938365217,rating_fallback_dynamic
+Jordan,Spain,0.676911061548474,0.24,0.08308893845152603,rating_fallback_dynamic
+Scotland,Germany,0.5800347827255787,0.24,0.17996521727442127,rating_fallback_dynamic
+Portugal,Japan,0.3301630668294141,0.24,0.4298369331705859,rating_fallback_dynamic
+United States,Brazil,0.5221547859641934,0.24,0.23784521403580666,rating_fallback_dynamic
+Germany,Portugal,0.3819711625699458,0.24,0.3780288374300542,rating_fallback_dynamic
+Canada,Turkey,0.4239063691098639,0.24,0.3360936308901361,rating_fallback_dynamic
+Cape Verde,Austria,0.574486179805414,0.24000000000000002,0.185513820194586,rating_fallback_dynamic
+Panama,Australia,0.46218604128073826,0.24,0.2978139587192618,rating_fallback_dynamic
+Iran,Canada,0.36322839136614216,0.24,0.39677160863385785,rating_fallback_dynamic
+Uruguay,Panama,0.26472555139488013,0.24,0.4952744486051199,rating_fallback_dynamic
+Canada,Panama,0.34331927214827085,0.24,0.41668072785172916,rating_fallback_dynamic
+France,Japan,0.23918965149770263,0.24,0.5208103485022973,rating_fallback_dynamic
+Algeria,Colombia,0.5176053722348986,0.24,0.24239462776510143,rating_fallback_dynamic
+Austria,Portugal,0.4939689518721142,0.24,0.26603104812788575,rating_fallback_dynamic
+Colombia,Austria,0.2784339139546627,0.24,0.4815660860453373,rating_fallback_dynamic
+Senegal,Bosnia and Herzegovina,0.1770853271937309,0.24,0.5829146728062691,rating_fallback_dynamic
+Morocco,Norway,0.291336262781745,0.24,0.468663737218255,rating_fallback_dynamic
+Egypt,Uzbekistan,0.3552494704521576,0.24,0.4047505295478424,rating_fallback_dynamic
+Bosnia and Herzegovina,Brazil,0.6709456071428697,0.24,0.08905439285713038,rating_fallback_dynamic
+Morocco,Uzbekistan,0.22044662807821364,0.24,0.5395533719217863,rating_fallback_dynamic
+Belgium,England,0.5111727052654715,0.24,0.2488272947345285,rating_fallback_dynamic
+Croatia,Egypt,0.2579950827416129,0.24,0.5020049172583871,rating_fallback_dynamic
+Portugal,Egypt,0.19507798725791356,0.24,0.5649220127420864,rating_fallback_dynamic
+South Korea,Spain,0.6142387375432357,0.24,0.1457612624567643,rating_fallback_dynamic
+Iran,Saudi Arabia,0.22514098213259892,0.24,0.5348590178674011,rating_fallback_dynamic
+Austria,Spain,0.6032895882128623,0.24,0.1567104117871377,rating_fallback_dynamic
+Switzerland,Norway,0.3443177284380435,0.24,0.41568227156195653,rating_fallback_dynamic
+Japan,Colombia,0.4165231505943556,0.24,0.34347684940564444,rating_fallback_dynamic
+England,Norway,0.19251227012365726,0.24,0.5674877298763428,rating_fallback_dynamic
+Saudi Arabia,New Zealand,0.3959649287828698,0.24,0.36403507121713014,rating_fallback_dynamic
+United States,New Zealand,0.2149428281184398,0.24,0.5450571718815602,rating_fallback_dynamic
+Switzerland,Spain,0.5991249197225836,0.24,0.1608750802774164,rating_fallback_dynamic
+Iran,Argentina,0.6312373814521524,0.24,0.1287626185478476,rating_fallback_dynamic
+Ghana,Austria,0.5973402399902606,0.24,0.1626597600097394,rating_fallback_dynamic
+Netherlands,Ivory Coast,0.20345912276042483,0.24,0.5565408772395751,rating_fallback_dynamic
+Cape Verde,Ghana,0.34768710737126884,0.24,0.41231289262873116,rating_fallback_dynamic
+France,Ivory Coast,0.1350160549467087,0.24,0.6249839450532914,rating_fallback_dynamic
+Ivory Coast,Portugal,0.5582862631047418,0.24,0.20171373689525815,rating_fallback_dynamic
+Norway,Turkey,0.4089466059317784,0.24,0.3510533940682216,rating_fallback_dynamic
+Croatia,Algeria,0.2991687643614929,0.24,0.4608312356385071,rating_fallback_dynamic
+Scotland,Turkey,0.4835782172052034,0.24,0.2764217827947966,rating_fallback_dynamic
+Argentina,Uzbekistan,0.08914863187198056,0.24,0.6708513681280195,rating_fallback_dynamic
+Brazil,Algeria,0.20438101517397284,0.24,0.5556189848260271,rating_fallback_dynamic
+Ecuador,Senegal,0.3185643452578143,0.24,0.4414356547421857,rating_fallback_dynamic
+Jordan,Saudi Arabia,0.33050395094540314,0.24,0.4294960490545969,rating_fallback_dynamic
+Argentina,Canada,0.11958989058530073,0.24,0.6404101094146993,rating_fallback_dynamic
+Ecuador,Spain,0.5645185924636547,0.24000000000000002,0.1954814075363454,rating_fallback_dynamic
+Japan,South Korea,0.2967356351447559,0.24,0.4632643648552441,rating_fallback_dynamic
+Jordan,England,0.6401527949600961,0.24,0.11984720503990384,rating_fallback_dynamic
+Colombia,Egypt,0.2055493922220713,0.24,0.5544506077779287,rating_fallback_dynamic
+Jordan,Portugal,0.6058234479099173,0.24,0.15417655209008274,rating_fallback_dynamic
+Switzerland,Argentina,0.6108869970905634,0.24,0.1491130029094366,rating_fallback_dynamic
+South Africa,Brazil,0.6615047805072157,0.24,0.09849521949278428,rating_fallback_dynamic
+Ecuador,Japan,0.39282975734436276,0.24,0.36717024265563725,rating_fallback_dynamic
+Colombia,Argentina,0.5396182399414559,0.24,0.22038176005854412,rating_fallback_dynamic
+Portugal,New Zealand,0.13346023086669215,0.24,0.6265397691333079,rating_fallback_dynamic
+Japan,Spain,0.5545504578346357,0.24,0.20544954216536435,rating_fallback_dynamic
+Germany,Japan,0.3321016436907149,0.24,0.42789835630928513,rating_fallback_dynamic
+Colombia,Spain,0.5244025525928097,0.24,0.23559744740719035,rating_fallback_dynamic
+Cape Verde,Senegal,0.5690030825030963,0.24,0.1909969174969037,rating_fallback_dynamic
+Portugal,France,0.47562037757180897,0.24,0.28437962242819104,rating_fallback_dynamic
+Ghana,Colombia,0.656619553316744,0.24,0.103380446683256,rating_fallback_dynamic
+Mexico,Austria,0.3043951837974397,0.24,0.4556048162025603,rating_fallback_dynamic
+South Korea,Austria,0.39716731692095486,0.24,0.36283268307904515,rating_fallback_dynamic
+South Korea,Uruguay,0.4344375118833824,0.24,0.3255624881166176,rating_fallback_dynamic
+Czechia,Sweden,0.4052275101690016,0.24,0.3547724898309984,rating_fallback_dynamic
+Netherlands,Uruguay,0.30334981457938437,0.24,0.45665018542061564,rating_fallback_dynamic
+Canada,Czechia,0.3086202468947264,0.24,0.4513797531052736,rating_fallback_dynamic
+Canada,England,0.5786868428030647,0.24,0.18131315719693528,rating_fallback_dynamic
+Canada,Argentina,0.6404101094146992,0.24,0.11958989058530081,rating_fallback_dynamic
+Ivory Coast,Argentina,0.6560678564675344,0.24,0.10393214353246562,rating_fallback_dynamic
+Egypt,DR Congo,0.3038196159173474,0.24,0.4561803840826526,rating_fallback_dynamic
+Argentina,Morocco,0.18652395157006205,0.24,0.5734760484299379,rating_fallback_dynamic
+France,Egypt,0.13006328271381506,0.24,0.6299367172861849,rating_fallback_dynamic
+Egypt,Morocco,0.5185930656131379,0.24,0.24140693438686212,rating_fallback_dynamic
+Sweden,Brazil,0.5935226524743789,0.24,0.16647734752562113,rating_fallback_dynamic
+Turkey,Belgium,0.41946543980000917,0.24,0.3405345601999908,rating_fallback_dynamic
+Croatia,France,0.5421799748437894,0.24,0.21782002515621054,rating_fallback_dynamic
+Norway,Australia,0.4115361748796365,0.24,0.3484638251203635,rating_fallback_dynamic
+Switzerland,Belgium,0.41274195635490923,0.24,0.34725804364509083,rating_fallback_dynamic
+Portugal,Austria,0.2660310481278858,0.24,0.4939689518721142,rating_fallback_dynamic
+Qatar,Norway,0.6020095601733476,0.24,0.1579904398266524,rating_fallback_dynamic
+Austria,Egypt,0.29692152799485877,0.24,0.46307847200514124,rating_fallback_dynamic
+Canada,Norway,0.39509260110013356,0.24,0.36490739889986645,rating_fallback_dynamic
+France,Austria,0.18511824317253367,0.24,0.5748817568274663,rating_fallback_dynamic
+Iraq,Brazil,0.6498279066405875,0.24,0.11017209335941244,rating_fallback_dynamic
+Switzerland,Uzbekistan,0.267905747282969,0.24,0.492094252717031,rating_fallback_dynamic
+Scotland,Mexico,0.5503535680408611,0.24,0.20964643195913887,rating_fallback_dynamic
+Canada,Algeria,0.3845396086965543,0.24,0.3754603913034457,rating_fallback_dynamic
+South Africa,France,0.687427170836247,0.24,0.07257282916375299,rating_fallback_dynamic
+Ghana,Iraq,0.43944816590238023,0.24,0.3205518340976198,rating_fallback_dynamic
+Switzerland,Australia,0.3758213397955183,0.24,0.3841786602044817,rating_fallback_dynamic
+Mexico,Norway,0.27655997488957035,0.24,0.48344002511042966,rating_fallback_dynamic
+Jordan,Ghana,0.27784616338785106,0.24,0.48215383661214894,rating_fallback_dynamic
+Panama,Canada,0.4166807278517291,0.24,0.3433192721482709,rating_fallback_dynamic
+Norway,Spain,0.6217187648227335,0.24,0.13828123517726654,rating_fallback_dynamic
+Panama,Norway,0.43157559597697615,0.24,0.3284244040230239,rating_fallback_dynamic
+France,Belgium,0.21544560383099612,0.24,0.5445543961690039,rating_fallback_dynamic
+Croatia,Jordan,0.20877721533602656,0.24,0.5512227846639735,rating_fallback_dynamic
+Netherlands,Bosnia and Herzegovina,0.10440730385529647,0.24,0.6555926961447035,rating_fallback_dynamic
+Austria,Uzbekistan,0.2736849107229335,0.24,0.4863150892770665,rating_fallback_dynamic
+Netherlands,Croatia,0.3075806661136531,0.24,0.4524193338863469,rating_fallback_dynamic
+Brazil,Austria,0.2373602293019305,0.24,0.5226397706980696,rating_fallback_dynamic
+Croatia,Austria,0.33813488392043856,0.24,0.42186511607956145,rating_fallback_dynamic
+Iran,Croatia,0.44906593676442624,0.24,0.31093406323557377,rating_fallback_dynamic
+Norway,Croatia,0.4506910236962457,0.24,0.30930897630375426,rating_fallback_dynamic
+Norway,Belgium,0.4478750662775113,0.24,0.31212493372248873,rating_fallback_dynamic
+South Korea,Curaçao,0.13391789409182583,0.24,0.6260821059081741,rating_fallback_dynamic
+France,Canada,0.15425565294600985,0.24,0.6057443470539902,rating_fallback_dynamic
+Ghana,Australia,0.5987626982130487,0.24,0.16123730178695125,rating_fallback_dynamic
+Uruguay,Australia,0.3445882612098038,0.24,0.4154117387901962,rating_fallback_dynamic
+Australia,Switzerland,0.3841786602044817,0.24,0.3758213397955183,rating_fallback_dynamic
+Germany,Australia,0.2697668433320611,0.24,0.49023315666793893,rating_fallback_dynamic
+Australia,Argentina,0.6135055068961125,0.24,0.14649449310388749,rating_fallback_dynamic
+Egypt,Iraq,0.2796596135257109,0.24,0.4803403864742891,rating_fallback_dynamic
+Canada,Sweden,0.333264949805784,0.24,0.426735050194216,rating_fallback_dynamic
+South Korea,Norway,0.36769520747417456,0.24,0.39230479252582545,rating_fallback_dynamic
+Japan,Austria,0.3132421110351438,0.24,0.4467578889648562,rating_fallback_dynamic
+Netherlands,Austria,0.26806573839451536,0.24,0.49193426160548465,rating_fallback_dynamic
+Algeria,Uzbekistan,0.3115759925663538,0.24,0.4484240074336462,rating_fallback_dynamic
+Algeria,Portugal,0.529172363448328,0.24,0.2308276365516721,rating_fallback_dynamic
+France,Colombia,0.2718614230360779,0.24,0.4881385769639221,rating_fallback_dynamic
+Ivory Coast,Netherlands,0.5565408772395751,0.24,0.20345912276042488,rating_fallback_dynamic
+Uruguay,Belgium,0.3814873832638516,0.24,0.3785126167361484,rating_fallback_dynamic
+Germany,Switzerland,0.2736061137405818,0.24,0.4863938862594182,rating_fallback_dynamic
+Germany,Uruguay,0.30309974687249275,0.24,0.45690025312750726,rating_fallback_dynamic
+Sweden,Scotland,0.36482008127386745,0.24,0.39517991872613256,rating_fallback_dynamic
+South Korea,Ecuador,0.4509595616285689,0.24,0.3090404383714312,rating_fallback_dynamic
+Iran,Japan,0.47331704064337304,0.24,0.28668295935662697,rating_fallback_dynamic
+Scotland,Ecuador,0.5323240635071765,0.24,0.22767593649282344,rating_fallback_dynamic
+Japan,England,0.48560349383652174,0.24,0.27439650616347827,rating_fallback_dynamic
+Mexico,Morocco,0.3642215652346804,0.24,0.3957784347653196,rating_fallback_dynamic
+Japan,Belgium,0.35171766322639375,0.24,0.40828233677360626,rating_fallback_dynamic
+Mexico,Belgium,0.34261743059967736,0.24,0.41738256940032264,rating_fallback_dynamic
+Ecuador,Portugal,0.44239042891058267,0.24,0.3176095710894174,rating_fallback_dynamic
+Mexico,Portugal,0.42079866359490353,0.24,0.3392013364050965,rating_fallback_dynamic
+Belgium,Ecuador,0.39549150726089705,0.24,0.36450849273910296,rating_fallback_dynamic
+Canada,Croatia,0.4651544540233026,0.24,0.29484554597669743,rating_fallback_dynamic
+Belgium,Senegal,0.33375102859358424,0.24,0.42624897140641577,rating_fallback_dynamic
+Bosnia and Herzegovina,France,0.6946288610203725,0.24,0.06537113897962749,rating_fallback_dynamic
+Brazil,Colombia,0.3343459342289348,0.24,0.4256540657710652,rating_fallback_dynamic
+England,Brazil,0.3540966525825242,0.24,0.4059033474174758,rating_fallback_dynamic
+Spain,Ghana,0.05020676428619951,0.24,0.7097932357138005,rating_fallback_dynamic
+Cape Verde,Colombia,0.6404271325195217,0.24,0.1195728674804783,rating_fallback_dynamic
+Colombia,Brazil,0.4256540657710652,0.24,0.3343459342289348,rating_fallback_dynamic
+Brazil,Croatia,0.2748780500301098,0.24,0.4851219499698902,rating_fallback_dynamic
+Switzerland,DR Congo,0.22217960676890458,0.24,0.5378203932310954,rating_fallback_dynamic
+Norway,Ghana,0.18337962692572107,0.24,0.5766203730742789,rating_fallback_dynamic
+Norway,Switzerland,0.41568227156195653,0.24,0.34431772843804354,rating_fallback_dynamic
+Ghana,New Zealand,0.45011046537527566,0.24,0.3098895346247243,rating_fallback_dynamic
+Senegal,Ghana,0.16766451638969707,0.24,0.592335483610303,rating_fallback_dynamic
+Mexico,France,0.5128304269998155,0.24000000000000002,0.24716957300018455,rating_fallback_dynamic
+Morocco,Austria,0.31967526032232846,0.24,0.44032473967767155,rating_fallback_dynamic
+Colombia,Morocco,0.33693122906838535,0.24,0.42306877093161466,rating_fallback_dynamic
+Uruguay,Colombia,0.44578897579388954,0.24,0.31421102420611047,rating_fallback_dynamic
+France,Croatia,0.21782002515621054,0.24,0.5421799748437894,rating_fallback_dynamic
+Croatia,Ivory Coast,0.2657641777503793,0.24,0.4942358222496207,rating_fallback_dynamic
+Bosnia and Herzegovina,Australia,0.5895991326387046,0.24,0.17040086736129545,rating_fallback_dynamic
+Iraq,England,0.6620777419553198,0.24,0.09792225804468029,rating_fallback_dynamic
+Australia,Portugal,0.49203573224980984,0.24,0.26796426775019017,rating_fallback_dynamic
+Australia,Spain,0.6018965215112734,0.24,0.15810347848872663,rating_fallback_dynamic
+France,Ecuador,0.22825830736120603,0.24,0.531741692638794,rating_fallback_dynamic
+Ecuador,Sweden,0.24062403787515663,0.24,0.5193759621248434,rating_fallback_dynamic
+Argentina,DR Congo,0.06961646814076511,0.24,0.6903835318592348,rating_fallback_dynamic
+Senegal,Sweden,0.2971466413686181,0.24,0.4628533586313819,rating_fallback_dynamic
+DR Congo,Switzerland,0.5378203932310954,0.24,0.2221796067689046,rating_fallback_dynamic
+France,DR Congo,0.09187450949094329,0.24,0.6681254905090567,rating_fallback_dynamic
+Spain,Iraq,0.06718284621622488,0.24,0.6928171537837752,rating_fallback_dynamic
+Canada,Uzbekistan,0.31597788356348394,0.24,0.44402211643651607,rating_fallback_dynamic
+Mexico,Cape Verde,0.13487029049242602,0.24,0.625129709507574,rating_fallback_dynamic
+Portugal,Argentina,0.5283455508908296,0.24,0.23165444910917043,rating_fallback_dynamic
+DR Congo,Argentina,0.6903835318592348,0.24,0.06961646814076514,rating_fallback_dynamic
+Mexico,Australia,0.3064342449935059,0.24,0.4535657550064941,rating_fallback_dynamic
+Argentina,Mexico,0.19846455966040583,0.24,0.5615354403395941,rating_fallback_dynamic
+Japan,United States,0.31378905296078613,0.24,0.4462109470392139,rating_fallback_dynamic
+Egypt,Switzerland,0.46905475368398425,0.24,0.29094524631601576,rating_fallback_dynamic
+Japan,Switzerland,0.3193645543571986,0.24,0.4406354456428014,rating_fallback_dynamic
+Iran,Norway,0.3783180440674258,0.24,0.3816819559325742,rating_fallback_dynamic
+Senegal,Qatar,0.14390809693227788,0.24,0.6160919030677221,rating_fallback_dynamic
+Norway,Algeria,0.3694419980655524,0.24,0.3905580019344476,rating_fallback_dynamic
+DR Congo,Egypt,0.4561803840826526,0.24,0.30381961591734735,rating_fallback_dynamic
+Morocco,France,0.5264827756328816,0.24,0.23351722436711836,rating_fallback_dynamic
+Qatar,Sweden,0.557249473944107,0.24,0.202750526055893,rating_fallback_dynamic
+Morocco,Algeria,0.2814173494429602,0.24,0.4785826505570398,rating_fallback_dynamic
+Sweden,Spain,0.6549298907050694,0.24,0.10507010929493066,rating_fallback_dynamic
+Iraq,Austria,0.5534081114928312,0.24,0.20659188850716878,rating_fallback_dynamic
+Austria,DR Congo,0.22742825559810814,0.24,0.5325717444018919,rating_fallback_dynamic
+Croatia,Uzbekistan,0.23625063348515898,0.24,0.523749366514841,rating_fallback_dynamic
+Uzbekistan,Spain,0.6630687738530685,0.24,0.09693122614693152,rating_fallback_dynamic
+Netherlands,Curaçao,0.07313813188899049,0.24,0.6868618681110096,rating_fallback_dynamic
+United States,Curaçao,0.12392499058823016,0.24,0.6360750094117699,rating_fallback_dynamic
+Croatia,United States,0.33869233939612403,0.24,0.421307660603876,rating_fallback_dynamic
+Qatar,France,0.7087175733336804,0.24,0.051282426666319686,rating_fallback_dynamic
+Curaçao,Japan,0.6684205700807143,0.24,0.09157942991928565,rating_fallback_dynamic
+Panama,New Zealand,0.28707156971231507,0.24,0.47292843028768494,rating_fallback_dynamic
+Uruguay,DR Congo,0.1971622148715351,0.24,0.5628377851284649,rating_fallback_dynamic
+Switzerland,Uruguay,0.4112651174549927,0.24,0.3487348825450073,rating_fallback_dynamic
+Uruguay,Japan,0.40976105003468083,0.24,0.35023894996531924,rating_fallback_dynamic
+Czechia,Netherlands,0.58703396366991,0.24,0.17296603633008997,rating_fallback_dynamic
+Senegal,Australia,0.3894752430154761,0.24,0.3705247569845239,rating_fallback_dynamic
+Belgium,France,0.5445543961690038,0.24,0.21544560383099617,rating_fallback_dynamic
+Argentina,Iran,0.12876261854784754,0.24,0.6312373814521525,rating_fallback_dynamic
+Netherlands,Portugal,0.3822318645314572,0.24,0.3777681354685428,rating_fallback_dynamic
+Egypt,Ghana,0.226550334235133,0.24,0.533449665764867,rating_fallback_dynamic
+Portugal,Turkey,0.2655895565112749,0.24,0.4944104434887251,rating_fallback_dynamic
+Algeria,Mexico,0.49314231387207136,0.24,0.26685768612792865,rating_fallback_dynamic
+Japan,Uzbekistan,0.21503516988116428,0.24,0.5449648301188357,rating_fallback_dynamic
+Egypt,Panama,0.383057428258778,0.24,0.3769425717412221,rating_fallback_dynamic
+DR Congo,Turkey,0.5321644559472547,0.24,0.2278355440527453,rating_fallback_dynamic
+Ghana,Argentina,0.7140841118419166,0.24,0.04591588815808342,rating_fallback_dynamic
+Senegal,Belgium,0.4262489714064157,0.24,0.3337510285935843,rating_fallback_dynamic
+Brazil,Senegal,0.23108669241125962,0.24,0.5289133075887404,rating_fallback_dynamic
+Ghana,Senegal,0.592335483610303,0.24,0.16766451638969707,rating_fallback_dynamic
+Canada,Austria,0.4243851347179705,0.24,0.33561486528202944,rating_fallback_dynamic
+Uruguay,Senegal,0.33521707795999367,0.24,0.42478292204000634,rating_fallback_dynamic
+Portugal,Sweden,0.18969379344589118,0.24,0.5703062065541088,rating_fallback_dynamic
+Norway,Netherlands,0.5182103999252914,0.24,0.24178960007470862,rating_fallback_dynamic
+Spain,DR Congo,0.07588680803549576,0.24,0.6841131919645043,rating_fallback_dynamic
+Cape Verde,Croatia,0.6037356623130725,0.24,0.15626433768692757,rating_fallback_dynamic
+Senegal,Scotland,0.28281320832472095,0.24,0.47718679167527905,rating_fallback_dynamic
+Croatia,Senegal,0.33088410627872905,0.24,0.42911589372127096,rating_fallback_dynamic
+Croatia,Netherlands,0.452419333886347,0.24,0.30758066611365303,rating_fallback_dynamic
+Senegal,Croatia,0.42911589372127096,0.24,0.3308841062787291,rating_fallback_dynamic
+Senegal,Switzerland,0.39365016040827716,0.24,0.36634983959172285,rating_fallback_dynamic
+Senegal,Mexico,0.46264206496871263,0.24,0.29735793503128743,rating_fallback_dynamic
+South Africa,Japan,0.6179508835830141,0.24,0.14204911641698587,rating_fallback_dynamic
+Netherlands,South Korea,0.2525938853527078,0.24,0.5074061146472921,rating_fallback_dynamic
+Spain,Norway,0.13828123517726654,0.24,0.6217187648227335,rating_fallback_dynamic
+Senegal,Austria,0.38735551955722053,0.24,0.3726444804427795,rating_fallback_dynamic
+Spain,Senegal,0.15194875550723386,0.24,0.6080512444927662,rating_fallback_dynamic
+Sweden,Austria,0.46982975834997437,0.24,0.29017024165002564,rating_fallback_dynamic
+Panama,Jordan,0.3194739187708964,0.24,0.4405260812291036,rating_fallback_dynamic
+Norway,Qatar,0.15799043982665237,0.24,0.6020095601733476,rating_fallback_dynamic
+Iran,Belgium,0.44624548413038945,0.24000000000000002,0.3137545158696106,rating_fallback_dynamic
+Iran,Mexico,0.4818808211487342,0.24,0.2781191788512658,rating_fallback_dynamic
+Ghana,Jordan,0.48215383661214894,0.24,0.27784616338785106,rating_fallback_dynamic
+Norway,Argentina,0.6321813572763871,0.24000000000000002,0.12781864272361293,rating_fallback_dynamic
+United States,South Korea,0.3622696598428409,0.24,0.39773034015715913,rating_fallback_dynamic
+Norway,Iran,0.3816819559325742,0.24,0.3783180440674258,rating_fallback_dynamic
+Iran,Australia,0.40986518932797433,0.24,0.3501348106720257,rating_fallback_dynamic
+Norway,South Korea,0.39230479252582545,0.24,0.36769520747417456,rating_fallback_dynamic
+Jordan,Switzerland,0.5215730476041077,0.24,0.2384269523958923,rating_fallback_dynamic
+Switzerland,Mexico,0.4495351248224077,0.24,0.31046487517759225,rating_fallback_dynamic
+Ivory Coast,Austria,0.45484971202380237,0.24,0.30515028797619764,rating_fallback_dynamic
+Norway,Portugal,0.5201428915907473,0.24,0.2398571084092527,rating_fallback_dynamic
+Portugal,Spain,0.5127082398648091,0.24,0.24729176013519089,rating_fallback_dynamic
+Norway,Canada,0.36490739889986645,0.24,0.39509260110013356,rating_fallback_dynamic
+Canada,Mexico,0.49726481889059276,0.24,0.2627351811094073,rating_fallback_dynamic
+Uzbekistan,Paraguay,0.42121402455161433,0.24,0.33878597544838573,rating_fallback_dynamic
+Panama,Senegal,0.4531050454287363,0.24,0.3068949545712637,rating_fallback_dynamic
+Germany,Netherlands,0.3797392900955609,0.24,0.3802607099044391,rating_fallback_dynamic
+Netherlands,Iran,0.24325140990489344,0.24,0.5167485900951065,rating_fallback_dynamic
+Netherlands,Canada,0.22888002789338438,0.24,0.5311199721066157,rating_fallback_dynamic
+United States,Croatia,0.4213076606038761,0.24,0.338692339396124,rating_fallback_dynamic
+Canada,United States,0.4249415532503561,0.24,0.3350584467496439,rating_fallback_dynamic
+Spain,Switzerland,0.16087508027741637,0.24,0.5991249197225836,rating_fallback_dynamic
+Ivory Coast,Brazil,0.5825159971880214,0.24,0.17748400281197863,rating_fallback_dynamic
+Netherlands,Algeria,0.23271992820541693,0.24,0.527280071794583,rating_fallback_dynamic
+Algeria,Ivory Coast,0.3443133925823209,0.24,0.4156866074176791,rating_fallback_dynamic
+Panama,Iran,0.4332255767992359,0.24,0.3267744232007641,rating_fallback_dynamic
+Morocco,Portugal,0.43632599556941076,0.24,0.32367400443058925,rating_fallback_dynamic
+Austria,Panama,0.2998379473904002,0.24,0.4601620526095998,rating_fallback_dynamic
+United States,Austria,0.37943578745388445,0.24,0.38056421254611555,rating_fallback_dynamic
+Senegal,Jordan,0.25034190788734484,0.24,0.5096580921126551,rating_fallback_dynamic
+Japan,Australia,0.31529942257285687,0.24,0.44470057742714314,rating_fallback_dynamic
+Australia,Colombia,0.47959389942292524,0.24,0.28040610057707477,rating_fallback_dynamic
+Colombia,Netherlands,0.39125422987299874,0.24,0.36874577012700127,rating_fallback_dynamic
+Belgium,Colombia,0.44434519639171877,0.24,0.31565480360828124,rating_fallback_dynamic
+Algeria,Croatia,0.4608312356385071,0.24,0.2991687643614929,rating_fallback_dynamic
+Morocco,Croatia,0.3612117773846078,0.24,0.3987882226153922,rating_fallback_dynamic
+Belgium,Croatia,0.3829127427346425,0.24,0.3770872572653576,rating_fallback_dynamic
+United States,Scotland,0.2754509641159036,0.24,0.4845490358840964,rating_fallback_dynamic
+Japan,Canada,0.27109175088362647,0.24,0.48890824911637354,rating_fallback_dynamic
+Colombia,Mexico,0.3525806260968407,0.24,0.4074193739031593,rating_fallback_dynamic
+Uruguay,Uzbekistan,0.24003756842227866,0.24,0.5199624315777214,rating_fallback_dynamic
+France,Uzbekistan,0.1165968879561645,0.24,0.6434031120438355,rating_fallback_dynamic
+Uzbekistan,Mexico,0.5523274113695853,0.24,0.2076725886304147,rating_fallback_dynamic
+Jordan,Brazil,0.6257164920951065,0.24,0.13428350790489355,rating_fallback_dynamic
+France,Jordan,0.10037135312573572,0.24,0.6596286468742643,rating_fallback_dynamic
+Canada,South Korea,0.4073622033832234,0.24,0.3526377966167766,rating_fallback_dynamic
+Belgium,Cape Verde,0.15817597750936782,0.24,0.6018240224906322,rating_fallback_dynamic
+Belgium,Algeria,0.30195425545845916,0.24,0.45804574454154084,rating_fallback_dynamic
+Algeria,Ghana,0.19122375027642058,0.24,0.5687762497235794,rating_fallback_dynamic
+France,Ghana,0.06126877531077082,0.24,0.6987312246892292,rating_fallback_dynamic
+Ghana,United States,0.5977195626560172,0.24,0.1622804373439828,rating_fallback_dynamic
+Senegal,Portugal,0.5006241987914569,0.24,0.2593758012085431,rating_fallback_dynamic
+Switzerland,Panama,0.293840212944979,0.24,0.46615978705502104,rating_fallback_dynamic
+Spain,Turkey,0.15639290377526377,0.24,0.6036070962247362,rating_fallback_dynamic
+Scotland,Uzbekistan,0.3775224745582869,0.24,0.3824775254417131,rating_fallback_dynamic
+Brazil,Iran,0.2141509068371451,0.24,0.5458490931628549,rating_fallback_dynamic
+Japan,Uruguay,0.3502389499653192,0.24,0.40976105003468083,rating_fallback_dynamic
+United States,Egypt,0.29638445802429064,0.24,0.46361554197570937,rating_fallback_dynamic
+Canada,Jordan,0.28426510871585764,0.24,0.47573489128414237,rating_fallback_dynamic
+Uzbekistan,Brazil,0.6052946188761966,0.24,0.15470538112380336,rating_fallback_dynamic
+United States,Uruguay,0.416954180120718,0.24,0.343045819879282,rating_fallback_dynamic
+Czechia,Portugal,0.588598325462816,0.24,0.17140167453718405,rating_fallback_dynamic
+Czechia,Uruguay,0.5264817488410267,0.24,0.23351825115897326,rating_fallback_dynamic
+Senegal,Panama,0.3068949545712638,0.24,0.4531050454287362,rating_fallback_dynamic
+South Korea,Senegal,0.3898203850684542,0.24,0.37017961493154583,rating_fallback_dynamic
+DR Congo,Sweden,0.4493215215837238,0.24,0.31067847841627616,rating_fallback_dynamic
+Spain,Sweden,0.10507010929493064,0.24,0.6549298907050694,rating_fallback_dynamic
+Qatar,Ecuador,0.6503698761730978,0.24,0.10963012382690221,rating_fallback_dynamic
+Canada,Spain,0.6304830861317374,0.24,0.12951691386826264,rating_fallback_dynamic
+Ecuador,Belgium,0.3645084927391029,0.24,0.3954915072608971,rating_fallback_dynamic
+Spain,Ecuador,0.1954814075363454,0.24,0.5645185924636545,rating_fallback_dynamic
+Mexico,Saudi Arabia,0.14854857552310458,0.24,0.6114514244768955,rating_fallback_dynamic
+Algeria,Switzerland,0.42611994850154267,0.24,0.33388005149845734,rating_fallback_dynamic
+France,Algeria,0.15721417501783522,0.24,0.6027858249821648,rating_fallback_dynamic
+Algeria,Australia,0.4219973389208992,0.24000000000000002,0.3380026610791009,rating_fallback_dynamic
+Bosnia and Herzegovina,Scotland,0.5024509359460181,0.24,0.25754906405398187,rating_fallback_dynamic
+Scotland,Belgium,0.5191057692974885,0.24,0.24089423070251145,rating_fallback_dynamic
+Belgium,Mexico,0.4173825694003227,0.24,0.34261743059967736,rating_fallback_dynamic
+Scotland,Colombia,0.5715759274544076,0.24,0.18842407254559254,rating_fallback_dynamic
+Jordan,Cape Verde,0.30852519039969273,0.24,0.4514748096003073,rating_fallback_dynamic
+Switzerland,Algeria,0.33388005149845734,0.24,0.42611994850154267,rating_fallback_dynamic
+Mexico,England,0.4770870429207039,0.24,0.2829129570792961,rating_fallback_dynamic
+Croatia,Mexico,0.41449583848857896,0.24,0.3455041615114211,rating_fallback_dynamic
+Mexico,Croatia,0.34550416151142105,0.24,0.41449583848857896,rating_fallback_dynamic
+South Korea,Croatia,0.4387400702810544,0.24,0.3212599297189456,rating_fallback_dynamic
+Argentina,Egypt,0.09993728777193454,0.24,0.6600627122280655,rating_fallback_dynamic
+Australia,Ecuador,0.4321707268692603,0.24,0.3278292731307398,rating_fallback_dynamic
+Sweden,Colombia,0.5600215059806891,0.24,0.1999784940193109,rating_fallback_dynamic
+Egypt,Sweden,0.37288077603573483,0.24,0.3871192239642652,rating_fallback_dynamic
+Brazil,Norway,0.21279196217175006,0.24,0.54720803782825,rating_fallback_dynamic
+Iran,Panama,0.3267744232007641,0.24,0.4332255767992359,rating_fallback_dynamic
+Netherlands,Egypt,0.19678619414794332,0.24,0.5632138058520567,rating_fallback_dynamic
+Egypt,Japan,0.5242942781461254,0.24,0.2357057218538747,rating_fallback_dynamic
+Egypt,Brazil,0.588599378413328,0.24,0.171400621586672,rating_fallback_dynamic
+Norway,Uruguay,0.4464341299652556,0.24,0.31356587003474445,rating_fallback_dynamic
+Colombia,Uruguay,0.31421102420611047,0.24,0.44578897579388954,rating_fallback_dynamic
+Colombia,Sweden,0.1999784940193109,0.24,0.5600215059806891,rating_fallback_dynamic
+Spain,Uzbekistan,0.0969312261469316,0.24,0.6630687738530684,rating_fallback_dynamic
+United States,Uzbekistan,0.27316507780835303,0.24,0.486834922191647,rating_fallback_dynamic
+Senegal,Japan,0.4538622365300243,0.24,0.30613776346997573,rating_fallback_dynamic
+Senegal,Spain,0.6080512444927663,0.24,0.15194875550723377,rating_fallback_dynamic
+Saudi Arabia,Colombia,0.6279726195870524,0.24,0.13202738041294765,rating_fallback_dynamic
+Austria,Netherlands,0.49193426160548454,0.24,0.2680657383945155,rating_fallback_dynamic
+Croatia,Uruguay,0.3756000060124413,0.24,0.3843999939875587,rating_fallback_dynamic
+Belgium,Iraq,0.17710549342616563,0.24,0.5828945065738343,rating_fallback_dynamic
+Norway,Haiti,0.17204774757044045,0.24,0.5879522524295596,rating_fallback_dynamic
+Cape Verde,Belgium,0.6018240224906323,0.24,0.15817597750936777,rating_fallback_dynamic
+Cape Verde,Jordan,0.4514748096003073,0.24,0.30852519039969273,rating_fallback_dynamic
+Jordan,Uruguay,0.547697721278665,0.24,0.21230227872133503,rating_fallback_dynamic
+United States,DR Congo,0.22695527942463625,0.24,0.5330447205753638,rating_fallback_dynamic
+Netherlands,Belgium,0.304777807628725,0.24,0.45522219237127504,rating_fallback_dynamic
+Croatia,Morocco,0.3987882226153922,0.24,0.36121177738460786,rating_fallback_dynamic
+Germany,Austria,0.2678276978370154,0.24,0.49217230216298463,rating_fallback_dynamic
+South Korea,Qatar,0.15003613925434384,0.24,0.6099638607456562,rating_fallback_dynamic
+South Korea,Colombia,0.497316812860383,0.24,0.262683187139617,rating_fallback_dynamic
+Panama,Uzbekistan,0.35220660734937304,0.24,0.407793392650627,rating_fallback_dynamic
+Saudi Arabia,Australia,0.558991407563781,0.24,0.20100859243621905,rating_fallback_dynamic
+Japan,Saudi Arabia,0.1544010036240928,0.24,0.6055989963759072,rating_fallback_dynamic
+England,Saudi Arabia,0.09570270839652803,0.24,0.664297291603472,rating_fallback_dynamic
+Croatia,Spain,0.5739823357970302,0.24,0.18601766420296983,rating_fallback_dynamic
+Iran,Paraguay,0.3401034285282972,0.24,0.4198965714717028,rating_fallback_dynamic
+Paraguay,Portugal,0.5519934171347591,0.24,0.20800658286524085,rating_fallback_dynamic
+Paraguay,Colombia,0.5410969431694966,0.24,0.21890305683050337,rating_fallback_dynamic
+Colombia,Japan,0.34347684940564444,0.24,0.4165231505943556,rating_fallback_dynamic
+Morocco,Australia,0.3217443948742874,0.24,0.4382556051257126,rating_fallback_dynamic
+Iraq,Sweden,0.47368461959911773,0.24,0.2863153804008823,rating_fallback_dynamic
+Iraq,Ecuador,0.5937336919204229,0.24,0.1662663080795771,rating_fallback_dynamic
+Colombia,Jordan,0.16308626533398732,0.24,0.5969137346660127,rating_fallback_dynamic
+Ivory Coast,Scotland,0.34915938908893945,0.24,0.41084061091106056,rating_fallback_dynamic
+Scotland,Spain,0.6619606518033485,0.24,0.09803934819665153,rating_fallback_dynamic
+Belgium,Netherlands,0.45522219237127504,0.24,0.304777807628725,rating_fallback_dynamic
+Paraguay,England,0.5950451425637263,0.24,0.16495485743627372,rating_fallback_dynamic
+Paraguay,Netherlands,0.550214041415439,0.24,0.2097859585845611,rating_fallback_dynamic
+Sweden,South Korea,0.4534468250011623,0.24,0.3065531749988378,rating_fallback_dynamic
+Switzerland,United States,0.3742650507190061,0.24,0.3857349492809939,rating_fallback_dynamic
+Argentina,Paraguay,0.1077633259171313,0.24,0.6522366740828687,rating_fallback_dynamic
+Netherlands,Switzerland,0.2738464325004396,0.24,0.4861535674995604,rating_fallback_dynamic
+Ivory Coast,Bosnia and Herzegovina,0.23061527913064284,0.24,0.5293847208693572,rating_fallback_dynamic
+Iraq,Jordan,0.424580541254784,0.24,0.33541945874521606,rating_fallback_dynamic
+Portugal,Netherlands,0.3777681354685428,0.24,0.3822318645314572,rating_fallback_dynamic
+Cape Verde,Panama,0.508161297179854,0.24,0.251838702820146,rating_fallback_dynamic
+Argentina,Turkey,0.14487928703969058,0.24,0.6151207129603095,rating_fallback_dynamic
+Brazil,Cape Verde,0.09720359467339672,0.24,0.6627964053266033,rating_fallback_dynamic
+Cape Verde,Turkey,0.5741277561810256,0.24,0.18587224381897435,rating_fallback_dynamic
+Saudi Arabia,Senegal,0.5515308046399765,0.24,0.2084691953600235,rating_fallback_dynamic
+Scotland,Norway,0.4562140761401953,0.24,0.3037859238598047,rating_fallback_dynamic
+Argentina,Ghana,0.045915888158083354,0.24,0.7140841118419167,rating_fallback_dynamic
+Ghana,Netherlands,0.6617984505056038,0.24,0.09820154949439616,rating_fallback_dynamic
+Switzerland,Jordan,0.23842695239589223,0.24,0.5215730476041077,rating_fallback_dynamic
+Croatia,Japan,0.4053840754731257,0.24,0.3546159245268743,rating_fallback_dynamic
+Scotland,Paraguay,0.4187639100248469,0.24,0.34123608997515303,rating_fallback_dynamic
+Scotland,England,0.6199567191726401,0.24,0.14004328082735998,rating_fallback_dynamic
+Paraguay,France,0.6202510091638633,0.24,0.13974899083613662,rating_fallback_dynamic
+Belgium,Saudi Arabia,0.17356164316621242,0.24,0.5864383568337876,rating_fallback_dynamic
+Belgium,Canada,0.2976167806887712,0.24,0.46238321931122883,rating_fallback_dynamic
+South Africa,Norway,0.5495718302668807,0.24000000000000002,0.21042816973311934,rating_fallback_dynamic
+Morocco,South Africa,0.14611631175361206,0.24,0.613883688246388,rating_fallback_dynamic
+South Africa,Croatia,0.6018465112294373,0.24,0.1581534887705627,rating_fallback_dynamic
+South Africa,Argentina,0.7053912775851829,0.24,0.054608722414817054,rating_fallback_dynamic
+Curaçao,Netherlands,0.6868618681110095,0.24,0.07313813188899056,rating_fallback_dynamic
+Brazil,Curaçao,0.06194881248736312,0.24,0.6980511875126368,rating_fallback_dynamic
+Ivory Coast,Australia,0.4568859392170801,0.24,0.30311406078291997,rating_fallback_dynamic
+Scotland,Canada,0.44161226909517626,0.24,0.31838773090482375,rating_fallback_dynamic
+Scotland,Austria,0.4840273188418897,0.24,0.27597268115811024,rating_fallback_dynamic
+Jordan,New Zealand,0.34628437754581926,0.24,0.41371562245418075,rating_fallback_dynamic
+New Zealand,England,0.6570403036474864,0.24000000000000002,0.10295969635251362,rating_fallback_dynamic
+Scotland,Argentina,0.669820116648924,0.24,0.09017988335107595,rating_fallback_dynamic
+Austria,Morocco,0.44032473967767155,0.24,0.31967526032232846,rating_fallback_dynamic
+Ghana,Japan,0.6381585969717302,0.24,0.12184140302826989,rating_fallback_dynamic
+Belgium,Paraguay,0.2757657542588744,0.24,0.4842342457411256,rating_fallback_dynamic
+Uzbekistan,Turkey,0.48586760208459673,0.24,0.2741323979154033,rating_fallback_dynamic
+Turkey,New Zealand,0.21579536326779672,0.24,0.5442046367322033,rating_fallback_dynamic
+United States,Panama,0.2992990117104081,0.24,0.4607009882895919,rating_fallback_dynamic
+Ecuador,Netherlands,0.44021663213879,0.24,0.3197833678612101,rating_fallback_dynamic
+Senegal,Egypt,0.30395523425264537,0.24,0.45604476574735464,rating_fallback_dynamic
+DR Congo,United States,0.5330447205753638,0.24,0.22695527942463625,rating_fallback_dynamic
+Germany,Algeria,0.23249844040947565,0.24,0.5275015595905244,rating_fallback_dynamic
+Qatar,Japan,0.6565561946634385,0.24,0.10344380533656153,rating_fallback_dynamic
+Austria,France,0.5748817568274662,0.24,0.18511824317253373,rating_fallback_dynamic
+Austria,Mexico,0.4556048162025603,0.24,0.3043951837974397,rating_fallback_dynamic
+Colombia,Algeria,0.24239462776510137,0.24,0.5176053722348987,rating_fallback_dynamic
+Norway,Ivory Coast,0.33387574150971655,0.24,0.42612425849028346,rating_fallback_dynamic
+South Korea,Egypt,0.3134313483449848,0.24,0.4465686516550152,rating_fallback_dynamic
+Egypt,Ecuador,0.5131718321769874,0.24,0.2468281678230127,rating_fallback_dynamic
+Netherlands,Paraguay,0.20978595858456114,0.24,0.5502140414154388,rating_fallback_dynamic
+Colombia,Senegal,0.271639013418289,0.24,0.488360986581711,rating_fallback_dynamic
+Spain,Morocco,0.2002695815333424,0.24,0.5597304184666576,rating_fallback_dynamic
+Sweden,Ivory Coast,0.39571163072439935,0.24,0.36428836927560065,rating_fallback_dynamic
+Jordan,Colombia,0.5969137346660128,0.24,0.16308626533398723,rating_fallback_dynamic
+Senegal,Ivory Coast,0.31224748534339597,0.24,0.44775251465660404,rating_fallback_dynamic
+Portugal,Morocco,0.32367400443058925,0.24,0.43632599556941076,rating_fallback_dynamic
+Belgium,Norway,0.31212493372248873,0.24,0.4478750662775113,rating_fallback_dynamic
+Ecuador,South Korea,0.30904043837143114,0.24,0.4509595616285689,rating_fallback_dynamic
+Algeria,DR Congo,0.2623702772448494,0.24,0.4976297227551506,rating_fallback_dynamic
+Croatia,Norway,0.3093089763037542,0.24,0.4506910236962458,rating_fallback_dynamic
+Sweden,France,0.6339269502038556,0.24,0.12607304979614445,rating_fallback_dynamic
+Sweden,Portugal,0.5703062065541088,0.24,0.18969379344589118,rating_fallback_dynamic
+Bosnia and Herzegovina,Spain,0.7063747048441383,0.24000000000000002,0.053625295155861695,rating_fallback_dynamic
+Portugal,Bosnia and Herzegovina,0.10335384001116234,0.24,0.6566461599888377,rating_fallback_dynamic
+Turkey,Egypt,0.2973837752724147,0.24,0.4626162247275853,rating_fallback_dynamic
+Morocco,Ivory Coast,0.24892419908470056,0.24,0.5110758009152995,rating_fallback_dynamic
+Sweden,Croatia,0.508352090659277,0.24,0.25164790934072306,rating_fallback_dynamic
+Spain,France,0.33933891474663663,0.24,0.4206610852533634,rating_fallback_dynamic
+Czechia,Paraguay,0.4287064954513946,0.24,0.33129350454860546,rating_fallback_dynamic
+Curaçao,Mexico,0.6722368856678674,0.24,0.08776311433213256,rating_fallback_dynamic
+Curaçao,Austria,0.6357667065696482,0.24,0.12423329343035185,rating_fallback_dynamic
+Colombia,Curaçao,0.07714933577373702,0.24,0.682850664226263,rating_fallback_dynamic
+Mexico,Egypt,0.22793141370223383,0.24,0.5320685862977662,rating_fallback_dynamic
+Canada,Ivory Coast,0.34881801802469714,0.24,0.41118198197530287,rating_fallback_dynamic
+France,Qatar,0.05128242666631971,0.24,0.7087175733336804,rating_fallback_dynamic
+Senegal,Uzbekistan,0.2805015935466116,0.24,0.4794984064533884,rating_fallback_dynamic
+Uruguay,Mexico,0.4188549912839074,0.24,0.34114500871609266,rating_fallback_dynamic
+Morocco,Curaçao,0.09442236574256778,0.24,0.6655776342574322,rating_fallback_dynamic
+Ivory Coast,Qatar,0.19068990347641396,0.24,0.569310096523586,rating_fallback_dynamic
+Netherlands,DR Congo,0.143468299369805,0.24,0.616531700630195,rating_fallback_dynamic
+Japan,DR Congo,0.17512162402165132,0.24,0.5848783759783487,rating_fallback_dynamic
+Belgium,Morocco,0.40169274415169387,0.24,0.3583072558483061,rating_fallback_dynamic
+Austria,Brazil,0.5226397706980696,0.24,0.2373602293019305,rating_fallback_dynamic
+Uruguay,Norway,0.3135658700347445,0.24,0.4464341299652555,rating_fallback_dynamic
+Morocco,DR Congo,0.17986014576887402,0.24,0.580139854231126,rating_fallback_dynamic
+DR Congo,Spain,0.6841131919645043,0.24,0.07588680803549576,rating_fallback_dynamic
+Brazil,United States,0.23784521403580666,0.24,0.5221547859641934,rating_fallback_dynamic
+Uruguay,Ecuador,0.39697618164712534,0.24,0.3630238183528746,rating_fallback_dynamic
+Brazil,Australia,0.23918598574066505,0.24,0.5208140142593349,rating_fallback_dynamic
+Ghana,Brazil,0.6763552446341714,0.24,0.08364475536582862,rating_fallback_dynamic
+Brazil,Ivory Coast,0.17748400281197863,0.24,0.5825159971880214,rating_fallback_dynamic
+Uzbekistan,Argentina,0.6708513681280195,0.24,0.08914863187198059,rating_fallback_dynamic
+England,Uruguay,0.24751891148280852,0.24,0.5124810885171914,rating_fallback_dynamic
+Norway,Cape Verde,0.2081305331930704,0.24,0.5518694668069296,rating_fallback_dynamic
+Scotland,South Korea,0.46794769685916265,0.24,0.29205230314083735,rating_fallback_dynamic
+Germany,Haiti,0.09118963912435893,0.24,0.668810360875641,rating_fallback_dynamic
+Ivory Coast,Jordan,0.3140844073952632,0.24,0.4459155926047368,rating_fallback_dynamic
+Ghana,Norway,0.576620373074279,0.24,0.18337962692572102,rating_fallback_dynamic
+Mexico,Senegal,0.29735793503128743,0.24,0.4626420649687126,rating_fallback_dynamic
+Morocco,Senegal,0.31252707506514305,0.24,0.44747292493485696,rating_fallback_dynamic
+Australia,Morocco,0.4382556051257126,0.24,0.3217443948742874,rating_fallback_dynamic
+Jordan,Australia,0.5179595876330761,0.24,0.24204041236692383,rating_fallback_dynamic
+Argentina,Ivory Coast,0.1039321435324656,0.24,0.6560678564675344,rating_fallback_dynamic
+Japan,Jordan,0.18913794508303453,0.24,0.5708620549169655,rating_fallback_dynamic
+Algeria,Belgium,0.45804574454154084,0.24,0.30195425545845916,rating_fallback_dynamic
+Mexico,Algeria,0.26685768612792865,0.24,0.49314231387207136,rating_fallback_dynamic
+Turkey,France,0.5752391943895742,0.24,0.18476080561042585,rating_fallback_dynamic
+Turkey,Saudi Arabia,0.20304300699281905,0.24,0.5569569930071809,rating_fallback_dynamic
+Switzerland,Senegal,0.36634983959172285,0.24,0.39365016040827716,rating_fallback_dynamic
+Curaçao,Bosnia and Herzegovina,0.4554669000790802,0.24,0.3045330999209198,rating_fallback_dynamic
+Bosnia and Herzegovina,Netherlands,0.6555926961447035,0.24,0.1044073038552965,rating_fallback_dynamic
+DR Congo,Algeria,0.4976297227551506,0.24,0.2623702772448494,rating_fallback_dynamic
+Japan,Paraguay,0.2501346739138933,0.24,0.5098653260861067,rating_fallback_dynamic
+England,Scotland,0.14004328082736,0.24,0.6199567191726401,rating_fallback_dynamic
+Belgium,Argentina,0.5890914899021766,0.24,0.17090851009782337,rating_fallback_dynamic
+Iraq,Qatar,0.28557676859958964,0.24,0.4744232314004104,rating_fallback_dynamic
+Japan,New Zealand,0.16500341750350916,0.24,0.5949965824964908,rating_fallback_dynamic
+Saudi Arabia,Canada,0.5206165942601969,0.24,0.23938340573980313,rating_fallback_dynamic
+Jordan,Mexico,0.5776346626096704,0.24,0.18236533739032967,rating_fallback_dynamic
+Brazil,DR Congo,0.12345314877795435,0.24,0.6365468512220457,rating_fallback_dynamic
+DR Congo,Mexico,0.5912974112278747,0.24,0.16870258877212527,rating_fallback_dynamic
+Czechia,Scotland,0.3900743087016853,0.24,0.3699256912983147,rating_fallback_dynamic
+Sweden,Czechia,0.3547724898309984,0.24,0.4052275101690016,rating_fallback_dynamic
+Sweden,Uruguay,0.5044387767510241,0.24,0.2555612232489759,rating_fallback_dynamic
+Cape Verde,Norway,0.5518694668069296,0.24,0.2081305331930704,rating_fallback_dynamic
+Qatar,Mexico,0.6607935441648399,0.24,0.09920645583516007,rating_fallback_dynamic
+Spain,Mexico,0.21276367002504332,0.24,0.5472363299749566,rating_fallback_dynamic
+Uruguay,United States,0.343045819879282,0.24,0.416954180120718,rating_fallback_dynamic
+Saudi Arabia,Iran,0.5348590178674011,0.24000000000000002,0.22514098213259898,rating_fallback_dynamic
+Netherlands,Turkey,0.2676226995221769,0.24,0.49237730047782313,rating_fallback_dynamic
+Turkey,Portugal,0.4944104434887251,0.24,0.2655895565112749,rating_fallback_dynamic
+Turkey,Morocco,0.44079772849747006,0.24,0.31920227150253,rating_fallback_dynamic
+Algeria,Egypt,0.33580823893147954,0.24,0.42419176106852047,rating_fallback_dynamic
+Algeria,Morocco,0.47858265055703986,0.24,0.2814173494429602,rating_fallback_dynamic
+Belgium,Iran,0.3137545158696106,0.24,0.4462454841303894,rating_fallback_dynamic
+Switzerland,Ivory Coast,0.2991153634135593,0.24,0.4608846365864407,rating_fallback_dynamic
+Brazil,Ghana,0.08364475536582862,0.24,0.6763552446341714,rating_fallback_dynamic
+Ghana,Spain,0.7097932357138006,0.24,0.05020676428619944,rating_fallback_dynamic
+Scotland,Egypt,0.4022824664491196,0.24,0.3577175335508804,rating_fallback_dynamic
+Japan,Iraq,0.1576588029891844,0.24,0.6023411970108156,rating_fallback_dynamic
+France,Panama,0.13180727717631235,0.24,0.6281927228236877,rating_fallback_dynamic
+Panama,Sweden,0.3698248815503912,0.24,0.3901751184496088,rating_fallback_dynamic
+Ivory Coast,South Korea,0.43820030068684,0.24,0.32179969931316,rating_fallback_dynamic
+Ghana,Morocco,0.634552537564852,0.24,0.12544746243514804,rating_fallback_dynamic
+Austria,Ghana,0.16265976000973942,0.24,0.5973402399902606,rating_fallback_dynamic
+Ivory Coast,Colombia,0.5475925909822875,0.24,0.21240740901771252,rating_fallback_dynamic
+Portugal,Brazil,0.41230804843970714,0.24,0.3476919515602928,rating_fallback_dynamic
+Belgium,Ghana,0.13788144713211523,0.24,0.6221185528678848,rating_fallback_dynamic
+Czechia,Argentina,0.6739508025707271,0.24,0.08604919742927283,rating_fallback_dynamic
+DR Congo,Japan,0.5848783759783487,0.24,0.17512162402165132,rating_fallback_dynamic
+South Korea,DR Congo,0.24209412080263945,0.24,0.5179058791973605,rating_fallback_dynamic
+Argentina,Netherlands,0.22976704582531812,0.24,0.5302329541746819,rating_fallback_dynamic
+Morocco,Canada,0.27719635136471055,0.24,0.48280364863528946,rating_fallback_dynamic
+Mexico,New Zealand,0.1588545303227542,0.24,0.6011454696772458,rating_fallback_dynamic
+Jordan,Canada,0.47573489128414237,0.24,0.28426510871585764,rating_fallback_dynamic
+Jordan,DR Congo,0.360778497745887,0.24,0.399221502254113,rating_fallback_dynamic
+Saudi Arabia,Egypt,0.48496807226527405,0.24,0.2750319277347259,rating_fallback_dynamic
+Austria,Turkey,0.3795146846849319,0.24,0.38048531531506813,rating_fallback_dynamic
+Ecuador,Austria,0.32575009297699653,0.24,0.4342499070230035,rating_fallback_dynamic
+Netherlands,United States,0.26858122087683606,0.24,0.49141877912316395,rating_fallback_dynamic
+Algeria,Uruguay,0.4566199564715187,0.24,0.3033800435284813,rating_fallback_dynamic
+Jordan,Uzbekistan,0.4131185112394618,0.24,0.3468814887605382,rating_fallback_dynamic
+Norway,New Zealand,0.24013818419193464,0.24,0.5198618158080653,rating_fallback_dynamic
+Portugal,Norway,0.23985710840925276,0.24,0.5201428915907472,rating_fallback_dynamic
+Brazil,New Zealand,0.11572955052504719,0.24,0.6442704494749528,rating_fallback_dynamic
+Panama,Algeria,0.4211728576992807,0.24,0.3388271423007193,rating_fallback_dynamic
+Argentina,South Korea,0.13485547761595165,0.24,0.6251445223840484,rating_fallback_dynamic
+Sweden,Egypt,0.3871192239642653,0.24,0.3728807760357348,rating_fallback_dynamic
+Australia,England,0.5426098258404592,0.24,0.2173901741595407,rating_fallback_dynamic
+Mexico,DR Congo,0.1687025887721252,0.24,0.5912974112278748,rating_fallback_dynamic
+Australia,DR Congo,0.22565336267766806,0.24,0.534346637322332,rating_fallback_dynamic
+Jordan,Croatia,0.5512227846639735,0.24,0.20877721533602656,rating_fallback_dynamic
+Iraq,Spain,0.6928171537837752,0.24,0.06718284621622485,rating_fallback_dynamic
+Brazil,Iraq,0.11017209335941244,0.24,0.6498279066405875,rating_fallback_dynamic
+Scotland,Croatia,0.5216211300859706,0.24,0.23837886991402948,rating_fallback_dynamic
+Egypt,United States,0.46361554197570937,0.24,0.2963844580242907,rating_fallback_dynamic
+Japan,Czechia,0.2089220614532235,0.24,0.5510779385467764,rating_fallback_dynamic
+Curaçao,Croatia,0.6570851118166978,0.24,0.10291488818330224,rating_fallback_dynamic
+Japan,Norway,0.28510415018550317,0.24,0.47489584981449684,rating_fallback_dynamic
+Japan,Croatia,0.35461592452687435,0.24,0.40538407547312566,rating_fallback_dynamic
+Iraq,Algeria,0.5202261007697269,0.24,0.23977389923027315,rating_fallback_dynamic
+Croatia,Turkey,0.33765552667862436,0.24,0.42234447332137565,rating_fallback_dynamic
+South Africa,Sweden,0.49645919217174284,0.24,0.2635408078282572,rating_fallback_dynamic
+South Africa,Germany,0.6449377675709878,0.24,0.11506223242901224,rating_fallback_dynamic
+Spain,United States,0.15708013634349954,0.24,0.6029198636565004,rating_fallback_dynamic
+South Africa,Scotland,0.48253457001191863,0.24,0.2774654299880814,rating_fallback_dynamic
+Uzbekistan,Ivory Coast,0.41330051558370173,0.24,0.3466994844162983,rating_fallback_dynamic
+Scotland,Australia,0.4859861393040652,0.24,0.27401386069593486,rating_fallback_dynamic
+Japan,Panama,0.238330322362033,0.24,0.521669677637967,rating_fallback_dynamic
+Qatar,Scotland,0.5451467662603919,0.24,0.2148532337396081,rating_fallback_dynamic
+Brazil,Qatar,0.07037864083045127,0.24,0.6896213591695487,rating_fallback_dynamic
+Portugal,Ivory Coast,0.2017137368952582,0.24,0.5582862631047418,rating_fallback_dynamic
+Sweden,Ecuador,0.5193759621248434,0.24,0.2406240378751566,rating_fallback_dynamic
+Saudi Arabia,Panama,0.48778594376315576,0.24,0.27221405623684425,rating_fallback_dynamic
+Netherlands,Panama,0.19914202991858826,0.24,0.5608579700814118,rating_fallback_dynamic
+Panama,Ecuador,0.510482323700112,0.24,0.24951767629988802,rating_fallback_dynamic
+Argentina,United States,0.14552812374101773,0.24,0.6144718762589823,rating_fallback_dynamic
+Mexico,Turkey,0.30392919814434516,0.24,0.45607080185565485,rating_fallback_dynamic
+Egypt,Australia,0.4650953906392775,0.24,0.29490460936072255,rating_fallback_dynamic
+Bosnia and Herzegovina,Argentina,0.7109375477996606,0.24,0.04906245220033952,rating_fallback_dynamic
+United States,Ivory Coast,0.3046081244975791,0.24,0.4553918755024209,rating_fallback_dynamic
+Scotland,Ivory Coast,0.41084061091106056,0.24,0.34915938908893945,rating_fallback_dynamic
+Netherlands,Senegal,0.26138652482146635,0.24,0.49861347517853366,rating_fallback_dynamic
+Morocco,Paraguay,0.2560144713584743,0.24,0.5039855286415257,rating_fallback_dynamic
+Morocco,Iran,0.29292829577428636,0.24,0.46707170422571365,rating_fallback_dynamic
+Argentina,Brazil,0.25997889806344404,0.24,0.5000211019365559,rating_fallback_dynamic
+Austria,Iran,0.35224338315298653,0.24,0.4077566168470135,rating_fallback_dynamic
+Germany,Ghana,0.09808427231290942,0.24,0.6619157276870906,rating_fallback_dynamic
+Iraq,Australia,0.55508296110952,0.24,0.20491703889047996,rating_fallback_dynamic
+Bosnia and Herzegovina,Morocco,0.6269711004345071,0.24,0.13302889956549294,rating_fallback_dynamic
+Brazil,Jordan,0.13428350790489355,0.24,0.6257164920951065,rating_fallback_dynamic
+Iraq,Bosnia and Herzegovina,0.33372323773141493,0.24,0.4262767622685851,rating_fallback_dynamic
+Japan,Ghana,0.12184140302826986,0.24,0.6381585969717302,rating_fallback_dynamic
+Ecuador,Qatar,0.10963012382690213,0.24,0.6503698761730979,rating_fallback_dynamic
+Ecuador,Brazil,0.47339475831693206,0.24,0.286605241683068,rating_fallback_dynamic
+Ecuador,Bosnia and Herzegovina,0.13665765904481975,0.24,0.6233423409551803,rating_fallback_dynamic
+Sweden,Norway,0.44152710863801004,0.24,0.31847289136199,rating_fallback_dynamic
+Iraq,Croatia,0.5849683842584157,0.24,0.17503161574158435,rating_fallback_dynamic
+Algeria,Saudi Arabia,0.23548266007815202,0.24,0.524517339921848,rating_fallback_dynamic
+Austria,Canada,0.3356148652820295,0.24,0.4243851347179705,rating_fallback_dynamic
+Austria,Ivory Coast,0.30515028797619764,0.24,0.45484971202380237,rating_fallback_dynamic
+Morocco,United States,0.32022538362089026,0.24,0.43977461637910975,rating_fallback_dynamic
+Iraq,Switzerland,0.5583579588553103,0.24,0.20164204114468973,rating_fallback_dynamic
+Morocco,Switzerland,0.3258317379003528,0.24,0.4341682620996472,rating_fallback_dynamic
+Belgium,Brazil,0.4878060951088782,0.24000000000000002,0.2721939048911219,rating_fallback_dynamic
+Spain,Netherlands,0.2453361121400937,0.24,0.5146638878599064,rating_fallback_dynamic
+Iran,Brazil,0.5458490931628549,0.24,0.2141509068371451,rating_fallback_dynamic
+Ivory Coast,Belgium,0.49158019270312997,0.24,0.2684198072968701,rating_fallback_dynamic
+Jordan,Belgium,0.5488933648997049,0.24,0.2111066351002952,rating_fallback_dynamic
+Netherlands,Jordan,0.15562526903038199,0.24,0.604374730969618,rating_fallback_dynamic
+Canada,Ecuador,0.47701726577867226,0.24,0.28298273422132775,rating_fallback_dynamic
+Argentina,France,0.32153126213896616,0.24,0.43846873786103385,rating_fallback_dynamic
+Scotland,Portugal,0.5814558465618295,0.24,0.1785441534381706,rating_fallback_dynamic
+Scotland,United States,0.4845490358840965,0.24,0.27545096411590353,rating_fallback_dynamic
+Saudi Arabia,DR Congo,0.41047533545143655,0.24,0.34952466454856346,rating_fallback_dynamic
+Croatia,Ecuador,0.3925826964250254,0.24,0.3674173035749746,rating_fallback_dynamic
+Argentina,Switzerland,0.1491130029094366,0.24,0.6108869970905634,rating_fallback_dynamic
+Argentina,Japan,0.19147000033804532,0.24,0.5685299996619547,rating_fallback_dynamic
+Egypt,Ivory Coast,0.38859906773961417,0.24,0.37140093226038584,rating_fallback_dynamic
+Ecuador,Algeria,0.28723942288566817,0.24,0.47276057711433184,rating_fallback_dynamic
+Iran,Ecuador,0.46116019063854335,0.24,0.29883980936145665,rating_fallback_dynamic
+Jordan,Iran,0.4912692626737699,0.24,0.2687307373262301,rating_fallback_dynamic
+France,Saudi Arabia,0.0796622096060535,0.24,0.6803377903939465,rating_fallback_dynamic
+Uzbekistan,Austria,0.4863150892770665,0.24,0.2736849107229335,rating_fallback_dynamic
+Netherlands,Ghana,0.09820154949439612,0.24,0.6617984505056039,rating_fallback_dynamic
+Belgium,Switzerland,0.34725804364509083,0.24,0.4127419563549092,rating_fallback_dynamic
+Jordan,Paraguay,0.4536364837992615,0.24,0.3063635162007385,rating_fallback_dynamic
+Mexico,Iran,0.2781191788512658,0.24,0.4818808211487342,rating_fallback_dynamic
+Iraq,Panama,0.48317860768454823,0.24,0.27682139231545183,rating_fallback_dynamic
+Netherlands,Iraq,0.12846858571985836,0.24,0.6315314142801417,rating_fallback_dynamic
+Qatar,Netherlands,0.6770902726473227,0.24,0.08290972735267738,rating_fallback_dynamic
+Qatar,Argentina,0.7217052028640419,0.24,0.03829479713595803,rating_fallback_dynamic
+England,Qatar,0.062130333044591195,0.24,0.6978696669554089,rating_fallback_dynamic
+Ecuador,Paraguay,0.2615982682745997,0.24,0.4984017317254003,rating_fallback_dynamic
+Senegal,Ecuador,0.4414356547421858,0.24,0.31856434525781424,rating_fallback_dynamic
+Germany,DR Congo,0.14330866872306114,0.24,0.6166913312769389,rating_fallback_dynamic
+Senegal,DR Congo,0.23364634735482304,0.24,0.526353652645177,rating_fallback_dynamic
+Norway,DR Congo,0.2529053725806196,0.24,0.5070946274193804,rating_fallback_dynamic
+Germany,Uzbekistan,0.17818035149053263,0.24,0.5818196485094674,rating_fallback_dynamic
+Qatar,Paraguay,0.5752543966091819,0.24000000000000002,0.1847456033908182,rating_fallback_dynamic
+Paraguay,Canada,0.4032326195925048,0.24,0.3567673804074953,rating_fallback_dynamic
+Curaçao,Morocco,0.6655776342574322,0.24,0.09442236574256782,rating_fallback_dynamic
+Qatar,Morocco,0.6534036846977108,0.24,0.10659631530228916,rating_fallback_dynamic
+Morocco,Saudi Arabia,0.1587310178171109,0.24,0.6012689821828892,rating_fallback_dynamic
+Algeria,Sweden,0.32880056557343834,0.24,0.43119943442656167,rating_fallback_dynamic
+South Korea,Algeria,0.3571577562861386,0.24,0.4028422437138614,rating_fallback_dynamic
+Australia,Japan,0.44470057742714314,0.24,0.31529942257285687,rating_fallback_dynamic
+Australia,France,0.5733143049213357,0.24,0.1866856950786643,rating_fallback_dynamic
+Algeria,United States,0.4204591076315777,0.24,0.3395408923684224,rating_fallback_dynamic
+Czechia,England,0.6259141825229516,0.24,0.1340858174770484,rating_fallback_dynamic
+Netherlands,New Zealand,0.13475758701250354,0.24,0.6252424129874965,rating_fallback_dynamic
+Switzerland,Ecuador,0.42806463085659596,0.24,0.3319353691434041,rating_fallback_dynamic
+Iraq,Ghana,0.3205518340976198,0.24,0.43944816590238023,rating_fallback_dynamic
+Ecuador,Croatia,0.3674173035749746,0.24,0.3925826964250254,rating_fallback_dynamic
+Uruguay,Ivory Coast,0.26978051256266966,0.24,0.49021948743733035,rating_fallback_dynamic
+Portugal,Jordan,0.15417655209008274,0.24,0.6058234479099173,rating_fallback_dynamic
+Japan,Egypt,0.23570572185387467,0.24,0.5242942781461254,rating_fallback_dynamic
+South Korea,Panama,0.3163991324685341,0.24,0.44360086753146594,rating_fallback_dynamic
+Panama,Mexico,0.5294924936314707,0.24,0.23050750636852943,rating_fallback_dynamic
+Colombia,Ecuador,0.3308067259931658,0.24,0.4291932740068342,rating_fallback_dynamic
+Belgium,Japan,0.40828233677360626,0.24,0.35171766322639375,rating_fallback_dynamic
+Scotland,Czechia,0.3699256912983147,0.24,0.3900743087016853,rating_fallback_dynamic
+Czechia,Algeria,0.45574937885906175,0.24,0.30425062114093826,rating_fallback_dynamic
+Czechia,Belgium,0.527746208755788,0.24,0.23225379124421194,rating_fallback_dynamic
+Colombia,Norway,0.25166138881475464,0.24,0.5083386111852454,rating_fallback_dynamic
+Belgium,Uzbekistan,0.23875381616081304,0.24,0.521246183839187,rating_fallback_dynamic
+France,Cape Verde,0.0715843537509711,0.24,0.688415646249029,rating_fallback_dynamic
+Algeria,Iran,0.3922384528005735,0.24,0.3677615471994265,rating_fallback_dynamic
+Norway,Uzbekistan,0.3014111638321774,0.24,0.4585888361678226,rating_fallback_dynamic
+Netherlands,Uzbekistan,0.1783675907043535,0.24,0.5816324092956465,rating_fallback_dynamic
+Saudi Arabia,Ghana,0.3254314785417422,0.24,0.4345685214582578,rating_fallback_dynamic
+New Zealand,Portugal,0.6265397691333079,0.24,0.13346023086669212,rating_fallback_dynamic
+Iran,Sweden,0.3168362024758926,0.24,0.4431637975241074,rating_fallback_dynamic
+Mexico,Iraq,0.15171382601212863,0.24,0.6082861739878713,rating_fallback_dynamic
+Ivory Coast,Panama,0.37445735136433983,0.24,0.3855426486356602,rating_fallback_dynamic
+Germany,Panama,0.19894044205878672,0.24,0.5610595579412133,rating_fallback_dynamic
+Paraguay,Ivory Coast,0.3720105554411045,0.24,0.3879894445588955,rating_fallback_dynamic
+Senegal,Canada,0.34288647441523973,0.24,0.4171135255847603,rating_fallback_dynamic
+Sweden,Senegal,0.4628533586313819,0.24,0.2971466413686181,rating_fallback_dynamic
+Sweden,United States,0.47036225457284137,0.24,0.2896377454271587,rating_fallback_dynamic
+Ivory Coast,New Zealand,0.2818789154770804,0.24,0.4781210845229196,rating_fallback_dynamic
+Paraguay,Sweden,0.3563195102128217,0.24,0.4036804897871783,rating_fallback_dynamic
+South Korea,Bosnia and Herzegovina,0.18420375084000304,0.24,0.5757962491599969,rating_fallback_dynamic
+Ecuador,Scotland,0.22767593649282342,0.24,0.5323240635071766,rating_fallback_dynamic
+Norway,Egypt,0.32542657141637654,0.24,0.43457342858362347,rating_fallback_dynamic
+Cape Verde,Switzerland,0.5790960928526897,0.24,0.18090390714731033,rating_fallback_dynamic
+Uzbekistan,Sweden,0.39765284652616273,0.24,0.3623471534738373,rating_fallback_dynamic
+Saudi Arabia,Switzerland,0.5622261963023095,0.24,0.1977738036976905,rating_fallback_dynamic
+Saudi Arabia,France,0.6803377903939465,0.24,0.07966220960605352,rating_fallback_dynamic
+Paraguay,Switzerland,0.4532228813173024,0.24,0.30677711868269764,rating_fallback_dynamic
+Paraguay,Argentina,0.6522366740828687,0.24,0.1077633259171313,rating_fallback_dynamic
+Ghana,Sweden,0.5274459279761541,0.24,0.2325540720238459,rating_fallback_dynamic
+Saudi Arabia,Argentina,0.6999033330718485,0.24,0.060096666928151486,rating_fallback_dynamic
+Ivory Coast,DR Congo,0.29560341892722475,0.24,0.46439658107277526,rating_fallback_dynamic
+Ecuador,Australia,0.3278292731307398,0.24,0.4321707268692602,rating_fallback_dynamic
+Portugal,Ecuador,0.31760957108941734,0.24,0.44239042891058267,rating_fallback_dynamic
+Jordan,Egypt,0.43754239576258724,0.24,0.32245760423741276,rating_fallback_dynamic
+Cape Verde,Iraq,0.4075011185592205,0.24,0.3524988814407795,rating_fallback_dynamic
+Cape Verde,Iran,0.5532046812781727,0.24,0.2067953187218273,rating_fallback_dynamic
+Germany,Cape Verde,0.11359066047059983,0.24,0.6464093395294002,rating_fallback_dynamic
+Panama,Argentina,0.6586576847704626,0.24,0.10134231522953736,rating_fallback_dynamic
+Sweden,Iran,0.4431637975241075,0.24,0.31683620247589256,rating_fallback_dynamic
+Spain,Japan,0.2054495421653643,0.24,0.5545504578346357,rating_fallback_dynamic
+Norway,Panama,0.328424404023024,0.24,0.43157559597697603,rating_fallback_dynamic
+Egypt,South Korea,0.4465686516550153,0.24,0.31343134834498476,rating_fallback_dynamic
+South Korea,Turkey,0.39668296417615945,0.24,0.36331703582384056,rating_fallback_dynamic
+Paraguay,Mexico,0.5178957834427003,0.24,0.24210421655729977,rating_fallback_dynamic
+South Korea,Cape Verde,0.19848414114709637,0.24,0.5615158588529037,rating_fallback_dynamic
+Morocco,Cape Verde,0.14433646250477547,0.24,0.6156635374952245,rating_fallback_dynamic
+Ghana,Ecuador,0.631088062791316,0.24,0.128911937208684,rating_fallback_dynamic
+Netherlands,South Africa,0.11519627684659065,0.24,0.6448037231534094,rating_fallback_dynamic
+Austria,Switzerland,0.3862990206779939,0.24,0.37370097932200613,rating_fallback_dynamic
+Scotland,Senegal,0.4771867916752791,0.24,0.2828132083247209,rating_fallback_dynamic
+New Zealand,France,0.6741399190600421,0.24,0.08586008093995787,rating_fallback_dynamic
+South Korea,Uzbekistan,0.2897110194292491,0.24,0.4702889805707509,rating_fallback_dynamic
+New Zealand,Switzerland,0.5496798083171527,0.24,0.21032019168284735,rating_fallback_dynamic
+Iraq,Argentina,0.6984330302072841,0.24000000000000002,0.06156696979271596,rating_fallback_dynamic
+Croatia,South Korea,0.3212599297189456,0.24,0.4387400702810544,rating_fallback_dynamic
+DR Congo,Austria,0.5325717444018919,0.24,0.22742825559810814,rating_fallback_dynamic
+Qatar,Brazil,0.6896213591695488,0.24000000000000002,0.07037864083045126,rating_fallback_dynamic
+Switzerland,Czechia,0.2610094829412541,0.24,0.4989905170587459,rating_fallback_dynamic
+Cape Verde,Australia,0.5760469494359379,0.24,0.1839530505640621,rating_fallback_dynamic
+Panama,Japan,0.521669677637967,0.24,0.238330322362033,rating_fallback_dynamic
+Belgium,Australia,0.3431143322302234,0.24,0.4168856677697766,rating_fallback_dynamic
+Iran,United States,0.4083177582437127,0.24,0.3516822417562873,rating_fallback_dynamic
+Mexico,Scotland,0.20964643195913885,0.24,0.5503535680408612,rating_fallback_dynamic
+Netherlands,Cape Verde,0.11372329283995057,0.24,0.6462767071600495,rating_fallback_dynamic
+Iraq,Portugal,0.6327805436084832,0.24,0.1272194563915168,rating_fallback_dynamic
+Saudi Arabia,Croatia,0.5884829473763642,0.24,0.17151705262363579,rating_fallback_dynamic
+Bosnia and Herzegovina,Iraq,0.4262767622685851,0.24,0.333723237731415,rating_fallback_dynamic
+Uruguay,Iraq,0.1781710739514654,0.24,0.5818289260485346,rating_fallback_dynamic
+South Korea,Ghana,0.17451762177315847,0.24,0.5854823782268416,rating_fallback_dynamic
+Ghana,Uruguay,0.621232786604935,0.24,0.138767213395065,rating_fallback_dynamic
+Morocco,Turkey,0.31920227150252994,0.24,0.44079772849747006,rating_fallback_dynamic
+Turkey,England,0.5447324320441038,0.24000000000000002,0.21526756795589624,rating_fallback_dynamic
+Turkey,Colombia,0.48201657755159166,0.24,0.27798342244840835,rating_fallback_dynamic
+Algeria,Japan,0.4847272084203099,0.24000000000000002,0.27527279157969015,rating_fallback_dynamic
+Netherlands,Qatar,0.08290972735267745,0.24,0.6770902726473226,rating_fallback_dynamic
+DR Congo,Morocco,0.580139854231126,0.24,0.17986014576887402,rating_fallback_dynamic
+Algeria,Netherlands,0.527280071794583,0.24,0.23271992820541693,rating_fallback_dynamic
+Cape Verde,Canada,0.5396446736516225,0.24,0.2203553263483775,rating_fallback_dynamic
+England,South Korea,0.20197282252311272,0.24,0.5580271774768872,rating_fallback_dynamic
+Cape Verde,Ivory Coast,0.5130494301159673,0.24,0.2469505698840327,rating_fallback_dynamic
+Saudi Arabia,Jordan,0.4294960490545968,0.24000000000000002,0.33050395094540325,rating_fallback_dynamic
+Austria,Japan,0.4467578889648562,0.24,0.3132421110351438,rating_fallback_dynamic
+Iraq,Canada,0.5162872997468313,0.24,0.24371270025316868,rating_fallback_dynamic
+Australia,Canada,0.3335244141516471,0.24,0.42647558584835293,rating_fallback_dynamic
+Qatar,Australia,0.6218208848095168,0.24,0.13817911519048323,rating_fallback_dynamic
+Japan,Qatar,0.10344380533656154,0.24,0.6565561946634385,rating_fallback_dynamic
+Bosnia and Herzegovina,Paraguay,0.5360840926297427,0.24,0.2239159073702574,rating_fallback_dynamic
+Paraguay,Spain,0.6431121787738349,0.24,0.11688782122616512,rating_fallback_dynamic
+Uruguay,New Zealand,0.18617590715496649,0.24,0.5738240928450336,rating_fallback_dynamic
+Scotland,Uruguay,0.5178158555329718,0.24,0.24218414446702818,rating_fallback_dynamic
+Qatar,South Korea,0.6099638607456562,0.24,0.15003613925434378,rating_fallback_dynamic
+Cape Verde,Uzbekistan,0.48290638355991583,0.24,0.2770936164400842,rating_fallback_dynamic
+Ivory Coast,England,0.6004120934394632,0.24,0.15958790656053687,rating_fallback_dynamic
+Sweden,Paraguay,0.4036804897871783,0.24,0.3563195102128217,rating_fallback_dynamic
+Curaçao,Qatar,0.4065058007800409,0.24,0.3534941992199591,rating_fallback_dynamic
+Turkey,Iran,0.3527261541598691,0.24,0.40727384584013093,rating_fallback_dynamic
+United States,Cape Verde,0.1850977165697659,0.24,0.5749022834302341,rating_fallback_dynamic
+Scotland,Iraq,0.30071445460331114,0.24,0.45928554539668887,rating_fallback_dynamic
+United States,Iran,0.3516822417562873,0.24,0.4083177582437127,rating_fallback_dynamic
+Cape Verde,DR Congo,0.4327552321749385,0.24,0.3272447678250615,rating_fallback_dynamic
+Switzerland,Saudi Arabia,0.19777380369769051,0.24,0.5622261963023095,rating_fallback_dynamic
+Saudi Arabia,Morocco,0.6012689821828892,0.24,0.15873101781711088,rating_fallback_dynamic
+Panama,United States,0.4607009882895919,0.24,0.2992990117104081,rating_fallback_dynamic
+Senegal,Turkey,0.3868703740862827,0.24,0.3731296259137173,rating_fallback_dynamic
+DR Congo,Jordan,0.399221502254113,0.24,0.360778497745887,rating_fallback_dynamic
+Ivory Coast,Paraguay,0.3879894445588955,0.24,0.37201055544110445,rating_fallback_dynamic
+Paraguay,Morocco,0.5039855286415257,0.24,0.25601447135847427,rating_fallback_dynamic
+Curaçao,Argentina,0.7264788834233304,0.24,0.033521116576669535,rating_fallback_dynamic
+Japan,Cape Verde,0.14030748652068709,0.24,0.6196925134793129,rating_fallback_dynamic
+Switzerland,South Africa,0.18300064599891083,0.24,0.5769993540010891,rating_fallback_dynamic
+South Africa,Colombia,0.6388925807024138,0.24,0.12110741929758619,rating_fallback_dynamic
+Saudi Arabia,Uzbekistan,0.461687242946303,0.24,0.298312757053697,rating_fallback_dynamic
+Uzbekistan,Netherlands,0.5816324092956465,0.24,0.17836759070435348,rating_fallback_dynamic
+Japan,Curaçao,0.09157942991928573,0.24,0.6684205700807143,rating_fallback_dynamic
+Senegal,South Korea,0.37017961493154583,0.24,0.3898203850684542,rating_fallback_dynamic
+Bosnia and Herzegovina,Sweden,0.515881711454872,0.24,0.244118288545128,rating_fallback_dynamic
+New Zealand,DR Congo,0.394559462838696,0.24,0.36544053716130404,rating_fallback_dynamic
+New Zealand,Austria,0.5445991135979737,0.24,0.21540088640202631,rating_fallback_dynamic
+Argentina,Scotland,0.09017988335107593,0.24,0.669820116648924,rating_fallback_dynamic
+South Korea,Haiti,0.16357801455784513,0.24,0.5964219854421549,rating_fallback_dynamic
+Saudi Arabia,Norway,0.5334538591620015,0.24,0.22654614083799846,rating_fallback_dynamic
+Mexico,United States,0.304937222057759,0.24,0.455062777942241,rating_fallback_dynamic
+DR Congo,Norway,0.5070946274193804,0.24,0.2529053725806196,rating_fallback_dynamic
+Czechia,Australia,0.49520856120959594,0.24,0.26479143879040407,rating_fallback_dynamic
+Jordan,Japan,0.5708620549169656,0.24,0.1891379450830345,rating_fallback_dynamic
+Mexico,Panama,0.23050750636852937,0.24,0.5294924936314707,rating_fallback_dynamic
+Scotland,New Zealand,0.31127938491691864,0.24,0.44872061508308136,rating_fallback_dynamic
+New Zealand,Brazil,0.6442704494749528,0.24,0.11572955052504723,rating_fallback_dynamic
+Jordan,Panama,0.4405260812291036,0.24,0.3194739187708965,rating_fallback_dynamic
+Morocco,Jordan,0.1941298448444919,0.24,0.5658701551555081,rating_fallback_dynamic
+South Africa,Australia,0.5739262255234082,0.24,0.18607377447659182,rating_fallback_dynamic
+Australia,Norway,0.34846382512036356,0.24,0.41153617487963645,rating_fallback_dynamic
+Morocco,Qatar,0.10659631530228918,0.24,0.6534036846977108,rating_fallback_dynamic
+Iraq,Haiti,0.3052304338378357,0.24,0.4547695661621643,rating_fallback_dynamic
+Japan,Turkey,0.3127718795062733,0.24,0.44722812049372673,rating_fallback_dynamic
+Turkey,Spain,0.6036070962247362,0.24,0.15639290377526377,rating_fallback_dynamic
+Bosnia and Herzegovina,Japan,0.6307507028140354,0.24,0.12924929718596462,rating_fallback_dynamic
+Sweden,Belgium,0.5057649577720706,0.24,0.25423504222792936,rating_fallback_dynamic
+Canada,Senegal,0.4171135255847603,0.24,0.34288647441523973,rating_fallback_dynamic
+Ghana,Mexico,0.6430152848598242,0.24,0.11698471514017582,rating_fallback_dynamic
+DR Congo,Netherlands,0.6165317006301949,0.24,0.14346829936980507,rating_fallback_dynamic
+Croatia,Brazil,0.4851219499698902,0.24,0.2748780500301098,rating_fallback_dynamic
+Panama,Morocco,0.5159345340016113,0.24000000000000002,0.2440654659983888,rating_fallback_dynamic
+Uzbekistan,Algeria,0.4484240074336462,0.24,0.3115759925663538,rating_fallback_dynamic
+Panama,Austria,0.4601620526095998,0.24,0.2998379473904002,rating_fallback_dynamic
+DR Congo,Bosnia and Herzegovina,0.3087949493485063,0.24,0.4512050506514937,rating_fallback_dynamic
+Ecuador,Panama,0.249517676299888,0.24,0.510482323700112,rating_fallback_dynamic
+Uzbekistan,Senegal,0.4794984064533885,0.24,0.2805015935466116,rating_fallback_dynamic
+Croatia,Iraq,0.17503161574158435,0.24,0.5849683842584157,rating_fallback_dynamic
+Norway,Saudi Arabia,0.2265461408379985,0.24,0.5334538591620015,rating_fallback_dynamic
+Ecuador,Uruguay,0.36302381835287467,0.24,0.39697618164712534,rating_fallback_dynamic
+South Korea,Iraq,0.22047034018640516,0.24,0.5395296598135949,rating_fallback_dynamic
+Canada,Uruguay,0.46096454120106706,0.24,0.299035458798933,rating_fallback_dynamic
+Qatar,Croatia,0.6440070357248046,0.24,0.11599296427519545,rating_fallback_dynamic
+Ecuador,England,0.4973323525929204,0.24000000000000002,0.26266764740707965,rating_fallback_dynamic
+Australia,Ivory Coast,0.30311406078292,0.24,0.45688593921708,rating_fallback_dynamic
+Iraq,Curaçao,0.26113122008464784,0.24,0.49886877991535217,rating_fallback_dynamic
+New Zealand,Paraguay,0.48553757627659305,0.24,0.27446242372340696,rating_fallback_dynamic
+Turkey,Argentina,0.6151207129603095,0.24,0.14487928703969058,rating_fallback_dynamic
+Austria,Sweden,0.29017024165002564,0.24,0.46982975834997437,rating_fallback_dynamic
+South Africa,England,0.6726308454995693,0.24,0.08736915450043073,rating_fallback_dynamic
+Saudi Arabia,Iraq,0.38499178674889445,0.24,0.37500821325110556,rating_fallback_dynamic
+Panama,Brazil,0.5864538034673804,0.24,0.17354619653261957,rating_fallback_dynamic
+Austria,Norway,0.35057094181556847,0.24,0.40942905818443154,rating_fallback_dynamic
+Australia,Uruguay,0.4154117387901962,0.24,0.34458826120980385,rating_fallback_dynamic
+Paraguay,Uzbekistan,0.33878597544838573,0.24,0.4212140245516143,rating_fallback_dynamic
+Czechia,Egypt,0.4123065522336124,0.24,0.3476934477663876,rating_fallback_dynamic
+Paraguay,Ghana,0.2129137280512477,0.24,0.5470862719487523,rating_fallback_dynamic
+Panama,Ivory Coast,0.38554264863566007,0.24,0.37445735136433994,rating_fallback_dynamic
+Japan,Bosnia and Herzegovina,0.1292492971859646,0.24,0.6307507028140354,rating_fallback_dynamic
+South Africa,Iran,0.5509162002546524,0.24000000000000002,0.2090837997453477,rating_fallback_dynamic
+Iraq,DR Congo,0.405510424106706,0.24,0.35448957589329405,rating_fallback_dynamic
+Turkey,Japan,0.44722812049372673,0.24,0.3127718795062732,rating_fallback_dynamic
+Panama,Iraq,0.2768213923154518,0.24,0.48317860768454823,rating_fallback_dynamic
+Scotland,Jordan,0.3444241784551103,0.24,0.4155758215448897,rating_fallback_dynamic
+France,New Zealand,0.08586008093995787,0.24,0.6741399190600421,rating_fallback_dynamic
+Australia,Mexico,0.4535657550064941,0.24,0.30643424499350597,rating_fallback_dynamic
+Austria,Ecuador,0.4342499070230034,0.24,0.32575009297699653,rating_fallback_dynamic
+Belgium,Ivory Coast,0.26841980729687004,0.24,0.49158019270312997,rating_fallback_dynamic
+Argentina,Sweden,0.0967293743144105,0.24,0.6632706256855895,rating_fallback_dynamic
+Sweden,Algeria,0.43119943442656156,0.24,0.32880056557343845,rating_fallback_dynamic
+Iraq,Paraguay,0.49558924735842913,0.24,0.2644107526415709,rating_fallback_dynamic
+Uzbekistan,Norway,0.4585888361678226,0.24,0.3014111638321775,rating_fallback_dynamic
+Scotland,Iran,0.4578269424886606,0.24,0.3021730575113394,rating_fallback_dynamic
+Senegal,Uruguay,0.42478292204000634,0.24,0.33521707795999367,rating_fallback_dynamic
+Paraguay,DR Congo,0.28804336967799565,0.24,0.47195663032200436,rating_fallback_dynamic
+Germany,Jordan,0.15545552252088574,0.24,0.6045444774791143,rating_fallback_dynamic
+Saudi Arabia,Algeria,0.524517339921848,0.24,0.23548266007815202,rating_fallback_dynamic
+Belgium,Sweden,0.2542350422279294,0.24,0.5057649577720706,rating_fallback_dynamic
+Morocco,Bosnia and Herzegovina,0.13302889956549296,0.24,0.6269711004345071,rating_fallback_dynamic
+Jordan,Morocco,0.5658701551555081,0.24,0.19412984484449194,rating_fallback_dynamic
+Uzbekistan,South Korea,0.4702889805707509,0.24,0.2897110194292491,rating_fallback_dynamic
+Cape Verde,New Zealand,0.41840002551871264,0.24,0.34159997448128737,rating_fallback_dynamic
+New Zealand,Spain,0.6891919294004702,0.24,0.0708080705995298,rating_fallback_dynamic
+Morocco,Panama,0.24406546599838871,0.24,0.5159345340016113,rating_fallback_dynamic
+Ghana,Turkey,0.5970134445007866,0.24,0.16298655549921334,rating_fallback_dynamic
+Austria,New Zealand,0.21540088640202631,0.24,0.5445991135979737,rating_fallback_dynamic
+Argentina,Ecuador,0.18195758260728925,0.24,0.5780424173927108,rating_fallback_dynamic
+Panama,France,0.6281927228236877,0.24,0.1318072771763124,rating_fallback_dynamic
+Morocco,Ghana,0.12544746243514804,0.24,0.634552537564852,rating_fallback_dynamic
+Ecuador,Egypt,0.24682816782301265,0.24,0.5131718321769874,rating_fallback_dynamic
+Mexico,Uzbekistan,0.2076725886304147,0.24,0.5523274113695853,rating_fallback_dynamic
+Ecuador,Curaçao,0.09716121636425151,0.24,0.6628387836357486,rating_fallback_dynamic
+Brazil,South Africa,0.09849521949278421,0.24,0.6615047805072158,rating_fallback_dynamic
+Scotland,Curaçao,0.19398626077500292,0.24,0.5660137392249971,rating_fallback_dynamic
+Norway,Curaçao,0.14121550598935367,0.24,0.6187844940106464,rating_fallback_dynamic
+Bosnia and Herzegovina,Austria,0.5881190387482488,0.24,0.17188096125175123,rating_fallback_dynamic
+Ivory Coast,Uruguay,0.49021948743733035,0.24000000000000002,0.2697805125626697,rating_fallback_dynamic
+Portugal,Uruguay,0.3012112922032472,0.24,0.4587887077967528,rating_fallback_dynamic
+New Zealand,Colombia,0.6185477061450015,0.24,0.1414522938549984,rating_fallback_dynamic
+Paraguay,Japan,0.5098653260861067,0.24,0.2501346739138933,rating_fallback_dynamic
+Cape Verde,France,0.688415646249029,0.24,0.07158435375097101,rating_fallback_dynamic
+South Korea,Jordan,0.25909618556621034,0.24,0.5009038144337897,rating_fallback_dynamic
+Algeria,Norway,0.39055800193444773,0.24,0.3694419980655523,rating_fallback_dynamic
+Austria,United States,0.38056421254611544,0.24,0.3794357874538845,rating_fallback_dynamic
+Spain,Ivory Coast,0.11278834214048257,0.24,0.6472116578595174,rating_fallback_dynamic
+Uzbekistan,Morocco,0.5395533719217864,0.24,0.2204466280782136,rating_fallback_dynamic
+England,Cape Verde,0.08620441882919921,0.24,0.6737955811708009,rating_fallback_dynamic
+Argentina,Senegal,0.14068605909904813,0.24,0.6193139409009518,rating_fallback_dynamic
+New Zealand,Croatia,0.5770602511141028,0.24,0.18293974888589726,rating_fallback_dynamic
+Germany,New Zealand,0.13460553235052405,0.24,0.6253944676494759,rating_fallback_dynamic
+New Zealand,Argentina,0.6950824469753123,0.24,0.06491755302468771,rating_fallback_dynamic
+Scotland,Switzerland,0.48982795317357614,0.24,0.2701720468264239,rating_fallback_dynamic
+Ecuador,Jordan,0.19889657736197716,0.24,0.5611034226380228,rating_fallback_dynamic
+Uzbekistan,Ecuador,0.5343980724278616,0.24,0.22560192757213834,rating_fallback_dynamic
+Mexico,Jordan,0.1823653373903297,0.24,0.5776346626096703,rating_fallback_dynamic
+Panama,Netherlands,0.5608579700814118,0.24,0.1991420299185882,rating_fallback_dynamic
+Iran,Ivory Coast,0.3322194556977982,0.24,0.4277805443022018,rating_fallback_dynamic
+South Africa,DR Congo,0.4299291119440425,0.24,0.3300708880559575,rating_fallback_dynamic
+Jordan,Turkey,0.5156913897778017,0.24,0.24430861022219832,rating_fallback_dynamic
+Uzbekistan,United States,0.486834922191647,0.24,0.27316507780835303,rating_fallback_dynamic
+New Zealand,Norway,0.5198618158080655,0.24,0.2401381841919346,rating_fallback_dynamic
+Austria,Senegal,0.37264448044277954,0.24,0.3873555195572205,rating_fallback_dynamic
+Czechia,Austria,0.493279485732473,0.24,0.2667205142675271,rating_fallback_dynamic
+DR Congo,Ivory Coast,0.4643965810727752,0.24,0.2956034189272248,rating_fallback_dynamic
+Turkey,Canada,0.3360936308901361,0.24,0.4239063691098639,rating_fallback_dynamic
+Ghana,Ivory Coast,0.5405813446571563,0.24,0.21941865534284366,rating_fallback_dynamic
+Algeria,Turkey,0.41942117411925334,0.24,0.34057882588074667,rating_fallback_dynamic
+Paraguay,Norway,0.41823238254962325,0.24,0.34176761745037676,rating_fallback_dynamic
+Turkey,Croatia,0.4223444733213756,0.24000000000000002,0.3376555266786245,rating_fallback_dynamic
+Paraguay,Senegal,0.43998794386174633,0.24,0.3200120561382537,rating_fallback_dynamic
+Czechia,United States,0.49379333156349275,0.24,0.26620666843650725,rating_fallback_dynamic
+Saudi Arabia,Paraguay,0.5001011312181954,0.24,0.25989886878180457,rating_fallback_dynamic
+Cape Verde,Paraguay,0.5200082134752697,0.24,0.23999178652473024,rating_fallback_dynamic
+Switzerland,Iraq,0.20164204114468973,0.24,0.5583579588553103,rating_fallback_dynamic
+Paraguay,Brazil,0.5767309065401562,0.24,0.18326909345984385,rating_fallback_dynamic
+Australia,Sweden,0.28817064461062863,0.24,0.4718293553893714,rating_fallback_dynamic
+Sweden,Curaçao,0.18266513170983786,0.24,0.5773348682901621,rating_fallback_dynamic
+Czechia,Ecuador,0.5406906890667621,0.24000000000000002,0.21930931093323797,rating_fallback_dynamic
+South Africa,Spain,0.7003559011840214,0.24000000000000002,0.0596440988159787,rating_fallback_dynamic
+South Africa,Senegal,0.5668283841947913,0.24000000000000002,0.19317161580520875,rating_fallback_dynamic
+Curaçao,Brazil,0.698051187512637,0.24000000000000002,0.06194881248736311,rating_fallback_dynamic
+France,Curaçao,0.04499068543278503,0.24,0.715009314567215,rating_fallback_dynamic
+Czechia,Senegal,0.48653872521846475,0.24,0.27346127478153526,rating_fallback_dynamic
+Haiti,France,0.7032598230527508,0.24,0.056740176947249206,rating_fallback_dynamic
+Bosnia and Herzegovina,Ecuador,0.6233423409551803,0.24,0.1366576590448197,rating_fallback_dynamic
+Colombia,Scotland,0.1884240725455926,0.24,0.5715759274544074,rating_fallback_dynamic
+Mexico,Bosnia and Herzegovina,0.12415477318537173,0.24,0.6358452268146283,rating_fallback_dynamic
+DR Congo,Brazil,0.6365468512220458,0.24,0.12345314877795428,rating_fallback_dynamic
+Ivory Coast,Croatia,0.4942358222496207,0.24,0.2657641777503793,rating_fallback_dynamic
+Qatar,Spain,0.7180847192194006,0.24,0.041915280780599445,rating_fallback_dynamic
+Bosnia and Herzegovina,Portugal,0.6566461599888376,0.24,0.1033538400111624,rating_fallback_dynamic
+United States,Saudi Arabia,0.2022221312138949,0.24,0.5577778687861051,rating_fallback_dynamic
+Germany,Saudi Arabia,0.1255442235031399,0.24,0.6344557764968601,rating_fallback_dynamic
+Belgium,Turkey,0.34053456019999073,0.24,0.4194654398000093,rating_fallback_dynamic
+South Africa,Austria,0.5723533237479288,0.24,0.18764667625207115,rating_fallback_dynamic
+New Zealand,United States,0.5450571718815602,0.24,0.2149428281184398,rating_fallback_dynamic
+Iraq,Belgium,0.5828945065738343,0.24,0.17710549342616566,rating_fallback_dynamic
+Canada,Iraq,0.24371270025316868,0.24,0.5162872997468313,rating_fallback_dynamic
+Jordan,Netherlands,0.6043747309696179,0.24,0.15562526903038204,rating_fallback_dynamic
+Iraq,Uzbekistan,0.45691264669751547,0.24,0.30308735330248454,rating_fallback_dynamic
+Ecuador,Uzbekistan,0.22560192757213834,0.24,0.5343980724278616,rating_fallback_dynamic
+South Africa,Uruguay,0.5989264285389103,0.24,0.16107357146108967,rating_fallback_dynamic
+South Africa,United States,0.572772652215354,0.24,0.18722734778464598,rating_fallback_dynamic
+Uruguay,Sweden,0.2555612232489759,0.24,0.5044387767510241,rating_fallback_dynamic
+Ivory Coast,Saudi Arabia,0.2671383450413286,0.24,0.4928616549586714,rating_fallback_dynamic
+Croatia,Saudi Arabia,0.17151705262363573,0.24,0.5884829473763643,rating_fallback_dynamic
+Scotland,Cape Verde,0.27480182928445246,0.24,0.48519817071554755,rating_fallback_dynamic
+Iraq,Cape Verde,0.3524988814407795,0.24,0.4075011185592205,rating_fallback_dynamic
+Bosnia and Herzegovina,Uruguay,0.6130328080059314,0.24,0.14696719199406863,rating_fallback_dynamic
+Colombia,Bosnia and Herzegovina,0.10985914853370368,0.24,0.6501408514662963,rating_fallback_dynamic
+Algeria,Ecuador,0.4727605771143317,0.24,0.2872394228856683,rating_fallback_dynamic
+Sweden,Canada,0.42673505019421587,0.24,0.33326494980578414,rating_fallback_dynamic
+Algeria,Brazil,0.5556189848260272,0.24000000000000002,0.20438101517397284,rating_fallback_dynamic
+DR Congo,Senegal,0.526353652645177,0.24,0.23364634735482304,rating_fallback_dynamic
+England,Bosnia and Herzegovina,0.07886762209499416,0.24,0.6811323779050058,rating_fallback_dynamic
+Curaçao,Algeria,0.6122819141599369,0.24,0.14771808584006307,rating_fallback_dynamic
+Paraguay,Uruguay,0.4828572960769774,0.24,0.27714270392302265,rating_fallback_dynamic
+Senegal,New Zealand,0.2214268602316584,0.24,0.5385731397683416,rating_fallback_dynamic
+Australia,Panama,0.29781395871926175,0.24,0.46218604128073826,rating_fallback_dynamic
+Iraq,Iran,0.5306738403513375,0.24,0.2293261596486625,rating_fallback_dynamic
+Uruguay,Brazil,0.4891722480486698,0.24,0.27082775195133024,rating_fallback_dynamic
+Paraguay,Algeria,0.4077519587884251,0.24,0.3522480412115749,rating_fallback_dynamic
+Colombia,South Korea,0.262683187139617,0.24,0.497316812860383,rating_fallback_dynamic
+Czechia,Ivory Coast,0.4208270741588325,0.24,0.3391729258411675,rating_fallback_dynamic
+Qatar,Iran,0.6031145543886123,0.24,0.1568854456113878,rating_fallback_dynamic
+Uzbekistan,Jordan,0.3468814887605382,0.24,0.4131185112394618,rating_fallback_dynamic
+South Africa,Algeria,0.5410101080447852,0.24,0.21898989195521476,rating_fallback_dynamic
+New Zealand,Canada,0.5066201830887749,0.24,0.2533798169112252,rating_fallback_dynamic
+Czechia,Turkey,0.49283713000498935,0.24,0.26716286999501065,rating_fallback_dynamic
+Sweden,Switzerland,0.4757535633153544,0.24,0.28424643668464566,rating_fallback_dynamic
+Morocco,Czechia,0.21424015875051625,0.24,0.5457598412494837,rating_fallback_dynamic
+Spain,Brazil,0.27652748884214273,0.24,0.4834725111578573,rating_fallback_dynamic
+Canada,Saudi Arabia,0.23938340573980318,0.24,0.5206165942601968,rating_fallback_dynamic
+Czechia,Colombia,0.5789906040410622,0.24,0.18100939595893778,rating_fallback_dynamic
+Brazil,Saudi Arabia,0.10772005879664,0.24,0.65227994120336,rating_fallback_dynamic
+Saudi Arabia,Ecuador,0.5971212577903189,0.24,0.1628787422096811,rating_fallback_dynamic
+South Africa,Egypt,0.5028729187476486,0.24,0.25712708125235145,rating_fallback_dynamic
+Ivory Coast,Cape Verde,0.24695056988403263,0.24,0.5130494301159674,rating_fallback_dynamic
+Scotland,Algeria,0.4460239926134773,0.24,0.3139760073865227,rating_fallback_dynamic
+Australia,Croatia,0.4197688211627714,0.24,0.34023117883722864,rating_fallback_dynamic
+Jordan,United States,0.516606190514139,0.24,0.24339380948586095,rating_fallback_dynamic
+Ecuador,Iran,0.29883980936145665,0.24,0.46116019063854335,rating_fallback_dynamic
+Qatar,DR Congo,0.49796583451647247,0.24,0.26203416548352754,rating_fallback_dynamic
+Czechia,Spain,0.6664010343626947,0.24,0.09359896563730531,rating_fallback_dynamic
+Jordan,France,0.6596286468742643,0.24,0.10037135312573571,rating_fallback_dynamic
+Jordan,Ivory Coast,0.4459155926047368,0.24,0.3140844073952632,rating_fallback_dynamic
+Turkey,Mexico,0.45607080185565485,0.24,0.30392919814434516,rating_fallback_dynamic
+New Zealand,Australia,0.5463178033832082,0.24,0.21368219661679175,rating_fallback_dynamic
+Ivory Coast,Egypt,0.3714009322603858,0.24,0.3885990677396142,rating_fallback_dynamic
+Czechia,Croatia,0.5302112857663989,0.24,0.22978871423360114,rating_fallback_dynamic
+Bosnia and Herzegovina,Colombia,0.6501408514662963,0.24,0.1098591485337037,rating_fallback_dynamic
+Egypt,Turkey,0.46261622472758535,0.24,0.29738377527241466,rating_fallback_dynamic
+Turkey,Brazil,0.5230565048185886,0.24,0.23694349518141147,rating_fallback_dynamic
+DR Congo,France,0.6681254905090568,0.24,0.0918745094909432,rating_fallback_dynamic
+Canada,Cape Verde,0.22035532634837746,0.24,0.5396446736516225,rating_fallback_dynamic
+Cape Verde,Brazil,0.6627964053266033,0.24,0.09720359467339673,rating_fallback_dynamic
+Cape Verde,Ecuador,0.611799240053399,0.24,0.14820075994660106,rating_fallback_dynamic
+Haiti,Turkey,0.6074186022440804,0.24,0.15258139775591964,rating_fallback_dynamic
+Bosnia and Herzegovina,England,0.6811323779050058,0.24,0.07886762209499415,rating_fallback_dynamic
+Bosnia and Herzegovina,Egypt,0.5220493109466445,0.24,0.2379506890533555,rating_fallback_dynamic
+South Korea,Saudi Arabia,0.21638088119849372,0.24,0.5436191188015063,rating_fallback_dynamic
+Ecuador,DR Congo,0.1843906686071172,0.24,0.5756093313928828,rating_fallback_dynamic
+Cape Verde,Morocco,0.6156635374952245,0.24,0.1443364625047755,rating_fallback_dynamic
+Australia,Uzbekistan,0.2717332123768106,0.24,0.4882667876231894,rating_fallback_dynamic
+Turkey,Austria,0.38048531531506813,0.24,0.3795146846849319,rating_fallback_dynamic
+Curaçao,Uzbekistan,0.5641238465331907,0.24,0.19587615346680937,rating_fallback_dynamic
+Austria,Curaçao,0.12423329343035182,0.24,0.6357667065696482,rating_fallback_dynamic
+Algeria,Scotland,0.31397600738652265,0.24,0.44602399261347736,rating_fallback_dynamic
+New Zealand,Ghana,0.30988953462472435,0.24,0.45011046537527566,rating_fallback_dynamic
+Scotland,DR Congo,0.32546095135526903,0.24,0.434539048644731,rating_fallback_dynamic
+Portugal,Scotland,0.17854415343817068,0.24,0.5814558465618294,rating_fallback_dynamic
+United States,Ghana,0.16228043734398276,0.24,0.5977195626560172,rating_fallback_dynamic
+Turkey,DR Congo,0.22783554405274525,0.24,0.5321644559472547,rating_fallback_dynamic
+DR Congo,Ecuador,0.5756093313928828,0.24,0.18439066860711717,rating_fallback_dynamic
+Algeria,New Zealand,0.24936023957992112,0.24,0.5106397604200789,rating_fallback_dynamic
+Morocco,New Zealand,0.1695475217877052,0.24,0.5904524782122947,rating_fallback_dynamic
+Japan,South Africa,0.14204911641698578,0.24,0.6179508835830142,rating_fallback_dynamic
+Portugal,Saudi Arabia,0.12446067730560778,0.24,0.6355393226943923,rating_fallback_dynamic
+South Africa,Portugal,0.6459471088277068,0.24,0.11405289117229331,rating_fallback_dynamic
+Bosnia and Herzegovina,Belgium,0.6139586110531857,0.24,0.1460413889468143,rating_fallback_dynamic
+Jordan,Norway,0.48972952197422787,0.24,0.27027047802577214,rating_fallback_dynamic
+Portugal,South Korea,0.25061680284778803,0.24,0.5093831971522119,rating_fallback_dynamic
+Jordan,Ecuador,0.5611034226380228,0.24,0.1988965773619772,rating_fallback_dynamic
+Turkey,Uruguay,0.41799350132454594,0.24,0.3420064986754541,rating_fallback_dynamic
+Turkey,Norway,0.3510533940682216,0.24,0.4089466059317784,rating_fallback_dynamic
+Curaçao,Colombia,0.6828506642262631,0.24,0.07714933577373694,rating_fallback_dynamic
+Portugal,Curaçao,0.07236534639157631,0.24,0.6876346536084237,rating_fallback_dynamic
+South Africa,Iraq,0.4046359951984268,0.24,0.3553640048015732,rating_fallback_dynamic
+Scotland,Panama,0.40532794513727943,0.24,0.3546720548627206,rating_fallback_dynamic
+Uruguay,South Korea,0.3255624881166176,0.24,0.4344375118833824,rating_fallback_dynamic
+Czechia,Saudi Arabia,0.30559102512404607,0.24,0.45440897487595394,rating_fallback_dynamic
+Qatar,Senegal,0.6160919030677221,0.24,0.14390809693227785,rating_fallback_dynamic
+Egypt,Scotland,0.3577175335508803,0.24,0.4022824664491197,rating_fallback_dynamic
+Haiti,Paraguay,0.5596089470373714,0.24,0.20039105296262863,rating_fallback_dynamic
+Argentina,Norway,0.12781864272361285,0.24,0.6321813572763871,rating_fallback_dynamic
+Ecuador,New Zealand,0.1738961430275613,0.24,0.5861038569724387,rating_fallback_dynamic
+Canada,South Africa,0.22273344995410296,0.24,0.5372665500458971,rating_fallback_dynamic
+Jordan,Sweden,0.4305666273601165,0.24,0.3294333726398834,rating_fallback_dynamic
+Czechia,DR Congo,0.33536542512481443,0.24,0.4246345748751856,rating_fallback_dynamic
+Qatar,Iraq,0.4744232314004104,0.24,0.28557676859958964,rating_fallback_dynamic
+Sweden,Iraq,0.2863153804008823,0.24,0.47368461959911773,rating_fallback_dynamic
+Saudi Arabia,United States,0.557777868786105,0.24,0.20222213121389496,rating_fallback_dynamic
+DR Congo,South Korea,0.5179058791973605,0.24,0.24209412080263945,rating_fallback_dynamic
+Ivory Coast,Uzbekistan,0.3466994844162984,0.24,0.4133005155837016,rating_fallback_dynamic
+Cape Verde,Sweden,0.49906140577839514,0.24,0.26093859422160487,rating_fallback_dynamic
+Sweden,Ghana,0.2325540720238459,0.24,0.5274459279761541,rating_fallback_dynamic
+Paraguay,Jordan,0.3063635162007385,0.24,0.4536364837992615,rating_fallback_dynamic
+Sweden,Qatar,0.20275052605589303,0.24,0.557249473944107,rating_fallback_dynamic
+Sweden,Jordan,0.3294333726398834,0.24,0.4305666273601166,rating_fallback_dynamic
+Ecuador,Cape Verde,0.14820075994660112,0.24,0.6117992400533989,rating_fallback_dynamic
+Colombia,Cape Verde,0.11957286748047834,0.24,0.6404271325195217,rating_fallback_dynamic
+Iraq,Ivory Coast,0.4882923744436808,0.24,0.2717076255563192,rating_fallback_dynamic
+Iraq,Egypt,0.4803403864742893,0.24,0.2796596135257107,rating_fallback_dynamic
+Sweden,Cape Verde,0.26093859422160476,0.24,0.49906140577839525,rating_fallback_dynamic
+Bosnia and Herzegovina,United States,0.5885136918694108,0.24,0.17148630813058924,rating_fallback_dynamic
+Portugal,Iraq,0.1272194563915168,0.24,0.6327805436084832,rating_fallback_dynamic
+Paraguay,Austria,0.44713830915999875,0.24,0.3128616908400013,rating_fallback_dynamic
+Senegal,Haiti,0.1570392705537323,0.24,0.6029607294462677,rating_fallback_dynamic
+Mexico,Ghana,0.11698471514017583,0.24,0.6430152848598242,rating_fallback_dynamic
+Australia,Netherlands,0.4899943381320301,0.24,0.27000566186796987,rating_fallback_dynamic
+Curaçao,Portugal,0.6876346536084237,0.24,0.07236534639157635,rating_fallback_dynamic
+New Zealand,Curaçao,0.25131507047860085,0.24,0.5086849295213992,rating_fallback_dynamic
+Bosnia and Herzegovina,Croatia,0.6157587468002342,0.24,0.14424125319976577,rating_fallback_dynamic
+Saudi Arabia,Mexico,0.6114514244768954,0.24,0.14854857552310463,rating_fallback_dynamic
+Iraq,Uruguay,0.5818289260485346,0.24,0.17817107395146536,rating_fallback_dynamic
+South Africa,Paraguay,0.5175133944784674,0.24,0.24248660552153253,rating_fallback_dynamic
+Bosnia and Herzegovina,Ivory Coast,0.5293847208693572,0.24,0.23061527913064284,rating_fallback_dynamic
+Iran,South Korea,0.39062435932872724,0.24,0.3693756406712728,rating_fallback_dynamic
+South Africa,Panama,0.5056035731893145,0.24,0.2543964268106855,rating_fallback_dynamic
+Sweden,Bosnia and Herzegovina,0.24411828854512804,0.24,0.5158817114548719,rating_fallback_dynamic
+Bosnia and Herzegovina,DR Congo,0.4512050506514936,0.24,0.30879494934850643,rating_fallback_dynamic
+New Zealand,Uzbekistan,0.44632128678898453,0.24,0.3136787132110154,rating_fallback_dynamic
+Bosnia and Herzegovina,South Korea,0.575796249159997,0.24,0.18420375084000298,rating_fallback_dynamic
+Australia,Austria,0.37787925295326436,0.24,0.38212074704673565,rating_fallback_dynamic
+Turkey,Switzerland,0.38678419236874007,0.24,0.37321580763125994,rating_fallback_dynamic
+Austria,South Korea,0.36283268307904515,0.24,0.39716731692095486,rating_fallback_dynamic
+Qatar,Uruguay,0.6417123935572813,0.24,0.1182876064427188,rating_fallback_dynamic
+Paraguay,Panama,0.36647205537675115,0.24,0.39352794462324886,rating_fallback_dynamic
+Jordan,Scotland,0.4155758215448897,0.24,0.3444241784551103,rating_fallback_dynamic
+New Zealand,Mexico,0.6011454696772458,0.24,0.15885453032275423,rating_fallback_dynamic
+Spain,Bosnia and Herzegovina,0.05362529515586173,0.24,0.7063747048441382,rating_fallback_dynamic
+Sweden,Uzbekistan,0.3623471534738373,0.24,0.39765284652616273,rating_fallback_dynamic
+Bosnia and Herzegovina,Turkey,0.5877790584913053,0.24,0.1722209415086947,rating_fallback_dynamic
+Ivory Coast,Iran,0.4277805443022017,0.24,0.3322194556977983,rating_fallback_dynamic
+Bosnia and Herzegovina,Haiti,0.3508076939838959,0.24,0.4091923060161041,rating_fallback_dynamic
+Bosnia and Herzegovina,Algeria,0.5584820361600004,0.24,0.20151796383999965,rating_fallback_dynamic
+Uzbekistan,Uruguay,0.5199624315777213,0.24,0.2400375684222787,rating_fallback_dynamic
+Cape Verde,Japan,0.6196925134793129,0.24,0.14030748652068714,rating_fallback_dynamic
+Scotland,Ghana,0.24565157414352604,0.24,0.514348425856474,rating_fallback_dynamic
+Australia,Algeria,0.3380026610791009,0.24,0.42199733892089913,rating_fallback_dynamic
+Bosnia and Herzegovina,Iran,0.567878444989654,0.24,0.19212155501034597,rating_fallback_dynamic
+Ghana,Scotland,0.514348425856474,0.24,0.24565157414352604,rating_fallback_dynamic
+Iran,Turkey,0.40727384584013093,0.24,0.3527261541598691,rating_fallback_dynamic
+Scotland,Bosnia and Herzegovina,0.25754906405398187,0.24,0.5024509359460181,rating_fallback_dynamic
+Croatia,Cape Verde,0.1562643376869276,0.24,0.6037356623130724,rating_fallback_dynamic
+Curaçao,Uruguay,0.65500700891109,0.24,0.1049929910889101,rating_fallback_dynamic
+Cape Verde,Mexico,0.625129709507574,0.24,0.13487029049242602,rating_fallback_dynamic
+Uruguay,Turkey,0.3420064986754541,0.24,0.41799350132454594,rating_fallback_dynamic
+Turkey,Uzbekistan,0.2741323979154033,0.24,0.48586760208459673,rating_fallback_dynamic
+Czechia,Haiti,0.2406557141844765,0.24,0.5193442858155235,rating_fallback_dynamic
+Switzerland,Haiti,0.14827310701500368,0.24,0.6117268929849963,rating_fallback_dynamic
+Bosnia and Herzegovina,Panama,0.5246716166983059,0.24,0.23532838330169414,rating_fallback_dynamic
+Uzbekistan,Scotland,0.3824775254417131,0.24,0.3775224745582869,rating_fallback_dynamic
+Belgium,Bosnia and Herzegovina,0.14604138894681426,0.24,0.6139586110531857,rating_fallback_dynamic
+Colombia,Saudi Arabia,0.1320273804129477,0.24,0.6279726195870523,rating_fallback_dynamic
+Sweden,Turkey,0.4693714251330739,0.24,0.29062857486692617,rating_fallback_dynamic
+Belgium,Scotland,0.24089423070251145,0.24,0.5191057692974885,rating_fallback_dynamic
+Jordan,Iraq,0.335419458745216,0.24,0.424580541254784,rating_fallback_dynamic
+Qatar,Austria,0.6205544741866575,0.24,0.13944552581334246,rating_fallback_dynamic
+Morocco,Iraq,0.162055730779472,0.24,0.597944269220528,rating_fallback_dynamic
+South Africa,Ecuador,0.6099833502901412,0.24,0.15001664970985887,rating_fallback_dynamic
+Turkey,Sweden,0.2906285748669262,0.24,0.4693714251330738,rating_fallback_dynamic
+Ecuador,Saudi Arabia,0.16287874220968107,0.24,0.597121257790319,rating_fallback_dynamic
+Turkey,Panama,0.30030179062152196,0.24,0.45969820937847805,rating_fallback_dynamic
+Uzbekistan,Iraq,0.30308735330248443,0.24,0.4569126466975156,rating_fallback_dynamic
+Colombia,Iraq,0.134918276326128,0.24,0.625081723673872,rating_fallback_dynamic
+Algeria,Senegal,0.41261196739429606,0.24,0.34738803260570394,rating_fallback_dynamic
+Senegal,Cape Verde,0.1909969174969037,0.24,0.5690030825030963,rating_fallback_dynamic
+Czechia,Uzbekistan,0.3875980965812906,0.24,0.3724019034187094,rating_fallback_dynamic
+Colombia,Qatar,0.08738866284894806,0.24,0.6726113371510519,rating_fallback_dynamic
+Ghana,South Korea,0.5854823782268416,0.24,0.17451762177315847,rating_fallback_dynamic
+Curaçao,South Korea,0.6260821059081741,0.24,0.13391789409182586,rating_fallback_dynamic
+Panama,Scotland,0.3546720548627206,0.24,0.40532794513727943,rating_fallback_dynamic
+Bosnia and Herzegovina,Curaçao,0.3045330999209198,0.24,0.4554669000790802,rating_fallback_dynamic
+Czechia,Jordan,0.3544350347344485,0.24,0.4055649652655515,rating_fallback_dynamic
+Sweden,Panama,0.3901751184496088,0.24,0.3698248815503912,rating_fallback_dynamic
+Uruguay,Scotland,0.24218414446702818,0.24,0.5178158555329718,rating_fallback_dynamic
+Australia,Iraq,0.20491703889047988,0.24,0.5550829611095202,rating_fallback_dynamic
+Cape Verde,Spain,0.7011833481347242,0.24,0.058816651865275855,rating_fallback_dynamic
+New Zealand,Ivory Coast,0.4781210845229196,0.24,0.2818789154770804,rating_fallback_dynamic
+Paraguay,Iraq,0.2644107526415709,0.24,0.49558924735842913,rating_fallback_dynamic
+Saudi Arabia,Netherlands,0.6343119006165024,0.24,0.1256880993834976,rating_fallback_dynamic
+Belgium,South Korea,0.32410644605769356,0.24,0.43589355394230644,rating_fallback_dynamic
+New Zealand,Netherlands,0.6252424129874965,0.24,0.1347575870125036,rating_fallback_dynamic
+Haiti,Norway,0.5879522524295596,0.24,0.17204774757044036,rating_fallback_dynamic
+Haiti,England,0.6913692231208824,0.24,0.06863077687911763,rating_fallback_dynamic
+Haiti,Australia,0.6090844118407345,0.24000000000000002,0.1509155881592656,rating_fallback_dynamic
+Czechia,Panama,0.4153398067513846,0.24,0.3446601932486154,rating_fallback_dynamic
+Czechia,Iraq,0.3104037926261836,0.24,0.4495962073738164,rating_fallback_dynamic
+Curaçao,Belgium,0.6557133809000345,0.24,0.10428661909996546,rating_fallback_dynamic
+Panama,Uruguay,0.49527444860511993,0.24,0.2647255513948801,rating_fallback_dynamic
+Austria,Scotland,0.2759726811581103,0.24,0.4840273188418897,rating_fallback_dynamic
+Sweden,DR Congo,0.3106784784162762,0.24,0.4493215215837238,rating_fallback_dynamic
+New Zealand,Sweden,0.4632987675038443,0.24,0.2967012324961557,rating_fallback_dynamic
+Senegal,Saudi Arabia,0.2084691953600235,0.24,0.5515308046399765,rating_fallback_dynamic
+Scotland,Saudi Arabia,0.2959530267176693,0.24,0.4640469732823307,rating_fallback_dynamic
+Saudi Arabia,Japan,0.6055989963759073,0.24000000000000002,0.15440100362409276,rating_fallback_dynamic
+South Korea,New Zealand,0.22962556606824475,0.24,0.5303744339317552,rating_fallback_dynamic
+Australia,Senegal,0.3705247569845239,0.24,0.3894752430154761,rating_fallback_dynamic
+Switzerland,Cape Verde,0.1809039071473104,0.24,0.5790960928526896,rating_fallback_dynamic
+Uzbekistan,Saudi Arabia,0.29831275705369703,0.24,0.461687242946303,rating_fallback_dynamic
+Scotland,Qatar,0.21485323373960805,0.24,0.5451467662603919,rating_fallback_dynamic
+Ecuador,Ghana,0.12891193720868407,0.24,0.6310880627913159,rating_fallback_dynamic
+South Africa,Belgium,0.5999178885787737,0.24,0.16008211142122625,rating_fallback_dynamic
+England,Curaçao,0.05461023643117655,0.24,0.7053897635688234,rating_fallback_dynamic
+Turkey,Ivory Coast,0.30561689124587416,0.24,0.45438310875412585,rating_fallback_dynamic
+Turkey,Netherlands,0.49237730047782313,0.24,0.2676226995221768,rating_fallback_dynamic
+Panama,Cape Verde,0.25183870282014603,0.24,0.508161297179854,rating_fallback_dynamic
+New Zealand,Panama,0.47292843028768494,0.24,0.2870715697123151,rating_fallback_dynamic
+South Africa,Turkey,0.5719921279051361,0.24,0.18800787209486394,rating_fallback_dynamic
+Curaçao,Australia,0.63692236409891,0.24,0.12307763590108997,rating_fallback_dynamic
+Sweden,Saudi Arabia,0.2816421352982137,0.24,0.4783578647017863,rating_fallback_dynamic
+Australia,Brazil,0.520814014259335,0.24,0.23918598574066502,rating_fallback_dynamic
+Qatar,Colombia,0.6726113371510519,0.24000000000000002,0.08738866284894811,rating_fallback_dynamic
+Jordan,Senegal,0.5096580921126551,0.24,0.25034190788734484,rating_fallback_dynamic
+Belgium,Qatar,0.11750783703454823,0.24,0.6424921629654518,rating_fallback_dynamic
+Portugal,Cape Verde,0.11259197444193539,0.24,0.6474080255580646,rating_fallback_dynamic
+Iran,Scotland,0.3021730575113394,0.24,0.4578269424886606,rating_fallback_dynamic
+Qatar,Turkey,0.6202634074612503,0.24,0.13973659253874976,rating_fallback_dynamic
+Cape Verde,United States,0.5749022834302342,0.24,0.18509771656976584,rating_fallback_dynamic
+Portugal,Qatar,0.08204602710922636,0.24,0.6779539728907736,rating_fallback_dynamic
+Algeria,Curaçao,0.14771808584006307,0.24,0.6122819141599369,rating_fallback_dynamic
+New Zealand,Morocco,0.5904524782122947,0.24,0.1695475217877052,rating_fallback_dynamic
+Qatar,Egypt,0.562771499414292,0.24,0.19722850058570793,rating_fallback_dynamic
+Curaçao,Egypt,0.5824841193170404,0.24,0.17751588068295962,rating_fallback_dynamic
+Czechia,Iran,0.46742654885805623,0.24,0.2925734511419438,rating_fallback_dynamic
+South Africa,Bosnia and Herzegovina,0.3581870139528028,0.24,0.40181298604719723,rating_fallback_dynamic
+Netherlands,Haiti,0.09129980963021364,0.24,0.6687001903697863,rating_fallback_dynamic
+Haiti,Colombia,0.6638323823309038,0.24,0.0961676176690962,rating_fallback_dynamic
+Bosnia and Herzegovina,Ghana,0.3665727847964025,0.24,0.3934272152035975,rating_fallback_dynamic
+Qatar,England,0.6978696669554089,0.24,0.062130333044591146,rating_fallback_dynamic
+Saudi Arabia,Turkey,0.5569569930071809,0.24,0.20304300699281905,rating_fallback_dynamic
+Ivory Coast,Ghana,0.2194186553428436,0.24,0.5405813446571563,rating_fallback_dynamic
+Croatia,Scotland,0.23837886991402948,0.24,0.5216211300859706,rating_fallback_dynamic
+New Zealand,Japan,0.5949965824964909,0.24,0.16500341750350908,rating_fallback_dynamic
+Czechia,Ghana,0.2545500348348781,0.24,0.5054499651651219,rating_fallback_dynamic
+Algeria,South Korea,0.4028422437138614,0.24,0.3571577562861386,rating_fallback_dynamic
+Panama,South Korea,0.44360086753146605,0.24,0.316399132468534,rating_fallback_dynamic
+Saudi Arabia,Ivory Coast,0.49286165495867146,0.24,0.26713834504132855,rating_fallback_dynamic
+Ivory Coast,Turkey,0.45438310875412596,0.24,0.3056168912458741,rating_fallback_dynamic
+New Zealand,Senegal,0.5385731397683415,0.24,0.22142686023165845,rating_fallback_dynamic
+Turkey,Senegal,0.3731296259137173,0.24,0.3868703740862827,rating_fallback_dynamic
+Turkey,Algeria,0.3405788258807468,0.24,0.4194211741192532,rating_fallback_dynamic
+Australia,Curaçao,0.1230776359010899,0.24,0.6369223640989101,rating_fallback_dynamic
+Sweden,New Zealand,0.2967012324961557,0.24,0.4632987675038443,rating_fallback_dynamic
+DR Congo,Uruguay,0.5628377851284648,0.24,0.19716221487153518,rating_fallback_dynamic
+Canada,Curaçao,0.15058239151972172,0.24,0.6094176084802783,rating_fallback_dynamic
+Panama,Saudi Arabia,0.27221405623684425,0.24,0.48778594376315576,rating_fallback_dynamic
+Curaçao,Scotland,0.5660137392249971,0.24,0.19398626077500292,rating_fallback_dynamic
+South Africa,Uzbekistan,0.48023337757546586,0.24,0.27976662242453415,rating_fallback_dynamic
+Argentina,Curaçao,0.03352111657666956,0.24,0.7264788834233304,rating_fallback_dynamic
+Saudi Arabia,Brazil,0.65227994120336,0.24,0.10772005879664004,rating_fallback_dynamic
+Curaçao,DR Congo,0.5214096090971333,0.24,0.2385903909028668,rating_fallback_dynamic
+Curaçao,Jordan,0.537663344427922,0.24,0.2223366555720781,rating_fallback_dynamic
+Czechia,New Zealand,0.3210711646675094,0.24,0.4389288353324906,rating_fallback_dynamic
+New Zealand,Ecuador,0.5861038569724387,0.24,0.17389614302756126,rating_fallback_dynamic
+Sweden,South Africa,0.2635408078282572,0.24,0.49645919217174284,rating_fallback_dynamic
+Austria,Iraq,0.20659188850716878,0.24,0.5534081114928312,rating_fallback_dynamic
+Panama,Bosnia and Herzegovina,0.2353283833016942,0.24,0.5246716166983059,rating_fallback_dynamic
+New Zealand,Turkey,0.5442046367322032,0.24,0.21579536326779677,rating_fallback_dynamic
+Argentina,Iraq,0.0615669697927159,0.24,0.6984330302072841,rating_fallback_dynamic
+Haiti,Spain,0.7135585448927217,0.24,0.04644145510727825,rating_fallback_dynamic
+New Zealand,Algeria,0.5106397604200789,0.24000000000000002,0.2493602395799212,rating_fallback_dynamic
+Turkey,Iraq,0.2069763640988105,0.24,0.5530236359011895,rating_fallback_dynamic
+Croatia,Bosnia and Herzegovina,0.14424125319976577,0.24,0.6157587468002342,rating_fallback_dynamic
+Curaçao,Saudi Arabia,0.4943468666142457,0.24,0.2656531333857543,rating_fallback_dynamic
+Belgium,Curaçao,0.10428661909996549,0.24,0.6557133809000345,rating_fallback_dynamic
+Switzerland,Curaçao,0.12082589435485312,0.24,0.6391741056451469,rating_fallback_dynamic
+Qatar,Ivory Coast,0.5693100965235861,0.24,0.19068990347641387,rating_fallback_dynamic
+Cape Verde,Netherlands,0.6462767071600495,0.24,0.11372329283995058,rating_fallback_dynamic
+Australia,Ghana,0.16123730178695117,0.24,0.5987626982130488,rating_fallback_dynamic
+Iran,Bosnia and Herzegovina,0.19212155501034597,0.24,0.567878444989654,rating_fallback_dynamic
+Turkey,Ecuador,0.43472524433781456,0.24000000000000002,0.3252747556621855,rating_fallback_dynamic
+Australia,Jordan,0.2420404123669238,0.24,0.5179595876330763,rating_fallback_dynamic
+Egypt,Curaçao,0.17751588068295956,0.24,0.5824841193170405,rating_fallback_dynamic
+Panama,Curaçao,0.17533590108860042,0.24,0.5846640989113996,rating_fallback_dynamic
+Paraguay,Saudi Arabia,0.2598988687818046,0.24,0.5001011312181954,rating_fallback_dynamic
+Austria,Qatar,0.1394455258133425,0.24,0.6205544741866575,rating_fallback_dynamic
+New Zealand,Iraq,0.3690207986086488,0.24,0.3909792013913512,rating_fallback_dynamic
+Uruguay,Bosnia and Herzegovina,0.1469671919940686,0.24,0.6130328080059314,rating_fallback_dynamic
+South Africa,Ivory Coast,0.5105169777163333,0.24,0.24948302228366676,rating_fallback_dynamic
+Senegal,Curaçao,0.12830969793711908,0.24,0.6316903020628809,rating_fallback_dynamic
+Qatar,Haiti,0.4006639648373348,0.24000000000000002,0.35933603516266527,rating_fallback_dynamic
+Spain,South Korea,0.1457612624567642,0.24,0.6142387375432358,rating_fallback_dynamic
+Japan,Haiti,0.11356332186716958,0.24,0.6464366781328305,rating_fallback_dynamic
+Australia,Cape Verde,0.18395305056406205,0.24,0.5760469494359379,rating_fallback_dynamic
+Qatar,Portugal,0.6779539728907735,0.24,0.08204602710922643,rating_fallback_dynamic
+Curaçao,Paraguay,0.594087196422256,0.24,0.1659128035777439,rating_fallback_dynamic
+Ghana,Qatar,0.3436103530199753,0.24,0.41638964698002473,rating_fallback_dynamic
+DR Congo,Cape Verde,0.3272447678250615,0.24,0.4327552321749385,rating_fallback_dynamic
+Algeria,Iraq,0.23977389923027315,0.24,0.5202261007697269,rating_fallback_dynamic
+Algeria,Bosnia and Herzegovina,0.2015179638399996,0.24,0.5584820361600004,rating_fallback_dynamic
+Ghana,Saudi Arabia,0.4345685214582578,0.24,0.32543147854174226,rating_fallback_dynamic
+DR Congo,Scotland,0.434539048644731,0.24,0.32546095135526903,rating_fallback_dynamic
+Haiti,Switzerland,0.6117268929849963,0.24,0.14827310701500374,rating_fallback_dynamic
+Haiti,Ivory Coast,0.5533420903714173,0.24,0.20665790962858263,rating_fallback_dynamic
+Egypt,Qatar,0.197228500585708,0.24,0.562771499414292,rating_fallback_dynamic
+Spain,Qatar,0.0419152807805995,0.24,0.7180847192194005,rating_fallback_dynamic
+Paraguay,Curaçao,0.16591280357774382,0.24,0.5940871964222562,rating_fallback_dynamic
+Paraguay,Bosnia and Herzegovina,0.2239159073702574,0.24,0.5360840926297427,rating_fallback_dynamic
+Turkey,Cape Verde,0.18587224381897438,0.24,0.5741277561810256,rating_fallback_dynamic
+Scotland,South Africa,0.27746542998808127,0.24,0.48253457001191874,rating_fallback_dynamic
+Uruguay,Qatar,0.11828760644271878,0.24,0.6417123935572813,rating_fallback_dynamic
+Turkey,Jordan,0.24430861022219832,0.24,0.5156913897778017,rating_fallback_dynamic
+Canada,Haiti,0.18285540210611292,0.24,0.5771445978938871,rating_fallback_dynamic
+Haiti,Belgium,0.6312665796919359,0.24,0.12873342030806412,rating_fallback_dynamic
+Turkey,South Korea,0.36331703582384056,0.24,0.39668296417615945,rating_fallback_dynamic
+Curaçao,England,0.7053897635688234,0.24,0.05461023643117655,rating_fallback_dynamic
+Spain,Curaçao,0.036713243280593465,0.24,0.7232867567194066,rating_fallback_dynamic
+Qatar,Belgium,0.6424921629654518,0.24,0.11750783703454826,rating_fallback_dynamic
+Paraguay,Cape Verde,0.2399917865247302,0.24,0.5200082134752698,rating_fallback_dynamic
+Australia,South Korea,0.3607167979013354,0.24,0.39928320209866464,rating_fallback_dynamic
+Iraq,New Zealand,0.3909792013913512,0.24,0.3690207986086487,rating_fallback_dynamic
+New Zealand,Saudi Arabia,0.3640350712171302,0.24,0.3959649287828698,rating_fallback_dynamic
+New Zealand,Uruguay,0.5738240928450336,0.24,0.18617590715496646,rating_fallback_dynamic
+DR Congo,Qatar,0.26203416548352754,0.24,0.49796583451647247,rating_fallback_dynamic
+Jordan,South Korea,0.5009038144337897,0.24,0.2590961855662103,rating_fallback_dynamic
+Turkey,Scotland,0.2764217827947966,0.24,0.4835782172052034,rating_fallback_dynamic
+Paraguay,Scotland,0.341236089975153,0.24,0.41876391002484703,rating_fallback_dynamic
+Australia,Saudi Arabia,0.20100859243621907,0.24,0.558991407563781,rating_fallback_dynamic
+Haiti,Portugal,0.6696396288904114,0.24,0.09036037110958868,rating_fallback_dynamic
+Haiti,United States,0.6080911116622268,0.24,0.15190888833777322,rating_fallback_dynamic
+Uruguay,Curaçao,0.10499299108891005,0.24,0.65500700891109,rating_fallback_dynamic
+Haiti,DR Congo,0.4789726443361872,0.24,0.2810273556638128,rating_fallback_dynamic
+Cape Verde,South Korea,0.5615158588529036,0.24,0.1984841411470964,rating_fallback_dynamic
+Haiti,Argentina,0.7175468692102206,0.24,0.04245313078977948,rating_fallback_dynamic
+Czechia,Qatar,0.22312001173544624,0.24,0.5368799882645537,rating_fallback_dynamic
+Haiti,Sweden,0.5406606337003627,0.24,0.2193393662996374,rating_fallback_dynamic
+Czechia,Curaçao,0.20174728395198793,0.24,0.5582527160480121,rating_fallback_dynamic
+Mexico,Qatar,0.09920645583516,0.24,0.66079354416484,rating_fallback_dynamic
+Haiti,Austria,0.6077298560434893,0.24,0.15227014395651078,rating_fallback_dynamic
+Spain,Scotland,0.09803934819665149,0.24,0.6619606518033485,rating_fallback_dynamic
+Argentina,Bosnia and Herzegovina,0.049062452200339564,0.24,0.7109375477996605,rating_fallback_dynamic
+Ghana,Cape Verde,0.41231289262873116,0.24,0.3476871073712688,rating_fallback_dynamic
+Egypt,Bosnia and Herzegovina,0.2379506890533555,0.24,0.5220493109466445,rating_fallback_dynamic
+Austria,Bosnia and Herzegovina,0.17188096125175129,0.24,0.5881190387482487,rating_fallback_dynamic
+Bosnia and Herzegovina,Uzbekistan,0.5002259977566558,0.24,0.25977400224334424,rating_fallback_dynamic
+Turkey,Ghana,0.16298655549921343,0.24,0.5970134445007866,rating_fallback_dynamic
+Iran,Curaçao,0.1402005131317663,0.24,0.6197994868682337,rating_fallback_dynamic
+South Africa,Haiti,0.32921864224717395,0.24,0.43078135775282606,rating_fallback_dynamic
+Haiti,Senegal,0.6029607294462678,0.24,0.15703927055373226,rating_fallback_dynamic
+Bosnia and Herzegovina,Jordan,0.4695775094538354,0.24,0.2904224905461646,rating_fallback_dynamic
+Ghana,Bosnia and Herzegovina,0.3934272152035975,0.24,0.3665727847964025,rating_fallback_dynamic
+New Zealand,Scotland,0.4487206150830815,0.24,0.3112793849169186,rating_fallback_dynamic
+South Africa,Saudi Arabia,0.39966095261464424,0.24,0.36033904738535577,rating_fallback_dynamic
+Qatar,Panama,0.5651125641668391,0.24000000000000002,0.19488743583316098,rating_fallback_dynamic
+Croatia,Qatar,0.11599296427519545,0.24,0.6440070357248046,rating_fallback_dynamic
+Panama,Qatar,0.194887435833161,0.24,0.565112564166839,rating_fallback_dynamic
+Jordan,Bosnia and Herzegovina,0.2904224905461646,0.24,0.4695775094538354,rating_fallback_dynamic
+DR Congo,Saudi Arabia,0.34952466454856346,0.24,0.41047533545143655,rating_fallback_dynamic
+South Africa,New Zealand,0.41554860854314074,0.24,0.34445139145685927,rating_fallback_dynamic
+Ecuador,Turkey,0.32527475566218544,0.24,0.43472524433781456,rating_fallback_dynamic

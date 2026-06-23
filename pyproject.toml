@@ -1,0 +1,20 @@
+[project]
+name = "worldcup-predictor-data"
+version = "0.1.0"
+description = "Data collection and feature pipeline for FIFA World Cup 2026 match prediction datasets."
+requires-python = ">=3.10"
+dependencies = [
+  "pandas",
+  "numpy",
+  "requests",
+  "python-dotenv",
+  "pyyaml",
+  "pyarrow",
+  "scikit-learn",
+  "joblib",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
