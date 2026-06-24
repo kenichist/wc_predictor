@@ -23,6 +23,12 @@ from src.data_sources.config import (
 from src.data_sources.coverage import check_2010_odds_coverage, run_api_coverage_check, validate_staged_api_data
 from src.data_sources.injury_transform import write_injury_staging
 from src.data_sources.merge_market_odds import merge_staged_market_odds
+from src.data_sources.market_odds_workflow import (
+    discover_odds_competitions,
+    generate_missing_odds_template,
+    refresh_market_odds,
+    validate_manual_market_odds,
+)
 from src.data_sources.odds_transform import write_market_staging
 from src.data_sources.sportmonks_client import SportmonksClient
 from src.data_sources.the_odds_api_client import TheOddsApiClient
@@ -258,6 +264,18 @@ def build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser("fetch-the-odds-api-odds", help="Fetch The Odds API World Cup market odds into staging when available")
     subparsers.add_parser("fetch-sportmonks-football-data", help="Fetch Sportmonks World Cup odds and injuries into staging when available")
     subparsers.add_parser("validate-staged-api-data", help="Validate staged API odds and injury files")
+    subparsers.add_parser("discover-odds-competitions", help="Discover provider competition keys/league IDs for World Cup odds")
+    refresh_market = subparsers.add_parser("refresh-market-odds", help="Fetch, validate, merge, and report market odds from configured providers")
+    refresh_market.add_argument("--provider", default="all", choices=["all", "the_odds_api", "api_football", "sportmonks"])
+    refresh_market.add_argument("--season", type=int, default=2026)
+    refresh_market.add_argument("--prefer-api", action="store_true")
+    refresh_market.add_argument("--dry-run", action="store_true")
+    refresh_market.add_argument("--skip-merge", action="store_true")
+    refresh_market.add_argument("--rerun-reports", action=argparse.BooleanOptionalAction, default=True)
+    refresh_market.add_argument("--rerun-live-predictions", action=argparse.BooleanOptionalAction, default=True)
+    subparsers.add_parser("generate-missing-odds-template", help="Create a manual odds template for active fixtures missing market odds")
+    validate_manual = subparsers.add_parser("validate-manual-market-odds", help="Validate a manually filled odds template")
+    validate_manual.add_argument("--input", required=True)
     merge_api_odds = subparsers.add_parser("merge-staged-market-odds", help="Validate and merge staged market odds into production odds file")
     merge_api_odds.add_argument("--input", required=True, help="Staged market odds CSV to merge")
     merge_api_odds.add_argument("--prefer-api", action="store_true", help="Replace existing curated duplicate rows with staged API rows")
@@ -467,6 +485,30 @@ def main(argv: list[str] | None = None) -> int:
         market_report, injury_report = validate_staged_api_data(config=config)
         logger.info("Wrote staged market validation report to %s", market_report)
         logger.info("Wrote staged injury validation report to %s", injury_report)
+    elif args.command == "discover-odds-competitions":
+        report = discover_odds_competitions()
+        print(f"ODDS_PROVIDER_DISCOVERY_REPORT={report}")
+    elif args.command == "refresh-market-odds":
+        summary = refresh_market_odds(
+            provider=args.provider,
+            season=args.season,
+            prefer_api=args.prefer_api,
+            dry_run=args.dry_run,
+            skip_merge=args.skip_merge,
+            rerun_reports=args.rerun_reports,
+            rerun_live_predictions=args.rerun_live_predictions,
+        )
+        for key, value in summary.items():
+            print(f"{key}={value}")
+    elif args.command == "generate-missing-odds-template":
+        path, summary = generate_missing_odds_template()
+        for key, value in summary.items():
+            print(f"{key.upper()}={value}")
+        print(f"MISSING_ODDS_TEMPLATE={path}")
+    elif args.command == "validate-manual-market-odds":
+        summary = validate_manual_market_odds(args.input)
+        for key, value in summary.items():
+            print(f"{key}={value}")
     elif args.command == "merge-staged-market-odds":
         summary = merge_staged_market_odds(args.input, prefer_api=args.prefer_api)
         for key, value in summary.items():

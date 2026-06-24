@@ -534,7 +534,7 @@ def _odds_from_frame(frame: pd.DataFrame, match_row: pd.Series) -> tuple[float, 
     output["_away_norm"] = output["away_team"].map(normalize_team_name)
     output["_date_key"] = output["date"].map(_date_key) if "date" in output.columns else pd.NA
     if "updated_at" in output.columns:
-        output["_updated"] = pd.to_datetime(output["updated_at"], errors="coerce", format="mixed")
+        output["_updated"] = pd.to_datetime(output["updated_at"], errors="coerce", format="mixed", utc=True)
     else:
         output["_updated"] = pd.NaT
     direct = output[output["_home_norm"].eq(home) & output["_away_norm"].eq(away)]
@@ -608,7 +608,7 @@ def _float_or_zero(value: Any) -> float:
 
 
 def _date_key(value: Any) -> str | None:
-    timestamp = pd.to_datetime(value, errors="coerce", format="mixed")
+    timestamp = pd.to_datetime(value, errors="coerce", format="mixed", utc=True)
     if pd.isna(timestamp):
         return None
     return timestamp.strftime("%Y-%m-%d")

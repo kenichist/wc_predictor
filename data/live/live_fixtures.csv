@@ -1,73 +1,73 @@
 fixture_id,date,kickoff_time,status,minute,home_team,away_team,venue,stage,group,source,updated_at
-1489403,2026-06-23,2026-06-23T23:00:00+00:00,Second Half,53.0,Panama,Croatia,BMO Field,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489369,2026-06-11,2026-06-11T19:00:00+00:00,Match Finished,90.0,Mexico,South Africa,Estadio Azteca,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1538999,2026-06-12,2026-06-12T02:00:00+00:00,Match Finished,90.0,South Korea,Czechia,Estadio Akron,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1539000,2026-06-12,2026-06-12T19:00:00+00:00,Match Finished,90.0,Canada,Bosnia and Herzegovina,BMO Field,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489370,2026-06-13,2026-06-13T01:00:00+00:00,Match Finished,90.0,United States,Paraguay,SoFi Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489373,2026-06-13,2026-06-13T19:00:00+00:00,Match Finished,90.0,Qatar,Switzerland,Levi's Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489371,2026-06-13,2026-06-13T22:00:00+00:00,Match Finished,90.0,Brazil,Morocco,MetLife Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489372,2026-06-14,2026-06-14T01:00:00+00:00,Match Finished,90.0,Haiti,Scotland,Gillette Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1539001,2026-06-14,2026-06-14T04:00:00+00:00,Match Finished,90.0,Australia,Turkey,BC Place,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489374,2026-06-14,2026-06-14T17:00:00+00:00,Match Finished,90.0,Germany,Curacao,NRG Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489376,2026-06-14,2026-06-14T20:00:00+00:00,Match Finished,90.0,Netherlands,Japan,AT&T Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489375,2026-06-14,2026-06-14T23:00:00+00:00,Match Finished,90.0,Ivory Coast,Ecuador,Lincoln Financial Field,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1539002,2026-06-15,2026-06-15T02:00:00+00:00,Match Finished,90.0,Sweden,Tunisia,Estadio BBVA,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489380,2026-06-15,2026-06-15T16:00:00+00:00,Match Finished,90.0,Spain,Cape Verde,Mercedes-Benz Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489377,2026-06-15,2026-06-15T19:00:00+00:00,Match Finished,90.0,Belgium,Egypt,Lumen Field,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489379,2026-06-15,2026-06-15T22:00:00+00:00,Match Finished,90.0,Saudi Arabia,Uruguay,Hard Rock Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489378,2026-06-16,2026-06-16T01:00:00+00:00,Match Finished,90.0,Iran,New Zealand,SoFi Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489383,2026-06-16,2026-06-16T19:00:00+00:00,Match Finished,90.0,France,Senegal,MetLife Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1539016,2026-06-16,2026-06-16T22:00:00+00:00,Match Finished,90.0,Iraq,Norway,Gillette Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489381,2026-06-17,2026-06-17T01:00:00+00:00,Match Finished,90.0,Argentina,Algeria,Arrowhead Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489382,2026-06-17,2026-06-17T04:00:00+00:00,Match Finished,90.0,Austria,Jordan,Levi's Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1539003,2026-06-17,2026-06-17T17:00:00+00:00,Match Finished,90.0,Portugal,DR Congo,NRG Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489384,2026-06-17,2026-06-17T20:00:00+00:00,Match Finished,90.0,England,Croatia,AT&T Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489385,2026-06-17,2026-06-17T23:00:00+00:00,Match Finished,90.0,Ghana,Panama,BMO Field,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489386,2026-06-18,2026-06-18T02:00:00+00:00,Match Finished,90.0,Uzbekistan,Colombia,Estadio Azteca,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1539004,2026-06-18,2026-06-18T16:00:00+00:00,Match Finished,90.0,Czechia,South Africa,Mercedes-Benz Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1539005,2026-06-18,2026-06-18T19:00:00+00:00,Match Finished,90.0,Switzerland,Bosnia and Herzegovina,SoFi Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489387,2026-06-18,2026-06-18T22:00:00+00:00,Match Finished,90.0,Canada,Qatar,BC Place,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489388,2026-06-19,2026-06-19T01:00:00+00:00,Match Finished,90.0,Mexico,South Korea,Estadio Akron,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489391,2026-06-19,2026-06-19T19:00:00+00:00,Match Finished,90.0,United States,Australia,Lumen Field,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489390,2026-06-19,2026-06-19T22:00:00+00:00,Match Finished,90.0,Scotland,Morocco,Gillette Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489389,2026-06-20,2026-06-20T00:30:00+00:00,Match Finished,90.0,Brazil,Haiti,Lincoln Financial Field,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1539006,2026-06-20,2026-06-20T03:00:00+00:00,Match Finished,90.0,Turkey,Paraguay,Levi's Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1539007,2026-06-20,2026-06-20T17:00:00+00:00,Match Finished,90.0,Netherlands,Sweden,NRG Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489393,2026-06-20,2026-06-20T20:00:00+00:00,Match Finished,90.0,Germany,Ivory Coast,BMO Field,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489392,2026-06-21,2026-06-21T00:00:00+00:00,Match Finished,90.0,Ecuador,Curacao,Arrowhead Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489394,2026-06-21,2026-06-21T04:00:00+00:00,Match Finished,90.0,Tunisia,Japan,Estadio BBVA,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489397,2026-06-21,2026-06-21T16:00:00+00:00,Match Finished,90.0,Spain,Saudi Arabia,Mercedes-Benz Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489395,2026-06-21,2026-06-21T19:00:00+00:00,Match Finished,90.0,Belgium,Iran,SoFi Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489398,2026-06-21,2026-06-21T22:00:00+00:00,Match Finished,90.0,Uruguay,Cape Verde,Hard Rock Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489396,2026-06-22,2026-06-22T01:00:00+00:00,Match Finished,90.0,New Zealand,Egypt,BC Place,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489399,2026-06-22,2026-06-22T17:00:00+00:00,Match Finished,90.0,Argentina,Austria,AT&T Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1539017,2026-06-22,2026-06-22T21:00:00+00:00,Match Finished,90.0,France,Iraq,Lincoln Financial Field,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489401,2026-06-23,2026-06-23T00:00:00+00:00,Match Finished,90.0,Norway,Senegal,MetLife Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489400,2026-06-23,2026-06-23T03:00:00+00:00,Match Finished,90.0,Jordan,Algeria,Levi's Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489404,2026-06-23,2026-06-23T17:00:00+00:00,Match Finished,90.0,Portugal,Uzbekistan,NRG Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489402,2026-06-23,2026-06-23T20:00:00+00:00,Match Finished,90.0,England,Ghana,Gillette Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1539008,2026-06-24,2026-06-24T02:00:00+00:00,Not Started,,Colombia,DR Congo,Estadio Akron,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489408,2026-06-24,2026-06-24T19:00:00+00:00,Not Started,,Switzerland,Canada,BC Place,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1539009,2026-06-24,2026-06-24T19:00:00+00:00,Not Started,,Bosnia and Herzegovina,Qatar,Lumen Field,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489405,2026-06-24,2026-06-24T22:00:00+00:00,Not Started,,Morocco,Haiti,Mercedes-Benz Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489406,2026-06-24,2026-06-24T22:00:00+00:00,Not Started,,Scotland,Brazil,Hard Rock Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1539010,2026-06-25,2026-06-25T01:00:00+00:00,Not Started,,Czechia,Mexico,Estadio Azteca,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489407,2026-06-25,2026-06-25T01:00:00+00:00,Not Started,,South Africa,South Korea,Estadio BBVA,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489410,2026-06-25,2026-06-25T20:00:00+00:00,Not Started,,Ecuador,Germany,MetLife Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489409,2026-06-25,2026-06-25T20:00:00+00:00,Not Started,,Curacao,Ivory Coast,Lincoln Financial Field,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1539011,2026-06-25,2026-06-25T23:00:00+00:00,Not Started,,Japan,Sweden,AT&T Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489412,2026-06-25,2026-06-25T23:00:00+00:00,Not Started,,Tunisia,Netherlands,Arrowhead Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1539012,2026-06-26,2026-06-26T02:00:00+00:00,Not Started,,Turkey,United States,SoFi Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489411,2026-06-26,2026-06-26T02:00:00+00:00,Not Started,,Paraguay,Australia,Levi's Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1539074,2026-06-26,2026-06-26T19:00:00+00:00,Not Started,,Senegal,Iraq,BMO Field,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489416,2026-06-26,2026-06-26T19:00:00+00:00,Not Started,,Norway,France,Gillette Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489417,2026-06-27,2026-06-27T00:00:00+00:00,Not Started,,Uruguay,Spain,Estadio Akron,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489413,2026-06-27,2026-06-27T00:00:00+00:00,Not Started,,Cape Verde,Saudi Arabia,NRG Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489414,2026-06-27,2026-06-27T03:00:00+00:00,Not Started,,Egypt,Iran,Lumen Field,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489415,2026-06-27,2026-06-27T03:00:00+00:00,Not Started,,New Zealand,Belgium,BC Place,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489420,2026-06-27,2026-06-27T21:00:00+00:00,Not Started,,Croatia,Ghana,Lincoln Financial Field,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489422,2026-06-27,2026-06-27T21:00:00+00:00,Not Started,,Panama,England,MetLife Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489419,2026-06-27,2026-06-27T23:30:00+00:00,Not Started,,Colombia,Portugal,Hard Rock Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1539013,2026-06-27,2026-06-27T23:30:00+00:00,Not Started,,DR Congo,Uzbekistan,Mercedes-Benz Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489418,2026-06-28,2026-06-28T02:00:00+00:00,Not Started,,Algeria,Austria,Arrowhead Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
-1489421,2026-06-28,2026-06-28T02:00:00+00:00,Not Started,,Jordan,Argentina,AT&T Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:11:48+00:00
+1489403,2026-06-23,2026-06-23T23:00:00+00:00,Second Half,79.0,Panama,Croatia,BMO Field,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489369,2026-06-11,2026-06-11T19:00:00+00:00,Match Finished,90.0,Mexico,South Africa,Estadio Azteca,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1538999,2026-06-12,2026-06-12T02:00:00+00:00,Match Finished,90.0,South Korea,Czechia,Estadio Akron,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1539000,2026-06-12,2026-06-12T19:00:00+00:00,Match Finished,90.0,Canada,Bosnia and Herzegovina,BMO Field,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489370,2026-06-13,2026-06-13T01:00:00+00:00,Match Finished,90.0,United States,Paraguay,SoFi Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489373,2026-06-13,2026-06-13T19:00:00+00:00,Match Finished,90.0,Qatar,Switzerland,Levi's Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489371,2026-06-13,2026-06-13T22:00:00+00:00,Match Finished,90.0,Brazil,Morocco,MetLife Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489372,2026-06-14,2026-06-14T01:00:00+00:00,Match Finished,90.0,Haiti,Scotland,Gillette Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1539001,2026-06-14,2026-06-14T04:00:00+00:00,Match Finished,90.0,Australia,Turkey,BC Place,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489374,2026-06-14,2026-06-14T17:00:00+00:00,Match Finished,90.0,Germany,Curacao,NRG Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489376,2026-06-14,2026-06-14T20:00:00+00:00,Match Finished,90.0,Netherlands,Japan,AT&T Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489375,2026-06-14,2026-06-14T23:00:00+00:00,Match Finished,90.0,Ivory Coast,Ecuador,Lincoln Financial Field,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1539002,2026-06-15,2026-06-15T02:00:00+00:00,Match Finished,90.0,Sweden,Tunisia,Estadio BBVA,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489380,2026-06-15,2026-06-15T16:00:00+00:00,Match Finished,90.0,Spain,Cape Verde,Mercedes-Benz Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489377,2026-06-15,2026-06-15T19:00:00+00:00,Match Finished,90.0,Belgium,Egypt,Lumen Field,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489379,2026-06-15,2026-06-15T22:00:00+00:00,Match Finished,90.0,Saudi Arabia,Uruguay,Hard Rock Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489378,2026-06-16,2026-06-16T01:00:00+00:00,Match Finished,90.0,Iran,New Zealand,SoFi Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489383,2026-06-16,2026-06-16T19:00:00+00:00,Match Finished,90.0,France,Senegal,MetLife Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1539016,2026-06-16,2026-06-16T22:00:00+00:00,Match Finished,90.0,Iraq,Norway,Gillette Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489381,2026-06-17,2026-06-17T01:00:00+00:00,Match Finished,90.0,Argentina,Algeria,Arrowhead Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489382,2026-06-17,2026-06-17T04:00:00+00:00,Match Finished,90.0,Austria,Jordan,Levi's Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1539003,2026-06-17,2026-06-17T17:00:00+00:00,Match Finished,90.0,Portugal,DR Congo,NRG Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489384,2026-06-17,2026-06-17T20:00:00+00:00,Match Finished,90.0,England,Croatia,AT&T Stadium,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489385,2026-06-17,2026-06-17T23:00:00+00:00,Match Finished,90.0,Ghana,Panama,BMO Field,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489386,2026-06-18,2026-06-18T02:00:00+00:00,Match Finished,90.0,Uzbekistan,Colombia,Estadio Azteca,Group Stage - 1,Group Stage - 1,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1539004,2026-06-18,2026-06-18T16:00:00+00:00,Match Finished,90.0,Czechia,South Africa,Mercedes-Benz Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1539005,2026-06-18,2026-06-18T19:00:00+00:00,Match Finished,90.0,Switzerland,Bosnia and Herzegovina,SoFi Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489387,2026-06-18,2026-06-18T22:00:00+00:00,Match Finished,90.0,Canada,Qatar,BC Place,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489388,2026-06-19,2026-06-19T01:00:00+00:00,Match Finished,90.0,Mexico,South Korea,Estadio Akron,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489391,2026-06-19,2026-06-19T19:00:00+00:00,Match Finished,90.0,United States,Australia,Lumen Field,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489390,2026-06-19,2026-06-19T22:00:00+00:00,Match Finished,90.0,Scotland,Morocco,Gillette Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489389,2026-06-20,2026-06-20T00:30:00+00:00,Match Finished,90.0,Brazil,Haiti,Lincoln Financial Field,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1539006,2026-06-20,2026-06-20T03:00:00+00:00,Match Finished,90.0,Turkey,Paraguay,Levi's Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1539007,2026-06-20,2026-06-20T17:00:00+00:00,Match Finished,90.0,Netherlands,Sweden,NRG Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489393,2026-06-20,2026-06-20T20:00:00+00:00,Match Finished,90.0,Germany,Ivory Coast,BMO Field,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489392,2026-06-21,2026-06-21T00:00:00+00:00,Match Finished,90.0,Ecuador,Curacao,Arrowhead Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489394,2026-06-21,2026-06-21T04:00:00+00:00,Match Finished,90.0,Tunisia,Japan,Estadio BBVA,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489397,2026-06-21,2026-06-21T16:00:00+00:00,Match Finished,90.0,Spain,Saudi Arabia,Mercedes-Benz Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489395,2026-06-21,2026-06-21T19:00:00+00:00,Match Finished,90.0,Belgium,Iran,SoFi Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489398,2026-06-21,2026-06-21T22:00:00+00:00,Match Finished,90.0,Uruguay,Cape Verde,Hard Rock Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489396,2026-06-22,2026-06-22T01:00:00+00:00,Match Finished,90.0,New Zealand,Egypt,BC Place,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489399,2026-06-22,2026-06-22T17:00:00+00:00,Match Finished,90.0,Argentina,Austria,AT&T Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1539017,2026-06-22,2026-06-22T21:00:00+00:00,Match Finished,90.0,France,Iraq,Lincoln Financial Field,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489401,2026-06-23,2026-06-23T00:00:00+00:00,Match Finished,90.0,Norway,Senegal,MetLife Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489400,2026-06-23,2026-06-23T03:00:00+00:00,Match Finished,90.0,Jordan,Algeria,Levi's Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489404,2026-06-23,2026-06-23T17:00:00+00:00,Match Finished,90.0,Portugal,Uzbekistan,NRG Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489402,2026-06-23,2026-06-23T20:00:00+00:00,Match Finished,90.0,England,Ghana,Gillette Stadium,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1539008,2026-06-24,2026-06-24T02:00:00+00:00,Not Started,,Colombia,DR Congo,Estadio Akron,Group Stage - 2,Group Stage - 2,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489408,2026-06-24,2026-06-24T19:00:00+00:00,Not Started,,Switzerland,Canada,BC Place,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1539009,2026-06-24,2026-06-24T19:00:00+00:00,Not Started,,Bosnia and Herzegovina,Qatar,Lumen Field,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489405,2026-06-24,2026-06-24T22:00:00+00:00,Not Started,,Morocco,Haiti,Mercedes-Benz Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489406,2026-06-24,2026-06-24T22:00:00+00:00,Not Started,,Scotland,Brazil,Hard Rock Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1539010,2026-06-25,2026-06-25T01:00:00+00:00,Not Started,,Czechia,Mexico,Estadio Azteca,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489407,2026-06-25,2026-06-25T01:00:00+00:00,Not Started,,South Africa,South Korea,Estadio BBVA,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489410,2026-06-25,2026-06-25T20:00:00+00:00,Not Started,,Ecuador,Germany,MetLife Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489409,2026-06-25,2026-06-25T20:00:00+00:00,Not Started,,Curacao,Ivory Coast,Lincoln Financial Field,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1539011,2026-06-25,2026-06-25T23:00:00+00:00,Not Started,,Japan,Sweden,AT&T Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489412,2026-06-25,2026-06-25T23:00:00+00:00,Not Started,,Tunisia,Netherlands,Arrowhead Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1539012,2026-06-26,2026-06-26T02:00:00+00:00,Not Started,,Turkey,United States,SoFi Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489411,2026-06-26,2026-06-26T02:00:00+00:00,Not Started,,Paraguay,Australia,Levi's Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1539074,2026-06-26,2026-06-26T19:00:00+00:00,Not Started,,Senegal,Iraq,BMO Field,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489416,2026-06-26,2026-06-26T19:00:00+00:00,Not Started,,Norway,France,Gillette Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489417,2026-06-27,2026-06-27T00:00:00+00:00,Not Started,,Uruguay,Spain,Estadio Akron,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489413,2026-06-27,2026-06-27T00:00:00+00:00,Not Started,,Cape Verde,Saudi Arabia,NRG Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489414,2026-06-27,2026-06-27T03:00:00+00:00,Not Started,,Egypt,Iran,Lumen Field,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489415,2026-06-27,2026-06-27T03:00:00+00:00,Not Started,,New Zealand,Belgium,BC Place,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489420,2026-06-27,2026-06-27T21:00:00+00:00,Not Started,,Croatia,Ghana,Lincoln Financial Field,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489422,2026-06-27,2026-06-27T21:00:00+00:00,Not Started,,Panama,England,MetLife Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489419,2026-06-27,2026-06-27T23:30:00+00:00,Not Started,,Colombia,Portugal,Hard Rock Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1539013,2026-06-27,2026-06-27T23:30:00+00:00,Not Started,,DR Congo,Uzbekistan,Mercedes-Benz Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489418,2026-06-28,2026-06-28T02:00:00+00:00,Not Started,,Algeria,Austria,Arrowhead Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00
+1489421,2026-06-28,2026-06-28T02:00:00+00:00,Not Started,,Jordan,Argentina,AT&T Stadium,Group Stage - 3,Group Stage - 3,api_football:/fixtures,2026-06-24T00:37:30+00:00

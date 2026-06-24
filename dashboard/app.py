@@ -58,6 +58,11 @@ REPORT_FILES = {
     "worldcup_backtest_report": REPORTS_DIR / "worldcup_backtest_report.md",
     "worldcup_tournament_simulation_backtest_report": REPORTS_DIR / "worldcup_tournament_simulation_backtest_report.md",
     "odds_conversion_benchmark_report": REPORTS_DIR / "odds_conversion_benchmark_report.md",
+    "odds_provider_competition_discovery": REPORTS_DIR / "odds_provider_competition_discovery.md",
+    "refresh_market_odds_report": REPORTS_DIR / "refresh_market_odds_report.md",
+    "missing_market_odds_template_report": REPORTS_DIR / "missing_market_odds_template_report.md",
+    "manual_market_odds_validation_errors": REPORTS_DIR / "manual_market_odds_validation_errors.md",
+    "market_odds_api_merge_report": REPORTS_DIR / "market_odds_api_merge_report.md",
     "live_api_status_report": LIVE_REPORTS_DIR / "live_api_status_report.md",
     "live_prediction_report": LIVE_REPORTS_DIR / "live_prediction_report.md",
     "live_risk_report": LIVE_REPORTS_DIR / "live_risk_report.md",
@@ -81,6 +86,7 @@ CSV_FILES = {
     "live_predictions": LIVE_DIR / "live_predictions.csv",
     "live_prediction_factors": LIVE_DIR / "live_prediction_factors.csv",
     "live_risk_analysis": LIVE_DIR / "live_risk_analysis.csv",
+    "missing_market_odds_template": STAGING_DIR / "missing_market_odds_template_2026.csv",
 }
 
 OPTIONAL_FILES = {
@@ -124,7 +130,7 @@ def render_sidebar(values: dict[str, object]) -> str:
     st.sidebar.write(f"Safe production feature set: `{SAFE_FEATURE_SET}`")
     st.sidebar.write(f"Market blend status: `{MARKET_BLEND_STATUS}`")
     st.sidebar.write(f"SOTA status: `{SOTA_STATUS}`")
-    st.sidebar.write("2026 market production rule: production-ready only if odds coverage >= 90%")
+    st.sidebar.write("2026 market production rule: production-ready only if **active fixture** odds coverage >= 90%")
     st.sidebar.write(f"Last refresh: `{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}`")
     if st.sidebar.button("Refresh data"):
         st.cache_data.clear()
@@ -134,9 +140,20 @@ def render_sidebar(values: dict[str, object]) -> str:
             summary = refresh_live_data()
         st.sidebar.success(f"Live refresh complete. Rows: {summary.get('LIVE_PREDICTION_ROWS', 0)}")
         st.cache_data.clear()
-    coverage = values.get("coverage_2026")
-    if isinstance(coverage, float):
-        st.sidebar.metric("2026 odds coverage", f"{coverage:.1%}")
+
+    active_coverage = values.get("active_fixture_coverage_2026")
+    full_coverage = values.get("full_prediction_file_coverage_2026")
+    missing_active = values.get("missing_active_fixtures")
+
+    if isinstance(active_coverage, float):
+        st.sidebar.metric("Active fixture odds coverage", f"{active_coverage:.1%}")
+        if isinstance(missing_active, int):
+            st.sidebar.caption(f"Missing active fixtures: {missing_active}")
+    elif isinstance(full_coverage, float):
+        st.sidebar.metric("Active fixture odds coverage", "unknown")
+
+    if isinstance(full_coverage, float):
+        st.sidebar.caption(f"Full 2026 prediction-file coverage: {full_coverage:.1%}")
     return mode
 
 
@@ -152,14 +169,25 @@ def developer_mode_allowed() -> bool:
 def parsed_overview_values(reports: dict[str, str]) -> dict[str, object]:
     recommendation = reports.get("final_model_recommendation", "")
     market_debug = reports.get("market_odds_join_debug", "")
+    refresh_report = reports.get("refresh_market_odds_report", "")
     blend = reports.get("market_blend_report", "")
     significance = reports.get("benchmark_significance_report", "")
-    coverage = _extract_coverage(market_debug) or extract_regex_float(
+
+    active_coverage = _extract_active_fixture_coverage(refresh_report)
+    missing_active = _extract_missing_active_fixtures(refresh_report)
+    full_coverage = _extract_coverage(market_debug) or extract_regex_float(
         recommendation,
         [r"World Cup 2026 market feature coverage\s*[:|]\s*([0-9.]+)"],
     )
+    # Backward-compatible value for older parts of the dashboard. Prefer the live/active
+    # fixture metric because this is what drives the current-match risk calculator.
+    coverage = active_coverage if active_coverage is not None else full_coverage
+
     return {
         "coverage_2026": coverage,
+        "active_fixture_coverage_2026": active_coverage,
+        "full_prediction_file_coverage_2026": full_coverage,
+        "missing_active_fixtures": missing_active,
         "best_odds_conversion": extract_regex_value(
             blend + "\n" + recommendation,
             [r"Best odds conversion method\s*[:|]\s*`?([A-Za-z_\-]+)`?", r"Best odds conversion\s*[:|]\s*`?([A-Za-z_\-]+)`?"],
@@ -383,9 +411,12 @@ def render_dev_overview(reports: dict[str, str], frames: dict[str, pd.DataFrame]
     cols[1].metric("Live odds", len(frames["live_odds"]))
     cols[2].metric("Live injuries", len(frames["live_injuries"]))
     cols[3].metric("Live lineups", len(frames["live_lineups"]))
-    coverage = values.get("coverage_2026")
+    active_coverage = values.get("active_fixture_coverage_2026")
+    full_coverage = values.get("full_prediction_file_coverage_2026")
     st.write(f"Market blend status: `{MARKET_BLEND_STATUS}`")
-    st.write(f"2026 odds coverage: `{coverage if coverage is not None else 'unknown'}`")
+    st.write(f"Active fixture odds coverage: `{active_coverage if active_coverage is not None else 'unknown'}`")
+    st.write(f"Full 2026 prediction-file market coverage: `{full_coverage if full_coverage is not None else 'unknown'}`")
+    st.write(f"Missing active fixtures: `{values.get('missing_active_fixtures', 'unknown')}`")
     st.write(f"Statistical significance: `{values.get('statistically_meaningful', 'unknown')}`")
     st.subheader("File Timestamps")
     st.dataframe(file_presence({**REPORT_FILES, **CSV_FILES}), use_container_width=True)
@@ -472,7 +503,8 @@ def render_raw_files(frames: dict[str, pd.DataFrame], reports: dict[str, str]) -
 
 
 def render_overview(reports: dict[str, str], frames: dict[str, pd.DataFrame], values: dict[str, object]) -> None:
-    coverage = values.get("coverage_2026")
+    coverage = values.get("active_fixture_coverage_2026") or values.get("coverage_2026")
+    full_coverage = values.get("full_prediction_file_coverage_2026")
     production_ready = isinstance(coverage, float) and coverage >= MARKET_PRODUCTION_THRESHOLD
     prediction_rows = len(frames["actual_team_match_predictions"])
     simulation_teams = len(frames["worldcup_2026_simulation_results"])
@@ -483,8 +515,8 @@ def render_overview(reports: dict[str, str], frames: dict[str, pd.DataFrame], va
     cols[3].metric("Simulation teams", simulation_teams)
     cols[4].metric("Market blend", MARKET_BLEND_STATUS)
     cols = st.columns(5)
-    cols[0].metric("2026 odds coverage", f"{coverage:.1%}" if isinstance(coverage, float) else "unknown")
-    cols[1].metric("Odds conversion", str(values.get("best_odds_conversion", "unknown")))
+    cols[0].metric("Active fixture odds coverage", f"{coverage:.1%}" if isinstance(coverage, float) else "unknown")
+    cols[1].metric("Full-file coverage", f"{full_coverage:.1%}" if isinstance(full_coverage, float) else "unknown")
     cols[2].metric("Best alpha", str(values.get("best_alpha", "unknown")))
     cols[3].metric("Stat meaningful", str(values.get("statistically_meaningful", "unknown")))
     cols[4].metric("Production-ready", str(production_ready))
@@ -751,6 +783,15 @@ def render_tournament_simulation(simulation: pd.DataFrame) -> None:
 
 def render_market_odds_coverage(reports: dict[str, str], market_odds: pd.DataFrame) -> None:
     validation = validate_market_odds(market_odds)
+    st.subheader("Provider Discovery")
+    discovery = reports.get("odds_provider_competition_discovery", "")
+    if discovery:
+        if "club world cup" in discovery.lower():
+            st.warning("Discovery includes Club World Cup candidates. Do not use Club World Cup odds for national-team World Cup predictions.")
+        st.markdown(discovery)
+    else:
+        st.info("Run `python -m src.cli discover-odds-competitions` to create provider discovery output.")
+
     st.subheader("CSV Validation")
     st.json(validation)
     if validation["duplicate_rows"]:
@@ -762,23 +803,51 @@ def render_market_odds_coverage(reports: dict[str, str], market_odds: pd.DataFra
         st.subheader("Odds Rows By Year")
         st.dataframe(rows_by_year, use_container_width=True)
     debug = reports.get("market_odds_join_debug", "")
-    coverage = _extract_coverage(debug)
-    if coverage is not None:
-        st.metric("2026 active fixture coverage", f"{coverage:.1%}")
-        if coverage < MARKET_PRODUCTION_THRESHOLD:
-            st.warning("2026 odds coverage is below 90%; market_blend remains benchmark-only.")
+    refresh_report = reports.get("refresh_market_odds_report", "")
+    active_coverage = _extract_active_fixture_coverage(refresh_report)
+    full_coverage = _extract_coverage(debug)
+    missing_active = _extract_missing_active_fixtures(refresh_report)
+    metric_cols = st.columns(3)
+    metric_cols[0].metric("Active fixture odds coverage", f"{active_coverage:.1%}" if active_coverage is not None else "unknown")
+    metric_cols[1].metric("Missing active fixtures", str(missing_active) if missing_active is not None else "unknown")
+    metric_cols[2].metric("Full 2026 prediction-file coverage", f"{full_coverage:.1%}" if full_coverage is not None else "unknown")
+    if active_coverage is not None and active_coverage < MARKET_PRODUCTION_THRESHOLD:
+        st.warning("Active fixture odds coverage is below 90%; market_blend remains benchmark-only for live/current fixtures.")
+    elif active_coverage is not None:
+        st.success("Active fixture odds coverage is above 90%. Live market/risk calculations should work for most current fixtures.")
     st.subheader("Parsed Tables")
     for heading in ("Historical Coverage", "Unmatched Odds", "Missing Active Fixtures"):
         table = markdown_table_after_heading(debug, heading)
         if not table.empty:
             st.write(heading)
             st.dataframe(table, use_container_width=True)
+    st.subheader("Missing Active Fixtures")
+    missing_template = cached_csv(str(CSV_FILES["missing_market_odds_template"]))
+    if missing_template.empty:
+        st.info("Run `python -m src.cli generate-missing-odds-template` to create a missing odds template.")
+    else:
+        st.dataframe(missing_template, use_container_width=True)
+        st.download_button(
+            "Download missing odds template",
+            missing_template.to_csv(index=False),
+            "missing_market_odds_template_2026.csv",
+            "text/csv",
+        )
+    st.subheader("Provider Fetch Results")
+    refresh_report = reports.get("refresh_market_odds_report", "")
+    st.markdown(refresh_report or "Run `python -m src.cli refresh-market-odds` to create this report.")
+    st.subheader("Merge Status")
+    st.markdown(reports.get("market_odds_api_merge_report") or "No merge report is available yet.")
     with st.expander("Raw market odds join debug report"):
         st.markdown(debug or "Missing report.")
     with st.expander("Feature null-rate report"):
         st.markdown(reports.get("feature_null_rate_report") or "Missing report.")
     with st.expander("Market blend report"):
         st.markdown(reports.get("market_blend_report") or "Missing report.")
+    with st.expander("Missing odds template report"):
+        st.markdown(reports.get("missing_market_odds_template_report") or "Missing report.")
+    with st.expander("Manual odds validation errors"):
+        st.markdown(reports.get("manual_market_odds_validation_errors") or "No manual validation errors report.")
 
 
 def render_market_blend(reports: dict[str, str]) -> None:
@@ -975,6 +1044,36 @@ def _plain_english_explanation(row: pd.Series, factors: pd.DataFrame) -> str:
             parts.append("No high-impact live factors were detected.")
     parts.append("Live adjustments are scenario-based and not official model outputs.")
     return " ".join(parts)
+
+
+def _extract_active_fixture_coverage(text: str) -> float | None:
+    patterns = [
+        r"ACTIVE_FIXTURE_COVERAGE_AFTER\s*=\s*([0-9.]+)",
+        r"active fixture coverage after\s*[:|]\s*`?([0-9.]+)`?",
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, text or "", flags=re.IGNORECASE)
+        if match:
+            try:
+                return float(match.group(1))
+            except ValueError:
+                return None
+    return None
+
+
+def _extract_missing_active_fixtures(text: str) -> int | None:
+    patterns = [
+        r"MISSING_ACTIVE_FIXTURES\s*=\s*(\d+)",
+        r"missing active fixtures\s*[:|]\s*`?(\d+)`?",
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, text or "", flags=re.IGNORECASE)
+        if match:
+            try:
+                return int(match.group(1))
+            except ValueError:
+                return None
+    return None
 
 
 def _extract_coverage(text: str) -> float | None:

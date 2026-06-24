@@ -1,0 +1,7 @@
+{
+  "data": [],
+  "errors": [
+    "403 Client Error: Forbidden for url: https://api.sportmonks.com/v3/football/fixtures/between/2026-06-11/2026-07-19?include=participants%3Bodds%3BpremiumOdds&api_token=7Qmt5o1BS5lkbkCXEfmqOsR3iLmys44vH1JLoMSM8B8HLY2WMBBkBCA2sUX7"
+  ],
+  "note": "Fixture include may require paid Sportmonks add-ons."
+}

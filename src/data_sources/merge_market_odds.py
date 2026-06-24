@@ -19,6 +19,7 @@ from src.data_sources.validators import summarize_market_odds_validation, valida
 
 
 API_PROVIDER_NAMES = {"api_football", "the_odds_api", "sportmonks"}
+FINAL_MARKET_ODDS_SCHEMA = ["date", "home_team", "away_team", "home_odds", "draw_odds", "away_odds", "bookmaker", "source", "updated_at"]
 
 
 def merge_staged_market_odds(
@@ -85,9 +86,10 @@ def merge_staged_market_odds(
     for column in ("date",):
         if column in merged.columns:
             merged[column] = pd.to_datetime(merged[column], errors="coerce", format="mixed").dt.strftime("%Y-%m-%d")
-    preferred_columns = [column for column in MARKET_ODDS_STAGING_SCHEMA if column in merged.columns]
-    remaining_columns = [column for column in merged.columns if column not in preferred_columns]
-    merged = merged[preferred_columns + remaining_columns]
+    for column in FINAL_MARKET_ODDS_SCHEMA:
+        if column not in merged.columns:
+            merged[column] = pd.NA
+    merged = merged[FINAL_MARKET_ODDS_SCHEMA]
     merged = merged.sort_values(["date", "home_team", "away_team"], kind="stable")
     market_odds_path.parent.mkdir(parents=True, exist_ok=True)
     merged.to_csv(market_odds_path, index=False)
@@ -187,4 +189,3 @@ def _write_merge_report(input_path: Path, summary: dict[str, Any], notes: list[s
     if notes:
         lines.extend(["", "## Notes", "", *[f"- {note}" for note in notes[:100]]])
     return write_markdown_report(MARKET_ODDS_API_MERGE_REPORT, lines)
-

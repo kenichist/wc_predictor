@@ -1,0 +1,21 @@
+{
+  "the_odds_api": {
+    "enabled": true,
+    "competition_keys": [
+      "soccer_fifa_world_cup"
+    ],
+    "excluded_keys": [
+      "soccer_fifa_club_world_cup"
+    ]
+  },
+  "api_football": {
+    "enabled": true,
+    "league_ids": [
+      1
+    ]
+  },
+  "sportmonks": {
+    "enabled": true,
+    "league_ids": []
+  }
+}

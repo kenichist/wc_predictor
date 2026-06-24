@@ -383,7 +383,12 @@ def find_market_probabilities(odds: pd.DataFrame, date: str | None, home_team: s
     frame["_home_norm"] = frame["home_team"].map(normalize_dashboard_team)
     frame["_away_norm"] = frame["away_team"].map(normalize_dashboard_team)
     frame["_date_key"] = frame["date"].map(_date_key) if "date" in frame.columns else None
-    frame["_updated"] = pd.to_datetime(frame.get("updated_at"), errors="coerce", format="mixed")
+    frame["_updated"] = pd.to_datetime(
+        frame.get("updated_at"),
+        errors="coerce",
+        format="mixed",
+        utc=True,
+    )
     direct = frame[frame["_home_norm"].eq(home_team) & frame["_away_norm"].eq(away_team)]
     if date and "_date_key" in direct.columns:
         dated = direct[direct["_date_key"].eq(date)]
@@ -613,7 +618,7 @@ def _factor(fixture_id: Any, factor_type: str, team: str, description: str, dire
 
 
 def _date_key(value: Any) -> str | None:
-    timestamp = pd.to_datetime(value, errors="coerce", format="mixed")
+    timestamp = pd.to_datetime(value, errors="coerce", format="mixed", utc=True)
     if pd.isna(timestamp):
         return None
     return timestamp.strftime("%Y-%m-%d")

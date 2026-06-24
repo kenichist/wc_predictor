@@ -12,5 +12,5 @@ Live-adjusted predictions are scenario-based and are not official model outputs.
 - INVALID_ODDS=0
 - UNMATCHED_TEAMS=0
 - MISSING_BASE_PREDICTIONS=15
-- LAST_UPDATED=2026-06-24T00:15:19+00:00
+- LAST_UPDATED=2026-06-24T01:27:50+00:00
 - SUCCESS=True
