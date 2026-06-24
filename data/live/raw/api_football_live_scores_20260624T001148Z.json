@@ -1,0 +1,1582 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "live": "all"
+  },
+  "errors": [],
+  "results": 13,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1525058,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2026-06-24T00:00:00+00:00",
+        "timestamp": 1782259200,
+        "periods": {
+          "first": 1782259200,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 5,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 256,
+        "name": "USL League Two",
+        "country": "USA",
+        "logo": "https://media.api-sports.io/football/leagues/256.png",
+        "flag": "https://media.api-sports.io/flags/us.svg",
+        "season": 2026,
+        "round": "Group Stage",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23118,
+          "name": "Hill Country Lobos",
+          "logo": "https://media.api-sports.io/football/teams/23118.png",
+          "winner": null
+        },
+        "away": {
+          "id": 9028,
+          "name": "Laredo Heat",
+          "logo": "https://media.api-sports.io/football/teams/9028.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "fixture": {
+        "id": 1525061,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2026-06-23T23:00:00+00:00",
+        "timestamp": 1782255600,
+        "periods": {
+          "first": 1782255600,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 38,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 256,
+        "name": "USL League Two",
+        "country": "USA",
+        "logo": "https://media.api-sports.io/football/leagues/256.png",
+        "flag": "https://media.api-sports.io/flags/us.svg",
+        "season": 2026,
+        "round": "Group Stage",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 27523,
+          "name": "Sporting Jax 2",
+          "logo": "https://media.api-sports.io/football/teams/27523.png",
+          "winner": true
+        },
+        "away": {
+          "id": 27524,
+          "name": "Shark Coast",
+          "logo": "https://media.api-sports.io/football/teams/27524.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "fixture": {
+        "id": 1525066,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2026-06-23T23:30:00+00:00",
+        "timestamp": 1782257400,
+        "periods": {
+          "first": 1782257400,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 39,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 256,
+        "name": "USL League Two",
+        "country": "USA",
+        "logo": "https://media.api-sports.io/football/leagues/256.png",
+        "flag": "https://media.api-sports.io/flags/us.svg",
+        "season": 2026,
+        "round": "Group Stage",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 10103,
+          "name": "Southern Soccer Academy",
+          "logo": "https://media.api-sports.io/football/teams/10103.png",
+          "winner": true
+        },
+        "away": {
+          "id": 25944,
+          "name": "Montgomery United",
+          "logo": "https://media.api-sports.io/football/teams/25944.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "fixture": {
+        "id": 1489403,
+        "referee": "Pierre Ghislain Atcho, Gabon",
+        "timezone": "UTC",
+        "date": "2026-06-23T23:00:00+00:00",
+        "timestamp": 1782255600,
+        "periods": {
+          "first": 1782255600,
+          "second": 1782259200
+        },
+        "venue": {
+          "id": 312,
+          "name": "BMO Field",
+          "city": "Toronto"
+        },
+        "status": {
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 53,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 1,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null,
+        "season": 2026,
+        "round": "Group Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 11,
+          "name": "Panama",
+          "logo": "https://media.api-sports.io/football/teams/11.png",
+          "winner": null
+        },
+        "away": {
+          "id": 3,
+          "name": "Croatia",
+          "logo": "https://media.api-sports.io/football/teams/3.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": [
+        {
+          "time": {
+            "elapsed": 46,
+            "extra": null
+          },
+          "team": {
+            "id": 3,
+            "name": "Croatia",
+            "logo": "https://media.api-sports.io/football/teams/3.png"
+          },
+          "player": {
+            "id": 66055,
+            "name": "P. Musa"
+          },
+          "assist": {
+            "id": 46746,
+            "name": "A. Budimir"
+          },
+          "type": "subst",
+          "detail": "Substitution 1",
+          "comments": null
+        },
+        {
+          "time": {
+            "elapsed": 46,
+            "extra": null
+          },
+          "team": {
+            "id": 3,
+            "name": "Croatia",
+            "logo": "https://media.api-sports.io/football/teams/3.png"
+          },
+          "player": {
+            "id": 129033,
+            "name": "J. Gvardiol"
+          },
+          "assist": {
+            "id": 726,
+            "name": "A. Kramaric"
+          },
+          "type": "subst",
+          "detail": "Substitution 2",
+          "comments": null
+        }
+      ]
+    },
+    {
+      "fixture": {
+        "id": 1520730,
+        "referee": "Edina Alves Batista, Brazil",
+        "timezone": "UTC",
+        "date": "2026-06-23T23:00:00+00:00",
+        "timestamp": 1782255600,
+        "periods": {
+          "first": 1782255600,
+          "second": 1782259200
+        },
+        "venue": {
+          "id": null,
+          "name": "Arena Independência",
+          "city": "Belo Horizonte"
+        },
+        "status": {
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 53,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 72,
+        "name": "Serie B",
+        "country": "Brazil",
+        "logo": "https://media.api-sports.io/football/leagues/72.png",
+        "flag": "https://media.api-sports.io/flags/br.svg",
+        "season": 2026,
+        "round": "Regular Season - 14",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 125,
+          "name": "America Mineiro",
+          "logo": "https://media.api-sports.io/football/teams/125.png",
+          "winner": false
+        },
+        "away": {
+          "id": 140,
+          "name": "Criciuma",
+          "logo": "https://media.api-sports.io/football/teams/140.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": [
+        {
+          "time": {
+            "elapsed": 21,
+            "extra": null
+          },
+          "team": {
+            "id": 125,
+            "name": "America Mineiro",
+            "logo": "https://media.api-sports.io/football/teams/125.png"
+          },
+          "player": {
+            "id": 192,
+            "name": "Dalbert"
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Card",
+          "detail": "Yellow Card",
+          "comments": "Foul"
+        },
+        {
+          "time": {
+            "elapsed": 31,
+            "extra": null
+          },
+          "team": {
+            "id": 140,
+            "name": "Criciuma",
+            "logo": "https://media.api-sports.io/football/teams/140.png"
+          },
+          "player": {
+            "id": 41206,
+            "name": "Cesar Martins"
+          },
+          "assist": {
+            "id": 237798,
+            "name": "Gui Lobo"
+          },
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "comments": null
+        },
+        {
+          "time": {
+            "elapsed": 41,
+            "extra": null
+          },
+          "team": {
+            "id": 140,
+            "name": "Criciuma",
+            "logo": "https://media.api-sports.io/football/teams/140.png"
+          },
+          "player": {
+            "id": 34704,
+            "name": "Waguininho"
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Card",
+          "detail": "Yellow Card",
+          "comments": "Foul"
+        },
+        {
+          "time": {
+            "elapsed": 51,
+            "extra": null
+          },
+          "team": {
+            "id": 140,
+            "name": "Criciuma",
+            "logo": "https://media.api-sports.io/football/teams/140.png"
+          },
+          "player": {
+            "id": 41206,
+            "name": "Cesar Martins"
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Card",
+          "detail": "Yellow Card",
+          "comments": "Foul"
+        }
+      ]
+    },
+    {
+      "fixture": {
+        "id": 1525063,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2026-06-23T23:00:00+00:00",
+        "timestamp": 1782255600,
+        "periods": {
+          "first": 1782255600,
+          "second": 1782259200
+        },
+        "venue": {
+          "id": null,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 51,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 256,
+        "name": "USL League Two",
+        "country": "USA",
+        "logo": "https://media.api-sports.io/football/leagues/256.png",
+        "flag": "https://media.api-sports.io/flags/us.svg",
+        "season": 2026,
+        "round": "Group Stage",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23125,
+          "name": "Union Macomb",
+          "logo": "https://media.api-sports.io/football/teams/23125.png",
+          "winner": false
+        },
+        "away": {
+          "id": 18898,
+          "name": "Lansing City",
+          "logo": "https://media.api-sports.io/football/teams/18898.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 2
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "fixture": {
+        "id": 1547694,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2026-06-23T22:30:00+00:00",
+        "timestamp": 1782253800,
+        "periods": {
+          "first": 1782253800,
+          "second": 1782257400
+        },
+        "venue": {
+          "id": 0,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 79,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 619,
+        "name": "Mineiro - 2",
+        "country": "Brazil",
+        "logo": "https://media.api-sports.io/football/leagues/619.png",
+        "flag": "https://media.api-sports.io/flags/br.svg",
+        "season": 2026,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 18795,
+          "name": "Uberaba",
+          "logo": "https://media.api-sports.io/football/teams/18795.png",
+          "winner": true
+        },
+        "away": {
+          "id": 12296,
+          "name": "Guarani MG",
+          "logo": "https://media.api-sports.io/football/teams/12296.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 2,
+          "away": 1
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": [
+        {
+          "time": {
+            "elapsed": 7,
+            "extra": null
+          },
+          "team": {
+            "id": 18795,
+            "name": "Uberaba",
+            "logo": "https://media.api-sports.io/football/teams/18795.png"
+          },
+          "player": {
+            "id": null,
+            "name": null
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "comments": null
+        },
+        {
+          "time": {
+            "elapsed": 16,
+            "extra": null
+          },
+          "team": {
+            "id": 12296,
+            "name": "Guarani MG",
+            "logo": "https://media.api-sports.io/football/teams/12296.png"
+          },
+          "player": {
+            "id": null,
+            "name": null
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "comments": null
+        },
+        {
+          "time": {
+            "elapsed": 37,
+            "extra": null
+          },
+          "team": {
+            "id": 18795,
+            "name": "Uberaba",
+            "logo": "https://media.api-sports.io/football/teams/18795.png"
+          },
+          "player": {
+            "id": null,
+            "name": null
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "comments": null
+        }
+      ]
+    },
+    {
+      "fixture": {
+        "id": 1547696,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2026-06-23T23:00:00+00:00",
+        "timestamp": 1782255600,
+        "periods": {
+          "first": 1782255600,
+          "second": 1782259200
+        },
+        "venue": {
+          "id": 0,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 55,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 619,
+        "name": "Mineiro - 2",
+        "country": "Brazil",
+        "logo": "https://media.api-sports.io/football/leagues/619.png",
+        "flag": "https://media.api-sports.io/flags/br.svg",
+        "season": 2026,
+        "round": "Regular Season - 6",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 23247,
+          "name": "Valeriodoce",
+          "logo": "https://media.api-sports.io/football/teams/23247.png",
+          "winner": null
+        },
+        "away": {
+          "id": 12277,
+          "name": "Ipatinga",
+          "logo": "https://media.api-sports.io/football/teams/12277.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": [
+        {
+          "time": {
+            "elapsed": 20,
+            "extra": null
+          },
+          "team": {
+            "id": 23247,
+            "name": "Valeriodoce",
+            "logo": "https://media.api-sports.io/football/teams/23247.png"
+          },
+          "player": {
+            "id": null,
+            "name": null
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "comments": null
+        },
+        {
+          "time": {
+            "elapsed": 25,
+            "extra": null
+          },
+          "team": {
+            "id": 12277,
+            "name": "Ipatinga",
+            "logo": "https://media.api-sports.io/football/teams/12277.png"
+          },
+          "player": {
+            "id": null,
+            "name": null
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "comments": null
+        }
+      ]
+    },
+    {
+      "fixture": {
+        "id": 1554507,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2026-06-23T23:00:00+00:00",
+        "timestamp": 1782255600,
+        "periods": {
+          "first": 1782255600,
+          "second": 1782259200
+        },
+        "venue": {
+          "id": null,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 46,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2026,
+        "round": "Club Friendlies",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23971,
+          "name": "Annapolis Blues",
+          "logo": "https://media.api-sports.io/football/teams/23971.png",
+          "winner": false
+        },
+        "away": {
+          "id": 2285,
+          "name": "Santos Laguna",
+          "logo": "https://media.api-sports.io/football/teams/2285.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": [
+        {
+          "time": {
+            "elapsed": 29,
+            "extra": null
+          },
+          "team": {
+            "id": 2285,
+            "name": "Santos Laguna",
+            "logo": "https://media.api-sports.io/football/teams/2285.png"
+          },
+          "player": {
+            "id": null,
+            "name": null
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "comments": null
+        },
+        {
+          "time": {
+            "elapsed": 38,
+            "extra": null
+          },
+          "team": {
+            "id": 23971,
+            "name": "Annapolis Blues",
+            "logo": "https://media.api-sports.io/football/teams/23971.png"
+          },
+          "player": {
+            "id": null,
+            "name": null
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Missed Penalty",
+          "comments": null
+        }
+      ]
+    },
+    {
+      "fixture": {
+        "id": 1560415,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2026-06-23T22:30:00+00:00",
+        "timestamp": 1782253800,
+        "periods": {
+          "first": 1782253800,
+          "second": 1782257400
+        },
+        "venue": {
+          "id": 0,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 80,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 1035,
+        "name": "Copa Rio",
+        "country": "Brazil",
+        "logo": "https://media.api-sports.io/football/leagues/1035.png",
+        "flag": "https://media.api-sports.io/flags/br.svg",
+        "season": 2026,
+        "round": "Round 1",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 4857,
+          "name": "Resende",
+          "logo": "https://media.api-sports.io/football/teams/4857.png",
+          "winner": true
+        },
+        "away": {
+          "id": 22354,
+          "name": "SE Belford Roxo",
+          "logo": "https://media.api-sports.io/football/teams/22354.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 7,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 3,
+          "away": 0
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": [
+        {
+          "time": {
+            "elapsed": 24,
+            "extra": null
+          },
+          "team": {
+            "id": 4857,
+            "name": "Resende",
+            "logo": "https://media.api-sports.io/football/teams/4857.png"
+          },
+          "player": {
+            "id": null,
+            "name": "Thiaguinho"
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "comments": null
+        },
+        {
+          "time": {
+            "elapsed": 32,
+            "extra": null
+          },
+          "team": {
+            "id": 4857,
+            "name": "Resende",
+            "logo": "https://media.api-sports.io/football/teams/4857.png"
+          },
+          "player": {
+            "id": null,
+            "name": "Lucas Cypriano"
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "comments": null
+        },
+        {
+          "time": {
+            "elapsed": 40,
+            "extra": null
+          },
+          "team": {
+            "id": 4857,
+            "name": "Resende",
+            "logo": "https://media.api-sports.io/football/teams/4857.png"
+          },
+          "player": {
+            "id": null,
+            "name": "Thiaguinho"
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "comments": null
+        },
+        {
+          "time": {
+            "elapsed": 50,
+            "extra": null
+          },
+          "team": {
+            "id": 4857,
+            "name": "Resende",
+            "logo": "https://media.api-sports.io/football/teams/4857.png"
+          },
+          "player": {
+            "id": 648041,
+            "name": "H. Aguiar"
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "comments": null
+        },
+        {
+          "time": {
+            "elapsed": 62,
+            "extra": null
+          },
+          "team": {
+            "id": 4857,
+            "name": "Resende",
+            "logo": "https://media.api-sports.io/football/teams/4857.png"
+          },
+          "player": {
+            "id": 107341,
+            "name": "Rafael Pernao"
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "comments": null
+        },
+        {
+          "time": {
+            "elapsed": 64,
+            "extra": null
+          },
+          "team": {
+            "id": 4857,
+            "name": "Resende",
+            "logo": "https://media.api-sports.io/football/teams/4857.png"
+          },
+          "player": {
+            "id": 648041,
+            "name": "H. Aguiar"
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "comments": null
+        },
+        {
+          "time": {
+            "elapsed": 65,
+            "extra": null
+          },
+          "team": {
+            "id": 4857,
+            "name": "Resende",
+            "logo": "https://media.api-sports.io/football/teams/4857.png"
+          },
+          "player": {
+            "id": null,
+            "name": null
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "comments": null
+        },
+        {
+          "time": {
+            "elapsed": 80,
+            "extra": null
+          },
+          "team": {
+            "id": 22354,
+            "name": "SE Belford Roxo",
+            "logo": "https://media.api-sports.io/football/teams/22354.png"
+          },
+          "player": {
+            "id": null,
+            "name": null
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "comments": null
+        }
+      ]
+    },
+    {
+      "fixture": {
+        "id": 1525057,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2026-06-23T23:00:00+00:00",
+        "timestamp": 1782255600,
+        "periods": {
+          "first": 1782255600,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "Halftime",
+          "short": "HT",
+          "elapsed": 45,
+          "extra": 2
+        }
+      },
+      "league": {
+        "id": 256,
+        "name": "USL League Two",
+        "country": "USA",
+        "logo": "https://media.api-sports.io/football/leagues/256.png",
+        "flag": "https://media.api-sports.io/flags/us.svg",
+        "season": 2026,
+        "round": "Group Stage",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 9071,
+          "name": "Boston City",
+          "logo": "https://media.api-sports.io/football/teams/9071.png",
+          "winner": null
+        },
+        "away": {
+          "id": 18912,
+          "name": "Vermont Green",
+          "logo": "https://media.api-sports.io/football/teams/18912.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "fixture": {
+        "id": 1525059,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2026-06-23T23:00:00+00:00",
+        "timestamp": 1782255600,
+        "periods": {
+          "first": 1782255600,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "Halftime",
+          "short": "HT",
+          "elapsed": 45,
+          "extra": 5
+        }
+      },
+      "league": {
+        "id": 256,
+        "name": "USL League Two",
+        "country": "USA",
+        "logo": "https://media.api-sports.io/football/leagues/256.png",
+        "flag": "https://media.api-sports.io/flags/us.svg",
+        "season": 2026,
+        "round": "Group Stage",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 18903,
+          "name": "Nona",
+          "logo": "https://media.api-sports.io/football/teams/18903.png",
+          "winner": true
+        },
+        "away": {
+          "id": 23112,
+          "name": "Brooke House",
+          "logo": "https://media.api-sports.io/football/teams/23112.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 4,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 4,
+          "away": 0
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "fixture": {
+        "id": 1550647,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2026-06-23T21:45:00+00:00",
+        "timestamp": 1782251100,
+        "periods": {
+          "first": 1782251100,
+          "second": 1782254700
+        },
+        "venue": {
+          "id": null,
+          "name": null,
+          "city": "Vitoria"
+        },
+        "status": {
+          "long": "Penalty in progress",
+          "short": "P",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 1097,
+        "name": "Copa Espírito Santo",
+        "country": "Brazil",
+        "logo": "https://media.api-sports.io/football/leagues/1097.png",
+        "flag": "https://media.api-sports.io/flags/br.svg",
+        "season": 2026,
+        "round": "Semi-finals",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 7837,
+          "name": "Vitória ES",
+          "logo": "https://media.api-sports.io/football/teams/7837.png",
+          "winner": true
+        },
+        "away": {
+          "id": 15609,
+          "name": "Vilavelhense",
+          "logo": "https://media.api-sports.io/football/teams/15609.png",
+          "winner": false
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 0
+        },
+        "extratime": {
+          "home": 0,
+          "away": 0
+        },
+        "penalty": {
+          "home": 3,
+          "away": 2
+        }
+      },
+      "events": [
+        {
+          "time": {
+            "elapsed": 120,
+            "extra": 1
+          },
+          "team": {
+            "id": 15609,
+            "name": "Vilavelhense",
+            "logo": "https://media.api-sports.io/football/teams/15609.png"
+          },
+          "player": {
+            "id": null,
+            "name": null
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Penalty",
+          "comments": "Penalty Shootout"
+        },
+        {
+          "time": {
+            "elapsed": 120,
+            "extra": 1
+          },
+          "team": {
+            "id": 7837,
+            "name": "Vitória ES",
+            "logo": "https://media.api-sports.io/football/teams/7837.png"
+          },
+          "player": {
+            "id": null,
+            "name": null
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Missed Penalty",
+          "comments": "Penalty Shootout"
+        },
+        {
+          "time": {
+            "elapsed": 120,
+            "extra": 2
+          },
+          "team": {
+            "id": 15609,
+            "name": "Vilavelhense",
+            "logo": "https://media.api-sports.io/football/teams/15609.png"
+          },
+          "player": {
+            "id": null,
+            "name": null
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Penalty",
+          "comments": "Penalty Shootout"
+        },
+        {
+          "time": {
+            "elapsed": 120,
+            "extra": 2
+          },
+          "team": {
+            "id": 7837,
+            "name": "Vitória ES",
+            "logo": "https://media.api-sports.io/football/teams/7837.png"
+          },
+          "player": {
+            "id": null,
+            "name": null
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Penalty",
+          "comments": "Penalty Shootout"
+        },
+        {
+          "time": {
+            "elapsed": 120,
+            "extra": 3
+          },
+          "team": {
+            "id": 15609,
+            "name": "Vilavelhense",
+            "logo": "https://media.api-sports.io/football/teams/15609.png"
+          },
+          "player": {
+            "id": null,
+            "name": null
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Missed Penalty",
+          "comments": "Penalty Shootout"
+        },
+        {
+          "time": {
+            "elapsed": 120,
+            "extra": 3
+          },
+          "team": {
+            "id": 7837,
+            "name": "Vitória ES",
+            "logo": "https://media.api-sports.io/football/teams/7837.png"
+          },
+          "player": {
+            "id": null,
+            "name": null
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Penalty",
+          "comments": "Penalty Shootout"
+        },
+        {
+          "time": {
+            "elapsed": 120,
+            "extra": 4
+          },
+          "team": {
+            "id": 15609,
+            "name": "Vilavelhense",
+            "logo": "https://media.api-sports.io/football/teams/15609.png"
+          },
+          "player": {
+            "id": null,
+            "name": null
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Missed Penalty",
+          "comments": "Penalty Shootout"
+        },
+        {
+          "time": {
+            "elapsed": 120,
+            "extra": 4
+          },
+          "team": {
+            "id": 7837,
+            "name": "Vitória ES",
+            "logo": "https://media.api-sports.io/football/teams/7837.png"
+          },
+          "player": {
+            "id": null,
+            "name": null
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Penalty",
+          "comments": "Penalty Shootout"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,695 @@
+{
+  "get": "injuries",
+  "parameters": {
+    "league": "1",
+    "season": "2026"
+  },
+  "errors": [],
+  "results": 21,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "player": {
+        "id": 304228,
+        "name": "Z. Debast",
+        "photo": "https://media.api-sports.io/football/players/304228.png",
+        "type": "Missing Fixture",
+        "reason": "Leg Injury"
+      },
+      "team": {
+        "id": 1,
+        "name": "Belgium",
+        "logo": "https://media.api-sports.io/football/teams/1.png"
+      },
+      "fixture": {
+        "id": 1489377,
+        "timezone": "UTC",
+        "date": "2026-06-15T19:00:00+00:00",
+        "timestamp": 1781550000
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    },
+    {
+      "player": {
+        "id": 304228,
+        "name": "Z. Debast",
+        "photo": "https://media.api-sports.io/football/players/304228.png",
+        "type": "Missing Fixture",
+        "reason": "Leg Injury"
+      },
+      "team": {
+        "id": 1,
+        "name": "Belgium",
+        "logo": "https://media.api-sports.io/football/teams/1.png"
+      },
+      "fixture": {
+        "id": 1489395,
+        "timezone": "UTC",
+        "date": "2026-06-21T19:00:00+00:00",
+        "timestamp": 1782068400
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    },
+    {
+      "player": {
+        "id": 1422,
+        "name": "J. Doku",
+        "photo": "https://media.api-sports.io/football/players/1422.png",
+        "type": "Missing Fixture",
+        "reason": "Illness"
+      },
+      "team": {
+        "id": 1,
+        "name": "Belgium",
+        "logo": "https://media.api-sports.io/football/teams/1.png"
+      },
+      "fixture": {
+        "id": 1489415,
+        "timezone": "UTC",
+        "date": "2026-06-27T03:00:00+00:00",
+        "timestamp": 1782529200
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    },
+    {
+      "player": {
+        "id": 312964,
+        "name": "N. Ngoy",
+        "photo": "https://media.api-sports.io/football/players/312964.png",
+        "type": "Missing Fixture",
+        "reason": "Red Card"
+      },
+      "team": {
+        "id": 1,
+        "name": "Belgium",
+        "logo": "https://media.api-sports.io/football/teams/1.png"
+      },
+      "fixture": {
+        "id": 1489415,
+        "timezone": "UTC",
+        "date": "2026-06-27T03:00:00+00:00",
+        "timestamp": 1782529200
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    },
+    {
+      "player": {
+        "id": 276,
+        "name": "Neymar",
+        "photo": "https://media.api-sports.io/football/players/276.png",
+        "type": "Missing Fixture",
+        "reason": "Calf Injury"
+      },
+      "team": {
+        "id": 6,
+        "name": "Brazil",
+        "logo": "https://media.api-sports.io/football/teams/6.png"
+      },
+      "fixture": {
+        "id": 1489371,
+        "timezone": "UTC",
+        "date": "2026-06-13T22:00:00+00:00",
+        "timestamp": 1781388000
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    },
+    {
+      "player": {
+        "id": 276,
+        "name": "Neymar",
+        "photo": "https://media.api-sports.io/football/players/276.png",
+        "type": "Missing Fixture",
+        "reason": "Calf Injury"
+      },
+      "team": {
+        "id": 6,
+        "name": "Brazil",
+        "logo": "https://media.api-sports.io/football/teams/6.png"
+      },
+      "fixture": {
+        "id": 1489389,
+        "timezone": "UTC",
+        "date": "2026-06-20T00:30:00+00:00",
+        "timestamp": 1781915400
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    },
+    {
+      "player": {
+        "id": 276,
+        "name": "Neymar",
+        "photo": "https://media.api-sports.io/football/players/276.png",
+        "type": "Missing Fixture",
+        "reason": "Calf Injury"
+      },
+      "team": {
+        "id": 6,
+        "name": "Brazil",
+        "logo": "https://media.api-sports.io/football/teams/6.png"
+      },
+      "fixture": {
+        "id": 1489406,
+        "timezone": "UTC",
+        "date": "2026-06-24T22:00:00+00:00",
+        "timestamp": 1782338400
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    },
+    {
+      "player": {
+        "id": 2612,
+        "name": "G. de Arrascaeta",
+        "photo": "https://media.api-sports.io/football/players/2612.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle bruise"
+      },
+      "team": {
+        "id": 7,
+        "name": "Uruguay",
+        "logo": "https://media.api-sports.io/football/teams/7.png"
+      },
+      "fixture": {
+        "id": 1489398,
+        "timezone": "UTC",
+        "date": "2026-06-21T22:00:00+00:00",
+        "timestamp": 1782079200
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    },
+    {
+      "player": {
+        "id": 101814,
+        "name": "R. Araújo",
+        "photo": "https://media.api-sports.io/football/players/101814.png",
+        "type": "Missing Fixture",
+        "reason": "Muscle bruise"
+      },
+      "team": {
+        "id": 7,
+        "name": "Uruguay",
+        "logo": "https://media.api-sports.io/football/teams/7.png"
+      },
+      "fixture": {
+        "id": 1489398,
+        "timezone": "UTC",
+        "date": "2026-06-21T22:00:00+00:00",
+        "timestamp": 1782079200
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    },
+    {
+      "player": {
+        "id": 32862,
+        "name": "T. Kubo",
+        "photo": "https://media.api-sports.io/football/players/32862.png",
+        "type": "Missing Fixture",
+        "reason": "Wound"
+      },
+      "team": {
+        "id": 12,
+        "name": "Japan",
+        "logo": "https://media.api-sports.io/football/teams/12.png"
+      },
+      "fixture": {
+        "id": 1489394,
+        "timezone": "UTC",
+        "date": "2026-06-21T04:00:00+00:00",
+        "timestamp": 1782014400
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    },
+    {
+      "player": {
+        "id": 106851,
+        "name": "S. Machino",
+        "photo": "https://media.api-sports.io/football/players/106851.png",
+        "type": "Missing Fixture",
+        "reason": "Illness"
+      },
+      "team": {
+        "id": 12,
+        "name": "Japan",
+        "logo": "https://media.api-sports.io/football/teams/12.png"
+      },
+      "fixture": {
+        "id": 1539011,
+        "timezone": "UTC",
+        "date": "2026-06-25T23:00:00+00:00",
+        "timestamp": 1782428400
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    },
+    {
+      "player": {
+        "id": 128793,
+        "name": "D. Jurásek",
+        "photo": "https://media.api-sports.io/football/players/128793.png",
+        "type": "Missing Fixture",
+        "reason": "Thigh problems"
+      },
+      "team": {
+        "id": 770,
+        "name": "Czechia",
+        "logo": "https://media.api-sports.io/football/teams/770.png"
+      },
+      "fixture": {
+        "id": 1539010,
+        "timezone": "UTC",
+        "date": "2026-06-25T01:00:00+00:00",
+        "timestamp": 1782349200
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    },
+    {
+      "player": {
+        "id": 271350,
+        "name": "T. Muharemović",
+        "photo": "https://media.api-sports.io/football/players/271350.png",
+        "type": "Missing Fixture",
+        "reason": "Red Card"
+      },
+      "team": {
+        "id": 1113,
+        "name": "Bosnia & Herzegovina",
+        "logo": "https://media.api-sports.io/football/teams/1113.png"
+      },
+      "fixture": {
+        "id": 1539009,
+        "timezone": "UTC",
+        "date": "2026-06-24T19:00:00+00:00",
+        "timestamp": 1782327600
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    },
+    {
+      "player": {
+        "id": 3287,
+        "name": "T. Mokoena",
+        "photo": "https://media.api-sports.io/football/players/3287.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow card suspension"
+      },
+      "team": {
+        "id": 1531,
+        "name": "South Africa",
+        "logo": "https://media.api-sports.io/football/teams/1531.png"
+      },
+      "fixture": {
+        "id": 1489407,
+        "timezone": "UTC",
+        "date": "2026-06-25T01:00:00+00:00",
+        "timestamp": 1782349200
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    },
+    {
+      "player": {
+        "id": 200139,
+        "name": "M. Amoura",
+        "photo": "https://media.api-sports.io/football/players/200139.png",
+        "type": "Missing Fixture",
+        "reason": "Hamstring muscle injury"
+      },
+      "team": {
+        "id": 1532,
+        "name": "Algeria",
+        "logo": "https://media.api-sports.io/football/teams/1532.png"
+      },
+      "fixture": {
+        "id": 1489418,
+        "timezone": "UTC",
+        "date": "2026-06-28T02:00:00+00:00",
+        "timestamp": 1782612000
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    },
+    {
+      "player": {
+        "id": 308689,
+        "name": "S. Lopes Cabral",
+        "photo": "https://media.api-sports.io/football/players/308689.png",
+        "type": "Missing Fixture",
+        "reason": "Yellow card suspension"
+      },
+      "team": {
+        "id": 1533,
+        "name": "Cape Verde Islands",
+        "logo": "https://media.api-sports.io/football/teams/1533.png"
+      },
+      "fixture": {
+        "id": 1489413,
+        "timezone": "UTC",
+        "date": "2026-06-27T00:00:00+00:00",
+        "timestamp": 1782518400
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    },
+    {
+      "player": {
+        "id": 175439,
+        "name": "Homam Ahmed",
+        "photo": "https://media.api-sports.io/football/players/175439.png",
+        "type": "Missing Fixture",
+        "reason": "Red Card"
+      },
+      "team": {
+        "id": 1569,
+        "name": "Qatar",
+        "logo": "https://media.api-sports.io/football/teams/1569.png"
+      },
+      "fixture": {
+        "id": 1539009,
+        "timezone": "UTC",
+        "date": "2026-06-24T19:00:00+00:00",
+        "timestamp": 1782327600
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    },
+    {
+      "player": {
+        "id": 2535,
+        "name": "Assim Madibo",
+        "photo": "https://media.api-sports.io/football/players/2535.png",
+        "type": "Missing Fixture",
+        "reason": "Red Card"
+      },
+      "team": {
+        "id": 1569,
+        "name": "Qatar",
+        "logo": "https://media.api-sports.io/football/teams/1569.png"
+      },
+      "fixture": {
+        "id": 1539009,
+        "timezone": "UTC",
+        "date": "2026-06-24T19:00:00+00:00",
+        "timestamp": 1782327600
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    },
+    {
+      "player": {
+        "id": 2507,
+        "name": "M. Almirón",
+        "photo": "https://media.api-sports.io/football/players/2507.png",
+        "type": "Missing Fixture",
+        "reason": "Red Card"
+      },
+      "team": {
+        "id": 2380,
+        "name": "Paraguay",
+        "logo": "https://media.api-sports.io/football/teams/2380.png"
+      },
+      "fixture": {
+        "id": 1489411,
+        "timezone": "UTC",
+        "date": "2026-06-26T02:00:00+00:00",
+        "timestamp": 1782439200
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    },
+    {
+      "player": {
+        "id": 17,
+        "name": "C. Pulišić",
+        "photo": "https://media.api-sports.io/football/players/17.png",
+        "type": "Missing Fixture",
+        "reason": "Calf muscle strain"
+      },
+      "team": {
+        "id": 2384,
+        "name": "USA",
+        "logo": "https://media.api-sports.io/football/teams/2384.png"
+      },
+      "fixture": {
+        "id": 1489391,
+        "timezone": "UTC",
+        "date": "2026-06-19T19:00:00+00:00",
+        "timestamp": 1781895600
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    },
+    {
+      "player": {
+        "id": 328046,
+        "name": "I. Koné",
+        "photo": "https://media.api-sports.io/football/players/328046.png",
+        "type": "Missing Fixture",
+        "reason": "Fracture of lower leg"
+      },
+      "team": {
+        "id": 5529,
+        "name": "Canada",
+        "logo": "https://media.api-sports.io/football/teams/5529.png"
+      },
+      "fixture": {
+        "id": 1489408,
+        "timezone": "UTC",
+        "date": "2026-06-24T19:00:00+00:00",
+        "timestamp": 1782327600
+      },
+      "league": {
+        "id": 1,
+        "season": 2026,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null
+      }
+    }
+  ],
+  "league_candidates": [
+    {
+      "league_id": 1,
+      "name": "World Cup",
+      "country": "World"
+    },
+    {
+      "league_id": 8,
+      "name": "World Cup - Women",
+      "country": "World"
+    },
+    {
+      "league_id": 15,
+      "name": "FIFA Club World Cup",
+      "country": "World"
+    },
+    {
+      "league_id": 37,
+      "name": "World Cup - Qualification Intercontinental Play-offs",
+      "country": "World"
+    },
+    {
+      "league_id": 490,
+      "name": "World Cup - U20",
+      "country": "World"
+    },
+    {
+      "league_id": 31,
+      "name": "World Cup - Qualification CONCACAF",
+      "country": "World"
+    },
+    {
+      "league_id": 32,
+      "name": "World Cup - Qualification Europe",
+      "country": "World"
+    },
+    {
+      "league_id": 33,
+      "name": "World Cup - Qualification Oceania",
+      "country": "World"
+    },
+    {
+      "league_id": 34,
+      "name": "World Cup - Qualification South America",
+      "country": "World"
+    },
+    {
+      "league_id": 29,
+      "name": "World Cup - Qualification Africa",
+      "country": "World"
+    },
+    {
+      "league_id": 30,
+      "name": "World Cup - Qualification Asia",
+      "country": "World"
+    },
+    {
+      "league_id": 587,
+      "name": "World Cup - U17",
+      "country": "World"
+    },
+    {
+      "league_id": 920,
+      "name": "World Cup - U20 - Women",
+      "country": "World"
+    },
+    {
+      "league_id": 927,
+      "name": "World Cup - Women - Qualification Concacaf",
+      "country": "World"
+    },
+    {
+      "league_id": 950,
+      "name": "World Cup - U17 - Women",
+      "country": "World"
+    },
+    {
+      "league_id": 880,
+      "name": "World Cup - Women - Qualification Europe",
+      "country": "World"
+    },
+    {
+      "league_id": 1186,
+      "name": "FIFA Club World Cup - Play-In",
+      "country": "World"
+    },
+    {
+      "league_id": 1213,
+      "name": "Kings World Cup Nations",
+      "country": "World"
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import logging
 import random
 import re
 from collections import Counter
+from pathlib import Path
 from typing import Any
 
 import numpy as np
@@ -29,6 +30,30 @@ STAGE_COLUMNS = [
 ]
 
 GROUP_LETTERS = list("ABCDEFGHIJKL")
+BRACKET_PATH_SAMPLE_LIMIT = 100
+
+MATCHUP_PROBABILITY_COLUMNS = [
+    "stage",
+    "team_a",
+    "team_b",
+    "matchup_count",
+    "matchup_probability",
+    "team_a_wins",
+    "team_b_wins",
+    "team_a_win_probability",
+    "team_b_win_probability",
+    "n_sims",
+]
+
+BRACKET_PATH_SAMPLE_COLUMNS = [
+    "simulation_id",
+    "stage",
+    "match_slot",
+    "team_a",
+    "team_b",
+    "winner",
+    "loser",
+]
 
 
 def simulate_worldcup(n_sims: int = 100_000, *, config: dict[str, Any] | None = None, seed: int = 42) -> tuple[pd.DataFrame, pd.DataFrame]:
@@ -46,10 +71,14 @@ def simulate_worldcup(n_sims: int = 100_000, *, config: dict[str, Any] | None = 
     team_strengths = _load_team_strengths(cfg, tournament_teams)
     rng = random.Random(seed)
     stage_counts: dict[str, Counter[str]] = {stage: Counter() for stage in STAGE_COLUMNS}
+    matchup_counts: Counter[tuple[str, str, str]] = Counter()
+    team_a_win_counts: Counter[tuple[str, str, str]] = Counter()
+    team_b_win_counts: Counter[tuple[str, str, str]] = Counter()
+    bracket_path_rows: list[dict[str, Any]] = []
     sample_bracket: dict[str, Any] | None = None
     dynamic_prediction_rows: dict[tuple[str, str], dict[str, Any]] = {}
 
-    for _ in range(n_sims):
+    for simulation_id in range(n_sims):
         simulated_scores: dict[str, tuple[int, int]] = {}
         for match in group_matches:
             simulated_scores[match["match_id"]] = _score_for_actual_match(match, prediction_by_match, prediction_by_pair, team_strengths, rng)
@@ -89,6 +118,18 @@ def simulate_worldcup(n_sims: int = 100_000, *, config: dict[str, Any] | None = 
                 winners[match["match_number"]] = winner
                 losers[match["match_number"]] = loser
                 stage_winners.append(winner)
+                _record_knockout_matchup(
+                    simulation_id=simulation_id,
+                    stage=stage_key,
+                    match_slot=match["match_number"],
+                    team_a=home,
+                    team_b=away,
+                    winner=winner,
+                    matchup_counts=matchup_counts,
+                    team_a_win_counts=team_a_win_counts,
+                    team_b_win_counts=team_b_win_counts,
+                    bracket_path_rows=bracket_path_rows,
+                )
                 bracket_log["matches"].append(
                     {
                         "match_number": match["match_number"],
@@ -96,6 +137,7 @@ def simulate_worldcup(n_sims: int = 100_000, *, config: dict[str, Any] | None = 
                         "home_team": home,
                         "away_team": away,
                         "winner": winner,
+                        "loser": loser,
                     }
                 )
             _increment(stage_counts[probability_column], stage_winners)
@@ -107,6 +149,19 @@ def simulate_worldcup(n_sims: int = 100_000, *, config: dict[str, Any] | None = 
                 away = _resolve_slot(match["away_team"], bracket_context, winners, losers)
                 probs = _prediction_for_actual_pair(home, away, prediction_by_pair, team_strengths, dynamic_prediction_rows)
                 winner = knockout_winner(home, away, probs[0], probs[1], probs[2], rng=rng)
+                loser = away if winner == home else home
+                _record_knockout_matchup(
+                    simulation_id=simulation_id,
+                    stage="third_place",
+                    match_slot=match["match_number"],
+                    team_a=home,
+                    team_b=away,
+                    winner=winner,
+                    matchup_counts=matchup_counts,
+                    team_a_win_counts=team_a_win_counts,
+                    team_b_win_counts=team_b_win_counts,
+                    bracket_path_rows=bracket_path_rows,
+                )
                 bracket_log["matches"].append(
                     {
                         "match_number": match["match_number"],
@@ -114,6 +169,7 @@ def simulate_worldcup(n_sims: int = 100_000, *, config: dict[str, Any] | None = 
                         "home_team": home,
                         "away_team": away,
                         "winner": winner,
+                        "loser": loser,
                     }
                 )
 
@@ -140,8 +196,11 @@ def simulate_worldcup(n_sims: int = 100_000, *, config: dict[str, Any] | None = 
         ]
     ].copy()
     _validate_stage_sums(result_df, tolerance=1e-9)
+    matchup_df = _matchup_probability_frame(matchup_counts, team_a_win_counts, team_b_win_counts, n_sims=n_sims)
+    bracket_path_df = pd.DataFrame(bracket_path_rows, columns=BRACKET_PATH_SAMPLE_COLUMNS)
     _write_dynamic_predictions(cfg, dynamic_prediction_rows)
     _write_outputs(cfg, result_df, stage_df, sample_bracket or {}, prediction_metadata)
+    _write_matchup_outputs(cfg, matchup_df, bracket_path_df)
     return result_df, stage_df
 
 
@@ -500,6 +559,90 @@ def _increment(counter: Counter[str], teams: list[str]) -> None:
         counter[team] += 1
 
 
+def _record_knockout_matchup(
+    *,
+    simulation_id: int,
+    stage: str,
+    match_slot: Any,
+    team_a: str,
+    team_b: str,
+    winner: str,
+    matchup_counts: Counter[tuple[str, str, str]],
+    team_a_win_counts: Counter[tuple[str, str, str]],
+    team_b_win_counts: Counter[tuple[str, str, str]],
+    bracket_path_rows: list[dict[str, Any]],
+) -> None:
+    teams = tuple(sorted([str(team_a), str(team_b)]))
+    key = (stage, teams[0], teams[1])
+    matchup_counts[key] += 1
+    if winner == teams[0]:
+        team_a_win_counts[key] += 1
+    elif winner == teams[1]:
+        team_b_win_counts[key] += 1
+    else:
+        raise RuntimeError(f"Winner {winner} is not in matchup {team_a} vs {team_b}")
+
+    if simulation_id < BRACKET_PATH_SAMPLE_LIMIT:
+        loser = team_b if winner == team_a else team_a
+        bracket_path_rows.append(
+            {
+                "simulation_id": simulation_id,
+                "stage": stage,
+                "match_slot": match_slot,
+                "team_a": team_a,
+                "team_b": team_b,
+                "winner": winner,
+                "loser": loser,
+            }
+        )
+
+
+def _matchup_probability_frame(
+    matchup_counts: Counter[tuple[str, str, str]],
+    team_a_win_counts: Counter[tuple[str, str, str]],
+    team_b_win_counts: Counter[tuple[str, str, str]],
+    *,
+    n_sims: int,
+) -> pd.DataFrame:
+    rows = []
+    for key, count in matchup_counts.items():
+        stage, team_a, team_b = key
+        team_a_wins = int(team_a_win_counts[key])
+        team_b_wins = int(team_b_win_counts[key])
+        rows.append(
+            {
+                "stage": stage,
+                "team_a": team_a,
+                "team_b": team_b,
+                "matchup_count": int(count),
+                "matchup_probability": float(count / n_sims) if n_sims else 0.0,
+                "team_a_wins": team_a_wins,
+                "team_b_wins": team_b_wins,
+                "team_a_win_probability": float(team_a_wins / count) if count else 0.0,
+                "team_b_win_probability": float(team_b_wins / count) if count else 0.0,
+                "n_sims": int(n_sims),
+            }
+        )
+    if not rows:
+        return pd.DataFrame(columns=MATCHUP_PROBABILITY_COLUMNS)
+    stage_order = {
+        "round_of_32": 1,
+        "round_of_16": 2,
+        "quarterfinal": 3,
+        "semifinal": 4,
+        "third_place": 5,
+        "final": 6,
+    }
+    output = pd.DataFrame(rows, columns=MATCHUP_PROBABILITY_COLUMNS)
+    output["_stage_order"] = output["stage"].map(stage_order).fillna(99)
+    output = output.sort_values(
+        ["_stage_order", "matchup_probability", "team_a", "team_b"],
+        ascending=[True, False, True, True],
+        kind="stable",
+    )
+    return output.drop(columns="_stage_order").reset_index(drop=True)
+
+
 def _validate_stage_sums(result_df: pd.DataFrame, *, tolerance: float = 1e-6) -> None:
     expected = {
         "champion_probability": 1,
@@ -531,6 +674,22 @@ def _write_outputs(cfg: dict[str, Any], result_df: pd.DataFrame, stage_df: pd.Da
         return
     metadata_path.parent.mkdir(parents=True, exist_ok=True)
     metadata_path.write_text(json.dumps(metadata, indent=2, default=str), encoding="utf-8")
+
+
+def _write_matchup_outputs(cfg: dict[str, Any], matchup_df: pd.DataFrame, bracket_path_df: pd.DataFrame) -> None:
+    matchup_path = _path_from_config(cfg, "simulation_matchup_probabilities", "data/simulation/worldcup_2026_matchup_probabilities.csv")
+    sample_path = _path_from_config(cfg, "simulation_bracket_path_samples", "data/simulation/worldcup_2026_bracket_path_samples.csv")
+    matchup_path.parent.mkdir(parents=True, exist_ok=True)
+    sample_path.parent.mkdir(parents=True, exist_ok=True)
+    matchup_df.to_csv(matchup_path, index=False)
+    logger.info("Wrote %s", matchup_path)
+    if not bracket_path_df.empty:
+        bracket_path_df.to_csv(sample_path, index=False)
+        logger.info("Wrote %s", sample_path)
+
+
+def _path_from_config(cfg: dict[str, Any], key: str, default: str) -> Path:
+    return Path(cfg.get("paths", {}).get(key, default))
 
 
 def _write_dynamic_predictions(cfg: dict[str, Any], rows: dict[tuple[str, str], dict[str, Any]]) -> None:

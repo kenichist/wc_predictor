@@ -1,0 +1,3201 @@
+simulation_id,stage,match_slot,team_a,team_b,winner,loser
+0,round_of_32,73,South Africa,Canada,South Africa,Canada
+0,round_of_32,74,Germany,South Korea,Germany,South Korea
+0,round_of_32,75,Scotland,Netherlands,Netherlands,Scotland
+0,round_of_32,76,Japan,Brazil,Brazil,Japan
+0,round_of_32,77,Norway,Morocco,Morocco,Norway
+0,round_of_32,78,Mexico,Ecuador,Mexico,Ecuador
+0,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+0,round_of_32,80,United States,Bosnia and Herzegovina,United States,Bosnia and Herzegovina
+0,round_of_32,81,Egypt,Saudi Arabia,Saudi Arabia,Egypt
+0,round_of_32,82,England,Austria,Austria,England
+0,round_of_32,83,DR Congo,Croatia,Croatia,DR Congo
+0,round_of_32,84,Switzerland,Sweden,Sweden,Switzerland
+0,round_of_32,85,Uruguay,Algeria,Algeria,Uruguay
+0,round_of_32,86,Colombia,Portugal,Colombia,Portugal
+0,round_of_32,87,Argentina,Spain,Spain,Argentina
+0,round_of_32,88,Australia,Belgium,Belgium,Australia
+0,round_of_16,89,South Africa,Netherlands,Netherlands,South Africa
+0,round_of_16,90,Germany,Morocco,Germany,Morocco
+0,round_of_16,91,France,United States,France,United States
+0,round_of_16,92,Brazil,Mexico,Brazil,Mexico
+0,round_of_16,93,Saudi Arabia,Austria,Saudi Arabia,Austria
+0,round_of_16,94,Croatia,Sweden,Sweden,Croatia
+0,round_of_16,95,Algeria,Spain,Spain,Algeria
+0,round_of_16,96,Colombia,Belgium,Belgium,Colombia
+0,quarterfinal,97,Netherlands,Germany,Netherlands,Germany
+0,quarterfinal,98,Saudi Arabia,Sweden,Saudi Arabia,Sweden
+0,quarterfinal,99,France,Brazil,Brazil,France
+0,quarterfinal,100,Spain,Belgium,Belgium,Spain
+0,semifinal,101,Netherlands,Saudi Arabia,Netherlands,Saudi Arabia
+0,semifinal,102,Brazil,Belgium,Brazil,Belgium
+0,final,104,Netherlands,Brazil,Netherlands,Brazil
+0,third_place,103,Saudi Arabia,Belgium,Belgium,Saudi Arabia
+1,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+1,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+1,round_of_32,75,Scotland,Japan,Japan,Scotland
+1,round_of_32,76,Netherlands,Brazil,Brazil,Netherlands
+1,round_of_32,77,Norway,Morocco,Morocco,Norway
+1,round_of_32,78,Mexico,Sweden,Mexico,Sweden
+1,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+1,round_of_32,80,United States,Iraq,United States,Iraq
+1,round_of_32,81,Egypt,Algeria,Algeria,Egypt
+1,round_of_32,82,Ghana,Paraguay,Paraguay,Ghana
+1,round_of_32,83,Portugal,Croatia,Croatia,Portugal
+1,round_of_32,84,Canada,Iran,Canada,Iran
+1,round_of_32,85,Spain,Austria,Spain,Austria
+1,round_of_32,86,Colombia,Panama,Panama,Colombia
+1,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+1,round_of_32,88,Australia,Belgium,Belgium,Australia
+1,round_of_16,89,Switzerland,Japan,Japan,Switzerland
+1,round_of_16,90,Germany,Morocco,Morocco,Germany
+1,round_of_16,91,France,United States,France,United States
+1,round_of_16,92,Brazil,Mexico,Mexico,Brazil
+1,round_of_16,93,Algeria,Paraguay,Algeria,Paraguay
+1,round_of_16,94,Croatia,Canada,Canada,Croatia
+1,round_of_16,95,Spain,Argentina,Argentina,Spain
+1,round_of_16,96,Panama,Belgium,Panama,Belgium
+1,quarterfinal,97,Japan,Morocco,Japan,Morocco
+1,quarterfinal,98,Algeria,Canada,Algeria,Canada
+1,quarterfinal,99,France,Mexico,France,Mexico
+1,quarterfinal,100,Argentina,Panama,Argentina,Panama
+1,semifinal,101,Japan,Algeria,Japan,Algeria
+1,semifinal,102,France,Argentina,Argentina,France
+1,final,104,Japan,Argentina,Japan,Argentina
+1,third_place,103,Algeria,France,France,Algeria
+2,round_of_32,73,South Korea,Switzerland,South Korea,Switzerland
+2,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+2,round_of_32,75,Brazil,Netherlands,Netherlands,Brazil
+2,round_of_32,76,Japan,Morocco,Japan,Morocco
+2,round_of_32,77,France,Paraguay,France,Paraguay
+2,round_of_32,78,Mexico,Ecuador,Ecuador,Mexico
+2,round_of_32,79,Ivory Coast,Senegal,Senegal,Ivory Coast
+2,round_of_32,80,United States,Iraq,Iraq,United States
+2,round_of_32,81,Egypt,Spain,Spain,Egypt
+2,round_of_32,82,England,Austria,Austria,England
+2,round_of_32,83,DR Congo,Croatia,Croatia,DR Congo
+2,round_of_32,84,Canada,Ghana,Canada,Ghana
+2,round_of_32,85,Uruguay,Algeria,Algeria,Uruguay
+2,round_of_32,86,Portugal,Uzbekistan,Portugal,Uzbekistan
+2,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+2,round_of_32,88,Australia,Belgium,Belgium,Australia
+2,round_of_16,89,South Korea,Netherlands,South Korea,Netherlands
+2,round_of_16,90,Germany,France,Germany,France
+2,round_of_16,91,Senegal,Iraq,Iraq,Senegal
+2,round_of_16,92,Japan,Ecuador,Japan,Ecuador
+2,round_of_16,93,Spain,Austria,Spain,Austria
+2,round_of_16,94,Croatia,Canada,Canada,Croatia
+2,round_of_16,95,Algeria,Argentina,Argentina,Algeria
+2,round_of_16,96,Portugal,Belgium,Belgium,Portugal
+2,quarterfinal,97,South Korea,Germany,Germany,South Korea
+2,quarterfinal,98,Spain,Canada,Canada,Spain
+2,quarterfinal,99,Iraq,Japan,Japan,Iraq
+2,quarterfinal,100,Argentina,Belgium,Argentina,Belgium
+2,semifinal,101,Germany,Canada,Germany,Canada
+2,semifinal,102,Japan,Argentina,Argentina,Japan
+2,final,104,Germany,Argentina,Germany,Argentina
+2,third_place,103,Canada,Japan,Japan,Canada
+3,round_of_32,73,South Africa,Switzerland,Switzerland,South Africa
+3,round_of_32,74,Germany,South Korea,Germany,South Korea
+3,round_of_32,75,Morocco,Sweden,Sweden,Morocco
+3,round_of_32,76,Netherlands,Scotland,Netherlands,Scotland
+3,round_of_32,77,France,Brazil,Brazil,France
+3,round_of_32,78,Mexico,Japan,Mexico,Japan
+3,round_of_32,79,Ivory Coast,Norway,Norway,Ivory Coast
+3,round_of_32,80,United States,Bosnia and Herzegovina,United States,Bosnia and Herzegovina
+3,round_of_32,81,Egypt,Senegal,Senegal,Egypt
+3,round_of_32,82,England,Algeria,Algeria,England
+3,round_of_32,83,DR Congo,Ghana,DR Congo,Ghana
+3,round_of_32,84,Canada,Iran,Iran,Canada
+3,round_of_32,85,Spain,Argentina,Spain,Argentina
+3,round_of_32,86,Colombia,Paraguay,Colombia,Paraguay
+3,round_of_32,87,Austria,Cape Verde,Cape Verde,Austria
+3,round_of_32,88,Australia,Belgium,Belgium,Australia
+3,round_of_16,89,Switzerland,Sweden,Switzerland,Sweden
+3,round_of_16,90,Germany,Brazil,Germany,Brazil
+3,round_of_16,91,Norway,United States,United States,Norway
+3,round_of_16,92,Netherlands,Mexico,Mexico,Netherlands
+3,round_of_16,93,Senegal,Algeria,Senegal,Algeria
+3,round_of_16,94,DR Congo,Iran,Iran,DR Congo
+3,round_of_16,95,Spain,Cape Verde,Spain,Cape Verde
+3,round_of_16,96,Colombia,Belgium,Colombia,Belgium
+3,quarterfinal,97,Switzerland,Germany,Germany,Switzerland
+3,quarterfinal,98,Senegal,Iran,Senegal,Iran
+3,quarterfinal,99,United States,Mexico,United States,Mexico
+3,quarterfinal,100,Spain,Colombia,Colombia,Spain
+3,semifinal,101,Germany,Senegal,Germany,Senegal
+3,semifinal,102,United States,Colombia,United States,Colombia
+3,final,104,Germany,United States,Germany,United States
+3,third_place,103,Senegal,Colombia,Colombia,Senegal
+4,round_of_32,73,Czechia,Switzerland,Czechia,Switzerland
+4,round_of_32,74,Germany,South Korea,Germany,South Korea
+4,round_of_32,75,Brazil,Japan,Japan,Brazil
+4,round_of_32,76,Netherlands,Morocco,Morocco,Netherlands
+4,round_of_32,77,France,Scotland,France,Scotland
+4,round_of_32,78,Mexico,Sweden,Mexico,Sweden
+4,round_of_32,79,Ivory Coast,Norway,Norway,Ivory Coast
+4,round_of_32,80,United States,Bosnia and Herzegovina,Bosnia and Herzegovina,United States
+4,round_of_32,81,Egypt,Uruguay,Uruguay,Egypt
+4,round_of_32,82,Ghana,Algeria,Algeria,Ghana
+4,round_of_32,83,Uzbekistan,England,England,Uzbekistan
+4,round_of_32,84,Canada,Iran,Canada,Iran
+4,round_of_32,85,Spain,Austria,Spain,Austria
+4,round_of_32,86,Colombia,Paraguay,Colombia,Paraguay
+4,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+4,round_of_32,88,Australia,Belgium,Belgium,Australia
+4,round_of_16,89,Czechia,Japan,Czechia,Japan
+4,round_of_16,90,Germany,France,Germany,France
+4,round_of_16,91,Norway,Bosnia and Herzegovina,Norway,Bosnia and Herzegovina
+4,round_of_16,92,Morocco,Mexico,Mexico,Morocco
+4,round_of_16,93,Uruguay,Algeria,Uruguay,Algeria
+4,round_of_16,94,England,Canada,England,Canada
+4,round_of_16,95,Spain,Argentina,Spain,Argentina
+4,round_of_16,96,Colombia,Belgium,Belgium,Colombia
+4,quarterfinal,97,Czechia,Germany,Germany,Czechia
+4,quarterfinal,98,Uruguay,England,England,Uruguay
+4,quarterfinal,99,Norway,Mexico,Mexico,Norway
+4,quarterfinal,100,Spain,Belgium,Spain,Belgium
+4,semifinal,101,Germany,England,Germany,England
+4,semifinal,102,Mexico,Spain,Mexico,Spain
+4,final,104,Germany,Mexico,Germany,Mexico
+4,third_place,103,England,Spain,England,Spain
+5,round_of_32,73,South Korea,Canada,Canada,South Korea
+5,round_of_32,74,Germany,Czechia,Czechia,Germany
+5,round_of_32,75,Brazil,Netherlands,Brazil,Netherlands
+5,round_of_32,76,Japan,Morocco,Morocco,Japan
+5,round_of_32,77,Norway,Paraguay,Norway,Paraguay
+5,round_of_32,78,Mexico,Ecuador,Ecuador,Mexico
+5,round_of_32,79,Ivory Coast,Senegal,Ivory Coast,Senegal
+5,round_of_32,80,United States,Sweden,Sweden,United States
+5,round_of_32,81,Egypt,France,Egypt,France
+5,round_of_32,82,England,Jordan,England,Jordan
+5,round_of_32,83,Portugal,Panama,Panama,Portugal
+5,round_of_32,84,Switzerland,Iran,Switzerland,Iran
+5,round_of_32,85,Spain,Austria,Spain,Austria
+5,round_of_32,86,Colombia,Ghana,Colombia,Ghana
+5,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+5,round_of_32,88,Australia,Belgium,Belgium,Australia
+5,round_of_16,89,Canada,Brazil,Brazil,Canada
+5,round_of_16,90,Czechia,Norway,Czechia,Norway
+5,round_of_16,91,Ivory Coast,Sweden,Ivory Coast,Sweden
+5,round_of_16,92,Morocco,Ecuador,Ecuador,Morocco
+5,round_of_16,93,Egypt,England,England,Egypt
+5,round_of_16,94,Panama,Switzerland,Switzerland,Panama
+5,round_of_16,95,Spain,Argentina,Spain,Argentina
+5,round_of_16,96,Colombia,Belgium,Colombia,Belgium
+5,quarterfinal,97,Brazil,Czechia,Brazil,Czechia
+5,quarterfinal,98,England,Switzerland,Switzerland,England
+5,quarterfinal,99,Ivory Coast,Ecuador,Ecuador,Ivory Coast
+5,quarterfinal,100,Spain,Colombia,Colombia,Spain
+5,semifinal,101,Brazil,Switzerland,Brazil,Switzerland
+5,semifinal,102,Ecuador,Colombia,Ecuador,Colombia
+5,final,104,Brazil,Ecuador,Ecuador,Brazil
+5,third_place,103,Switzerland,Colombia,Colombia,Switzerland
+6,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+6,round_of_32,74,Germany,Qatar,Germany,Qatar
+6,round_of_32,75,Morocco,Netherlands,Morocco,Netherlands
+6,round_of_32,76,Japan,Scotland,Japan,Scotland
+6,round_of_32,77,France,Brazil,Brazil,France
+6,round_of_32,78,Mexico,Ivory Coast,Mexico,Ivory Coast
+6,round_of_32,79,Ecuador,Norway,Ecuador,Norway
+6,round_of_32,80,United States,Sweden,United States,Sweden
+6,round_of_32,81,Iran,Senegal,Senegal,Iran
+6,round_of_32,82,England,Argentina,England,Argentina
+6,round_of_32,83,Portugal,Croatia,Portugal,Croatia
+6,round_of_32,84,Canada,Belgium,Belgium,Canada
+6,round_of_32,85,Spain,Austria,Spain,Austria
+6,round_of_32,86,Colombia,Australia,Australia,Colombia
+6,round_of_32,87,Algeria,Cape Verde,Algeria,Cape Verde
+6,round_of_32,88,Paraguay,Egypt,Egypt,Paraguay
+6,round_of_16,89,Switzerland,Morocco,Switzerland,Morocco
+6,round_of_16,90,Germany,Brazil,Germany,Brazil
+6,round_of_16,91,Ecuador,United States,Ecuador,United States
+6,round_of_16,92,Japan,Mexico,Mexico,Japan
+6,round_of_16,93,Senegal,England,England,Senegal
+6,round_of_16,94,Portugal,Belgium,Belgium,Portugal
+6,round_of_16,95,Spain,Algeria,Spain,Algeria
+6,round_of_16,96,Australia,Egypt,Australia,Egypt
+6,quarterfinal,97,Switzerland,Germany,Germany,Switzerland
+6,quarterfinal,98,England,Belgium,Belgium,England
+6,quarterfinal,99,Ecuador,Mexico,Mexico,Ecuador
+6,quarterfinal,100,Spain,Australia,Spain,Australia
+6,semifinal,101,Germany,Belgium,Belgium,Germany
+6,semifinal,102,Mexico,Spain,Spain,Mexico
+6,final,104,Belgium,Spain,Spain,Belgium
+6,third_place,103,Germany,Mexico,Germany,Mexico
+7,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+7,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+7,round_of_32,75,Morocco,Sweden,Morocco,Sweden
+7,round_of_32,76,Netherlands,Scotland,Scotland,Netherlands
+7,round_of_32,77,Norway,Brazil,Brazil,Norway
+7,round_of_32,78,Mexico,Japan,Japan,Mexico
+7,round_of_32,79,Curaçao,France,France,Curaçao
+7,round_of_32,80,United States,Senegal,United States,Senegal
+7,round_of_32,81,Egypt,Algeria,Egypt,Algeria
+7,round_of_32,82,England,Uzbekistan,England,Uzbekistan
+7,round_of_32,83,Colombia,Ghana,Colombia,Ghana
+7,round_of_32,84,Canada,Iran,Iran,Canada
+7,round_of_32,85,Spain,Austria,Spain,Austria
+7,round_of_32,86,DR Congo,Panama,Panama,DR Congo
+7,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+7,round_of_32,88,Australia,Belgium,Belgium,Australia
+7,round_of_16,89,Switzerland,Morocco,Morocco,Switzerland
+7,round_of_16,90,Germany,Brazil,Brazil,Germany
+7,round_of_16,91,France,United States,France,United States
+7,round_of_16,92,Scotland,Japan,Scotland,Japan
+7,round_of_16,93,Egypt,England,England,Egypt
+7,round_of_16,94,Colombia,Iran,Iran,Colombia
+7,round_of_16,95,Spain,Argentina,Spain,Argentina
+7,round_of_16,96,Panama,Belgium,Panama,Belgium
+7,quarterfinal,97,Morocco,Brazil,Morocco,Brazil
+7,quarterfinal,98,England,Iran,England,Iran
+7,quarterfinal,99,France,Scotland,France,Scotland
+7,quarterfinal,100,Spain,Panama,Spain,Panama
+7,semifinal,101,Morocco,England,England,Morocco
+7,semifinal,102,France,Spain,France,Spain
+7,final,104,England,France,France,England
+7,third_place,103,Morocco,Spain,Spain,Morocco
+8,round_of_32,73,South Africa,Switzerland,Switzerland,South Africa
+8,round_of_32,74,Germany,South Korea,South Korea,Germany
+8,round_of_32,75,Brazil,Japan,Japan,Brazil
+8,round_of_32,76,Netherlands,Morocco,Netherlands,Morocco
+8,round_of_32,77,France,Sweden,France,Sweden
+8,round_of_32,78,Mexico,Curaçao,Mexico,Curaçao
+8,round_of_32,79,Ecuador,Norway,Norway,Ecuador
+8,round_of_32,80,United States,Senegal,Senegal,United States
+8,round_of_32,81,Iran,Austria,Iran,Austria
+8,round_of_32,82,England,Colombia,Colombia,England
+8,round_of_32,83,DR Congo,Ghana,Ghana,DR Congo
+8,round_of_32,84,Canada,Belgium,Canada,Belgium
+8,round_of_32,85,Spain,Jordan,Spain,Jordan
+8,round_of_32,86,Portugal,Croatia,Portugal,Croatia
+8,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+8,round_of_32,88,Australia,Egypt,Australia,Egypt
+8,round_of_16,89,Switzerland,Japan,Japan,Switzerland
+8,round_of_16,90,South Korea,France,France,South Korea
+8,round_of_16,91,Norway,Senegal,Senegal,Norway
+8,round_of_16,92,Netherlands,Mexico,Netherlands,Mexico
+8,round_of_16,93,Iran,Colombia,Iran,Colombia
+8,round_of_16,94,Ghana,Canada,Ghana,Canada
+8,round_of_16,95,Spain,Argentina,Spain,Argentina
+8,round_of_16,96,Portugal,Australia,Portugal,Australia
+8,quarterfinal,97,Japan,France,France,Japan
+8,quarterfinal,98,Iran,Ghana,Iran,Ghana
+8,quarterfinal,99,Senegal,Netherlands,Netherlands,Senegal
+8,quarterfinal,100,Spain,Portugal,Spain,Portugal
+8,semifinal,101,France,Iran,France,Iran
+8,semifinal,102,Netherlands,Spain,Spain,Netherlands
+8,final,104,France,Spain,Spain,France
+8,third_place,103,Iran,Netherlands,Netherlands,Iran
+9,round_of_32,73,South Africa,Switzerland,Switzerland,South Africa
+9,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+9,round_of_32,75,Scotland,Japan,Japan,Scotland
+9,round_of_32,76,Netherlands,Morocco,Morocco,Netherlands
+9,round_of_32,77,Norway,Brazil,Brazil,Norway
+9,round_of_32,78,Mexico,Ecuador,Mexico,Ecuador
+9,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+9,round_of_32,80,United States,Sweden,United States,Sweden
+9,round_of_32,81,Egypt,Senegal,Egypt,Senegal
+9,round_of_32,82,Ghana,Croatia,Croatia,Ghana
+9,round_of_32,83,Portugal,England,Portugal,England
+9,round_of_32,84,Canada,Iran,Canada,Iran
+9,round_of_32,85,Spain,Austria,Spain,Austria
+9,round_of_32,86,Colombia,Turkey,Colombia,Turkey
+9,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+9,round_of_32,88,Australia,Belgium,Australia,Belgium
+9,round_of_16,89,Switzerland,Japan,Japan,Switzerland
+9,round_of_16,90,Germany,Brazil,Germany,Brazil
+9,round_of_16,91,France,United States,United States,France
+9,round_of_16,92,Morocco,Mexico,Morocco,Mexico
+9,round_of_16,93,Egypt,Croatia,Croatia,Egypt
+9,round_of_16,94,Portugal,Canada,Portugal,Canada
+9,round_of_16,95,Spain,Argentina,Argentina,Spain
+9,round_of_16,96,Colombia,Australia,Colombia,Australia
+9,quarterfinal,97,Japan,Germany,Japan,Germany
+9,quarterfinal,98,Croatia,Portugal,Portugal,Croatia
+9,quarterfinal,99,United States,Morocco,Morocco,United States
+9,quarterfinal,100,Argentina,Colombia,Colombia,Argentina
+9,semifinal,101,Japan,Portugal,Japan,Portugal
+9,semifinal,102,Morocco,Colombia,Morocco,Colombia
+9,final,104,Japan,Morocco,Morocco,Japan
+9,third_place,103,Portugal,Colombia,Portugal,Colombia
+10,round_of_32,73,South Korea,Canada,South Korea,Canada
+10,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+10,round_of_32,75,Brazil,Netherlands,Brazil,Netherlands
+10,round_of_32,76,Japan,Morocco,Morocco,Japan
+10,round_of_32,77,Norway,Scotland,Scotland,Norway
+10,round_of_32,78,Mexico,Sweden,Sweden,Mexico
+10,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+10,round_of_32,80,United States,Iraq,Iraq,United States
+10,round_of_32,81,Egypt,Austria,Austria,Egypt
+10,round_of_32,82,Ghana,Croatia,Croatia,Ghana
+10,round_of_32,83,Colombia,England,England,Colombia
+10,round_of_32,84,Switzerland,Iran,Switzerland,Iran
+10,round_of_32,85,Spain,Algeria,Spain,Algeria
+10,round_of_32,86,Portugal,Australia,Portugal,Australia
+10,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+10,round_of_32,88,Paraguay,Belgium,Paraguay,Belgium
+10,round_of_16,89,South Korea,Brazil,Brazil,South Korea
+10,round_of_16,90,Germany,Scotland,Germany,Scotland
+10,round_of_16,91,France,Iraq,Iraq,France
+10,round_of_16,92,Morocco,Sweden,Morocco,Sweden
+10,round_of_16,93,Austria,Croatia,Croatia,Austria
+10,round_of_16,94,England,Switzerland,England,Switzerland
+10,round_of_16,95,Spain,Argentina,Spain,Argentina
+10,round_of_16,96,Portugal,Paraguay,Paraguay,Portugal
+10,quarterfinal,97,Brazil,Germany,Germany,Brazil
+10,quarterfinal,98,Croatia,England,England,Croatia
+10,quarterfinal,99,Iraq,Morocco,Morocco,Iraq
+10,quarterfinal,100,Spain,Paraguay,Spain,Paraguay
+10,semifinal,101,Germany,England,Germany,England
+10,semifinal,102,Morocco,Spain,Spain,Morocco
+10,final,104,Germany,Spain,Spain,Germany
+10,third_place,103,England,Morocco,England,Morocco
+11,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+11,round_of_32,74,Germany,Czechia,Germany,Czechia
+11,round_of_32,75,Morocco,Netherlands,Netherlands,Morocco
+11,round_of_32,76,Japan,Brazil,Japan,Brazil
+11,round_of_32,77,Norway,Scotland,Scotland,Norway
+11,round_of_32,78,Mexico,Ivory Coast,Ivory Coast,Mexico
+11,round_of_32,79,Curaçao,Iraq,Curaçao,Iraq
+11,round_of_32,80,United States,Qatar,United States,Qatar
+11,round_of_32,81,Egypt,Jordan,Egypt,Jordan
+11,round_of_32,82,Croatia,Ghana,Croatia,Ghana
+11,round_of_32,83,DR Congo,England,DR Congo,England
+11,round_of_32,84,Canada,Belgium,Canada,Belgium
+11,round_of_32,85,Spain,Austria,Spain,Austria
+11,round_of_32,86,Colombia,Australia,Colombia,Australia
+11,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+11,round_of_32,88,Paraguay,Iran,Iran,Paraguay
+11,round_of_16,89,Switzerland,Netherlands,Switzerland,Netherlands
+11,round_of_16,90,Germany,Scotland,Germany,Scotland
+11,round_of_16,91,Curaçao,United States,Curaçao,United States
+11,round_of_16,92,Japan,Ivory Coast,Ivory Coast,Japan
+11,round_of_16,93,Egypt,Croatia,Croatia,Egypt
+11,round_of_16,94,DR Congo,Canada,DR Congo,Canada
+11,round_of_16,95,Spain,Argentina,Spain,Argentina
+11,round_of_16,96,Colombia,Iran,Iran,Colombia
+11,quarterfinal,97,Switzerland,Germany,Germany,Switzerland
+11,quarterfinal,98,Croatia,DR Congo,Croatia,DR Congo
+11,quarterfinal,99,Curaçao,Ivory Coast,Curaçao,Ivory Coast
+11,quarterfinal,100,Spain,Iran,Spain,Iran
+11,semifinal,101,Germany,Croatia,Germany,Croatia
+11,semifinal,102,Curaçao,Spain,Spain,Curaçao
+11,final,104,Germany,Spain,Spain,Germany
+11,third_place,103,Croatia,Curaçao,Croatia,Curaçao
+12,round_of_32,73,South Korea,Canada,South Korea,Canada
+12,round_of_32,74,Germany,Scotland,Germany,Scotland
+12,round_of_32,75,Morocco,Netherlands,Netherlands,Morocco
+12,round_of_32,76,Japan,Brazil,Japan,Brazil
+12,round_of_32,77,France,Sweden,France,Sweden
+12,round_of_32,78,Mexico,Ivory Coast,Mexico,Ivory Coast
+12,round_of_32,79,Curaçao,Norway,Norway,Curaçao
+12,round_of_32,80,United States,Jordan,Jordan,United States
+12,round_of_32,81,Egypt,Uruguay,Egypt,Uruguay
+12,round_of_32,82,England,DR Congo,England,DR Congo
+12,round_of_32,83,Uzbekistan,Ghana,Uzbekistan,Ghana
+12,round_of_32,84,Switzerland,Iran,Iran,Switzerland
+12,round_of_32,85,Spain,Austria,Spain,Austria
+12,round_of_32,86,Colombia,Croatia,Croatia,Colombia
+12,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+12,round_of_32,88,Paraguay,New Zealand,New Zealand,Paraguay
+12,round_of_16,89,South Korea,Netherlands,South Korea,Netherlands
+12,round_of_16,90,Germany,France,Germany,France
+12,round_of_16,91,Norway,Jordan,Norway,Jordan
+12,round_of_16,92,Japan,Mexico,Mexico,Japan
+12,round_of_16,93,Egypt,England,Egypt,England
+12,round_of_16,94,Uzbekistan,Iran,Iran,Uzbekistan
+12,round_of_16,95,Spain,Argentina,Argentina,Spain
+12,round_of_16,96,Croatia,New Zealand,Croatia,New Zealand
+12,quarterfinal,97,South Korea,Germany,Germany,South Korea
+12,quarterfinal,98,Egypt,Iran,Egypt,Iran
+12,quarterfinal,99,Norway,Mexico,Mexico,Norway
+12,quarterfinal,100,Argentina,Croatia,Argentina,Croatia
+12,semifinal,101,Germany,Egypt,Egypt,Germany
+12,semifinal,102,Mexico,Argentina,Argentina,Mexico
+12,final,104,Egypt,Argentina,Argentina,Egypt
+12,third_place,103,Germany,Mexico,Germany,Mexico
+13,round_of_32,73,South Korea,Switzerland,South Korea,Switzerland
+13,round_of_32,74,Germany,Qatar,Germany,Qatar
+13,round_of_32,75,Brazil,Netherlands,Netherlands,Brazil
+13,round_of_32,76,Sweden,Morocco,Sweden,Morocco
+13,round_of_32,77,Norway,Scotland,Norway,Scotland
+13,round_of_32,78,Mexico,Japan,Mexico,Japan
+13,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+13,round_of_32,80,United States,Iraq,Iraq,United States
+13,round_of_32,81,Iran,Algeria,Algeria,Iran
+13,round_of_32,82,England,Egypt,England,Egypt
+13,round_of_32,83,Portugal,Croatia,Croatia,Portugal
+13,round_of_32,84,Canada,Australia,Canada,Australia
+13,round_of_32,85,Spain,Austria,Austria,Spain
+13,round_of_32,86,Colombia,Ghana,Colombia,Ghana
+13,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+13,round_of_32,88,Paraguay,Belgium,Belgium,Paraguay
+13,round_of_16,89,South Korea,Netherlands,Netherlands,South Korea
+13,round_of_16,90,Germany,Norway,Germany,Norway
+13,round_of_16,91,France,Iraq,Iraq,France
+13,round_of_16,92,Sweden,Mexico,Mexico,Sweden
+13,round_of_16,93,Algeria,England,England,Algeria
+13,round_of_16,94,Croatia,Canada,Croatia,Canada
+13,round_of_16,95,Austria,Argentina,Austria,Argentina
+13,round_of_16,96,Colombia,Belgium,Colombia,Belgium
+13,quarterfinal,97,Netherlands,Germany,Germany,Netherlands
+13,quarterfinal,98,England,Croatia,Croatia,England
+13,quarterfinal,99,Iraq,Mexico,Iraq,Mexico
+13,quarterfinal,100,Austria,Colombia,Colombia,Austria
+13,semifinal,101,Germany,Croatia,Germany,Croatia
+13,semifinal,102,Iraq,Colombia,Iraq,Colombia
+13,final,104,Germany,Iraq,Germany,Iraq
+13,third_place,103,Croatia,Colombia,Colombia,Croatia
+14,round_of_32,73,South Korea,Canada,South Korea,Canada
+14,round_of_32,74,Germany,Qatar,Germany,Qatar
+14,round_of_32,75,Brazil,Japan,Japan,Brazil
+14,round_of_32,76,Netherlands,Morocco,Netherlands,Morocco
+14,round_of_32,77,France,Haiti,France,Haiti
+14,round_of_32,78,Mexico,Ivory Coast,Mexico,Ivory Coast
+14,round_of_32,79,Curaçao,Norway,Norway,Curaçao
+14,round_of_32,80,United States,Sweden,Sweden,United States
+14,round_of_32,81,Egypt,Algeria,Egypt,Algeria
+14,round_of_32,82,England,Portugal,England,Portugal
+14,round_of_32,83,Colombia,Panama,Colombia,Panama
+14,round_of_32,84,Switzerland,Croatia,Switzerland,Croatia
+14,round_of_32,85,Spain,Argentina,Argentina,Spain
+14,round_of_32,86,DR Congo,Australia,Australia,DR Congo
+14,round_of_32,87,Austria,Cape Verde,Austria,Cape Verde
+14,round_of_32,88,Paraguay,New Zealand,Paraguay,New Zealand
+14,round_of_16,89,South Korea,Japan,South Korea,Japan
+14,round_of_16,90,Germany,France,France,Germany
+14,round_of_16,91,Norway,Sweden,Norway,Sweden
+14,round_of_16,92,Netherlands,Mexico,Mexico,Netherlands
+14,round_of_16,93,Egypt,England,England,Egypt
+14,round_of_16,94,Colombia,Switzerland,Switzerland,Colombia
+14,round_of_16,95,Argentina,Austria,Austria,Argentina
+14,round_of_16,96,Australia,Paraguay,Paraguay,Australia
+14,quarterfinal,97,South Korea,France,France,South Korea
+14,quarterfinal,98,England,Switzerland,Switzerland,England
+14,quarterfinal,99,Norway,Mexico,Norway,Mexico
+14,quarterfinal,100,Austria,Paraguay,Austria,Paraguay
+14,semifinal,101,France,Switzerland,France,Switzerland
+14,semifinal,102,Norway,Austria,Norway,Austria
+14,final,104,France,Norway,France,Norway
+14,third_place,103,Switzerland,Austria,Switzerland,Austria
+15,round_of_32,73,South Korea,Canada,Canada,South Korea
+15,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+15,round_of_32,75,Brazil,Sweden,Brazil,Sweden
+15,round_of_32,76,Netherlands,Scotland,Netherlands,Scotland
+15,round_of_32,77,France,Morocco,Morocco,France
+15,round_of_32,78,Mexico,Ivory Coast,Mexico,Ivory Coast
+15,round_of_32,79,Curaçao,Norway,Curaçao,Norway
+15,round_of_32,80,United States,Japan,United States,Japan
+15,round_of_32,81,Egypt,Saudi Arabia,Egypt,Saudi Arabia
+15,round_of_32,82,England,Uzbekistan,England,Uzbekistan
+15,round_of_32,83,DR Congo,Ghana,Ghana,DR Congo
+15,round_of_32,84,Switzerland,Iran,Iran,Switzerland
+15,round_of_32,85,Uruguay,Austria,Austria,Uruguay
+15,round_of_32,86,Colombia,Paraguay,Colombia,Paraguay
+15,round_of_32,87,Argentina,Spain,Argentina,Spain
+15,round_of_32,88,Australia,New Zealand,New Zealand,Australia
+15,round_of_16,89,Canada,Brazil,Brazil,Canada
+15,round_of_16,90,Germany,Morocco,Morocco,Germany
+15,round_of_16,91,Curaçao,United States,United States,Curaçao
+15,round_of_16,92,Netherlands,Mexico,Mexico,Netherlands
+15,round_of_16,93,Egypt,England,Egypt,England
+15,round_of_16,94,Ghana,Iran,Iran,Ghana
+15,round_of_16,95,Austria,Argentina,Austria,Argentina
+15,round_of_16,96,Colombia,New Zealand,Colombia,New Zealand
+15,quarterfinal,97,Brazil,Morocco,Morocco,Brazil
+15,quarterfinal,98,Egypt,Iran,Egypt,Iran
+15,quarterfinal,99,United States,Mexico,Mexico,United States
+15,quarterfinal,100,Austria,Colombia,Colombia,Austria
+15,semifinal,101,Morocco,Egypt,Morocco,Egypt
+15,semifinal,102,Mexico,Colombia,Colombia,Mexico
+15,final,104,Morocco,Colombia,Colombia,Morocco
+15,third_place,103,Egypt,Mexico,Mexico,Egypt
+16,round_of_32,73,South Korea,Canada,Canada,South Korea
+16,round_of_32,74,Germany,Bosnia and Herzegovina,Bosnia and Herzegovina,Germany
+16,round_of_32,75,Brazil,Japan,Japan,Brazil
+16,round_of_32,76,Netherlands,Morocco,Netherlands,Morocco
+16,round_of_32,77,Senegal,Paraguay,Senegal,Paraguay
+16,round_of_32,78,Mexico,Sweden,Mexico,Sweden
+16,round_of_32,79,Ivory Coast,Norway,Ivory Coast,Norway
+16,round_of_32,80,United States,France,France,United States
+16,round_of_32,81,Iran,Cape Verde,Iran,Cape Verde
+16,round_of_32,82,England,Jordan,Jordan,England
+16,round_of_32,83,Colombia,Ghana,Ghana,Colombia
+16,round_of_32,84,Switzerland,Egypt,Switzerland,Egypt
+16,round_of_32,85,Spain,Argentina,Spain,Argentina
+16,round_of_32,86,Portugal,Croatia,Portugal,Croatia
+16,round_of_32,87,Austria,Uruguay,Uruguay,Austria
+16,round_of_32,88,Australia,Belgium,Belgium,Australia
+16,round_of_16,89,Canada,Japan,Japan,Canada
+16,round_of_16,90,Bosnia and Herzegovina,Senegal,Senegal,Bosnia and Herzegovina
+16,round_of_16,91,Ivory Coast,France,France,Ivory Coast
+16,round_of_16,92,Netherlands,Mexico,Netherlands,Mexico
+16,round_of_16,93,Iran,Jordan,Iran,Jordan
+16,round_of_16,94,Ghana,Switzerland,Switzerland,Ghana
+16,round_of_16,95,Spain,Uruguay,Uruguay,Spain
+16,round_of_16,96,Portugal,Belgium,Portugal,Belgium
+16,quarterfinal,97,Japan,Senegal,Japan,Senegal
+16,quarterfinal,98,Iran,Switzerland,Iran,Switzerland
+16,quarterfinal,99,France,Netherlands,France,Netherlands
+16,quarterfinal,100,Uruguay,Portugal,Portugal,Uruguay
+16,semifinal,101,Japan,Iran,Japan,Iran
+16,semifinal,102,France,Portugal,Portugal,France
+16,final,104,Japan,Portugal,Portugal,Japan
+16,third_place,103,Iran,France,France,Iran
+17,round_of_32,73,South Korea,Switzerland,South Korea,Switzerland
+17,round_of_32,74,Germany,Czechia,Germany,Czechia
+17,round_of_32,75,Brazil,Japan,Brazil,Japan
+17,round_of_32,76,Sweden,Morocco,Sweden,Morocco
+17,round_of_32,77,France,Australia,France,Australia
+17,round_of_32,78,Mexico,Netherlands,Mexico,Netherlands
+17,round_of_32,79,Ivory Coast,Norway,Norway,Ivory Coast
+17,round_of_32,80,United States,Bosnia and Herzegovina,Bosnia and Herzegovina,United States
+17,round_of_32,81,Iran,Uruguay,Uruguay,Iran
+17,round_of_32,82,England,Senegal,England,Senegal
+17,round_of_32,83,Uzbekistan,Croatia,Uzbekistan,Croatia
+17,round_of_32,84,Canada,New Zealand,Canada,New Zealand
+17,round_of_32,85,Spain,Austria,Spain,Austria
+17,round_of_32,86,Colombia,Ghana,Colombia,Ghana
+17,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+17,round_of_32,88,Paraguay,Egypt,Paraguay,Egypt
+17,round_of_16,89,South Korea,Brazil,Brazil,South Korea
+17,round_of_16,90,Germany,France,Germany,France
+17,round_of_16,91,Norway,Bosnia and Herzegovina,Bosnia and Herzegovina,Norway
+17,round_of_16,92,Sweden,Mexico,Mexico,Sweden
+17,round_of_16,93,Uruguay,England,Uruguay,England
+17,round_of_16,94,Uzbekistan,Canada,Canada,Uzbekistan
+17,round_of_16,95,Spain,Argentina,Spain,Argentina
+17,round_of_16,96,Colombia,Paraguay,Colombia,Paraguay
+17,quarterfinal,97,Brazil,Germany,Brazil,Germany
+17,quarterfinal,98,Uruguay,Canada,Canada,Uruguay
+17,quarterfinal,99,Bosnia and Herzegovina,Mexico,Mexico,Bosnia and Herzegovina
+17,quarterfinal,100,Spain,Colombia,Colombia,Spain
+17,semifinal,101,Brazil,Canada,Brazil,Canada
+17,semifinal,102,Mexico,Colombia,Mexico,Colombia
+17,final,104,Brazil,Mexico,Brazil,Mexico
+17,third_place,103,Canada,Colombia,Colombia,Canada
+18,round_of_32,73,Mexico,Canada,Canada,Mexico
+18,round_of_32,74,Germany,Czechia,Czechia,Germany
+18,round_of_32,75,Brazil,Japan,Brazil,Japan
+18,round_of_32,76,Netherlands,Morocco,Morocco,Netherlands
+18,round_of_32,77,France,Scotland,France,Scotland
+18,round_of_32,78,South Korea,Sweden,South Korea,Sweden
+18,round_of_32,79,Ivory Coast,Norway,Ivory Coast,Norway
+18,round_of_32,80,United States,Bosnia and Herzegovina,United States,Bosnia and Herzegovina
+18,round_of_32,81,Iran,Uruguay,Uruguay,Iran
+18,round_of_32,82,England,DR Congo,England,DR Congo
+18,round_of_32,83,Uzbekistan,Croatia,Uzbekistan,Croatia
+18,round_of_32,84,Switzerland,Egypt,Switzerland,Egypt
+18,round_of_32,85,Spain,Austria,Spain,Austria
+18,round_of_32,86,Colombia,Australia,Australia,Colombia
+18,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+18,round_of_32,88,Paraguay,Belgium,Belgium,Paraguay
+18,round_of_16,89,Canada,Brazil,Brazil,Canada
+18,round_of_16,90,Czechia,France,France,Czechia
+18,round_of_16,91,Ivory Coast,United States,Ivory Coast,United States
+18,round_of_16,92,Morocco,South Korea,Morocco,South Korea
+18,round_of_16,93,Uruguay,England,Uruguay,England
+18,round_of_16,94,Uzbekistan,Switzerland,Switzerland,Uzbekistan
+18,round_of_16,95,Spain,Argentina,Spain,Argentina
+18,round_of_16,96,Australia,Belgium,Belgium,Australia
+18,quarterfinal,97,Brazil,France,Brazil,France
+18,quarterfinal,98,Uruguay,Switzerland,Uruguay,Switzerland
+18,quarterfinal,99,Ivory Coast,Morocco,Morocco,Ivory Coast
+18,quarterfinal,100,Spain,Belgium,Spain,Belgium
+18,semifinal,101,Brazil,Uruguay,Brazil,Uruguay
+18,semifinal,102,Morocco,Spain,Spain,Morocco
+18,final,104,Brazil,Spain,Spain,Brazil
+18,third_place,103,Uruguay,Morocco,Morocco,Uruguay
+19,round_of_32,73,South Korea,Canada,South Korea,Canada
+19,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+19,round_of_32,75,Scotland,Sweden,Scotland,Sweden
+19,round_of_32,76,Netherlands,Brazil,Brazil,Netherlands
+19,round_of_32,77,France,Morocco,France,Morocco
+19,round_of_32,78,Mexico,Japan,Mexico,Japan
+19,round_of_32,79,Ivory Coast,Norway,Ivory Coast,Norway
+19,round_of_32,80,United States,Algeria,Algeria,United States
+19,round_of_32,81,Iran,DR Congo,Iran,DR Congo
+19,round_of_32,82,England,New Zealand,England,New Zealand
+19,round_of_32,83,Portugal,Ghana,Portugal,Ghana
+19,round_of_32,84,Switzerland,Paraguay,Paraguay,Switzerland
+19,round_of_32,85,Spain,Argentina,Argentina,Spain
+19,round_of_32,86,Colombia,Panama,Colombia,Panama
+19,round_of_32,87,Austria,Cape Verde,Austria,Cape Verde
+19,round_of_32,88,Australia,Egypt,Australia,Egypt
+19,round_of_16,89,South Korea,Scotland,Scotland,South Korea
+19,round_of_16,90,Germany,France,France,Germany
+19,round_of_16,91,Ivory Coast,Algeria,Ivory Coast,Algeria
+19,round_of_16,92,Brazil,Mexico,Mexico,Brazil
+19,round_of_16,93,Iran,England,England,Iran
+19,round_of_16,94,Portugal,Paraguay,Portugal,Paraguay
+19,round_of_16,95,Argentina,Austria,Argentina,Austria
+19,round_of_16,96,Colombia,Australia,Australia,Colombia
+19,quarterfinal,97,Scotland,France,France,Scotland
+19,quarterfinal,98,England,Portugal,Portugal,England
+19,quarterfinal,99,Ivory Coast,Mexico,Mexico,Ivory Coast
+19,quarterfinal,100,Argentina,Australia,Argentina,Australia
+19,semifinal,101,France,Portugal,France,Portugal
+19,semifinal,102,Mexico,Argentina,Argentina,Mexico
+19,final,104,France,Argentina,France,Argentina
+19,third_place,103,Portugal,Mexico,Mexico,Portugal
+20,round_of_32,73,South Korea,Canada,Canada,South Korea
+20,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+20,round_of_32,75,Morocco,Sweden,Morocco,Sweden
+20,round_of_32,76,Netherlands,Scotland,Scotland,Netherlands
+20,round_of_32,77,Senegal,Brazil,Brazil,Senegal
+20,round_of_32,78,Mexico,Japan,Japan,Mexico
+20,round_of_32,79,Ivory Coast,Norway,Ivory Coast,Norway
+20,round_of_32,80,United States,France,United States,France
+20,round_of_32,81,Iran,Algeria,Algeria,Iran
+20,round_of_32,82,Panama,DR Congo,Panama,DR Congo
+20,round_of_32,83,Colombia,England,Colombia,England
+20,round_of_32,84,Switzerland,New Zealand,New Zealand,Switzerland
+20,round_of_32,85,Spain,Jordan,Spain,Jordan
+20,round_of_32,86,Uzbekistan,Croatia,Uzbekistan,Croatia
+20,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+20,round_of_32,88,Paraguay,Egypt,Egypt,Paraguay
+20,round_of_16,89,Canada,Morocco,Morocco,Canada
+20,round_of_16,90,Germany,Brazil,Brazil,Germany
+20,round_of_16,91,Ivory Coast,United States,Ivory Coast,United States
+20,round_of_16,92,Scotland,Japan,Japan,Scotland
+20,round_of_16,93,Algeria,Panama,Panama,Algeria
+20,round_of_16,94,Colombia,New Zealand,Colombia,New Zealand
+20,round_of_16,95,Spain,Argentina,Spain,Argentina
+20,round_of_16,96,Uzbekistan,Egypt,Egypt,Uzbekistan
+20,quarterfinal,97,Morocco,Brazil,Morocco,Brazil
+20,quarterfinal,98,Panama,Colombia,Colombia,Panama
+20,quarterfinal,99,Ivory Coast,Japan,Ivory Coast,Japan
+20,quarterfinal,100,Spain,Egypt,Spain,Egypt
+20,semifinal,101,Morocco,Colombia,Morocco,Colombia
+20,semifinal,102,Ivory Coast,Spain,Spain,Ivory Coast
+20,final,104,Morocco,Spain,Spain,Morocco
+20,third_place,103,Colombia,Ivory Coast,Ivory Coast,Colombia
+21,round_of_32,73,South Africa,Canada,Canada,South Africa
+21,round_of_32,74,Germany,Bosnia and Herzegovina,Bosnia and Herzegovina,Germany
+21,round_of_32,75,Brazil,Japan,Brazil,Japan
+21,round_of_32,76,Netherlands,Morocco,Morocco,Netherlands
+21,round_of_32,77,Norway,Sweden,Norway,Sweden
+21,round_of_32,78,Mexico,Uruguay,Mexico,Uruguay
+21,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+21,round_of_32,80,United States,Senegal,Senegal,United States
+21,round_of_32,81,Iran,Algeria,Iran,Algeria
+21,round_of_32,82,Ghana,Uzbekistan,Uzbekistan,Ghana
+21,round_of_32,83,Colombia,England,Colombia,England
+21,round_of_32,84,Switzerland,New Zealand,New Zealand,Switzerland
+21,round_of_32,85,Spain,Austria,Spain,Austria
+21,round_of_32,86,DR Congo,Croatia,Croatia,DR Congo
+21,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+21,round_of_32,88,Australia,Egypt,Australia,Egypt
+21,round_of_16,89,Canada,Brazil,Brazil,Canada
+21,round_of_16,90,Bosnia and Herzegovina,Norway,Bosnia and Herzegovina,Norway
+21,round_of_16,91,France,Senegal,France,Senegal
+21,round_of_16,92,Morocco,Mexico,Mexico,Morocco
+21,round_of_16,93,Iran,Uzbekistan,Uzbekistan,Iran
+21,round_of_16,94,Colombia,New Zealand,Colombia,New Zealand
+21,round_of_16,95,Spain,Argentina,Argentina,Spain
+21,round_of_16,96,Croatia,Australia,Australia,Croatia
+21,quarterfinal,97,Brazil,Bosnia and Herzegovina,Brazil,Bosnia and Herzegovina
+21,quarterfinal,98,Uzbekistan,Colombia,Uzbekistan,Colombia
+21,quarterfinal,99,France,Mexico,France,Mexico
+21,quarterfinal,100,Argentina,Australia,Argentina,Australia
+21,semifinal,101,Brazil,Uzbekistan,Brazil,Uzbekistan
+21,semifinal,102,France,Argentina,Argentina,France
+21,final,104,Brazil,Argentina,Argentina,Brazil
+21,third_place,103,Uzbekistan,France,Uzbekistan,France
+22,round_of_32,73,South Korea,Canada,South Korea,Canada
+22,round_of_32,74,Germany,Paraguay,Germany,Paraguay
+22,round_of_32,75,Brazil,Netherlands,Netherlands,Brazil
+22,round_of_32,76,Japan,Morocco,Japan,Morocco
+22,round_of_32,77,France,Sweden,Sweden,France
+22,round_of_32,78,Mexico,Ecuador,Ecuador,Mexico
+22,round_of_32,79,Ivory Coast,Senegal,Senegal,Ivory Coast
+22,round_of_32,80,United States,Algeria,United States,Algeria
+22,round_of_32,81,Iran,Cape Verde,Cape Verde,Iran
+22,round_of_32,82,Ghana,Portugal,Portugal,Ghana
+22,round_of_32,83,Uzbekistan,England,England,Uzbekistan
+22,round_of_32,84,Switzerland,New Zealand,Switzerland,New Zealand
+22,round_of_32,85,Uruguay,Austria,Uruguay,Austria
+22,round_of_32,86,Colombia,Panama,Colombia,Panama
+22,round_of_32,87,Argentina,Spain,Spain,Argentina
+22,round_of_32,88,Australia,Egypt,Australia,Egypt
+22,round_of_16,89,South Korea,Netherlands,South Korea,Netherlands
+22,round_of_16,90,Germany,Sweden,Germany,Sweden
+22,round_of_16,91,Senegal,United States,United States,Senegal
+22,round_of_16,92,Japan,Ecuador,Ecuador,Japan
+22,round_of_16,93,Cape Verde,Portugal,Portugal,Cape Verde
+22,round_of_16,94,England,Switzerland,England,Switzerland
+22,round_of_16,95,Uruguay,Spain,Spain,Uruguay
+22,round_of_16,96,Colombia,Australia,Australia,Colombia
+22,quarterfinal,97,South Korea,Germany,Germany,South Korea
+22,quarterfinal,98,Portugal,England,England,Portugal
+22,quarterfinal,99,United States,Ecuador,United States,Ecuador
+22,quarterfinal,100,Spain,Australia,Spain,Australia
+22,semifinal,101,Germany,England,Germany,England
+22,semifinal,102,United States,Spain,Spain,United States
+22,final,104,Germany,Spain,Spain,Germany
+22,third_place,103,England,United States,England,United States
+23,round_of_32,73,South Korea,Switzerland,South Korea,Switzerland
+23,round_of_32,74,Germany,Czechia,Germany,Czechia
+23,round_of_32,75,Brazil,Japan,Brazil,Japan
+23,round_of_32,76,Netherlands,Morocco,Netherlands,Morocco
+23,round_of_32,77,Norway,Scotland,Scotland,Norway
+23,round_of_32,78,Mexico,Sweden,Sweden,Mexico
+23,round_of_32,79,Ivory Coast,France,Ivory Coast,France
+23,round_of_32,80,United States,Bosnia and Herzegovina,United States,Bosnia and Herzegovina
+23,round_of_32,81,Iran,Algeria,Algeria,Iran
+23,round_of_32,82,England,Portugal,England,Portugal
+23,round_of_32,83,DR Congo,Ghana,Ghana,DR Congo
+23,round_of_32,84,Canada,Egypt,Egypt,Canada
+23,round_of_32,85,Spain,Austria,Spain,Austria
+23,round_of_32,86,Colombia,Paraguay,Paraguay,Colombia
+23,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+23,round_of_32,88,Australia,Belgium,Australia,Belgium
+23,round_of_16,89,South Korea,Brazil,South Korea,Brazil
+23,round_of_16,90,Germany,Scotland,Germany,Scotland
+23,round_of_16,91,Ivory Coast,United States,United States,Ivory Coast
+23,round_of_16,92,Netherlands,Sweden,Sweden,Netherlands
+23,round_of_16,93,Algeria,England,England,Algeria
+23,round_of_16,94,Ghana,Egypt,Egypt,Ghana
+23,round_of_16,95,Spain,Argentina,Spain,Argentina
+23,round_of_16,96,Paraguay,Australia,Australia,Paraguay
+23,quarterfinal,97,South Korea,Germany,South Korea,Germany
+23,quarterfinal,98,England,Egypt,England,Egypt
+23,quarterfinal,99,United States,Sweden,Sweden,United States
+23,quarterfinal,100,Spain,Australia,Australia,Spain
+23,semifinal,101,South Korea,England,England,South Korea
+23,semifinal,102,Sweden,Australia,Sweden,Australia
+23,final,104,England,Sweden,Sweden,England
+23,third_place,103,South Korea,Australia,Australia,South Korea
+24,round_of_32,73,South Africa,Switzerland,Switzerland,South Africa
+24,round_of_32,74,Germany,South Korea,South Korea,Germany
+24,round_of_32,75,Brazil,Netherlands,Brazil,Netherlands
+24,round_of_32,76,Japan,Morocco,Morocco,Japan
+24,round_of_32,77,Norway,Paraguay,Paraguay,Norway
+24,round_of_32,78,Mexico,Sweden,Mexico,Sweden
+24,round_of_32,79,Curaçao,France,France,Curaçao
+24,round_of_32,80,United States,Iraq,United States,Iraq
+24,round_of_32,81,Egypt,Saudi Arabia,Saudi Arabia,Egypt
+24,round_of_32,82,Croatia,Portugal,Portugal,Croatia
+24,round_of_32,83,Colombia,Ghana,Colombia,Ghana
+24,round_of_32,84,Canada,Iran,Iran,Canada
+24,round_of_32,85,Uruguay,Austria,Austria,Uruguay
+24,round_of_32,86,DR Congo,England,England,DR Congo
+24,round_of_32,87,Argentina,Spain,Argentina,Spain
+24,round_of_32,88,Australia,Belgium,Belgium,Australia
+24,round_of_16,89,Switzerland,Brazil,Brazil,Switzerland
+24,round_of_16,90,South Korea,Paraguay,South Korea,Paraguay
+24,round_of_16,91,France,United States,France,United States
+24,round_of_16,92,Morocco,Mexico,Morocco,Mexico
+24,round_of_16,93,Saudi Arabia,Portugal,Portugal,Saudi Arabia
+24,round_of_16,94,Colombia,Iran,Iran,Colombia
+24,round_of_16,95,Austria,Argentina,Austria,Argentina
+24,round_of_16,96,England,Belgium,Belgium,England
+24,quarterfinal,97,Brazil,South Korea,South Korea,Brazil
+24,quarterfinal,98,Portugal,Iran,Iran,Portugal
+24,quarterfinal,99,France,Morocco,Morocco,France
+24,quarterfinal,100,Austria,Belgium,Belgium,Austria
+24,semifinal,101,South Korea,Iran,South Korea,Iran
+24,semifinal,102,Morocco,Belgium,Belgium,Morocco
+24,final,104,South Korea,Belgium,South Korea,Belgium
+24,third_place,103,Iran,Morocco,Iran,Morocco
+25,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+25,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+25,round_of_32,75,Brazil,Netherlands,Brazil,Netherlands
+25,round_of_32,76,Japan,Morocco,Morocco,Japan
+25,round_of_32,77,Norway,Scotland,Norway,Scotland
+25,round_of_32,78,Mexico,Ivory Coast,Mexico,Ivory Coast
+25,round_of_32,79,Curaçao,France,France,Curaçao
+25,round_of_32,80,United States,Sweden,United States,Sweden
+25,round_of_32,81,Egypt,Senegal,Senegal,Egypt
+25,round_of_32,82,England,Algeria,England,Algeria
+25,round_of_32,83,Portugal,Ghana,Portugal,Ghana
+25,round_of_32,84,Canada,Iran,Canada,Iran
+25,round_of_32,85,Spain,Austria,Austria,Spain
+25,round_of_32,86,Colombia,Uzbekistan,Uzbekistan,Colombia
+25,round_of_32,87,Argentina,Saudi Arabia,Argentina,Saudi Arabia
+25,round_of_32,88,Australia,New Zealand,Australia,New Zealand
+25,round_of_16,89,Switzerland,Brazil,Switzerland,Brazil
+25,round_of_16,90,Germany,Norway,Germany,Norway
+25,round_of_16,91,France,United States,France,United States
+25,round_of_16,92,Morocco,Mexico,Mexico,Morocco
+25,round_of_16,93,Senegal,England,England,Senegal
+25,round_of_16,94,Portugal,Canada,Portugal,Canada
+25,round_of_16,95,Austria,Argentina,Argentina,Austria
+25,round_of_16,96,Uzbekistan,Australia,Australia,Uzbekistan
+25,quarterfinal,97,Switzerland,Germany,Germany,Switzerland
+25,quarterfinal,98,England,Portugal,England,Portugal
+25,quarterfinal,99,France,Mexico,Mexico,France
+25,quarterfinal,100,Argentina,Australia,Argentina,Australia
+25,semifinal,101,Germany,England,England,Germany
+25,semifinal,102,Mexico,Argentina,Mexico,Argentina
+25,final,104,England,Mexico,Mexico,England
+25,third_place,103,Germany,Argentina,Germany,Argentina
+26,round_of_32,73,Czechia,Switzerland,Switzerland,Czechia
+26,round_of_32,74,Germany,South Korea,South Korea,Germany
+26,round_of_32,75,Morocco,Netherlands,Morocco,Netherlands
+26,round_of_32,76,Japan,Scotland,Japan,Scotland
+26,round_of_32,77,France,Brazil,France,Brazil
+26,round_of_32,78,Mexico,Ecuador,Ecuador,Mexico
+26,round_of_32,79,Ivory Coast,Norway,Norway,Ivory Coast
+26,round_of_32,80,United States,Senegal,Senegal,United States
+26,round_of_32,81,Egypt,Uruguay,Egypt,Uruguay
+26,round_of_32,82,England,Portugal,England,Portugal
+26,round_of_32,83,Uzbekistan,Croatia,Croatia,Uzbekistan
+26,round_of_32,84,Canada,Paraguay,Paraguay,Canada
+26,round_of_32,85,Spain,Austria,Austria,Spain
+26,round_of_32,86,Colombia,Panama,Colombia,Panama
+26,round_of_32,87,Argentina,Saudi Arabia,Argentina,Saudi Arabia
+26,round_of_32,88,Australia,Belgium,Australia,Belgium
+26,round_of_16,89,Switzerland,Morocco,Switzerland,Morocco
+26,round_of_16,90,South Korea,France,South Korea,France
+26,round_of_16,91,Norway,Senegal,Norway,Senegal
+26,round_of_16,92,Japan,Ecuador,Ecuador,Japan
+26,round_of_16,93,Egypt,England,England,Egypt
+26,round_of_16,94,Croatia,Paraguay,Paraguay,Croatia
+26,round_of_16,95,Austria,Argentina,Argentina,Austria
+26,round_of_16,96,Colombia,Australia,Colombia,Australia
+26,quarterfinal,97,Switzerland,South Korea,Switzerland,South Korea
+26,quarterfinal,98,England,Paraguay,England,Paraguay
+26,quarterfinal,99,Norway,Ecuador,Ecuador,Norway
+26,quarterfinal,100,Argentina,Colombia,Colombia,Argentina
+26,semifinal,101,Switzerland,England,Switzerland,England
+26,semifinal,102,Ecuador,Colombia,Colombia,Ecuador
+26,final,104,Switzerland,Colombia,Colombia,Switzerland
+26,third_place,103,England,Ecuador,England,Ecuador
+27,round_of_32,73,Czechia,Switzerland,Switzerland,Czechia
+27,round_of_32,74,Germany,South Korea,Germany,South Korea
+27,round_of_32,75,Morocco,Japan,Morocco,Japan
+27,round_of_32,76,Netherlands,Scotland,Netherlands,Scotland
+27,round_of_32,77,Norway,Brazil,Norway,Brazil
+27,round_of_32,78,Mexico,Ecuador,Ecuador,Mexico
+27,round_of_32,79,Ivory Coast,Iraq,Iraq,Ivory Coast
+27,round_of_32,80,United States,Sweden,United States,Sweden
+27,round_of_32,81,Belgium,Uruguay,Uruguay,Belgium
+27,round_of_32,82,Ghana,France,France,Ghana
+27,round_of_32,83,Colombia,Panama,Panama,Colombia
+27,round_of_32,84,Canada,Egypt,Egypt,Canada
+27,round_of_32,85,Spain,Austria,Spain,Austria
+27,round_of_32,86,Portugal,Algeria,Portugal,Algeria
+27,round_of_32,87,Argentina,Saudi Arabia,Argentina,Saudi Arabia
+27,round_of_32,88,Paraguay,Iran,Paraguay,Iran
+27,round_of_16,89,Switzerland,Morocco,Morocco,Switzerland
+27,round_of_16,90,Germany,Norway,Germany,Norway
+27,round_of_16,91,Iraq,United States,United States,Iraq
+27,round_of_16,92,Netherlands,Ecuador,Netherlands,Ecuador
+27,round_of_16,93,Uruguay,France,Uruguay,France
+27,round_of_16,94,Panama,Egypt,Egypt,Panama
+27,round_of_16,95,Spain,Argentina,Argentina,Spain
+27,round_of_16,96,Portugal,Paraguay,Portugal,Paraguay
+27,quarterfinal,97,Morocco,Germany,Morocco,Germany
+27,quarterfinal,98,Uruguay,Egypt,Uruguay,Egypt
+27,quarterfinal,99,United States,Netherlands,Netherlands,United States
+27,quarterfinal,100,Argentina,Portugal,Argentina,Portugal
+27,semifinal,101,Morocco,Uruguay,Morocco,Uruguay
+27,semifinal,102,Netherlands,Argentina,Argentina,Netherlands
+27,final,104,Morocco,Argentina,Morocco,Argentina
+27,third_place,103,Uruguay,Netherlands,Netherlands,Uruguay
+28,round_of_32,73,South Africa,Switzerland,Switzerland,South Africa
+28,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+28,round_of_32,75,Brazil,Netherlands,Brazil,Netherlands
+28,round_of_32,76,Japan,Morocco,Morocco,Japan
+28,round_of_32,77,France,Scotland,France,Scotland
+28,round_of_32,78,Mexico,Sweden,Mexico,Sweden
+28,round_of_32,79,Ivory Coast,Norway,Norway,Ivory Coast
+28,round_of_32,80,United States,Jordan,United States,Jordan
+28,round_of_32,81,Egypt,Uruguay,Uruguay,Egypt
+28,round_of_32,82,England,Ghana,Ghana,England
+28,round_of_32,83,DR Congo,Croatia,Croatia,DR Congo
+28,round_of_32,84,Canada,Iran,Iran,Canada
+28,round_of_32,85,Spain,Austria,Spain,Austria
+28,round_of_32,86,Colombia,Paraguay,Paraguay,Colombia
+28,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+28,round_of_32,88,Australia,New Zealand,Australia,New Zealand
+28,round_of_16,89,Switzerland,Brazil,Switzerland,Brazil
+28,round_of_16,90,Germany,France,Germany,France
+28,round_of_16,91,Norway,United States,United States,Norway
+28,round_of_16,92,Morocco,Mexico,Morocco,Mexico
+28,round_of_16,93,Uruguay,Ghana,Uruguay,Ghana
+28,round_of_16,94,Croatia,Iran,Iran,Croatia
+28,round_of_16,95,Spain,Argentina,Argentina,Spain
+28,round_of_16,96,Paraguay,Australia,Australia,Paraguay
+28,quarterfinal,97,Switzerland,Germany,Germany,Switzerland
+28,quarterfinal,98,Uruguay,Iran,Iran,Uruguay
+28,quarterfinal,99,United States,Morocco,Morocco,United States
+28,quarterfinal,100,Argentina,Australia,Argentina,Australia
+28,semifinal,101,Germany,Iran,Germany,Iran
+28,semifinal,102,Morocco,Argentina,Argentina,Morocco
+28,final,104,Germany,Argentina,Argentina,Germany
+28,third_place,103,Iran,Morocco,Morocco,Iran
+29,round_of_32,73,South Korea,Switzerland,South Korea,Switzerland
+29,round_of_32,74,Germany,Qatar,Germany,Qatar
+29,round_of_32,75,Brazil,Japan,Japan,Brazil
+29,round_of_32,76,Netherlands,Morocco,Morocco,Netherlands
+29,round_of_32,77,Norway,Scotland,Scotland,Norway
+29,round_of_32,78,Mexico,Sweden,Mexico,Sweden
+29,round_of_32,79,Ivory Coast,France,Ivory Coast,France
+29,round_of_32,80,United States,Algeria,United States,Algeria
+29,round_of_32,81,Iran,Spain,Iran,Spain
+29,round_of_32,82,England,Colombia,England,Colombia
+29,round_of_32,83,DR Congo,Ghana,Ghana,DR Congo
+29,round_of_32,84,Canada,Belgium,Belgium,Canada
+29,round_of_32,85,Uruguay,Argentina,Uruguay,Argentina
+29,round_of_32,86,Portugal,Australia,Portugal,Australia
+29,round_of_32,87,Austria,Cape Verde,Cape Verde,Austria
+29,round_of_32,88,Paraguay,Egypt,Paraguay,Egypt
+29,round_of_16,89,South Korea,Japan,South Korea,Japan
+29,round_of_16,90,Germany,Scotland,Germany,Scotland
+29,round_of_16,91,Ivory Coast,United States,United States,Ivory Coast
+29,round_of_16,92,Morocco,Mexico,Mexico,Morocco
+29,round_of_16,93,Iran,England,England,Iran
+29,round_of_16,94,Ghana,Belgium,Belgium,Ghana
+29,round_of_16,95,Uruguay,Cape Verde,Uruguay,Cape Verde
+29,round_of_16,96,Portugal,Paraguay,Portugal,Paraguay
+29,quarterfinal,97,South Korea,Germany,South Korea,Germany
+29,quarterfinal,98,England,Belgium,Belgium,England
+29,quarterfinal,99,United States,Mexico,United States,Mexico
+29,quarterfinal,100,Uruguay,Portugal,Portugal,Uruguay
+29,semifinal,101,South Korea,Belgium,Belgium,South Korea
+29,semifinal,102,United States,Portugal,United States,Portugal
+29,final,104,Belgium,United States,Belgium,United States
+29,third_place,103,South Korea,Portugal,Portugal,South Korea
+30,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+30,round_of_32,74,Germany,Scotland,Germany,Scotland
+30,round_of_32,75,Brazil,Sweden,Brazil,Sweden
+30,round_of_32,76,Netherlands,Morocco,Morocco,Netherlands
+30,round_of_32,77,France,Turkey,France,Turkey
+30,round_of_32,78,Mexico,Curaçao,Mexico,Curaçao
+30,round_of_32,79,Ecuador,Norway,Ecuador,Norway
+30,round_of_32,80,United States,Japan,United States,Japan
+30,round_of_32,81,Egypt,Uruguay,Uruguay,Egypt
+30,round_of_32,82,England,Jordan,England,Jordan
+30,round_of_32,83,Portugal,Ghana,Portugal,Ghana
+30,round_of_32,84,Canada,DR Congo,DR Congo,Canada
+30,round_of_32,85,Spain,Austria,Spain,Austria
+30,round_of_32,86,Colombia,Panama,Colombia,Panama
+30,round_of_32,87,Argentina,Saudi Arabia,Argentina,Saudi Arabia
+30,round_of_32,88,Australia,New Zealand,Australia,New Zealand
+30,round_of_16,89,Switzerland,Brazil,Switzerland,Brazil
+30,round_of_16,90,Germany,France,Germany,France
+30,round_of_16,91,Ecuador,United States,United States,Ecuador
+30,round_of_16,92,Morocco,Mexico,Mexico,Morocco
+30,round_of_16,93,Uruguay,England,England,Uruguay
+30,round_of_16,94,Portugal,DR Congo,DR Congo,Portugal
+30,round_of_16,95,Spain,Argentina,Spain,Argentina
+30,round_of_16,96,Colombia,Australia,Australia,Colombia
+30,quarterfinal,97,Switzerland,Germany,Germany,Switzerland
+30,quarterfinal,98,England,DR Congo,England,DR Congo
+30,quarterfinal,99,United States,Mexico,United States,Mexico
+30,quarterfinal,100,Spain,Australia,Spain,Australia
+30,semifinal,101,Germany,England,England,Germany
+30,semifinal,102,United States,Spain,Spain,United States
+30,final,104,England,Spain,Spain,England
+30,third_place,103,Germany,United States,United States,Germany
+31,round_of_32,73,South Africa,Switzerland,Switzerland,South Africa
+31,round_of_32,74,Germany,South Korea,South Korea,Germany
+31,round_of_32,75,Brazil,Japan,Brazil,Japan
+31,round_of_32,76,Netherlands,Morocco,Netherlands,Morocco
+31,round_of_32,77,France,Scotland,France,Scotland
+31,round_of_32,78,Mexico,Sweden,Mexico,Sweden
+31,round_of_32,79,Curaçao,Iraq,Iraq,Curaçao
+31,round_of_32,80,United States,Qatar,United States,Qatar
+31,round_of_32,81,Egypt,Norway,Egypt,Norway
+31,round_of_32,82,England,DR Congo,England,DR Congo
+31,round_of_32,83,Portugal,Ghana,Ghana,Portugal
+31,round_of_32,84,Canada,Paraguay,Canada,Paraguay
+31,round_of_32,85,Spain,Argentina,Spain,Argentina
+31,round_of_32,86,Colombia,Croatia,Colombia,Croatia
+31,round_of_32,87,Austria,Cape Verde,Austria,Cape Verde
+31,round_of_32,88,Australia,Belgium,Australia,Belgium
+31,round_of_16,89,Switzerland,Brazil,Brazil,Switzerland
+31,round_of_16,90,South Korea,France,South Korea,France
+31,round_of_16,91,Iraq,United States,United States,Iraq
+31,round_of_16,92,Netherlands,Mexico,Netherlands,Mexico
+31,round_of_16,93,Egypt,England,England,Egypt
+31,round_of_16,94,Ghana,Canada,Canada,Ghana
+31,round_of_16,95,Spain,Austria,Austria,Spain
+31,round_of_16,96,Colombia,Australia,Australia,Colombia
+31,quarterfinal,97,Brazil,South Korea,South Korea,Brazil
+31,quarterfinal,98,England,Canada,England,Canada
+31,quarterfinal,99,United States,Netherlands,Netherlands,United States
+31,quarterfinal,100,Austria,Australia,Australia,Austria
+31,semifinal,101,South Korea,England,South Korea,England
+31,semifinal,102,Netherlands,Australia,Netherlands,Australia
+31,final,104,South Korea,Netherlands,South Korea,Netherlands
+31,third_place,103,England,Australia,England,Australia
+32,round_of_32,73,South Korea,Switzerland,South Korea,Switzerland
+32,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+32,round_of_32,75,Scotland,Japan,Japan,Scotland
+32,round_of_32,76,Netherlands,Morocco,Netherlands,Morocco
+32,round_of_32,77,Norway,Brazil,Brazil,Norway
+32,round_of_32,78,Mexico,Sweden,Sweden,Mexico
+32,round_of_32,79,Ivory Coast,France,Ivory Coast,France
+32,round_of_32,80,United States,Iraq,United States,Iraq
+32,round_of_32,81,Egypt,Uruguay,Uruguay,Egypt
+32,round_of_32,82,England,Jordan,Jordan,England
+32,round_of_32,83,Portugal,Ghana,Portugal,Ghana
+32,round_of_32,84,Canada,Paraguay,Canada,Paraguay
+32,round_of_32,85,Spain,Austria,Spain,Austria
+32,round_of_32,86,Colombia,DR Congo,DR Congo,Colombia
+32,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+32,round_of_32,88,Australia,Belgium,Belgium,Australia
+32,round_of_16,89,South Korea,Japan,Japan,South Korea
+32,round_of_16,90,Germany,Brazil,Brazil,Germany
+32,round_of_16,91,Ivory Coast,United States,United States,Ivory Coast
+32,round_of_16,92,Netherlands,Sweden,Netherlands,Sweden
+32,round_of_16,93,Uruguay,Jordan,Uruguay,Jordan
+32,round_of_16,94,Portugal,Canada,Portugal,Canada
+32,round_of_16,95,Spain,Argentina,Spain,Argentina
+32,round_of_16,96,DR Congo,Belgium,Belgium,DR Congo
+32,quarterfinal,97,Japan,Brazil,Brazil,Japan
+32,quarterfinal,98,Uruguay,Portugal,Portugal,Uruguay
+32,quarterfinal,99,United States,Netherlands,United States,Netherlands
+32,quarterfinal,100,Spain,Belgium,Belgium,Spain
+32,semifinal,101,Brazil,Portugal,Brazil,Portugal
+32,semifinal,102,United States,Belgium,Belgium,United States
+32,final,104,Brazil,Belgium,Belgium,Brazil
+32,third_place,103,Portugal,United States,Portugal,United States
+33,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+33,round_of_32,74,Germany,Scotland,Germany,Scotland
+33,round_of_32,75,Brazil,Japan,Brazil,Japan
+33,round_of_32,76,Netherlands,Morocco,Morocco,Netherlands
+33,round_of_32,77,Norway,Paraguay,Paraguay,Norway
+33,round_of_32,78,Mexico,Curaçao,Mexico,Curaçao
+33,round_of_32,79,Ecuador,France,Ecuador,France
+33,round_of_32,80,United States,Sweden,United States,Sweden
+33,round_of_32,81,Belgium,Spain,Spain,Belgium
+33,round_of_32,82,England,Jordan,England,Jordan
+33,round_of_32,83,Colombia,Croatia,Croatia,Colombia
+33,round_of_32,84,Canada,Egypt,Canada,Egypt
+33,round_of_32,85,Uruguay,Austria,Austria,Uruguay
+33,round_of_32,86,Portugal,Ghana,Portugal,Ghana
+33,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+33,round_of_32,88,Australia,Iran,Australia,Iran
+33,round_of_16,89,Switzerland,Brazil,Brazil,Switzerland
+33,round_of_16,90,Germany,Paraguay,Paraguay,Germany
+33,round_of_16,91,Ecuador,United States,Ecuador,United States
+33,round_of_16,92,Morocco,Mexico,Morocco,Mexico
+33,round_of_16,93,Spain,England,Spain,England
+33,round_of_16,94,Croatia,Canada,Croatia,Canada
+33,round_of_16,95,Austria,Argentina,Argentina,Austria
+33,round_of_16,96,Portugal,Australia,Australia,Portugal
+33,quarterfinal,97,Brazil,Paraguay,Paraguay,Brazil
+33,quarterfinal,98,Spain,Croatia,Croatia,Spain
+33,quarterfinal,99,Ecuador,Morocco,Ecuador,Morocco
+33,quarterfinal,100,Argentina,Australia,Argentina,Australia
+33,semifinal,101,Paraguay,Croatia,Croatia,Paraguay
+33,semifinal,102,Ecuador,Argentina,Argentina,Ecuador
+33,final,104,Croatia,Argentina,Croatia,Argentina
+33,third_place,103,Paraguay,Ecuador,Ecuador,Paraguay
+34,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+34,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+34,round_of_32,75,Scotland,Sweden,Scotland,Sweden
+34,round_of_32,76,Netherlands,Brazil,Netherlands,Brazil
+34,round_of_32,77,France,Morocco,France,Morocco
+34,round_of_32,78,Mexico,Japan,Japan,Mexico
+34,round_of_32,79,Curaçao,Norway,Norway,Curaçao
+34,round_of_32,80,United States,Senegal,United States,Senegal
+34,round_of_32,81,Belgium,Austria,Belgium,Austria
+34,round_of_32,82,Panama,Portugal,Panama,Portugal
+34,round_of_32,83,Colombia,Ghana,Colombia,Ghana
+34,round_of_32,84,Canada,Egypt,Canada,Egypt
+34,round_of_32,85,Spain,Algeria,Spain,Algeria
+34,round_of_32,86,DR Congo,England,England,DR Congo
+34,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+34,round_of_32,88,Australia,Iran,Australia,Iran
+34,round_of_16,89,Switzerland,Scotland,Switzerland,Scotland
+34,round_of_16,90,Germany,France,Germany,France
+34,round_of_16,91,Norway,United States,United States,Norway
+34,round_of_16,92,Netherlands,Japan,Japan,Netherlands
+34,round_of_16,93,Belgium,Panama,Panama,Belgium
+34,round_of_16,94,Colombia,Canada,Colombia,Canada
+34,round_of_16,95,Spain,Argentina,Argentina,Spain
+34,round_of_16,96,England,Australia,England,Australia
+34,quarterfinal,97,Switzerland,Germany,Germany,Switzerland
+34,quarterfinal,98,Panama,Colombia,Colombia,Panama
+34,quarterfinal,99,United States,Japan,United States,Japan
+34,quarterfinal,100,Argentina,England,England,Argentina
+34,semifinal,101,Germany,Colombia,Germany,Colombia
+34,semifinal,102,United States,England,England,United States
+34,final,104,Germany,England,England,Germany
+34,third_place,103,Colombia,United States,Colombia,United States
+35,round_of_32,73,South Korea,Canada,Canada,South Korea
+35,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+35,round_of_32,75,Brazil,Netherlands,Netherlands,Brazil
+35,round_of_32,76,Japan,Morocco,Morocco,Japan
+35,round_of_32,77,Norway,Paraguay,Norway,Paraguay
+35,round_of_32,78,Mexico,Sweden,Mexico,Sweden
+35,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+35,round_of_32,80,United States,Senegal,Senegal,United States
+35,round_of_32,81,Egypt,Saudi Arabia,Egypt,Saudi Arabia
+35,round_of_32,82,England,Austria,Austria,England
+35,round_of_32,83,Colombia,Croatia,Colombia,Croatia
+35,round_of_32,84,Switzerland,Iran,Iran,Switzerland
+35,round_of_32,85,Uruguay,Algeria,Uruguay,Algeria
+35,round_of_32,86,DR Congo,Uzbekistan,DR Congo,Uzbekistan
+35,round_of_32,87,Argentina,Spain,Argentina,Spain
+35,round_of_32,88,Australia,New Zealand,New Zealand,Australia
+35,round_of_16,89,Canada,Netherlands,Netherlands,Canada
+35,round_of_16,90,Germany,Norway,Norway,Germany
+35,round_of_16,91,France,Senegal,France,Senegal
+35,round_of_16,92,Morocco,Mexico,Mexico,Morocco
+35,round_of_16,93,Egypt,Austria,Egypt,Austria
+35,round_of_16,94,Colombia,Iran,Colombia,Iran
+35,round_of_16,95,Uruguay,Argentina,Argentina,Uruguay
+35,round_of_16,96,DR Congo,New Zealand,New Zealand,DR Congo
+35,quarterfinal,97,Netherlands,Norway,Netherlands,Norway
+35,quarterfinal,98,Egypt,Colombia,Colombia,Egypt
+35,quarterfinal,99,France,Mexico,France,Mexico
+35,quarterfinal,100,Argentina,New Zealand,Argentina,New Zealand
+35,semifinal,101,Netherlands,Colombia,Netherlands,Colombia
+35,semifinal,102,France,Argentina,Argentina,France
+35,final,104,Netherlands,Argentina,Netherlands,Argentina
+35,third_place,103,Colombia,France,France,Colombia
+36,round_of_32,73,South Korea,Canada,Canada,South Korea
+36,round_of_32,74,Germany,Qatar,Germany,Qatar
+36,round_of_32,75,Brazil,Japan,Brazil,Japan
+36,round_of_32,76,Netherlands,Morocco,Netherlands,Morocco
+36,round_of_32,77,France,Scotland,France,Scotland
+36,round_of_32,78,Mexico,Ecuador,Ecuador,Mexico
+36,round_of_32,79,Ivory Coast,Senegal,Senegal,Ivory Coast
+36,round_of_32,80,United States,Sweden,United States,Sweden
+36,round_of_32,81,Egypt,Norway,Norway,Egypt
+36,round_of_32,82,England,Jordan,England,Jordan
+36,round_of_32,83,Uzbekistan,Panama,Panama,Uzbekistan
+36,round_of_32,84,Switzerland,Turkey,Turkey,Switzerland
+36,round_of_32,85,Spain,Algeria,Spain,Algeria
+36,round_of_32,86,Colombia,Ghana,Colombia,Ghana
+36,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+36,round_of_32,88,Australia,New Zealand,Australia,New Zealand
+36,round_of_16,89,Canada,Brazil,Canada,Brazil
+36,round_of_16,90,Germany,France,France,Germany
+36,round_of_16,91,Senegal,United States,United States,Senegal
+36,round_of_16,92,Netherlands,Ecuador,Ecuador,Netherlands
+36,round_of_16,93,Norway,England,England,Norway
+36,round_of_16,94,Panama,Turkey,Turkey,Panama
+36,round_of_16,95,Spain,Argentina,Argentina,Spain
+36,round_of_16,96,Colombia,Australia,Colombia,Australia
+36,quarterfinal,97,Canada,France,France,Canada
+36,quarterfinal,98,England,Turkey,England,Turkey
+36,quarterfinal,99,United States,Ecuador,United States,Ecuador
+36,quarterfinal,100,Argentina,Colombia,Argentina,Colombia
+36,semifinal,101,France,England,England,France
+36,semifinal,102,United States,Argentina,Argentina,United States
+36,final,104,England,Argentina,England,Argentina
+36,third_place,103,France,United States,France,United States
+37,round_of_32,73,South Korea,Switzerland,South Korea,Switzerland
+37,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+37,round_of_32,75,Brazil,Japan,Japan,Brazil
+37,round_of_32,76,Netherlands,Morocco,Morocco,Netherlands
+37,round_of_32,77,France,Scotland,France,Scotland
+37,round_of_32,78,Mexico,Curaçao,Mexico,Curaçao
+37,round_of_32,79,Ecuador,Norway,Ecuador,Norway
+37,round_of_32,80,United States,Sweden,United States,Sweden
+37,round_of_32,81,Egypt,Uruguay,Uruguay,Egypt
+37,round_of_32,82,England,Iraq,England,Iraq
+37,round_of_32,83,Portugal,Ghana,Portugal,Ghana
+37,round_of_32,84,Canada,Colombia,Colombia,Canada
+37,round_of_32,85,Spain,Austria,Spain,Austria
+37,round_of_32,86,DR Congo,Paraguay,Paraguay,DR Congo
+37,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+37,round_of_32,88,Australia,New Zealand,New Zealand,Australia
+37,round_of_16,89,South Korea,Japan,South Korea,Japan
+37,round_of_16,90,Germany,France,France,Germany
+37,round_of_16,91,Ecuador,United States,Ecuador,United States
+37,round_of_16,92,Morocco,Mexico,Morocco,Mexico
+37,round_of_16,93,Uruguay,England,England,Uruguay
+37,round_of_16,94,Portugal,Colombia,Colombia,Portugal
+37,round_of_16,95,Spain,Argentina,Spain,Argentina
+37,round_of_16,96,Paraguay,New Zealand,New Zealand,Paraguay
+37,quarterfinal,97,South Korea,France,South Korea,France
+37,quarterfinal,98,England,Colombia,England,Colombia
+37,quarterfinal,99,Ecuador,Morocco,Morocco,Ecuador
+37,quarterfinal,100,Spain,New Zealand,Spain,New Zealand
+37,semifinal,101,South Korea,England,England,South Korea
+37,semifinal,102,Morocco,Spain,Spain,Morocco
+37,final,104,England,Spain,England,Spain
+37,third_place,103,South Korea,Morocco,Morocco,South Korea
+38,round_of_32,73,South Africa,Switzerland,South Africa,Switzerland
+38,round_of_32,74,Germany,South Korea,Germany,South Korea
+38,round_of_32,75,Morocco,Japan,Morocco,Japan
+38,round_of_32,76,Netherlands,Brazil,Netherlands,Brazil
+38,round_of_32,77,Norway,Scotland,Norway,Scotland
+38,round_of_32,78,Mexico,Sweden,Sweden,Mexico
+38,round_of_32,79,Ivory Coast,France,Ivory Coast,France
+38,round_of_32,80,United States,Senegal,United States,Senegal
+38,round_of_32,81,Egypt,Uruguay,Egypt,Uruguay
+38,round_of_32,82,England,Argentina,England,Argentina
+38,round_of_32,83,Colombia,Panama,Colombia,Panama
+38,round_of_32,84,Canada,DR Congo,Canada,DR Congo
+38,round_of_32,85,Spain,Algeria,Spain,Algeria
+38,round_of_32,86,Portugal,Ghana,Portugal,Ghana
+38,round_of_32,87,Austria,Cape Verde,Austria,Cape Verde
+38,round_of_32,88,Australia,Belgium,Australia,Belgium
+38,round_of_16,89,South Africa,Morocco,Morocco,South Africa
+38,round_of_16,90,Germany,Norway,Germany,Norway
+38,round_of_16,91,Ivory Coast,United States,Ivory Coast,United States
+38,round_of_16,92,Netherlands,Sweden,Sweden,Netherlands
+38,round_of_16,93,Egypt,England,England,Egypt
+38,round_of_16,94,Colombia,Canada,Colombia,Canada
+38,round_of_16,95,Spain,Austria,Spain,Austria
+38,round_of_16,96,Portugal,Australia,Australia,Portugal
+38,quarterfinal,97,Morocco,Germany,Germany,Morocco
+38,quarterfinal,98,England,Colombia,England,Colombia
+38,quarterfinal,99,Ivory Coast,Sweden,Ivory Coast,Sweden
+38,quarterfinal,100,Spain,Australia,Spain,Australia
+38,semifinal,101,Germany,England,Germany,England
+38,semifinal,102,Ivory Coast,Spain,Spain,Ivory Coast
+38,final,104,Germany,Spain,Germany,Spain
+38,third_place,103,England,Ivory Coast,England,Ivory Coast
+39,round_of_32,73,South Korea,Switzerland,South Korea,Switzerland
+39,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+39,round_of_32,75,Brazil,Sweden,Brazil,Sweden
+39,round_of_32,76,Netherlands,Morocco,Morocco,Netherlands
+39,round_of_32,77,France,Scotland,Scotland,France
+39,round_of_32,78,Mexico,Ecuador,Mexico,Ecuador
+39,round_of_32,79,Ivory Coast,Norway,Ivory Coast,Norway
+39,round_of_32,80,United States,Japan,Japan,United States
+39,round_of_32,81,Iran,Iraq,Iran,Iraq
+39,round_of_32,82,England,Algeria,England,Algeria
+39,round_of_32,83,Uzbekistan,Ghana,Uzbekistan,Ghana
+39,round_of_32,84,Canada,New Zealand,New Zealand,Canada
+39,round_of_32,85,Spain,Austria,Austria,Spain
+39,round_of_32,86,Colombia,Paraguay,Paraguay,Colombia
+39,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+39,round_of_32,88,Australia,Egypt,Australia,Egypt
+39,round_of_16,89,South Korea,Brazil,Brazil,South Korea
+39,round_of_16,90,Germany,Scotland,Scotland,Germany
+39,round_of_16,91,Ivory Coast,Japan,Japan,Ivory Coast
+39,round_of_16,92,Morocco,Mexico,Mexico,Morocco
+39,round_of_16,93,Iran,England,England,Iran
+39,round_of_16,94,Uzbekistan,New Zealand,Uzbekistan,New Zealand
+39,round_of_16,95,Austria,Argentina,Argentina,Austria
+39,round_of_16,96,Paraguay,Australia,Australia,Paraguay
+39,quarterfinal,97,Brazil,Scotland,Brazil,Scotland
+39,quarterfinal,98,England,Uzbekistan,Uzbekistan,England
+39,quarterfinal,99,Japan,Mexico,Japan,Mexico
+39,quarterfinal,100,Argentina,Australia,Argentina,Australia
+39,semifinal,101,Brazil,Uzbekistan,Brazil,Uzbekistan
+39,semifinal,102,Japan,Argentina,Argentina,Japan
+39,final,104,Brazil,Argentina,Argentina,Brazil
+39,third_place,103,Uzbekistan,Japan,Japan,Uzbekistan
+40,round_of_32,73,South Korea,Canada,Canada,South Korea
+40,round_of_32,74,Germany,Qatar,Germany,Qatar
+40,round_of_32,75,Brazil,Japan,Brazil,Japan
+40,round_of_32,76,Netherlands,Morocco,Netherlands,Morocco
+40,round_of_32,77,Norway,Scotland,Norway,Scotland
+40,round_of_32,78,Mexico,Sweden,Mexico,Sweden
+40,round_of_32,79,Ivory Coast,France,Ivory Coast,France
+40,round_of_32,80,United States,Iraq,Iraq,United States
+40,round_of_32,81,Egypt,Saudi Arabia,Saudi Arabia,Egypt
+40,round_of_32,82,England,Jordan,England,Jordan
+40,round_of_32,83,Uzbekistan,Ghana,Ghana,Uzbekistan
+40,round_of_32,84,Switzerland,Portugal,Portugal,Switzerland
+40,round_of_32,85,Uruguay,Austria,Uruguay,Austria
+40,round_of_32,86,Colombia,Paraguay,Paraguay,Colombia
+40,round_of_32,87,Argentina,Spain,Spain,Argentina
+40,round_of_32,88,Australia,Belgium,Belgium,Australia
+40,round_of_16,89,Canada,Brazil,Canada,Brazil
+40,round_of_16,90,Germany,Norway,Germany,Norway
+40,round_of_16,91,Ivory Coast,Iraq,Iraq,Ivory Coast
+40,round_of_16,92,Netherlands,Mexico,Netherlands,Mexico
+40,round_of_16,93,Saudi Arabia,England,England,Saudi Arabia
+40,round_of_16,94,Ghana,Portugal,Portugal,Ghana
+40,round_of_16,95,Uruguay,Spain,Spain,Uruguay
+40,round_of_16,96,Paraguay,Belgium,Paraguay,Belgium
+40,quarterfinal,97,Canada,Germany,Germany,Canada
+40,quarterfinal,98,England,Portugal,England,Portugal
+40,quarterfinal,99,Iraq,Netherlands,Netherlands,Iraq
+40,quarterfinal,100,Spain,Paraguay,Spain,Paraguay
+40,semifinal,101,Germany,England,England,Germany
+40,semifinal,102,Netherlands,Spain,Netherlands,Spain
+40,final,104,England,Netherlands,England,Netherlands
+40,third_place,103,Germany,Spain,Spain,Germany
+41,round_of_32,73,Mexico,Switzerland,Switzerland,Mexico
+41,round_of_32,74,Germany,Czechia,Czechia,Germany
+41,round_of_32,75,Scotland,Netherlands,Netherlands,Scotland
+41,round_of_32,76,Japan,Morocco,Morocco,Japan
+41,round_of_32,77,Norway,Brazil,Brazil,Norway
+41,round_of_32,78,South Korea,Ivory Coast,South Korea,Ivory Coast
+41,round_of_32,79,Curaçao,France,France,Curaçao
+41,round_of_32,80,United States,Sweden,United States,Sweden
+41,round_of_32,81,Iran,Austria,Iran,Austria
+41,round_of_32,82,England,Belgium,England,Belgium
+41,round_of_32,83,Colombia,Croatia,Croatia,Colombia
+41,round_of_32,84,Canada,Ghana,Canada,Ghana
+41,round_of_32,85,Spain,Algeria,Algeria,Spain
+41,round_of_32,86,Portugal,Australia,Portugal,Australia
+41,round_of_32,87,Argentina,Saudi Arabia,Argentina,Saudi Arabia
+41,round_of_32,88,Paraguay,Egypt,Paraguay,Egypt
+41,round_of_16,89,Switzerland,Netherlands,Netherlands,Switzerland
+41,round_of_16,90,Czechia,Brazil,Brazil,Czechia
+41,round_of_16,91,France,United States,France,United States
+41,round_of_16,92,Morocco,South Korea,South Korea,Morocco
+41,round_of_16,93,Iran,England,England,Iran
+41,round_of_16,94,Croatia,Canada,Canada,Croatia
+41,round_of_16,95,Algeria,Argentina,Argentina,Algeria
+41,round_of_16,96,Portugal,Paraguay,Portugal,Paraguay
+41,quarterfinal,97,Netherlands,Brazil,Brazil,Netherlands
+41,quarterfinal,98,England,Canada,England,Canada
+41,quarterfinal,99,France,South Korea,South Korea,France
+41,quarterfinal,100,Argentina,Portugal,Argentina,Portugal
+41,semifinal,101,Brazil,England,Brazil,England
+41,semifinal,102,South Korea,Argentina,South Korea,Argentina
+41,final,104,Brazil,South Korea,Brazil,South Korea
+41,third_place,103,England,Argentina,Argentina,England
+42,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+42,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+42,round_of_32,75,Brazil,Sweden,Brazil,Sweden
+42,round_of_32,76,Netherlands,Morocco,Morocco,Netherlands
+42,round_of_32,77,France,Paraguay,France,Paraguay
+42,round_of_32,78,Mexico,Japan,Mexico,Japan
+42,round_of_32,79,Curaçao,Senegal,Senegal,Curaçao
+42,round_of_32,80,United States,Norway,Norway,United States
+42,round_of_32,81,Egypt,Uruguay,Uruguay,Egypt
+42,round_of_32,82,England,Argentina,Argentina,England
+42,round_of_32,83,Colombia,Croatia,Croatia,Colombia
+42,round_of_32,84,Canada,Portugal,Portugal,Canada
+42,round_of_32,85,Spain,Algeria,Spain,Algeria
+42,round_of_32,86,DR Congo,Ghana,DR Congo,Ghana
+42,round_of_32,87,Austria,Cape Verde,Cape Verde,Austria
+42,round_of_32,88,Australia,New Zealand,Australia,New Zealand
+42,round_of_16,89,Switzerland,Brazil,Switzerland,Brazil
+42,round_of_16,90,Germany,France,France,Germany
+42,round_of_16,91,Senegal,Norway,Norway,Senegal
+42,round_of_16,92,Morocco,Mexico,Morocco,Mexico
+42,round_of_16,93,Uruguay,Argentina,Uruguay,Argentina
+42,round_of_16,94,Croatia,Portugal,Croatia,Portugal
+42,round_of_16,95,Spain,Cape Verde,Spain,Cape Verde
+42,round_of_16,96,DR Congo,Australia,Australia,DR Congo
+42,quarterfinal,97,Switzerland,France,France,Switzerland
+42,quarterfinal,98,Uruguay,Croatia,Uruguay,Croatia
+42,quarterfinal,99,Norway,Morocco,Morocco,Norway
+42,quarterfinal,100,Spain,Australia,Spain,Australia
+42,semifinal,101,France,Uruguay,France,Uruguay
+42,semifinal,102,Morocco,Spain,Morocco,Spain
+42,final,104,France,Morocco,France,Morocco
+42,third_place,103,Uruguay,Spain,Spain,Uruguay
+43,round_of_32,73,South Korea,Switzerland,South Korea,Switzerland
+43,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+43,round_of_32,75,Brazil,Netherlands,Brazil,Netherlands
+43,round_of_32,76,Sweden,Morocco,Morocco,Sweden
+43,round_of_32,77,Norway,Scotland,Norway,Scotland
+43,round_of_32,78,Mexico,Japan,Japan,Mexico
+43,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+43,round_of_32,80,United States,Iraq,United States,Iraq
+43,round_of_32,81,Egypt,Cape Verde,Cape Verde,Egypt
+43,round_of_32,82,England,Paraguay,England,Paraguay
+43,round_of_32,83,Portugal,Ghana,Portugal,Ghana
+43,round_of_32,84,Canada,Iran,Canada,Iran
+43,round_of_32,85,Uruguay,Austria,Uruguay,Austria
+43,round_of_32,86,Colombia,Croatia,Croatia,Colombia
+43,round_of_32,87,Argentina,Spain,Spain,Argentina
+43,round_of_32,88,Australia,Belgium,Belgium,Australia
+43,round_of_16,89,South Korea,Brazil,South Korea,Brazil
+43,round_of_16,90,Germany,Norway,Germany,Norway
+43,round_of_16,91,France,United States,United States,France
+43,round_of_16,92,Morocco,Japan,Japan,Morocco
+43,round_of_16,93,Cape Verde,England,England,Cape Verde
+43,round_of_16,94,Portugal,Canada,Canada,Portugal
+43,round_of_16,95,Uruguay,Spain,Spain,Uruguay
+43,round_of_16,96,Croatia,Belgium,Croatia,Belgium
+43,quarterfinal,97,South Korea,Germany,South Korea,Germany
+43,quarterfinal,98,England,Canada,England,Canada
+43,quarterfinal,99,United States,Japan,United States,Japan
+43,quarterfinal,100,Spain,Croatia,Spain,Croatia
+43,semifinal,101,South Korea,England,England,South Korea
+43,semifinal,102,United States,Spain,Spain,United States
+43,final,104,England,Spain,Spain,England
+43,third_place,103,South Korea,United States,United States,South Korea
+44,round_of_32,73,South Korea,Canada,Canada,South Korea
+44,round_of_32,74,Germany,Qatar,Germany,Qatar
+44,round_of_32,75,Morocco,Netherlands,Netherlands,Morocco
+44,round_of_32,76,Japan,Brazil,Brazil,Japan
+44,round_of_32,77,France,Scotland,France,Scotland
+44,round_of_32,78,Mexico,Ivory Coast,Mexico,Ivory Coast
+44,round_of_32,79,Curaçao,Norway,Norway,Curaçao
+44,round_of_32,80,United States,Sweden,United States,Sweden
+44,round_of_32,81,Egypt,Cape Verde,Egypt,Cape Verde
+44,round_of_32,82,England,Argentina,England,Argentina
+44,round_of_32,83,Uzbekistan,Ghana,Uzbekistan,Ghana
+44,round_of_32,84,Switzerland,Iran,Switzerland,Iran
+44,round_of_32,85,Spain,Jordan,Spain,Jordan
+44,round_of_32,86,Colombia,Turkey,Colombia,Turkey
+44,round_of_32,87,Austria,Uruguay,Austria,Uruguay
+44,round_of_32,88,Paraguay,Belgium,Belgium,Paraguay
+44,round_of_16,89,Canada,Netherlands,Netherlands,Canada
+44,round_of_16,90,Germany,France,France,Germany
+44,round_of_16,91,Norway,United States,Norway,United States
+44,round_of_16,92,Brazil,Mexico,Brazil,Mexico
+44,round_of_16,93,Egypt,England,England,Egypt
+44,round_of_16,94,Uzbekistan,Switzerland,Uzbekistan,Switzerland
+44,round_of_16,95,Spain,Austria,Spain,Austria
+44,round_of_16,96,Colombia,Belgium,Colombia,Belgium
+44,quarterfinal,97,Netherlands,France,France,Netherlands
+44,quarterfinal,98,England,Uzbekistan,England,Uzbekistan
+44,quarterfinal,99,Norway,Brazil,Norway,Brazil
+44,quarterfinal,100,Spain,Colombia,Colombia,Spain
+44,semifinal,101,France,England,England,France
+44,semifinal,102,Norway,Colombia,Colombia,Norway
+44,final,104,England,Colombia,England,Colombia
+44,third_place,103,France,Norway,Norway,France
+45,round_of_32,73,Czechia,Switzerland,Switzerland,Czechia
+45,round_of_32,74,Germany,South Africa,Germany,South Africa
+45,round_of_32,75,Brazil,Sweden,Sweden,Brazil
+45,round_of_32,76,Netherlands,Morocco,Morocco,Netherlands
+45,round_of_32,77,Norway,Japan,Norway,Japan
+45,round_of_32,78,Mexico,Curaçao,Mexico,Curaçao
+45,round_of_32,79,Ecuador,France,France,Ecuador
+45,round_of_32,80,United States,Qatar,United States,Qatar
+45,round_of_32,81,Iran,Spain,Iran,Spain
+45,round_of_32,82,England,Austria,England,Austria
+45,round_of_32,83,Portugal,Ghana,Portugal,Ghana
+45,round_of_32,84,Canada,Egypt,Canada,Egypt
+45,round_of_32,85,Cape Verde,Algeria,Cape Verde,Algeria
+45,round_of_32,86,DR Congo,Uzbekistan,Uzbekistan,DR Congo
+45,round_of_32,87,Argentina,Uruguay,Argentina,Uruguay
+45,round_of_32,88,Australia,Belgium,Belgium,Australia
+45,round_of_16,89,Switzerland,Sweden,Sweden,Switzerland
+45,round_of_16,90,Germany,Norway,Germany,Norway
+45,round_of_16,91,France,United States,France,United States
+45,round_of_16,92,Morocco,Mexico,Mexico,Morocco
+45,round_of_16,93,Iran,England,England,Iran
+45,round_of_16,94,Portugal,Canada,Portugal,Canada
+45,round_of_16,95,Cape Verde,Argentina,Argentina,Cape Verde
+45,round_of_16,96,Uzbekistan,Belgium,Belgium,Uzbekistan
+45,quarterfinal,97,Sweden,Germany,Sweden,Germany
+45,quarterfinal,98,England,Portugal,England,Portugal
+45,quarterfinal,99,France,Mexico,Mexico,France
+45,quarterfinal,100,Argentina,Belgium,Argentina,Belgium
+45,semifinal,101,Sweden,England,Sweden,England
+45,semifinal,102,Mexico,Argentina,Argentina,Mexico
+45,final,104,Sweden,Argentina,Argentina,Sweden
+45,third_place,103,England,Mexico,Mexico,England
+46,round_of_32,73,South Africa,Switzerland,Switzerland,South Africa
+46,round_of_32,74,Germany,South Korea,South Korea,Germany
+46,round_of_32,75,Brazil,Netherlands,Brazil,Netherlands
+46,round_of_32,76,Japan,Morocco,Japan,Morocco
+46,round_of_32,77,France,Scotland,France,Scotland
+46,round_of_32,78,Mexico,Ivory Coast,Mexico,Ivory Coast
+46,round_of_32,79,Curaçao,Norway,Norway,Curaçao
+46,round_of_32,80,United States,Sweden,United States,Sweden
+46,round_of_32,81,Iran,Senegal,Senegal,Iran
+46,round_of_32,82,England,Algeria,England,Algeria
+46,round_of_32,83,Uzbekistan,Croatia,Uzbekistan,Croatia
+46,round_of_32,84,Canada,Egypt,Canada,Egypt
+46,round_of_32,85,Spain,Argentina,Argentina,Spain
+46,round_of_32,86,Colombia,Ghana,Colombia,Ghana
+46,round_of_32,87,Austria,Saudi Arabia,Saudi Arabia,Austria
+46,round_of_32,88,Australia,Belgium,Belgium,Australia
+46,round_of_16,89,Switzerland,Brazil,Brazil,Switzerland
+46,round_of_16,90,South Korea,France,France,South Korea
+46,round_of_16,91,Norway,United States,United States,Norway
+46,round_of_16,92,Japan,Mexico,Mexico,Japan
+46,round_of_16,93,Senegal,England,England,Senegal
+46,round_of_16,94,Uzbekistan,Canada,Canada,Uzbekistan
+46,round_of_16,95,Argentina,Saudi Arabia,Argentina,Saudi Arabia
+46,round_of_16,96,Colombia,Belgium,Colombia,Belgium
+46,quarterfinal,97,Brazil,France,Brazil,France
+46,quarterfinal,98,England,Canada,England,Canada
+46,quarterfinal,99,United States,Mexico,United States,Mexico
+46,quarterfinal,100,Argentina,Colombia,Argentina,Colombia
+46,semifinal,101,Brazil,England,Brazil,England
+46,semifinal,102,United States,Argentina,Argentina,United States
+46,final,104,Brazil,Argentina,Argentina,Brazil
+46,third_place,103,England,United States,England,United States
+47,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+47,round_of_32,74,Germany,Qatar,Germany,Qatar
+47,round_of_32,75,Morocco,Japan,Japan,Morocco
+47,round_of_32,76,Netherlands,Scotland,Netherlands,Scotland
+47,round_of_32,77,Norway,Brazil,Brazil,Norway
+47,round_of_32,78,Mexico,Sweden,Mexico,Sweden
+47,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+47,round_of_32,80,United States,Argentina,Argentina,United States
+47,round_of_32,81,Egypt,Uruguay,Egypt,Uruguay
+47,round_of_32,82,Panama,Colombia,Colombia,Panama
+47,round_of_32,83,Portugal,Ghana,Portugal,Ghana
+47,round_of_32,84,Canada,Paraguay,Canada,Paraguay
+47,round_of_32,85,Spain,Algeria,Algeria,Spain
+47,round_of_32,86,DR Congo,England,England,DR Congo
+47,round_of_32,87,Austria,Cape Verde,Austria,Cape Verde
+47,round_of_32,88,Australia,Belgium,Belgium,Australia
+47,round_of_16,89,Switzerland,Japan,Switzerland,Japan
+47,round_of_16,90,Germany,Brazil,Brazil,Germany
+47,round_of_16,91,France,Argentina,France,Argentina
+47,round_of_16,92,Netherlands,Mexico,Netherlands,Mexico
+47,round_of_16,93,Egypt,Colombia,Egypt,Colombia
+47,round_of_16,94,Portugal,Canada,Portugal,Canada
+47,round_of_16,95,Algeria,Austria,Austria,Algeria
+47,round_of_16,96,England,Belgium,England,Belgium
+47,quarterfinal,97,Switzerland,Brazil,Brazil,Switzerland
+47,quarterfinal,98,Egypt,Portugal,Egypt,Portugal
+47,quarterfinal,99,France,Netherlands,Netherlands,France
+47,quarterfinal,100,Austria,England,England,Austria
+47,semifinal,101,Brazil,Egypt,Brazil,Egypt
+47,semifinal,102,Netherlands,England,England,Netherlands
+47,final,104,Brazil,England,Brazil,England
+47,third_place,103,Egypt,Netherlands,Netherlands,Egypt
+48,round_of_32,73,Czechia,Canada,Czechia,Canada
+48,round_of_32,74,Germany,South Africa,Germany,South Africa
+48,round_of_32,75,Morocco,Sweden,Morocco,Sweden
+48,round_of_32,76,Netherlands,Scotland,Netherlands,Scotland
+48,round_of_32,77,France,Brazil,France,Brazil
+48,round_of_32,78,Mexico,Ecuador,Ecuador,Mexico
+48,round_of_32,79,Ivory Coast,Norway,Ivory Coast,Norway
+48,round_of_32,80,United States,Japan,Japan,United States
+48,round_of_32,81,Egypt,Senegal,Senegal,Egypt
+48,round_of_32,82,England,Austria,England,Austria
+48,round_of_32,83,DR Congo,Croatia,Croatia,DR Congo
+48,round_of_32,84,Switzerland,Ghana,Switzerland,Ghana
+48,round_of_32,85,Spain,Algeria,Algeria,Spain
+48,round_of_32,86,Portugal,Paraguay,Paraguay,Portugal
+48,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+48,round_of_32,88,Australia,Belgium,Belgium,Australia
+48,round_of_16,89,Czechia,Morocco,Morocco,Czechia
+48,round_of_16,90,Germany,France,Germany,France
+48,round_of_16,91,Ivory Coast,Japan,Japan,Ivory Coast
+48,round_of_16,92,Netherlands,Ecuador,Ecuador,Netherlands
+48,round_of_16,93,Senegal,England,England,Senegal
+48,round_of_16,94,Croatia,Switzerland,Switzerland,Croatia
+48,round_of_16,95,Algeria,Argentina,Argentina,Algeria
+48,round_of_16,96,Paraguay,Belgium,Belgium,Paraguay
+48,quarterfinal,97,Morocco,Germany,Germany,Morocco
+48,quarterfinal,98,England,Switzerland,England,Switzerland
+48,quarterfinal,99,Japan,Ecuador,Ecuador,Japan
+48,quarterfinal,100,Argentina,Belgium,Argentina,Belgium
+48,semifinal,101,Germany,England,England,Germany
+48,semifinal,102,Ecuador,Argentina,Argentina,Ecuador
+48,final,104,England,Argentina,Argentina,England
+48,third_place,103,Germany,Ecuador,Germany,Ecuador
+49,round_of_32,73,South Korea,Canada,Canada,South Korea
+49,round_of_32,74,Germany,Qatar,Germany,Qatar
+49,round_of_32,75,Brazil,Japan,Brazil,Japan
+49,round_of_32,76,Netherlands,Morocco,Morocco,Netherlands
+49,round_of_32,77,Iraq,Turkey,Turkey,Iraq
+49,round_of_32,78,Mexico,Ivory Coast,Mexico,Ivory Coast
+49,round_of_32,79,Curaçao,Norway,Curaçao,Norway
+49,round_of_32,80,United States,Sweden,Sweden,United States
+49,round_of_32,81,Iran,France,France,Iran
+49,round_of_32,82,England,Austria,England,Austria
+49,round_of_32,83,Portugal,Ghana,Portugal,Ghana
+49,round_of_32,84,Switzerland,Egypt,Switzerland,Egypt
+49,round_of_32,85,Spain,Algeria,Spain,Algeria
+49,round_of_32,86,Colombia,Panama,Colombia,Panama
+49,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+49,round_of_32,88,Paraguay,Belgium,Belgium,Paraguay
+49,round_of_16,89,Canada,Brazil,Brazil,Canada
+49,round_of_16,90,Germany,Turkey,Turkey,Germany
+49,round_of_16,91,Curaçao,Sweden,Sweden,Curaçao
+49,round_of_16,92,Morocco,Mexico,Mexico,Morocco
+49,round_of_16,93,France,England,France,England
+49,round_of_16,94,Portugal,Switzerland,Portugal,Switzerland
+49,round_of_16,95,Spain,Argentina,Argentina,Spain
+49,round_of_16,96,Colombia,Belgium,Colombia,Belgium
+49,quarterfinal,97,Brazil,Turkey,Brazil,Turkey
+49,quarterfinal,98,France,Portugal,Portugal,France
+49,quarterfinal,99,Sweden,Mexico,Mexico,Sweden
+49,quarterfinal,100,Argentina,Colombia,Argentina,Colombia
+49,semifinal,101,Brazil,Portugal,Portugal,Brazil
+49,semifinal,102,Mexico,Argentina,Mexico,Argentina
+49,final,104,Portugal,Mexico,Mexico,Portugal
+49,third_place,103,Brazil,Argentina,Argentina,Brazil
+50,round_of_32,73,Czechia,Switzerland,Switzerland,Czechia
+50,round_of_32,74,Germany,South Africa,Germany,South Africa
+50,round_of_32,75,Brazil,Japan,Japan,Brazil
+50,round_of_32,76,Netherlands,Morocco,Morocco,Netherlands
+50,round_of_32,77,Iraq,Scotland,Iraq,Scotland
+50,round_of_32,78,Mexico,Sweden,Sweden,Mexico
+50,round_of_32,79,Curaçao,Norway,Norway,Curaçao
+50,round_of_32,80,United States,France,France,United States
+50,round_of_32,81,Iran,Austria,Iran,Austria
+50,round_of_32,82,England,Egypt,Egypt,England
+50,round_of_32,83,Portugal,Croatia,Portugal,Croatia
+50,round_of_32,84,Canada,Ghana,Canada,Ghana
+50,round_of_32,85,Spain,Algeria,Spain,Algeria
+50,round_of_32,86,Colombia,Turkey,Colombia,Turkey
+50,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+50,round_of_32,88,Australia,Belgium,Australia,Belgium
+50,round_of_16,89,Switzerland,Japan,Japan,Switzerland
+50,round_of_16,90,Germany,Iraq,Germany,Iraq
+50,round_of_16,91,Norway,France,France,Norway
+50,round_of_16,92,Morocco,Sweden,Morocco,Sweden
+50,round_of_16,93,Iran,Egypt,Egypt,Iran
+50,round_of_16,94,Portugal,Canada,Canada,Portugal
+50,round_of_16,95,Spain,Argentina,Argentina,Spain
+50,round_of_16,96,Colombia,Australia,Colombia,Australia
+50,quarterfinal,97,Japan,Germany,Germany,Japan
+50,quarterfinal,98,Egypt,Canada,Egypt,Canada
+50,quarterfinal,99,France,Morocco,France,Morocco
+50,quarterfinal,100,Argentina,Colombia,Argentina,Colombia
+50,semifinal,101,Germany,Egypt,Germany,Egypt
+50,semifinal,102,France,Argentina,Argentina,France
+50,final,104,Germany,Argentina,Germany,Argentina
+50,third_place,103,Egypt,France,France,Egypt
+51,round_of_32,73,Mexico,Switzerland,Mexico,Switzerland
+51,round_of_32,74,Germany,Czechia,Germany,Czechia
+51,round_of_32,75,Brazil,Netherlands,Brazil,Netherlands
+51,round_of_32,76,Japan,Morocco,Morocco,Japan
+51,round_of_32,77,Norway,Scotland,Scotland,Norway
+51,round_of_32,78,South Korea,Sweden,South Korea,Sweden
+51,round_of_32,79,Ivory Coast,France,Ivory Coast,France
+51,round_of_32,80,United States,Iraq,Iraq,United States
+51,round_of_32,81,Iran,Cape Verde,Cape Verde,Iran
+51,round_of_32,82,Ghana,Egypt,Egypt,Ghana
+51,round_of_32,83,DR Congo,Panama,Panama,DR Congo
+51,round_of_32,84,Canada,Paraguay,Paraguay,Canada
+51,round_of_32,85,Uruguay,Austria,Uruguay,Austria
+51,round_of_32,86,Colombia,England,Colombia,England
+51,round_of_32,87,Argentina,Spain,Argentina,Spain
+51,round_of_32,88,Australia,New Zealand,Australia,New Zealand
+51,round_of_16,89,Mexico,Brazil,Mexico,Brazil
+51,round_of_16,90,Germany,Scotland,Germany,Scotland
+51,round_of_16,91,Ivory Coast,Iraq,Iraq,Ivory Coast
+51,round_of_16,92,Morocco,South Korea,South Korea,Morocco
+51,round_of_16,93,Cape Verde,Egypt,Egypt,Cape Verde
+51,round_of_16,94,Panama,Paraguay,Paraguay,Panama
+51,round_of_16,95,Uruguay,Argentina,Argentina,Uruguay
+51,round_of_16,96,Colombia,Australia,Colombia,Australia
+51,quarterfinal,97,Mexico,Germany,Mexico,Germany
+51,quarterfinal,98,Egypt,Paraguay,Paraguay,Egypt
+51,quarterfinal,99,Iraq,South Korea,South Korea,Iraq
+51,quarterfinal,100,Argentina,Colombia,Argentina,Colombia
+51,semifinal,101,Mexico,Paraguay,Mexico,Paraguay
+51,semifinal,102,South Korea,Argentina,Argentina,South Korea
+51,final,104,Mexico,Argentina,Argentina,Mexico
+51,third_place,103,Paraguay,South Korea,South Korea,Paraguay
+52,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+52,round_of_32,74,Germany,Brazil,Germany,Brazil
+52,round_of_32,75,Scotland,Japan,Scotland,Japan
+52,round_of_32,76,Sweden,Morocco,Morocco,Sweden
+52,round_of_32,77,France,Paraguay,France,Paraguay
+52,round_of_32,78,Mexico,Netherlands,Netherlands,Mexico
+52,round_of_32,79,Ivory Coast,Senegal,Senegal,Ivory Coast
+52,round_of_32,80,United States,Norway,United States,Norway
+52,round_of_32,81,Belgium,Jordan,Belgium,Jordan
+52,round_of_32,82,Ghana,DR Congo,DR Congo,Ghana
+52,round_of_32,83,Portugal,Croatia,Portugal,Croatia
+52,round_of_32,84,Canada,Egypt,Canada,Egypt
+52,round_of_32,85,Spain,Argentina,Argentina,Spain
+52,round_of_32,86,Colombia,Panama,Colombia,Panama
+52,round_of_32,87,Austria,Saudi Arabia,Austria,Saudi Arabia
+52,round_of_32,88,Australia,Iran,Australia,Iran
+52,round_of_16,89,Switzerland,Scotland,Switzerland,Scotland
+52,round_of_16,90,Germany,France,France,Germany
+52,round_of_16,91,Senegal,United States,Senegal,United States
+52,round_of_16,92,Morocco,Netherlands,Morocco,Netherlands
+52,round_of_16,93,Belgium,DR Congo,Belgium,DR Congo
+52,round_of_16,94,Portugal,Canada,Portugal,Canada
+52,round_of_16,95,Argentina,Austria,Argentina,Austria
+52,round_of_16,96,Colombia,Australia,Colombia,Australia
+52,quarterfinal,97,Switzerland,France,France,Switzerland
+52,quarterfinal,98,Belgium,Portugal,Portugal,Belgium
+52,quarterfinal,99,Senegal,Morocco,Senegal,Morocco
+52,quarterfinal,100,Argentina,Colombia,Argentina,Colombia
+52,semifinal,101,France,Portugal,France,Portugal
+52,semifinal,102,Senegal,Argentina,Argentina,Senegal
+52,final,104,France,Argentina,Argentina,France
+52,third_place,103,Portugal,Senegal,Portugal,Senegal
+53,round_of_32,73,South Korea,Switzerland,South Korea,Switzerland
+53,round_of_32,74,Germany,Czechia,Czechia,Germany
+53,round_of_32,75,Scotland,Netherlands,Netherlands,Scotland
+53,round_of_32,76,Sweden,Morocco,Morocco,Sweden
+53,round_of_32,77,Norway,Brazil,Norway,Brazil
+53,round_of_32,78,Mexico,Japan,Mexico,Japan
+53,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+53,round_of_32,80,United States,Algeria,United States,Algeria
+53,round_of_32,81,Egypt,Spain,Spain,Egypt
+53,round_of_32,82,England,Portugal,England,Portugal
+53,round_of_32,83,DR Congo,Croatia,DR Congo,Croatia
+53,round_of_32,84,Canada,Australia,Canada,Australia
+53,round_of_32,85,Uruguay,Austria,Uruguay,Austria
+53,round_of_32,86,Colombia,Ghana,Ghana,Colombia
+53,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+53,round_of_32,88,Paraguay,New Zealand,Paraguay,New Zealand
+53,round_of_16,89,South Korea,Netherlands,Netherlands,South Korea
+53,round_of_16,90,Czechia,Norway,Czechia,Norway
+53,round_of_16,91,France,United States,France,United States
+53,round_of_16,92,Morocco,Mexico,Morocco,Mexico
+53,round_of_16,93,Spain,England,Spain,England
+53,round_of_16,94,DR Congo,Canada,Canada,DR Congo
+53,round_of_16,95,Uruguay,Argentina,Uruguay,Argentina
+53,round_of_16,96,Ghana,Paraguay,Paraguay,Ghana
+53,quarterfinal,97,Netherlands,Czechia,Netherlands,Czechia
+53,quarterfinal,98,Spain,Canada,Spain,Canada
+53,quarterfinal,99,France,Morocco,France,Morocco
+53,quarterfinal,100,Uruguay,Paraguay,Uruguay,Paraguay
+53,semifinal,101,Netherlands,Spain,Netherlands,Spain
+53,semifinal,102,France,Uruguay,France,Uruguay
+53,final,104,Netherlands,France,France,Netherlands
+53,third_place,103,Spain,Uruguay,Spain,Uruguay
+54,round_of_32,73,South Korea,Switzerland,South Korea,Switzerland
+54,round_of_32,74,Germany,Qatar,Germany,Qatar
+54,round_of_32,75,Brazil,Japan,Brazil,Japan
+54,round_of_32,76,Netherlands,Morocco,Netherlands,Morocco
+54,round_of_32,77,Norway,Sweden,Sweden,Norway
+54,round_of_32,78,Mexico,Ivory Coast,Mexico,Ivory Coast
+54,round_of_32,79,Ecuador,Iraq,Iraq,Ecuador
+54,round_of_32,80,United States,France,France,United States
+54,round_of_32,81,Egypt,Cape Verde,Cape Verde,Egypt
+54,round_of_32,82,England,Austria,England,Austria
+54,round_of_32,83,Colombia,Croatia,Colombia,Croatia
+54,round_of_32,84,Canada,Ghana,Canada,Ghana
+54,round_of_32,85,Uruguay,Jordan,Uruguay,Jordan
+54,round_of_32,86,Portugal,DR Congo,Portugal,DR Congo
+54,round_of_32,87,Argentina,Spain,Argentina,Spain
+54,round_of_32,88,Australia,Belgium,Belgium,Australia
+54,round_of_16,89,South Korea,Brazil,Brazil,South Korea
+54,round_of_16,90,Germany,Sweden,Germany,Sweden
+54,round_of_16,91,Iraq,France,Iraq,France
+54,round_of_16,92,Netherlands,Mexico,Netherlands,Mexico
+54,round_of_16,93,Cape Verde,England,England,Cape Verde
+54,round_of_16,94,Colombia,Canada,Canada,Colombia
+54,round_of_16,95,Uruguay,Argentina,Argentina,Uruguay
+54,round_of_16,96,Portugal,Belgium,Portugal,Belgium
+54,quarterfinal,97,Brazil,Germany,Brazil,Germany
+54,quarterfinal,98,England,Canada,England,Canada
+54,quarterfinal,99,Iraq,Netherlands,Netherlands,Iraq
+54,quarterfinal,100,Argentina,Portugal,Argentina,Portugal
+54,semifinal,101,Brazil,England,England,Brazil
+54,semifinal,102,Netherlands,Argentina,Argentina,Netherlands
+54,final,104,England,Argentina,England,Argentina
+54,third_place,103,Brazil,Netherlands,Brazil,Netherlands
+55,round_of_32,73,South Africa,Canada,Canada,South Africa
+55,round_of_32,74,Germany,South Korea,Germany,South Korea
+55,round_of_32,75,Morocco,Netherlands,Morocco,Netherlands
+55,round_of_32,76,Japan,Scotland,Japan,Scotland
+55,round_of_32,77,Norway,Brazil,Brazil,Norway
+55,round_of_32,78,Mexico,Curaçao,Mexico,Curaçao
+55,round_of_32,79,Ecuador,France,France,Ecuador
+55,round_of_32,80,United States,Bosnia and Herzegovina,Bosnia and Herzegovina,United States
+55,round_of_32,81,Egypt,Algeria,Algeria,Egypt
+55,round_of_32,82,Ghana,England,England,Ghana
+55,round_of_32,83,Uzbekistan,Panama,Panama,Uzbekistan
+55,round_of_32,84,Switzerland,Sweden,Switzerland,Sweden
+55,round_of_32,85,Spain,Austria,Spain,Austria
+55,round_of_32,86,Colombia,Australia,Australia,Colombia
+55,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+55,round_of_32,88,Paraguay,Belgium,Paraguay,Belgium
+55,round_of_16,89,Canada,Morocco,Morocco,Canada
+55,round_of_16,90,Germany,Brazil,Brazil,Germany
+55,round_of_16,91,France,Bosnia and Herzegovina,France,Bosnia and Herzegovina
+55,round_of_16,92,Japan,Mexico,Mexico,Japan
+55,round_of_16,93,Algeria,England,England,Algeria
+55,round_of_16,94,Panama,Switzerland,Panama,Switzerland
+55,round_of_16,95,Spain,Argentina,Spain,Argentina
+55,round_of_16,96,Australia,Paraguay,Paraguay,Australia
+55,quarterfinal,97,Morocco,Brazil,Brazil,Morocco
+55,quarterfinal,98,England,Panama,Panama,England
+55,quarterfinal,99,France,Mexico,Mexico,France
+55,quarterfinal,100,Spain,Paraguay,Spain,Paraguay
+55,semifinal,101,Brazil,Panama,Brazil,Panama
+55,semifinal,102,Mexico,Spain,Mexico,Spain
+55,final,104,Brazil,Mexico,Brazil,Mexico
+55,third_place,103,Panama,Spain,Panama,Spain
+56,round_of_32,73,South Korea,Canada,Canada,South Korea
+56,round_of_32,74,Germany,Czechia,Germany,Czechia
+56,round_of_32,75,Scotland,Sweden,Scotland,Sweden
+56,round_of_32,76,Netherlands,Brazil,Brazil,Netherlands
+56,round_of_32,77,Norway,Morocco,Morocco,Norway
+56,round_of_32,78,Mexico,Ivory Coast,Mexico,Ivory Coast
+56,round_of_32,79,Ecuador,France,France,Ecuador
+56,round_of_32,80,United States,Bosnia and Herzegovina,United States,Bosnia and Herzegovina
+56,round_of_32,81,Iran,Iraq,Iran,Iraq
+56,round_of_32,82,Ghana,Portugal,Portugal,Ghana
+56,round_of_32,83,DR Congo,England,England,DR Congo
+56,round_of_32,84,Switzerland,Japan,Japan,Switzerland
+56,round_of_32,85,Uruguay,Jordan,Jordan,Uruguay
+56,round_of_32,86,Colombia,New Zealand,Colombia,New Zealand
+56,round_of_32,87,Argentina,Spain,Spain,Argentina
+56,round_of_32,88,Paraguay,Egypt,Paraguay,Egypt
+56,round_of_16,89,Canada,Scotland,Scotland,Canada
+56,round_of_16,90,Germany,Morocco,Germany,Morocco
+56,round_of_16,91,France,United States,United States,France
+56,round_of_16,92,Brazil,Mexico,Brazil,Mexico
+56,round_of_16,93,Iran,Portugal,Portugal,Iran
+56,round_of_16,94,England,Japan,Japan,England
+56,round_of_16,95,Jordan,Spain,Spain,Jordan
+56,round_of_16,96,Colombia,Paraguay,Paraguay,Colombia
+56,quarterfinal,97,Scotland,Germany,Germany,Scotland
+56,quarterfinal,98,Portugal,Japan,Portugal,Japan
+56,quarterfinal,99,United States,Brazil,United States,Brazil
+56,quarterfinal,100,Spain,Paraguay,Spain,Paraguay
+56,semifinal,101,Germany,Portugal,Germany,Portugal
+56,semifinal,102,United States,Spain,Spain,United States
+56,final,104,Germany,Spain,Germany,Spain
+56,third_place,103,Portugal,United States,Portugal,United States
+57,round_of_32,73,South Korea,Switzerland,South Korea,Switzerland
+57,round_of_32,74,Germany,Qatar,Germany,Qatar
+57,round_of_32,75,Brazil,Netherlands,Brazil,Netherlands
+57,round_of_32,76,Japan,Morocco,Morocco,Japan
+57,round_of_32,77,France,Scotland,France,Scotland
+57,round_of_32,78,Mexico,Spain,Spain,Mexico
+57,round_of_32,79,Ivory Coast,Norway,Ivory Coast,Norway
+57,round_of_32,80,United States,Algeria,United States,Algeria
+57,round_of_32,81,Egypt,Iran,Iran,Egypt
+57,round_of_32,82,England,DR Congo,England,DR Congo
+57,round_of_32,83,Portugal,Ghana,Portugal,Ghana
+57,round_of_32,84,Canada,Turkey,Canada,Turkey
+57,round_of_32,85,Cape Verde,Austria,Cape Verde,Austria
+57,round_of_32,86,Colombia,Panama,Panama,Colombia
+57,round_of_32,87,Argentina,Uruguay,Uruguay,Argentina
+57,round_of_32,88,Australia,Belgium,Australia,Belgium
+57,round_of_16,89,South Korea,Brazil,Brazil,South Korea
+57,round_of_16,90,Germany,France,Germany,France
+57,round_of_16,91,Ivory Coast,United States,Ivory Coast,United States
+57,round_of_16,92,Morocco,Spain,Spain,Morocco
+57,round_of_16,93,Iran,England,Iran,England
+57,round_of_16,94,Portugal,Canada,Canada,Portugal
+57,round_of_16,95,Cape Verde,Uruguay,Uruguay,Cape Verde
+57,round_of_16,96,Panama,Australia,Panama,Australia
+57,quarterfinal,97,Brazil,Germany,Brazil,Germany
+57,quarterfinal,98,Iran,Canada,Canada,Iran
+57,quarterfinal,99,Ivory Coast,Spain,Spain,Ivory Coast
+57,quarterfinal,100,Uruguay,Panama,Panama,Uruguay
+57,semifinal,101,Brazil,Canada,Brazil,Canada
+57,semifinal,102,Spain,Panama,Spain,Panama
+57,final,104,Brazil,Spain,Spain,Brazil
+57,third_place,103,Canada,Panama,Canada,Panama
+58,round_of_32,73,South Korea,Canada,South Korea,Canada
+58,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+58,round_of_32,75,Scotland,Netherlands,Scotland,Netherlands
+58,round_of_32,76,Japan,Morocco,Japan,Morocco
+58,round_of_32,77,Norway,Brazil,Brazil,Norway
+58,round_of_32,78,Mexico,Ecuador,Mexico,Ecuador
+58,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+58,round_of_32,80,United States,Senegal,Senegal,United States
+58,round_of_32,81,Egypt,Uruguay,Egypt,Uruguay
+58,round_of_32,82,England,Algeria,England,Algeria
+58,round_of_32,83,DR Congo,Ghana,Ghana,DR Congo
+58,round_of_32,84,Switzerland,Croatia,Switzerland,Croatia
+58,round_of_32,85,Spain,Argentina,Spain,Argentina
+58,round_of_32,86,Colombia,Paraguay,Colombia,Paraguay
+58,round_of_32,87,Austria,Saudi Arabia,Austria,Saudi Arabia
+58,round_of_32,88,Australia,Belgium,Belgium,Australia
+58,round_of_16,89,South Korea,Scotland,South Korea,Scotland
+58,round_of_16,90,Germany,Brazil,Germany,Brazil
+58,round_of_16,91,France,Senegal,France,Senegal
+58,round_of_16,92,Japan,Mexico,Japan,Mexico
+58,round_of_16,93,Egypt,England,England,Egypt
+58,round_of_16,94,Ghana,Switzerland,Switzerland,Ghana
+58,round_of_16,95,Spain,Austria,Spain,Austria
+58,round_of_16,96,Colombia,Belgium,Colombia,Belgium
+58,quarterfinal,97,South Korea,Germany,Germany,South Korea
+58,quarterfinal,98,England,Switzerland,England,Switzerland
+58,quarterfinal,99,France,Japan,France,Japan
+58,quarterfinal,100,Spain,Colombia,Spain,Colombia
+58,semifinal,101,Germany,England,England,Germany
+58,semifinal,102,France,Spain,Spain,France
+58,final,104,England,Spain,Spain,England
+58,third_place,103,Germany,France,Germany,France
+59,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+59,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+59,round_of_32,75,Scotland,Sweden,Scotland,Sweden
+59,round_of_32,76,Netherlands,Brazil,Brazil,Netherlands
+59,round_of_32,77,Norway,Morocco,Norway,Morocco
+59,round_of_32,78,Mexico,Japan,Mexico,Japan
+59,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+59,round_of_32,80,United States,Iraq,United States,Iraq
+59,round_of_32,81,Egypt,Algeria,Algeria,Egypt
+59,round_of_32,82,England,Colombia,Colombia,England
+59,round_of_32,83,DR Congo,Croatia,DR Congo,Croatia
+59,round_of_32,84,Canada,Ghana,Canada,Ghana
+59,round_of_32,85,Spain,Austria,Austria,Spain
+59,round_of_32,86,Portugal,Paraguay,Portugal,Paraguay
+59,round_of_32,87,Argentina,Saudi Arabia,Saudi Arabia,Argentina
+59,round_of_32,88,Australia,Belgium,Australia,Belgium
+59,round_of_16,89,Switzerland,Scotland,Scotland,Switzerland
+59,round_of_16,90,Germany,Norway,Germany,Norway
+59,round_of_16,91,France,United States,United States,France
+59,round_of_16,92,Brazil,Mexico,Brazil,Mexico
+59,round_of_16,93,Algeria,Colombia,Colombia,Algeria
+59,round_of_16,94,DR Congo,Canada,Canada,DR Congo
+59,round_of_16,95,Austria,Saudi Arabia,Austria,Saudi Arabia
+59,round_of_16,96,Portugal,Australia,Portugal,Australia
+59,quarterfinal,97,Scotland,Germany,Germany,Scotland
+59,quarterfinal,98,Colombia,Canada,Colombia,Canada
+59,quarterfinal,99,United States,Brazil,Brazil,United States
+59,quarterfinal,100,Austria,Portugal,Portugal,Austria
+59,semifinal,101,Germany,Colombia,Germany,Colombia
+59,semifinal,102,Brazil,Portugal,Brazil,Portugal
+59,final,104,Germany,Brazil,Brazil,Germany
+59,third_place,103,Colombia,Portugal,Portugal,Colombia
+60,round_of_32,73,Czechia,Canada,Canada,Czechia
+60,round_of_32,74,Germany,South Africa,Germany,South Africa
+60,round_of_32,75,Morocco,Netherlands,Morocco,Netherlands
+60,round_of_32,76,Japan,Brazil,Brazil,Japan
+60,round_of_32,77,Norway,Scotland,Norway,Scotland
+60,round_of_32,78,Mexico,Ivory Coast,Mexico,Ivory Coast
+60,round_of_32,79,Curaçao,Senegal,Senegal,Curaçao
+60,round_of_32,80,United States,Bosnia and Herzegovina,Bosnia and Herzegovina,United States
+60,round_of_32,81,Egypt,Cape Verde,Egypt,Cape Verde
+60,round_of_32,82,England,France,France,England
+60,round_of_32,83,Uzbekistan,Croatia,Uzbekistan,Croatia
+60,round_of_32,84,Switzerland,Sweden,Switzerland,Sweden
+60,round_of_32,85,Spain,Algeria,Spain,Algeria
+60,round_of_32,86,Colombia,Austria,Austria,Colombia
+60,round_of_32,87,Argentina,Uruguay,Argentina,Uruguay
+60,round_of_32,88,Paraguay,Belgium,Belgium,Paraguay
+60,round_of_16,89,Canada,Morocco,Morocco,Canada
+60,round_of_16,90,Germany,Norway,Norway,Germany
+60,round_of_16,91,Senegal,Bosnia and Herzegovina,Bosnia and Herzegovina,Senegal
+60,round_of_16,92,Brazil,Mexico,Brazil,Mexico
+60,round_of_16,93,Egypt,France,Egypt,France
+60,round_of_16,94,Uzbekistan,Switzerland,Uzbekistan,Switzerland
+60,round_of_16,95,Spain,Argentina,Spain,Argentina
+60,round_of_16,96,Austria,Belgium,Belgium,Austria
+60,quarterfinal,97,Morocco,Norway,Morocco,Norway
+60,quarterfinal,98,Egypt,Uzbekistan,Uzbekistan,Egypt
+60,quarterfinal,99,Bosnia and Herzegovina,Brazil,Brazil,Bosnia and Herzegovina
+60,quarterfinal,100,Spain,Belgium,Belgium,Spain
+60,semifinal,101,Morocco,Uzbekistan,Uzbekistan,Morocco
+60,semifinal,102,Brazil,Belgium,Belgium,Brazil
+60,final,104,Uzbekistan,Belgium,Belgium,Uzbekistan
+60,third_place,103,Morocco,Brazil,Morocco,Brazil
+61,round_of_32,73,Czechia,Switzerland,Switzerland,Czechia
+61,round_of_32,74,Germany,South Africa,Germany,South Africa
+61,round_of_32,75,Morocco,Netherlands,Netherlands,Morocco
+61,round_of_32,76,Japan,Brazil,Japan,Brazil
+61,round_of_32,77,France,Scotland,France,Scotland
+61,round_of_32,78,Mexico,Ivory Coast,Mexico,Ivory Coast
+61,round_of_32,79,Curaçao,Norway,Norway,Curaçao
+61,round_of_32,80,United States,Sweden,Sweden,United States
+61,round_of_32,81,Belgium,Uruguay,Belgium,Uruguay
+61,round_of_32,82,England,Algeria,England,Algeria
+61,round_of_32,83,DR Congo,Croatia,Croatia,DR Congo
+61,round_of_32,84,Canada,Egypt,Egypt,Canada
+61,round_of_32,85,Spain,Austria,Spain,Austria
+61,round_of_32,86,Colombia,Ghana,Colombia,Ghana
+61,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+61,round_of_32,88,Paraguay,Iran,Paraguay,Iran
+61,round_of_16,89,Switzerland,Netherlands,Netherlands,Switzerland
+61,round_of_16,90,Germany,France,France,Germany
+61,round_of_16,91,Norway,Sweden,Sweden,Norway
+61,round_of_16,92,Japan,Mexico,Japan,Mexico
+61,round_of_16,93,Belgium,England,England,Belgium
+61,round_of_16,94,Croatia,Egypt,Croatia,Egypt
+61,round_of_16,95,Spain,Argentina,Argentina,Spain
+61,round_of_16,96,Colombia,Paraguay,Colombia,Paraguay
+61,quarterfinal,97,Netherlands,France,France,Netherlands
+61,quarterfinal,98,England,Croatia,England,Croatia
+61,quarterfinal,99,Sweden,Japan,Sweden,Japan
+61,quarterfinal,100,Argentina,Colombia,Argentina,Colombia
+61,semifinal,101,France,England,France,England
+61,semifinal,102,Sweden,Argentina,Sweden,Argentina
+61,final,104,France,Sweden,France,Sweden
+61,third_place,103,England,Argentina,Argentina,England
+62,round_of_32,73,South Korea,Switzerland,South Korea,Switzerland
+62,round_of_32,74,Germany,Qatar,Germany,Qatar
+62,round_of_32,75,Morocco,Sweden,Morocco,Sweden
+62,round_of_32,76,Netherlands,Brazil,Brazil,Netherlands
+62,round_of_32,77,Norway,Scotland,Scotland,Norway
+62,round_of_32,78,Mexico,Japan,Mexico,Japan
+62,round_of_32,79,Ivory Coast,Senegal,Senegal,Ivory Coast
+62,round_of_32,80,United States,France,France,United States
+62,round_of_32,81,Iran,Spain,Spain,Iran
+62,round_of_32,82,England,Austria,England,Austria
+62,round_of_32,83,DR Congo,Ghana,DR Congo,Ghana
+62,round_of_32,84,Canada,Belgium,Belgium,Canada
+62,round_of_32,85,Uruguay,Algeria,Uruguay,Algeria
+62,round_of_32,86,Portugal,Colombia,Portugal,Colombia
+62,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+62,round_of_32,88,Paraguay,Egypt,Egypt,Paraguay
+62,round_of_16,89,South Korea,Morocco,South Korea,Morocco
+62,round_of_16,90,Germany,Scotland,Germany,Scotland
+62,round_of_16,91,Senegal,France,France,Senegal
+62,round_of_16,92,Brazil,Mexico,Brazil,Mexico
+62,round_of_16,93,Spain,England,Spain,England
+62,round_of_16,94,DR Congo,Belgium,Belgium,DR Congo
+62,round_of_16,95,Uruguay,Argentina,Uruguay,Argentina
+62,round_of_16,96,Portugal,Egypt,Portugal,Egypt
+62,quarterfinal,97,South Korea,Germany,South Korea,Germany
+62,quarterfinal,98,Spain,Belgium,Spain,Belgium
+62,quarterfinal,99,France,Brazil,France,Brazil
+62,quarterfinal,100,Uruguay,Portugal,Portugal,Uruguay
+62,semifinal,101,South Korea,Spain,South Korea,Spain
+62,semifinal,102,France,Portugal,France,Portugal
+62,final,104,South Korea,France,France,South Korea
+62,third_place,103,Spain,Portugal,Portugal,Spain
+63,round_of_32,73,South Africa,Switzerland,Switzerland,South Africa
+63,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+63,round_of_32,75,Brazil,Netherlands,Brazil,Netherlands
+63,round_of_32,76,Japan,Morocco,Japan,Morocco
+63,round_of_32,77,Norway,Sweden,Norway,Sweden
+63,round_of_32,78,Mexico,Ecuador,Ecuador,Mexico
+63,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+63,round_of_32,80,United States,Senegal,United States,Senegal
+63,round_of_32,81,Iran,Saudi Arabia,Saudi Arabia,Iran
+63,round_of_32,82,England,Portugal,Portugal,England
+63,round_of_32,83,Uzbekistan,Ghana,Ghana,Uzbekistan
+63,round_of_32,84,Canada,Egypt,Canada,Egypt
+63,round_of_32,85,Uruguay,Jordan,Uruguay,Jordan
+63,round_of_32,86,Colombia,Croatia,Colombia,Croatia
+63,round_of_32,87,Austria,Spain,Spain,Austria
+63,round_of_32,88,Paraguay,Belgium,Belgium,Paraguay
+63,round_of_16,89,Switzerland,Brazil,Switzerland,Brazil
+63,round_of_16,90,Germany,Norway,Norway,Germany
+63,round_of_16,91,France,United States,United States,France
+63,round_of_16,92,Japan,Ecuador,Japan,Ecuador
+63,round_of_16,93,Saudi Arabia,Portugal,Portugal,Saudi Arabia
+63,round_of_16,94,Ghana,Canada,Canada,Ghana
+63,round_of_16,95,Uruguay,Spain,Spain,Uruguay
+63,round_of_16,96,Colombia,Belgium,Colombia,Belgium
+63,quarterfinal,97,Switzerland,Norway,Switzerland,Norway
+63,quarterfinal,98,Portugal,Canada,Portugal,Canada
+63,quarterfinal,99,United States,Japan,Japan,United States
+63,quarterfinal,100,Spain,Colombia,Colombia,Spain
+63,semifinal,101,Switzerland,Portugal,Portugal,Switzerland
+63,semifinal,102,Japan,Colombia,Japan,Colombia
+63,final,104,Portugal,Japan,Japan,Portugal
+63,third_place,103,Switzerland,Colombia,Colombia,Switzerland
+64,round_of_32,73,South Africa,Canada,Canada,South Africa
+64,round_of_32,74,Germany,South Korea,Germany,South Korea
+64,round_of_32,75,Brazil,Sweden,Brazil,Sweden
+64,round_of_32,76,Netherlands,Morocco,Netherlands,Morocco
+64,round_of_32,77,France,Paraguay,France,Paraguay
+64,round_of_32,78,Mexico,Curaçao,Mexico,Curaçao
+64,round_of_32,79,Ecuador,Iraq,Ecuador,Iraq
+64,round_of_32,80,United States,Bosnia and Herzegovina,United States,Bosnia and Herzegovina
+64,round_of_32,81,Egypt,Uruguay,Egypt,Uruguay
+64,round_of_32,82,England,Norway,England,Norway
+64,round_of_32,83,Uzbekistan,Ghana,Uzbekistan,Ghana
+64,round_of_32,84,Switzerland,Japan,Switzerland,Japan
+64,round_of_32,85,Spain,Argentina,Spain,Argentina
+64,round_of_32,86,Colombia,Croatia,Colombia,Croatia
+64,round_of_32,87,Austria,Saudi Arabia,Saudi Arabia,Austria
+64,round_of_32,88,Australia,New Zealand,New Zealand,Australia
+64,round_of_16,89,Canada,Brazil,Brazil,Canada
+64,round_of_16,90,Germany,France,France,Germany
+64,round_of_16,91,Ecuador,United States,United States,Ecuador
+64,round_of_16,92,Netherlands,Mexico,Netherlands,Mexico
+64,round_of_16,93,Egypt,England,England,Egypt
+64,round_of_16,94,Uzbekistan,Switzerland,Switzerland,Uzbekistan
+64,round_of_16,95,Spain,Saudi Arabia,Saudi Arabia,Spain
+64,round_of_16,96,Colombia,New Zealand,New Zealand,Colombia
+64,quarterfinal,97,Brazil,France,France,Brazil
+64,quarterfinal,98,England,Switzerland,England,Switzerland
+64,quarterfinal,99,United States,Netherlands,United States,Netherlands
+64,quarterfinal,100,Saudi Arabia,New Zealand,New Zealand,Saudi Arabia
+64,semifinal,101,France,England,France,England
+64,semifinal,102,United States,New Zealand,United States,New Zealand
+64,final,104,France,United States,France,United States
+64,third_place,103,England,New Zealand,England,New Zealand
+65,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+65,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+65,round_of_32,75,Scotland,Japan,Japan,Scotland
+65,round_of_32,76,Netherlands,Brazil,Brazil,Netherlands
+65,round_of_32,77,France,Morocco,Morocco,France
+65,round_of_32,78,Mexico,Sweden,Mexico,Sweden
+65,round_of_32,79,Ivory Coast,Norway,Norway,Ivory Coast
+65,round_of_32,80,United States,Senegal,United States,Senegal
+65,round_of_32,81,Egypt,Austria,Austria,Egypt
+65,round_of_32,82,England,DR Congo,England,DR Congo
+65,round_of_32,83,Portugal,Croatia,Portugal,Croatia
+65,round_of_32,84,Canada,Ghana,Canada,Ghana
+65,round_of_32,85,Spain,Algeria,Spain,Algeria
+65,round_of_32,86,Colombia,Paraguay,Paraguay,Colombia
+65,round_of_32,87,Argentina,Saudi Arabia,Argentina,Saudi Arabia
+65,round_of_32,88,Australia,Belgium,Belgium,Australia
+65,round_of_16,89,Switzerland,Japan,Switzerland,Japan
+65,round_of_16,90,Germany,Morocco,Morocco,Germany
+65,round_of_16,91,Norway,United States,United States,Norway
+65,round_of_16,92,Brazil,Mexico,Mexico,Brazil
+65,round_of_16,93,Austria,England,England,Austria
+65,round_of_16,94,Portugal,Canada,Portugal,Canada
+65,round_of_16,95,Spain,Argentina,Spain,Argentina
+65,round_of_16,96,Paraguay,Belgium,Belgium,Paraguay
+65,quarterfinal,97,Switzerland,Morocco,Switzerland,Morocco
+65,quarterfinal,98,England,Portugal,England,Portugal
+65,quarterfinal,99,United States,Mexico,Mexico,United States
+65,quarterfinal,100,Spain,Belgium,Spain,Belgium
+65,semifinal,101,Switzerland,England,England,Switzerland
+65,semifinal,102,Mexico,Spain,Mexico,Spain
+65,final,104,England,Mexico,England,Mexico
+65,third_place,103,Switzerland,Spain,Spain,Switzerland
+66,round_of_32,73,South Korea,Switzerland,South Korea,Switzerland
+66,round_of_32,74,Germany,Morocco,Germany,Morocco
+66,round_of_32,75,Scotland,Netherlands,Netherlands,Scotland
+66,round_of_32,76,Japan,Brazil,Japan,Brazil
+66,round_of_32,77,Norway,Paraguay,Norway,Paraguay
+66,round_of_32,78,Mexico,Sweden,Mexico,Sweden
+66,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+66,round_of_32,80,United States,Iraq,United States,Iraq
+66,round_of_32,81,Iran,Argentina,Argentina,Iran
+66,round_of_32,82,England,Portugal,England,Portugal
+66,round_of_32,83,Colombia,Ghana,Ghana,Colombia
+66,round_of_32,84,Canada,Belgium,Canada,Belgium
+66,round_of_32,85,Spain,Jordan,Spain,Jordan
+66,round_of_32,86,DR Congo,Croatia,Croatia,DR Congo
+66,round_of_32,87,Austria,Saudi Arabia,Austria,Saudi Arabia
+66,round_of_32,88,Australia,Egypt,Australia,Egypt
+66,round_of_16,89,South Korea,Netherlands,Netherlands,South Korea
+66,round_of_16,90,Germany,Norway,Norway,Germany
+66,round_of_16,91,France,United States,United States,France
+66,round_of_16,92,Japan,Mexico,Japan,Mexico
+66,round_of_16,93,Argentina,England,England,Argentina
+66,round_of_16,94,Ghana,Canada,Canada,Ghana
+66,round_of_16,95,Spain,Austria,Spain,Austria
+66,round_of_16,96,Croatia,Australia,Australia,Croatia
+66,quarterfinal,97,Netherlands,Norway,Norway,Netherlands
+66,quarterfinal,98,England,Canada,England,Canada
+66,quarterfinal,99,United States,Japan,United States,Japan
+66,quarterfinal,100,Spain,Australia,Spain,Australia
+66,semifinal,101,Norway,England,England,Norway
+66,semifinal,102,United States,Spain,Spain,United States
+66,final,104,England,Spain,England,Spain
+66,third_place,103,Norway,United States,United States,Norway
+67,round_of_32,73,South Korea,Switzerland,South Korea,Switzerland
+67,round_of_32,74,Germany,Qatar,Germany,Qatar
+67,round_of_32,75,Brazil,Japan,Brazil,Japan
+67,round_of_32,76,Netherlands,Morocco,Netherlands,Morocco
+67,round_of_32,77,Norway,Sweden,Sweden,Norway
+67,round_of_32,78,Mexico,Ivory Coast,Ivory Coast,Mexico
+67,round_of_32,79,Curaçao,France,France,Curaçao
+67,round_of_32,80,United States,Senegal,United States,Senegal
+67,round_of_32,81,Egypt,Cape Verde,Cape Verde,Egypt
+67,round_of_32,82,Ghana,Austria,Ghana,Austria
+67,round_of_32,83,Colombia,England,England,Colombia
+67,round_of_32,84,Canada,Iran,Iran,Canada
+67,round_of_32,85,Uruguay,Jordan,Uruguay,Jordan
+67,round_of_32,86,Portugal,Croatia,Portugal,Croatia
+67,round_of_32,87,Argentina,Spain,Spain,Argentina
+67,round_of_32,88,Paraguay,Belgium,Paraguay,Belgium
+67,round_of_16,89,South Korea,Brazil,South Korea,Brazil
+67,round_of_16,90,Germany,Sweden,Germany,Sweden
+67,round_of_16,91,France,United States,France,United States
+67,round_of_16,92,Netherlands,Ivory Coast,Ivory Coast,Netherlands
+67,round_of_16,93,Cape Verde,Ghana,Cape Verde,Ghana
+67,round_of_16,94,England,Iran,England,Iran
+67,round_of_16,95,Uruguay,Spain,Uruguay,Spain
+67,round_of_16,96,Portugal,Paraguay,Portugal,Paraguay
+67,quarterfinal,97,South Korea,Germany,Germany,South Korea
+67,quarterfinal,98,Cape Verde,England,England,Cape Verde
+67,quarterfinal,99,France,Ivory Coast,Ivory Coast,France
+67,quarterfinal,100,Uruguay,Portugal,Portugal,Uruguay
+67,semifinal,101,Germany,England,England,Germany
+67,semifinal,102,Ivory Coast,Portugal,Portugal,Ivory Coast
+67,final,104,England,Portugal,Portugal,England
+67,third_place,103,Germany,Ivory Coast,Ivory Coast,Germany
+68,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+68,round_of_32,74,Germany,Scotland,Scotland,Germany
+68,round_of_32,75,Brazil,Japan,Brazil,Japan
+68,round_of_32,76,Netherlands,Morocco,Morocco,Netherlands
+68,round_of_32,77,Norway,Turkey,Turkey,Norway
+68,round_of_32,78,Mexico,Sweden,Sweden,Mexico
+68,round_of_32,79,Ivory Coast,Senegal,Senegal,Ivory Coast
+68,round_of_32,80,United States,France,United States,France
+68,round_of_32,81,Egypt,Uruguay,Egypt,Uruguay
+68,round_of_32,82,Croatia,Algeria,Algeria,Croatia
+68,round_of_32,83,Colombia,England,England,Colombia
+68,round_of_32,84,Canada,Ghana,Canada,Ghana
+68,round_of_32,85,Spain,Argentina,Argentina,Spain
+68,round_of_32,86,Portugal,Uzbekistan,Uzbekistan,Portugal
+68,round_of_32,87,Austria,Cape Verde,Cape Verde,Austria
+68,round_of_32,88,Paraguay,Belgium,Belgium,Paraguay
+68,round_of_16,89,Switzerland,Brazil,Brazil,Switzerland
+68,round_of_16,90,Scotland,Turkey,Turkey,Scotland
+68,round_of_16,91,Senegal,United States,United States,Senegal
+68,round_of_16,92,Morocco,Sweden,Morocco,Sweden
+68,round_of_16,93,Egypt,Algeria,Algeria,Egypt
+68,round_of_16,94,England,Canada,England,Canada
+68,round_of_16,95,Argentina,Cape Verde,Argentina,Cape Verde
+68,round_of_16,96,Uzbekistan,Belgium,Uzbekistan,Belgium
+68,quarterfinal,97,Brazil,Turkey,Brazil,Turkey
+68,quarterfinal,98,Algeria,England,Algeria,England
+68,quarterfinal,99,United States,Morocco,Morocco,United States
+68,quarterfinal,100,Argentina,Uzbekistan,Argentina,Uzbekistan
+68,semifinal,101,Brazil,Algeria,Algeria,Brazil
+68,semifinal,102,Morocco,Argentina,Argentina,Morocco
+68,final,104,Algeria,Argentina,Algeria,Argentina
+68,third_place,103,Brazil,Morocco,Morocco,Brazil
+69,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+69,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+69,round_of_32,75,Brazil,Netherlands,Netherlands,Brazil
+69,round_of_32,76,Sweden,Morocco,Sweden,Morocco
+69,round_of_32,77,Norway,Japan,Norway,Japan
+69,round_of_32,78,Mexico,Curaçao,Mexico,Curaçao
+69,round_of_32,79,Ecuador,Senegal,Ecuador,Senegal
+69,round_of_32,80,United States,Iraq,Iraq,United States
+69,round_of_32,81,Egypt,Uruguay,Uruguay,Egypt
+69,round_of_32,82,England,Argentina,Argentina,England
+69,round_of_32,83,Portugal,Ghana,Portugal,Ghana
+69,round_of_32,84,Canada,Iran,Canada,Iran
+69,round_of_32,85,Spain,Austria,Spain,Austria
+69,round_of_32,86,Colombia,Croatia,Colombia,Croatia
+69,round_of_32,87,Jordan,Saudi Arabia,Jordan,Saudi Arabia
+69,round_of_32,88,Paraguay,Belgium,Belgium,Paraguay
+69,round_of_16,89,Switzerland,Netherlands,Netherlands,Switzerland
+69,round_of_16,90,Germany,Norway,Germany,Norway
+69,round_of_16,91,Ecuador,Iraq,Ecuador,Iraq
+69,round_of_16,92,Sweden,Mexico,Mexico,Sweden
+69,round_of_16,93,Uruguay,Argentina,Argentina,Uruguay
+69,round_of_16,94,Portugal,Canada,Canada,Portugal
+69,round_of_16,95,Spain,Jordan,Spain,Jordan
+69,round_of_16,96,Colombia,Belgium,Colombia,Belgium
+69,quarterfinal,97,Netherlands,Germany,Netherlands,Germany
+69,quarterfinal,98,Argentina,Canada,Argentina,Canada
+69,quarterfinal,99,Ecuador,Mexico,Ecuador,Mexico
+69,quarterfinal,100,Spain,Colombia,Spain,Colombia
+69,semifinal,101,Netherlands,Argentina,Argentina,Netherlands
+69,semifinal,102,Ecuador,Spain,Spain,Ecuador
+69,final,104,Argentina,Spain,Argentina,Spain
+69,third_place,103,Netherlands,Ecuador,Netherlands,Ecuador
+70,round_of_32,73,Mexico,Switzerland,Mexico,Switzerland
+70,round_of_32,74,Germany,Czechia,Germany,Czechia
+70,round_of_32,75,Brazil,Netherlands,Brazil,Netherlands
+70,round_of_32,76,Japan,Morocco,Japan,Morocco
+70,round_of_32,77,France,Scotland,France,Scotland
+70,round_of_32,78,South Korea,Sweden,South Korea,Sweden
+70,round_of_32,79,Ivory Coast,Norway,Norway,Ivory Coast
+70,round_of_32,80,United States,Qatar,United States,Qatar
+70,round_of_32,81,Iran,Jordan,Jordan,Iran
+70,round_of_32,82,England,New Zealand,England,New Zealand
+70,round_of_32,83,Portugal,Ghana,Portugal,Ghana
+70,round_of_32,84,Canada,Australia,Australia,Canada
+70,round_of_32,85,Spain,Austria,Spain,Austria
+70,round_of_32,86,Colombia,Panama,Colombia,Panama
+70,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+70,round_of_32,88,Paraguay,Egypt,Egypt,Paraguay
+70,round_of_16,89,Mexico,Brazil,Brazil,Mexico
+70,round_of_16,90,Germany,France,France,Germany
+70,round_of_16,91,Norway,United States,United States,Norway
+70,round_of_16,92,Japan,South Korea,Japan,South Korea
+70,round_of_16,93,Jordan,England,Jordan,England
+70,round_of_16,94,Portugal,Australia,Portugal,Australia
+70,round_of_16,95,Spain,Argentina,Argentina,Spain
+70,round_of_16,96,Colombia,Egypt,Colombia,Egypt
+70,quarterfinal,97,Brazil,France,Brazil,France
+70,quarterfinal,98,Jordan,Portugal,Portugal,Jordan
+70,quarterfinal,99,United States,Japan,United States,Japan
+70,quarterfinal,100,Argentina,Colombia,Argentina,Colombia
+70,semifinal,101,Brazil,Portugal,Brazil,Portugal
+70,semifinal,102,United States,Argentina,Argentina,United States
+70,final,104,Brazil,Argentina,Argentina,Brazil
+70,third_place,103,Portugal,United States,Portugal,United States
+71,round_of_32,73,South Africa,Canada,South Africa,Canada
+71,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+71,round_of_32,75,Brazil,Sweden,Brazil,Sweden
+71,round_of_32,76,Netherlands,Morocco,Netherlands,Morocco
+71,round_of_32,77,France,Scotland,France,Scotland
+71,round_of_32,78,Mexico,Ivory Coast,Mexico,Ivory Coast
+71,round_of_32,79,Ecuador,Norway,Ecuador,Norway
+71,round_of_32,80,United States,Japan,Japan,United States
+71,round_of_32,81,Egypt,Saudi Arabia,Egypt,Saudi Arabia
+71,round_of_32,82,England,Senegal,England,Senegal
+71,round_of_32,83,Colombia,Croatia,Colombia,Croatia
+71,round_of_32,84,Switzerland,Argentina,Argentina,Switzerland
+71,round_of_32,85,Uruguay,Jordan,Uruguay,Jordan
+71,round_of_32,86,Portugal,Paraguay,Portugal,Paraguay
+71,round_of_32,87,Austria,Spain,Spain,Austria
+71,round_of_32,88,Australia,New Zealand,New Zealand,Australia
+71,round_of_16,89,South Africa,Brazil,Brazil,South Africa
+71,round_of_16,90,Germany,France,Germany,France
+71,round_of_16,91,Ecuador,Japan,Japan,Ecuador
+71,round_of_16,92,Netherlands,Mexico,Netherlands,Mexico
+71,round_of_16,93,Egypt,England,England,Egypt
+71,round_of_16,94,Colombia,Argentina,Colombia,Argentina
+71,round_of_16,95,Uruguay,Spain,Spain,Uruguay
+71,round_of_16,96,Portugal,New Zealand,New Zealand,Portugal
+71,quarterfinal,97,Brazil,Germany,Germany,Brazil
+71,quarterfinal,98,England,Colombia,Colombia,England
+71,quarterfinal,99,Japan,Netherlands,Japan,Netherlands
+71,quarterfinal,100,Spain,New Zealand,Spain,New Zealand
+71,semifinal,101,Germany,Colombia,Germany,Colombia
+71,semifinal,102,Japan,Spain,Japan,Spain
+71,final,104,Germany,Japan,Germany,Japan
+71,third_place,103,Colombia,Spain,Colombia,Spain
+72,round_of_32,73,South Africa,Canada,Canada,South Africa
+72,round_of_32,74,Germany,South Korea,Germany,South Korea
+72,round_of_32,75,Brazil,Sweden,Brazil,Sweden
+72,round_of_32,76,Netherlands,Morocco,Netherlands,Morocco
+72,round_of_32,77,Norway,Turkey,Norway,Turkey
+72,round_of_32,78,Mexico,Ivory Coast,Mexico,Ivory Coast
+72,round_of_32,79,Ecuador,France,France,Ecuador
+72,round_of_32,80,United States,Qatar,United States,Qatar
+72,round_of_32,81,Egypt,Cape Verde,Cape Verde,Egypt
+72,round_of_32,82,England,Senegal,Senegal,England
+72,round_of_32,83,Portugal,Ghana,Portugal,Ghana
+72,round_of_32,84,Switzerland,Japan,Switzerland,Japan
+72,round_of_32,85,Spain,Austria,Spain,Austria
+72,round_of_32,86,Colombia,Uzbekistan,Uzbekistan,Colombia
+72,round_of_32,87,Argentina,Uruguay,Argentina,Uruguay
+72,round_of_32,88,Australia,Belgium,Australia,Belgium
+72,round_of_16,89,Canada,Brazil,Brazil,Canada
+72,round_of_16,90,Germany,Norway,Germany,Norway
+72,round_of_16,91,France,United States,France,United States
+72,round_of_16,92,Netherlands,Mexico,Netherlands,Mexico
+72,round_of_16,93,Cape Verde,Senegal,Cape Verde,Senegal
+72,round_of_16,94,Portugal,Switzerland,Portugal,Switzerland
+72,round_of_16,95,Spain,Argentina,Spain,Argentina
+72,round_of_16,96,Uzbekistan,Australia,Australia,Uzbekistan
+72,quarterfinal,97,Brazil,Germany,Brazil,Germany
+72,quarterfinal,98,Cape Verde,Portugal,Portugal,Cape Verde
+72,quarterfinal,99,France,Netherlands,France,Netherlands
+72,quarterfinal,100,Spain,Australia,Spain,Australia
+72,semifinal,101,Brazil,Portugal,Portugal,Brazil
+72,semifinal,102,France,Spain,France,Spain
+72,final,104,Portugal,France,France,Portugal
+72,third_place,103,Brazil,Spain,Brazil,Spain
+73,round_of_32,73,South Africa,Switzerland,Switzerland,South Africa
+73,round_of_32,74,Germany,South Korea,South Korea,Germany
+73,round_of_32,75,Brazil,Japan,Brazil,Japan
+73,round_of_32,76,Netherlands,Morocco,Netherlands,Morocco
+73,round_of_32,77,France,Australia,Australia,France
+73,round_of_32,78,Mexico,Ivory Coast,Mexico,Ivory Coast
+73,round_of_32,79,Curaçao,Norway,Norway,Curaçao
+73,round_of_32,80,United States,Sweden,United States,Sweden
+73,round_of_32,81,Egypt,Algeria,Egypt,Algeria
+73,round_of_32,82,Ghana,Colombia,Colombia,Ghana
+73,round_of_32,83,DR Congo,England,England,DR Congo
+73,round_of_32,84,Canada,Iran,Canada,Iran
+73,round_of_32,85,Spain,Argentina,Argentina,Spain
+73,round_of_32,86,Portugal,Panama,Portugal,Panama
+73,round_of_32,87,Austria,Saudi Arabia,Austria,Saudi Arabia
+73,round_of_32,88,Paraguay,Belgium,Paraguay,Belgium
+73,round_of_16,89,Switzerland,Brazil,Brazil,Switzerland
+73,round_of_16,90,South Korea,Australia,South Korea,Australia
+73,round_of_16,91,Norway,United States,Norway,United States
+73,round_of_16,92,Netherlands,Mexico,Mexico,Netherlands
+73,round_of_16,93,Egypt,Colombia,Egypt,Colombia
+73,round_of_16,94,England,Canada,England,Canada
+73,round_of_16,95,Argentina,Austria,Austria,Argentina
+73,round_of_16,96,Portugal,Paraguay,Portugal,Paraguay
+73,quarterfinal,97,Brazil,South Korea,South Korea,Brazil
+73,quarterfinal,98,Egypt,England,England,Egypt
+73,quarterfinal,99,Norway,Mexico,Mexico,Norway
+73,quarterfinal,100,Austria,Portugal,Austria,Portugal
+73,semifinal,101,South Korea,England,England,South Korea
+73,semifinal,102,Mexico,Austria,Mexico,Austria
+73,final,104,England,Mexico,England,Mexico
+73,third_place,103,South Korea,Austria,Austria,South Korea
+74,round_of_32,73,Mexico,Canada,Canada,Mexico
+74,round_of_32,74,Germany,Czechia,Czechia,Germany
+74,round_of_32,75,Brazil,Japan,Japan,Brazil
+74,round_of_32,76,Netherlands,Morocco,Netherlands,Morocco
+74,round_of_32,77,Norway,Sweden,Sweden,Norway
+74,round_of_32,78,South Korea,Uruguay,Uruguay,South Korea
+74,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+74,round_of_32,80,United States,Qatar,United States,Qatar
+74,round_of_32,81,Egypt,Senegal,Senegal,Egypt
+74,round_of_32,82,England,Jordan,England,Jordan
+74,round_of_32,83,Colombia,Ghana,Colombia,Ghana
+74,round_of_32,84,Switzerland,Iran,Switzerland,Iran
+74,round_of_32,85,Spain,Austria,Spain,Austria
+74,round_of_32,86,DR Congo,Panama,Panama,DR Congo
+74,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+74,round_of_32,88,Australia,New Zealand,Australia,New Zealand
+74,round_of_16,89,Canada,Japan,Canada,Japan
+74,round_of_16,90,Czechia,Sweden,Czechia,Sweden
+74,round_of_16,91,France,United States,France,United States
+74,round_of_16,92,Netherlands,Uruguay,Uruguay,Netherlands
+74,round_of_16,93,Senegal,England,England,Senegal
+74,round_of_16,94,Colombia,Switzerland,Switzerland,Colombia
+74,round_of_16,95,Spain,Argentina,Argentina,Spain
+74,round_of_16,96,Panama,Australia,Australia,Panama
+74,quarterfinal,97,Canada,Czechia,Canada,Czechia
+74,quarterfinal,98,England,Switzerland,England,Switzerland
+74,quarterfinal,99,France,Uruguay,France,Uruguay
+74,quarterfinal,100,Argentina,Australia,Argentina,Australia
+74,semifinal,101,Canada,England,England,Canada
+74,semifinal,102,France,Argentina,France,Argentina
+74,final,104,England,France,France,England
+74,third_place,103,Canada,Argentina,Canada,Argentina
+75,round_of_32,73,South Korea,Switzerland,South Korea,Switzerland
+75,round_of_32,74,Germany,Qatar,Germany,Qatar
+75,round_of_32,75,Brazil,Japan,Brazil,Japan
+75,round_of_32,76,Netherlands,Morocco,Netherlands,Morocco
+75,round_of_32,77,France,Scotland,Scotland,France
+75,round_of_32,78,Mexico,Sweden,Mexico,Sweden
+75,round_of_32,79,Ivory Coast,Norway,Ivory Coast,Norway
+75,round_of_32,80,United States,Iraq,United States,Iraq
+75,round_of_32,81,Iran,Algeria,Iran,Algeria
+75,round_of_32,82,England,Portugal,England,Portugal
+75,round_of_32,83,Colombia,Croatia,Colombia,Croatia
+75,round_of_32,84,Canada,Egypt,Egypt,Canada
+75,round_of_32,85,Spain,Austria,Austria,Spain
+75,round_of_32,86,DR Congo,Ghana,DR Congo,Ghana
+75,round_of_32,87,Argentina,Saudi Arabia,Argentina,Saudi Arabia
+75,round_of_32,88,Australia,New Zealand,Australia,New Zealand
+75,round_of_16,89,South Korea,Brazil,Brazil,South Korea
+75,round_of_16,90,Germany,Scotland,Germany,Scotland
+75,round_of_16,91,Ivory Coast,United States,United States,Ivory Coast
+75,round_of_16,92,Netherlands,Mexico,Mexico,Netherlands
+75,round_of_16,93,Iran,England,England,Iran
+75,round_of_16,94,Colombia,Egypt,Egypt,Colombia
+75,round_of_16,95,Austria,Argentina,Argentina,Austria
+75,round_of_16,96,DR Congo,Australia,Australia,DR Congo
+75,quarterfinal,97,Brazil,Germany,Brazil,Germany
+75,quarterfinal,98,England,Egypt,England,Egypt
+75,quarterfinal,99,United States,Mexico,Mexico,United States
+75,quarterfinal,100,Argentina,Australia,Argentina,Australia
+75,semifinal,101,Brazil,England,England,Brazil
+75,semifinal,102,Mexico,Argentina,Argentina,Mexico
+75,final,104,England,Argentina,Argentina,England
+75,third_place,103,Brazil,Mexico,Mexico,Brazil
+76,round_of_32,73,South Korea,Switzerland,South Korea,Switzerland
+76,round_of_32,74,Germany,Scotland,Germany,Scotland
+76,round_of_32,75,Brazil,Japan,Brazil,Japan
+76,round_of_32,76,Netherlands,Morocco,Morocco,Netherlands
+76,round_of_32,77,France,Paraguay,France,Paraguay
+76,round_of_32,78,Mexico,Sweden,Sweden,Mexico
+76,round_of_32,79,Ivory Coast,Norway,Ivory Coast,Norway
+76,round_of_32,80,United States,Argentina,Argentina,United States
+76,round_of_32,81,Egypt,Uruguay,Egypt,Uruguay
+76,round_of_32,82,England,DR Congo,DR Congo,England
+76,round_of_32,83,Portugal,Croatia,Croatia,Portugal
+76,round_of_32,84,Canada,Iran,Canada,Iran
+76,round_of_32,85,Spain,Jordan,Spain,Jordan
+76,round_of_32,86,Colombia,Ghana,Ghana,Colombia
+76,round_of_32,87,Austria,Cape Verde,Austria,Cape Verde
+76,round_of_32,88,Australia,Belgium,Belgium,Australia
+76,round_of_16,89,South Korea,Brazil,Brazil,South Korea
+76,round_of_16,90,Germany,France,France,Germany
+76,round_of_16,91,Ivory Coast,Argentina,Argentina,Ivory Coast
+76,round_of_16,92,Morocco,Sweden,Morocco,Sweden
+76,round_of_16,93,Egypt,DR Congo,Egypt,DR Congo
+76,round_of_16,94,Croatia,Canada,Croatia,Canada
+76,round_of_16,95,Spain,Austria,Spain,Austria
+76,round_of_16,96,Ghana,Belgium,Belgium,Ghana
+76,quarterfinal,97,Brazil,France,France,Brazil
+76,quarterfinal,98,Egypt,Croatia,Egypt,Croatia
+76,quarterfinal,99,Argentina,Morocco,Morocco,Argentina
+76,quarterfinal,100,Spain,Belgium,Spain,Belgium
+76,semifinal,101,France,Egypt,France,Egypt
+76,semifinal,102,Morocco,Spain,Spain,Morocco
+76,final,104,France,Spain,France,Spain
+76,third_place,103,Egypt,Morocco,Morocco,Egypt
+77,round_of_32,73,South Korea,Canada,South Korea,Canada
+77,round_of_32,74,Germany,Qatar,Germany,Qatar
+77,round_of_32,75,Morocco,Netherlands,Netherlands,Morocco
+77,round_of_32,76,Sweden,Brazil,Sweden,Brazil
+77,round_of_32,77,Norway,Scotland,Scotland,Norway
+77,round_of_32,78,Mexico,Japan,Japan,Mexico
+77,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+77,round_of_32,80,United States,Iraq,United States,Iraq
+77,round_of_32,81,Egypt,Uzbekistan,Uzbekistan,Egypt
+77,round_of_32,82,Panama,England,England,Panama
+77,round_of_32,83,DR Congo,Croatia,Croatia,DR Congo
+77,round_of_32,84,Switzerland,Iran,Switzerland,Iran
+77,round_of_32,85,Spain,Austria,Spain,Austria
+77,round_of_32,86,Colombia,Turkey,Turkey,Colombia
+77,round_of_32,87,Argentina,Saudi Arabia,Argentina,Saudi Arabia
+77,round_of_32,88,Australia,Belgium,Belgium,Australia
+77,round_of_16,89,South Korea,Netherlands,South Korea,Netherlands
+77,round_of_16,90,Germany,Scotland,Germany,Scotland
+77,round_of_16,91,France,United States,France,United States
+77,round_of_16,92,Sweden,Japan,Sweden,Japan
+77,round_of_16,93,Uzbekistan,England,Uzbekistan,England
+77,round_of_16,94,Croatia,Switzerland,Croatia,Switzerland
+77,round_of_16,95,Spain,Argentina,Spain,Argentina
+77,round_of_16,96,Turkey,Belgium,Belgium,Turkey
+77,quarterfinal,97,South Korea,Germany,Germany,South Korea
+77,quarterfinal,98,Uzbekistan,Croatia,Croatia,Uzbekistan
+77,quarterfinal,99,France,Sweden,France,Sweden
+77,quarterfinal,100,Spain,Belgium,Spain,Belgium
+77,semifinal,101,Germany,Croatia,Germany,Croatia
+77,semifinal,102,France,Spain,Spain,France
+77,final,104,Germany,Spain,Spain,Germany
+77,third_place,103,Croatia,France,France,Croatia
+78,round_of_32,73,South Korea,Canada,Canada,South Korea
+78,round_of_32,74,Germany,Qatar,Qatar,Germany
+78,round_of_32,75,Brazil,Netherlands,Netherlands,Brazil
+78,round_of_32,76,Sweden,Morocco,Morocco,Sweden
+78,round_of_32,77,Norway,Australia,Norway,Australia
+78,round_of_32,78,Mexico,Ivory Coast,Mexico,Ivory Coast
+78,round_of_32,79,Curaçao,France,France,Curaçao
+78,round_of_32,80,United States,Japan,Japan,United States
+78,round_of_32,81,Iran,Cape Verde,Iran,Cape Verde
+78,round_of_32,82,England,Iraq,Iraq,England
+78,round_of_32,83,Colombia,Ghana,Colombia,Ghana
+78,round_of_32,84,Switzerland,Belgium,Belgium,Switzerland
+78,round_of_32,85,Uruguay,Algeria,Uruguay,Algeria
+78,round_of_32,86,Portugal,Austria,Austria,Portugal
+78,round_of_32,87,Argentina,Spain,Argentina,Spain
+78,round_of_32,88,Paraguay,Egypt,Egypt,Paraguay
+78,round_of_16,89,Canada,Netherlands,Canada,Netherlands
+78,round_of_16,90,Qatar,Norway,Norway,Qatar
+78,round_of_16,91,France,Japan,France,Japan
+78,round_of_16,92,Morocco,Mexico,Mexico,Morocco
+78,round_of_16,93,Iran,Iraq,Iraq,Iran
+78,round_of_16,94,Colombia,Belgium,Colombia,Belgium
+78,round_of_16,95,Uruguay,Argentina,Argentina,Uruguay
+78,round_of_16,96,Austria,Egypt,Austria,Egypt
+78,quarterfinal,97,Canada,Norway,Norway,Canada
+78,quarterfinal,98,Iraq,Colombia,Colombia,Iraq
+78,quarterfinal,99,France,Mexico,France,Mexico
+78,quarterfinal,100,Argentina,Austria,Austria,Argentina
+78,semifinal,101,Norway,Colombia,Colombia,Norway
+78,semifinal,102,France,Austria,Austria,France
+78,final,104,Colombia,Austria,Austria,Colombia
+78,third_place,103,Norway,France,Norway,France
+79,round_of_32,73,South Africa,Canada,South Africa,Canada
+79,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+79,round_of_32,75,Morocco,Sweden,Morocco,Sweden
+79,round_of_32,76,Netherlands,Scotland,Scotland,Netherlands
+79,round_of_32,77,Iraq,Brazil,Iraq,Brazil
+79,round_of_32,78,Mexico,Japan,Mexico,Japan
+79,round_of_32,79,Ivory Coast,Norway,Ivory Coast,Norway
+79,round_of_32,80,United States,France,France,United States
+79,round_of_32,81,Egypt,Cape Verde,Cape Verde,Egypt
+79,round_of_32,82,England,Jordan,England,Jordan
+79,round_of_32,83,DR Congo,Croatia,Croatia,DR Congo
+79,round_of_32,84,Switzerland,Uzbekistan,Switzerland,Uzbekistan
+79,round_of_32,85,Uruguay,Austria,Austria,Uruguay
+79,round_of_32,86,Portugal,Paraguay,Portugal,Paraguay
+79,round_of_32,87,Argentina,Spain,Spain,Argentina
+79,round_of_32,88,Australia,New Zealand,Australia,New Zealand
+79,round_of_16,89,South Africa,Morocco,Morocco,South Africa
+79,round_of_16,90,Germany,Iraq,Germany,Iraq
+79,round_of_16,91,Ivory Coast,France,France,Ivory Coast
+79,round_of_16,92,Scotland,Mexico,Scotland,Mexico
+79,round_of_16,93,Cape Verde,England,England,Cape Verde
+79,round_of_16,94,Croatia,Switzerland,Croatia,Switzerland
+79,round_of_16,95,Austria,Spain,Spain,Austria
+79,round_of_16,96,Portugal,Australia,Australia,Portugal
+79,quarterfinal,97,Morocco,Germany,Morocco,Germany
+79,quarterfinal,98,England,Croatia,England,Croatia
+79,quarterfinal,99,France,Scotland,France,Scotland
+79,quarterfinal,100,Spain,Australia,Spain,Australia
+79,semifinal,101,Morocco,England,England,Morocco
+79,semifinal,102,France,Spain,France,Spain
+79,final,104,England,France,England,France
+79,third_place,103,Morocco,Spain,Morocco,Spain
+80,round_of_32,73,Czechia,Switzerland,Switzerland,Czechia
+80,round_of_32,74,Germany,South Africa,South Africa,Germany
+80,round_of_32,75,Brazil,Netherlands,Brazil,Netherlands
+80,round_of_32,76,Sweden,Morocco,Sweden,Morocco
+80,round_of_32,77,France,Japan,France,Japan
+80,round_of_32,78,Mexico,Curaçao,Mexico,Curaçao
+80,round_of_32,79,Ecuador,Norway,Norway,Ecuador
+80,round_of_32,80,United States,Qatar,United States,Qatar
+80,round_of_32,81,Egypt,Cape Verde,Egypt,Cape Verde
+80,round_of_32,82,England,Senegal,Senegal,England
+80,round_of_32,83,Portugal,Panama,Portugal,Panama
+80,round_of_32,84,Canada,Algeria,Algeria,Canada
+80,round_of_32,85,Spain,Austria,Spain,Austria
+80,round_of_32,86,Colombia,Ghana,Colombia,Ghana
+80,round_of_32,87,Argentina,Uruguay,Argentina,Uruguay
+80,round_of_32,88,Australia,Belgium,Belgium,Australia
+80,round_of_16,89,Switzerland,Brazil,Brazil,Switzerland
+80,round_of_16,90,South Africa,France,France,South Africa
+80,round_of_16,91,Norway,United States,United States,Norway
+80,round_of_16,92,Sweden,Mexico,Mexico,Sweden
+80,round_of_16,93,Egypt,Senegal,Egypt,Senegal
+80,round_of_16,94,Portugal,Algeria,Portugal,Algeria
+80,round_of_16,95,Spain,Argentina,Argentina,Spain
+80,round_of_16,96,Colombia,Belgium,Colombia,Belgium
+80,quarterfinal,97,Brazil,France,France,Brazil
+80,quarterfinal,98,Egypt,Portugal,Portugal,Egypt
+80,quarterfinal,99,United States,Mexico,United States,Mexico
+80,quarterfinal,100,Argentina,Colombia,Argentina,Colombia
+80,semifinal,101,France,Portugal,France,Portugal
+80,semifinal,102,United States,Argentina,Argentina,United States
+80,final,104,France,Argentina,France,Argentina
+80,third_place,103,Portugal,United States,Portugal,United States
+81,round_of_32,73,South Korea,Canada,South Korea,Canada
+81,round_of_32,74,Germany,Qatar,Germany,Qatar
+81,round_of_32,75,Morocco,Netherlands,Morocco,Netherlands
+81,round_of_32,76,Japan,Scotland,Japan,Scotland
+81,round_of_32,77,Norway,Brazil,Brazil,Norway
+81,round_of_32,78,Mexico,Ecuador,Mexico,Ecuador
+81,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+81,round_of_32,80,United States,Sweden,United States,Sweden
+81,round_of_32,81,Egypt,Uruguay,Uruguay,Egypt
+81,round_of_32,82,Ghana,Iraq,Ghana,Iraq
+81,round_of_32,83,Portugal,England,England,Portugal
+81,round_of_32,84,Switzerland,Iran,Iran,Switzerland
+81,round_of_32,85,Spain,Austria,Spain,Austria
+81,round_of_32,86,Colombia,Panama,Colombia,Panama
+81,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+81,round_of_32,88,Paraguay,Belgium,Belgium,Paraguay
+81,round_of_16,89,South Korea,Morocco,Morocco,South Korea
+81,round_of_16,90,Germany,Brazil,Germany,Brazil
+81,round_of_16,91,France,United States,France,United States
+81,round_of_16,92,Japan,Mexico,Mexico,Japan
+81,round_of_16,93,Uruguay,Ghana,Ghana,Uruguay
+81,round_of_16,94,England,Iran,England,Iran
+81,round_of_16,95,Spain,Argentina,Argentina,Spain
+81,round_of_16,96,Colombia,Belgium,Colombia,Belgium
+81,quarterfinal,97,Morocco,Germany,Germany,Morocco
+81,quarterfinal,98,Ghana,England,England,Ghana
+81,quarterfinal,99,France,Mexico,France,Mexico
+81,quarterfinal,100,Argentina,Colombia,Argentina,Colombia
+81,semifinal,101,Germany,England,England,Germany
+81,semifinal,102,France,Argentina,France,Argentina
+81,final,104,England,France,France,England
+81,third_place,103,Germany,Argentina,Germany,Argentina
+82,round_of_32,73,Mexico,Canada,Mexico,Canada
+82,round_of_32,74,Germany,Czechia,Czechia,Germany
+82,round_of_32,75,Morocco,Netherlands,Netherlands,Morocco
+82,round_of_32,76,Japan,Brazil,Brazil,Japan
+82,round_of_32,77,Norway,Scotland,Norway,Scotland
+82,round_of_32,78,South Korea,Sweden,South Korea,Sweden
+82,round_of_32,79,Ivory Coast,France,Ivory Coast,France
+82,round_of_32,80,United States,Qatar,United States,Qatar
+82,round_of_32,81,Egypt,Portugal,Portugal,Egypt
+82,round_of_32,82,Ghana,Iran,Iran,Ghana
+82,round_of_32,83,Uzbekistan,England,England,Uzbekistan
+82,round_of_32,84,Switzerland,Australia,Australia,Switzerland
+82,round_of_32,85,Spain,Austria,Spain,Austria
+82,round_of_32,86,Colombia,Panama,Colombia,Panama
+82,round_of_32,87,Argentina,Saudi Arabia,Argentina,Saudi Arabia
+82,round_of_32,88,Paraguay,New Zealand,Paraguay,New Zealand
+82,round_of_16,89,Mexico,Netherlands,Mexico,Netherlands
+82,round_of_16,90,Czechia,Norway,Norway,Czechia
+82,round_of_16,91,Ivory Coast,United States,United States,Ivory Coast
+82,round_of_16,92,Brazil,South Korea,Brazil,South Korea
+82,round_of_16,93,Portugal,Iran,Portugal,Iran
+82,round_of_16,94,England,Australia,England,Australia
+82,round_of_16,95,Spain,Argentina,Spain,Argentina
+82,round_of_16,96,Colombia,Paraguay,Paraguay,Colombia
+82,quarterfinal,97,Mexico,Norway,Norway,Mexico
+82,quarterfinal,98,Portugal,England,England,Portugal
+82,quarterfinal,99,United States,Brazil,Brazil,United States
+82,quarterfinal,100,Spain,Paraguay,Spain,Paraguay
+82,semifinal,101,Norway,England,England,Norway
+82,semifinal,102,Brazil,Spain,Spain,Brazil
+82,final,104,England,Spain,Spain,England
+82,third_place,103,Norway,Brazil,Norway,Brazil
+83,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+83,round_of_32,74,Germany,Qatar,Germany,Qatar
+83,round_of_32,75,Morocco,Netherlands,Netherlands,Morocco
+83,round_of_32,76,Japan,Scotland,Japan,Scotland
+83,round_of_32,77,France,Brazil,Brazil,France
+83,round_of_32,78,Mexico,Sweden,Sweden,Mexico
+83,round_of_32,79,Ivory Coast,Norway,Norway,Ivory Coast
+83,round_of_32,80,United States,Senegal,Senegal,United States
+83,round_of_32,81,Egypt,Jordan,Jordan,Egypt
+83,round_of_32,82,England,Ghana,Ghana,England
+83,round_of_32,83,Uzbekistan,Panama,Panama,Uzbekistan
+83,round_of_32,84,Canada,Iran,Canada,Iran
+83,round_of_32,85,Spain,Austria,Spain,Austria
+83,round_of_32,86,Colombia,Paraguay,Paraguay,Colombia
+83,round_of_32,87,Argentina,Cape Verde,Cape Verde,Argentina
+83,round_of_32,88,Australia,New Zealand,Australia,New Zealand
+83,round_of_16,89,Switzerland,Netherlands,Switzerland,Netherlands
+83,round_of_16,90,Germany,Brazil,Brazil,Germany
+83,round_of_16,91,Norway,Senegal,Norway,Senegal
+83,round_of_16,92,Japan,Sweden,Sweden,Japan
+83,round_of_16,93,Jordan,Ghana,Ghana,Jordan
+83,round_of_16,94,Panama,Canada,Panama,Canada
+83,round_of_16,95,Spain,Cape Verde,Spain,Cape Verde
+83,round_of_16,96,Paraguay,Australia,Paraguay,Australia
+83,quarterfinal,97,Switzerland,Brazil,Brazil,Switzerland
+83,quarterfinal,98,Ghana,Panama,Panama,Ghana
+83,quarterfinal,99,Norway,Sweden,Norway,Sweden
+83,quarterfinal,100,Spain,Paraguay,Spain,Paraguay
+83,semifinal,101,Brazil,Panama,Brazil,Panama
+83,semifinal,102,Norway,Spain,Spain,Norway
+83,final,104,Brazil,Spain,Spain,Brazil
+83,third_place,103,Panama,Norway,Norway,Panama
+84,round_of_32,73,Mexico,Switzerland,Switzerland,Mexico
+84,round_of_32,74,Germany,Czechia,Germany,Czechia
+84,round_of_32,75,Brazil,Netherlands,Netherlands,Brazil
+84,round_of_32,76,Sweden,Morocco,Morocco,Sweden
+84,round_of_32,77,France,Scotland,France,Scotland
+84,round_of_32,78,South Korea,Japan,Japan,South Korea
+84,round_of_32,79,Ivory Coast,Norway,Norway,Ivory Coast
+84,round_of_32,80,United States,Qatar,United States,Qatar
+84,round_of_32,81,Egypt,Cape Verde,Egypt,Cape Verde
+84,round_of_32,82,England,Algeria,England,Algeria
+84,round_of_32,83,Uzbekistan,Croatia,Uzbekistan,Croatia
+84,round_of_32,84,Canada,Portugal,Portugal,Canada
+84,round_of_32,85,Uruguay,Jordan,Uruguay,Jordan
+84,round_of_32,86,DR Congo,Paraguay,Paraguay,DR Congo
+84,round_of_32,87,Argentina,Spain,Spain,Argentina
+84,round_of_32,88,Australia,Belgium,Belgium,Australia
+84,round_of_16,89,Switzerland,Netherlands,Netherlands,Switzerland
+84,round_of_16,90,Germany,France,France,Germany
+84,round_of_16,91,Norway,United States,United States,Norway
+84,round_of_16,92,Morocco,Japan,Morocco,Japan
+84,round_of_16,93,Egypt,England,England,Egypt
+84,round_of_16,94,Uzbekistan,Portugal,Uzbekistan,Portugal
+84,round_of_16,95,Uruguay,Spain,Spain,Uruguay
+84,round_of_16,96,Paraguay,Belgium,Belgium,Paraguay
+84,quarterfinal,97,Netherlands,France,France,Netherlands
+84,quarterfinal,98,England,Uzbekistan,England,Uzbekistan
+84,quarterfinal,99,United States,Morocco,United States,Morocco
+84,quarterfinal,100,Spain,Belgium,Belgium,Spain
+84,semifinal,101,France,England,France,England
+84,semifinal,102,United States,Belgium,Belgium,United States
+84,final,104,France,Belgium,France,Belgium
+84,third_place,103,England,United States,United States,England
+85,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+85,round_of_32,74,Germany,Bosnia and Herzegovina,Bosnia and Herzegovina,Germany
+85,round_of_32,75,Morocco,Netherlands,Netherlands,Morocco
+85,round_of_32,76,Japan,Brazil,Brazil,Japan
+85,round_of_32,77,Norway,Scotland,Norway,Scotland
+85,round_of_32,78,Mexico,Sweden,Mexico,Sweden
+85,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+85,round_of_32,80,United States,Senegal,United States,Senegal
+85,round_of_32,81,Egypt,Cape Verde,Egypt,Cape Verde
+85,round_of_32,82,Croatia,Jordan,Croatia,Jordan
+85,round_of_32,83,Colombia,England,England,Colombia
+85,round_of_32,84,Canada,Ghana,Canada,Ghana
+85,round_of_32,85,Uruguay,Austria,Austria,Uruguay
+85,round_of_32,86,Portugal,Uzbekistan,Uzbekistan,Portugal
+85,round_of_32,87,Argentina,Spain,Argentina,Spain
+85,round_of_32,88,Australia,New Zealand,Australia,New Zealand
+85,round_of_16,89,Switzerland,Netherlands,Netherlands,Switzerland
+85,round_of_16,90,Bosnia and Herzegovina,Norway,Bosnia and Herzegovina,Norway
+85,round_of_16,91,France,United States,France,United States
+85,round_of_16,92,Brazil,Mexico,Brazil,Mexico
+85,round_of_16,93,Egypt,Croatia,Croatia,Egypt
+85,round_of_16,94,England,Canada,Canada,England
+85,round_of_16,95,Austria,Argentina,Austria,Argentina
+85,round_of_16,96,Uzbekistan,Australia,Uzbekistan,Australia
+85,quarterfinal,97,Netherlands,Bosnia and Herzegovina,Netherlands,Bosnia and Herzegovina
+85,quarterfinal,98,Croatia,Canada,Croatia,Canada
+85,quarterfinal,99,France,Brazil,Brazil,France
+85,quarterfinal,100,Austria,Uzbekistan,Austria,Uzbekistan
+85,semifinal,101,Netherlands,Croatia,Croatia,Netherlands
+85,semifinal,102,Brazil,Austria,Austria,Brazil
+85,final,104,Croatia,Austria,Croatia,Austria
+85,third_place,103,Netherlands,Brazil,Netherlands,Brazil
+86,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+86,round_of_32,74,Germany,Qatar,Germany,Qatar
+86,round_of_32,75,Morocco,Netherlands,Netherlands,Morocco
+86,round_of_32,76,Japan,Brazil,Brazil,Japan
+86,round_of_32,77,Norway,Scotland,Norway,Scotland
+86,round_of_32,78,Mexico,Sweden,Mexico,Sweden
+86,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+86,round_of_32,80,United States,Senegal,Senegal,United States
+86,round_of_32,81,Egypt,Iran,Iran,Egypt
+86,round_of_32,82,Croatia,DR Congo,Croatia,DR Congo
+86,round_of_32,83,Colombia,England,Colombia,England
+86,round_of_32,84,Canada,Panama,Panama,Canada
+86,round_of_32,85,Spain,Argentina,Spain,Argentina
+86,round_of_32,86,Uzbekistan,Australia,Australia,Uzbekistan
+86,round_of_32,87,Austria,Cape Verde,Austria,Cape Verde
+86,round_of_32,88,Paraguay,Belgium,Belgium,Paraguay
+86,round_of_16,89,Switzerland,Netherlands,Switzerland,Netherlands
+86,round_of_16,90,Germany,Norway,Norway,Germany
+86,round_of_16,91,France,Senegal,France,Senegal
+86,round_of_16,92,Brazil,Mexico,Mexico,Brazil
+86,round_of_16,93,Iran,Croatia,Croatia,Iran
+86,round_of_16,94,Colombia,Panama,Panama,Colombia
+86,round_of_16,95,Spain,Austria,Austria,Spain
+86,round_of_16,96,Australia,Belgium,Belgium,Australia
+86,quarterfinal,97,Switzerland,Norway,Norway,Switzerland
+86,quarterfinal,98,Croatia,Panama,Croatia,Panama
+86,quarterfinal,99,France,Mexico,France,Mexico
+86,quarterfinal,100,Austria,Belgium,Belgium,Austria
+86,semifinal,101,Norway,Croatia,Norway,Croatia
+86,semifinal,102,France,Belgium,Belgium,France
+86,final,104,Norway,Belgium,Norway,Belgium
+86,third_place,103,Croatia,France,France,Croatia
+87,round_of_32,73,Mexico,Switzerland,Mexico,Switzerland
+87,round_of_32,74,Germany,Czechia,Germany,Czechia
+87,round_of_32,75,Morocco,Netherlands,Netherlands,Morocco
+87,round_of_32,76,Japan,Brazil,Japan,Brazil
+87,round_of_32,77,France,Scotland,France,Scotland
+87,round_of_32,78,South Korea,Curaçao,South Korea,Curaçao
+87,round_of_32,79,Ecuador,Norway,Ecuador,Norway
+87,round_of_32,80,United States,Sweden,United States,Sweden
+87,round_of_32,81,Egypt,Spain,Egypt,Spain
+87,round_of_32,82,England,Senegal,England,Senegal
+87,round_of_32,83,Uzbekistan,Croatia,Croatia,Uzbekistan
+87,round_of_32,84,Canada,Ghana,Canada,Ghana
+87,round_of_32,85,Cape Verde,Austria,Austria,Cape Verde
+87,round_of_32,86,Colombia,Australia,Australia,Colombia
+87,round_of_32,87,Argentina,Uruguay,Argentina,Uruguay
+87,round_of_32,88,Paraguay,Belgium,Belgium,Paraguay
+87,round_of_16,89,Mexico,Netherlands,Netherlands,Mexico
+87,round_of_16,90,Germany,France,France,Germany
+87,round_of_16,91,Ecuador,United States,United States,Ecuador
+87,round_of_16,92,Japan,South Korea,Japan,South Korea
+87,round_of_16,93,Egypt,England,England,Egypt
+87,round_of_16,94,Croatia,Canada,Canada,Croatia
+87,round_of_16,95,Austria,Argentina,Austria,Argentina
+87,round_of_16,96,Australia,Belgium,Australia,Belgium
+87,quarterfinal,97,Netherlands,France,France,Netherlands
+87,quarterfinal,98,England,Canada,Canada,England
+87,quarterfinal,99,United States,Japan,United States,Japan
+87,quarterfinal,100,Austria,Australia,Australia,Austria
+87,semifinal,101,France,Canada,France,Canada
+87,semifinal,102,United States,Australia,United States,Australia
+87,final,104,France,United States,France,United States
+87,third_place,103,Canada,Australia,Canada,Australia
+88,round_of_32,73,South Korea,Canada,South Korea,Canada
+88,round_of_32,74,Germany,Qatar,Germany,Qatar
+88,round_of_32,75,Brazil,Sweden,Sweden,Brazil
+88,round_of_32,76,Netherlands,Morocco,Morocco,Netherlands
+88,round_of_32,77,Norway,Scotland,Norway,Scotland
+88,round_of_32,78,Mexico,Japan,Mexico,Japan
+88,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+88,round_of_32,80,United States,Senegal,Senegal,United States
+88,round_of_32,81,Egypt,Uruguay,Uruguay,Egypt
+88,round_of_32,82,Ghana,Australia,Australia,Ghana
+88,round_of_32,83,Portugal,England,Portugal,England
+88,round_of_32,84,Switzerland,Iran,Switzerland,Iran
+88,round_of_32,85,Spain,Austria,Spain,Austria
+88,round_of_32,86,Colombia,Croatia,Colombia,Croatia
+88,round_of_32,87,Argentina,Saudi Arabia,Argentina,Saudi Arabia
+88,round_of_32,88,Paraguay,Belgium,Belgium,Paraguay
+88,round_of_16,89,South Korea,Sweden,South Korea,Sweden
+88,round_of_16,90,Germany,Norway,Germany,Norway
+88,round_of_16,91,France,Senegal,France,Senegal
+88,round_of_16,92,Morocco,Mexico,Mexico,Morocco
+88,round_of_16,93,Uruguay,Australia,Australia,Uruguay
+88,round_of_16,94,Portugal,Switzerland,Switzerland,Portugal
+88,round_of_16,95,Spain,Argentina,Argentina,Spain
+88,round_of_16,96,Colombia,Belgium,Belgium,Colombia
+88,quarterfinal,97,South Korea,Germany,Germany,South Korea
+88,quarterfinal,98,Australia,Switzerland,Australia,Switzerland
+88,quarterfinal,99,France,Mexico,France,Mexico
+88,quarterfinal,100,Argentina,Belgium,Argentina,Belgium
+88,semifinal,101,Germany,Australia,Australia,Germany
+88,semifinal,102,France,Argentina,Argentina,France
+88,final,104,Australia,Argentina,Argentina,Australia
+88,third_place,103,Germany,France,France,Germany
+89,round_of_32,73,South Korea,Canada,Canada,South Korea
+89,round_of_32,74,Germany,Qatar,Germany,Qatar
+89,round_of_32,75,Morocco,Netherlands,Morocco,Netherlands
+89,round_of_32,76,Japan,Scotland,Japan,Scotland
+89,round_of_32,77,Norway,Brazil,Norway,Brazil
+89,round_of_32,78,Mexico,Sweden,Sweden,Mexico
+89,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+89,round_of_32,80,United States,Jordan,United States,Jordan
+89,round_of_32,81,Egypt,Saudi Arabia,Egypt,Saudi Arabia
+89,round_of_32,82,Ghana,Uzbekistan,Uzbekistan,Ghana
+89,round_of_32,83,Colombia,England,Colombia,England
+89,round_of_32,84,Switzerland,Paraguay,Paraguay,Switzerland
+89,round_of_32,85,Uruguay,Austria,Austria,Uruguay
+89,round_of_32,86,Portugal,Panama,Portugal,Panama
+89,round_of_32,87,Argentina,Spain,Argentina,Spain
+89,round_of_32,88,Australia,New Zealand,New Zealand,Australia
+89,round_of_16,89,Canada,Morocco,Morocco,Canada
+89,round_of_16,90,Germany,Norway,Norway,Germany
+89,round_of_16,91,France,United States,France,United States
+89,round_of_16,92,Japan,Sweden,Japan,Sweden
+89,round_of_16,93,Egypt,Uzbekistan,Egypt,Uzbekistan
+89,round_of_16,94,Colombia,Paraguay,Colombia,Paraguay
+89,round_of_16,95,Austria,Argentina,Argentina,Austria
+89,round_of_16,96,Portugal,New Zealand,Portugal,New Zealand
+89,quarterfinal,97,Morocco,Norway,Morocco,Norway
+89,quarterfinal,98,Egypt,Colombia,Egypt,Colombia
+89,quarterfinal,99,France,Japan,Japan,France
+89,quarterfinal,100,Argentina,Portugal,Argentina,Portugal
+89,semifinal,101,Morocco,Egypt,Morocco,Egypt
+89,semifinal,102,Japan,Argentina,Japan,Argentina
+89,final,104,Morocco,Japan,Morocco,Japan
+89,third_place,103,Egypt,Argentina,Argentina,Egypt
+90,round_of_32,73,South Africa,Switzerland,Switzerland,South Africa
+90,round_of_32,74,Germany,South Korea,South Korea,Germany
+90,round_of_32,75,Brazil,Netherlands,Netherlands,Brazil
+90,round_of_32,76,Japan,Morocco,Japan,Morocco
+90,round_of_32,77,Norway,Scotland,Norway,Scotland
+90,round_of_32,78,Mexico,Ecuador,Ecuador,Mexico
+90,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+90,round_of_32,80,United States,Qatar,United States,Qatar
+90,round_of_32,81,Egypt,Iraq,Egypt,Iraq
+90,round_of_32,82,England,Jordan,England,Jordan
+90,round_of_32,83,Uzbekistan,Croatia,Uzbekistan,Croatia
+90,round_of_32,84,Canada,Sweden,Canada,Sweden
+90,round_of_32,85,Spain,Austria,Austria,Spain
+90,round_of_32,86,Colombia,Australia,Colombia,Australia
+90,round_of_32,87,Argentina,Saudi Arabia,Argentina,Saudi Arabia
+90,round_of_32,88,Paraguay,Belgium,Paraguay,Belgium
+90,round_of_16,89,Switzerland,Netherlands,Netherlands,Switzerland
+90,round_of_16,90,South Korea,Norway,Norway,South Korea
+90,round_of_16,91,France,United States,United States,France
+90,round_of_16,92,Japan,Ecuador,Japan,Ecuador
+90,round_of_16,93,Egypt,England,England,Egypt
+90,round_of_16,94,Uzbekistan,Canada,Canada,Uzbekistan
+90,round_of_16,95,Austria,Argentina,Austria,Argentina
+90,round_of_16,96,Colombia,Paraguay,Paraguay,Colombia
+90,quarterfinal,97,Netherlands,Norway,Netherlands,Norway
+90,quarterfinal,98,England,Canada,England,Canada
+90,quarterfinal,99,United States,Japan,Japan,United States
+90,quarterfinal,100,Austria,Paraguay,Austria,Paraguay
+90,semifinal,101,Netherlands,England,England,Netherlands
+90,semifinal,102,Japan,Austria,Japan,Austria
+90,final,104,England,Japan,Japan,England
+90,third_place,103,Netherlands,Austria,Netherlands,Austria
+91,round_of_32,73,South Africa,Switzerland,Switzerland,South Africa
+91,round_of_32,74,Germany,South Korea,Germany,South Korea
+91,round_of_32,75,Morocco,Netherlands,Morocco,Netherlands
+91,round_of_32,76,Sweden,Brazil,Brazil,Sweden
+91,round_of_32,77,Norway,Scotland,Scotland,Norway
+91,round_of_32,78,Mexico,Curaçao,Mexico,Curaçao
+91,round_of_32,79,Ecuador,France,France,Ecuador
+91,round_of_32,80,United States,Bosnia and Herzegovina,United States,Bosnia and Herzegovina
+91,round_of_32,81,Egypt,Algeria,Algeria,Egypt
+91,round_of_32,82,Ghana,Uzbekistan,Uzbekistan,Ghana
+91,round_of_32,83,Portugal,England,Portugal,England
+91,round_of_32,84,Canada,Japan,Japan,Canada
+91,round_of_32,85,Spain,Austria,Spain,Austria
+91,round_of_32,86,Colombia,Iran,Colombia,Iran
+91,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+91,round_of_32,88,Paraguay,Belgium,Paraguay,Belgium
+91,round_of_16,89,Switzerland,Morocco,Morocco,Switzerland
+91,round_of_16,90,Germany,Scotland,Germany,Scotland
+91,round_of_16,91,France,United States,France,United States
+91,round_of_16,92,Brazil,Mexico,Brazil,Mexico
+91,round_of_16,93,Algeria,Uzbekistan,Algeria,Uzbekistan
+91,round_of_16,94,Portugal,Japan,Portugal,Japan
+91,round_of_16,95,Spain,Argentina,Spain,Argentina
+91,round_of_16,96,Colombia,Paraguay,Colombia,Paraguay
+91,quarterfinal,97,Morocco,Germany,Germany,Morocco
+91,quarterfinal,98,Algeria,Portugal,Portugal,Algeria
+91,quarterfinal,99,France,Brazil,France,Brazil
+91,quarterfinal,100,Spain,Colombia,Colombia,Spain
+91,semifinal,101,Germany,Portugal,Germany,Portugal
+91,semifinal,102,France,Colombia,France,Colombia
+91,final,104,Germany,France,France,Germany
+91,third_place,103,Portugal,Colombia,Portugal,Colombia
+92,round_of_32,73,South Korea,Canada,Canada,South Korea
+92,round_of_32,74,Germany,Qatar,Germany,Qatar
+92,round_of_32,75,Brazil,Japan,Japan,Brazil
+92,round_of_32,76,Netherlands,Morocco,Netherlands,Morocco
+92,round_of_32,77,France,Scotland,France,Scotland
+92,round_of_32,78,Mexico,Sweden,Sweden,Mexico
+92,round_of_32,79,Ivory Coast,Iraq,Ivory Coast,Iraq
+92,round_of_32,80,United States,Norway,United States,Norway
+92,round_of_32,81,Iran,Cape Verde,Iran,Cape Verde
+92,round_of_32,82,England,Austria,England,Austria
+92,round_of_32,83,Colombia,Panama,Colombia,Panama
+92,round_of_32,84,Switzerland,Egypt,Switzerland,Egypt
+92,round_of_32,85,Uruguay,Algeria,Uruguay,Algeria
+92,round_of_32,86,Uzbekistan,DR Congo,DR Congo,Uzbekistan
+92,round_of_32,87,Argentina,Spain,Spain,Argentina
+92,round_of_32,88,Paraguay,Belgium,Belgium,Paraguay
+92,round_of_16,89,Canada,Japan,Japan,Canada
+92,round_of_16,90,Germany,France,Germany,France
+92,round_of_16,91,Ivory Coast,United States,Ivory Coast,United States
+92,round_of_16,92,Netherlands,Sweden,Netherlands,Sweden
+92,round_of_16,93,Iran,England,England,Iran
+92,round_of_16,94,Colombia,Switzerland,Switzerland,Colombia
+92,round_of_16,95,Uruguay,Spain,Uruguay,Spain
+92,round_of_16,96,DR Congo,Belgium,Belgium,DR Congo
+92,quarterfinal,97,Japan,Germany,Germany,Japan
+92,quarterfinal,98,England,Switzerland,Switzerland,England
+92,quarterfinal,99,Ivory Coast,Netherlands,Netherlands,Ivory Coast
+92,quarterfinal,100,Uruguay,Belgium,Uruguay,Belgium
+92,semifinal,101,Germany,Switzerland,Germany,Switzerland
+92,semifinal,102,Netherlands,Uruguay,Uruguay,Netherlands
+92,final,104,Germany,Uruguay,Uruguay,Germany
+92,third_place,103,Switzerland,Netherlands,Netherlands,Switzerland
+93,round_of_32,73,Mexico,Switzerland,Mexico,Switzerland
+93,round_of_32,74,Germany,Czechia,Germany,Czechia
+93,round_of_32,75,Brazil,Netherlands,Netherlands,Brazil
+93,round_of_32,76,Sweden,Scotland,Scotland,Sweden
+93,round_of_32,77,France,Morocco,Morocco,France
+93,round_of_32,78,South Korea,Ecuador,Ecuador,South Korea
+93,round_of_32,79,Ivory Coast,Norway,Ivory Coast,Norway
+93,round_of_32,80,United States,Qatar,United States,Qatar
+93,round_of_32,81,Iran,Japan,Japan,Iran
+93,round_of_32,82,England,Colombia,England,Colombia
+93,round_of_32,83,DR Congo,Croatia,Croatia,DR Congo
+93,round_of_32,84,Canada,Belgium,Belgium,Canada
+93,round_of_32,85,Spain,Jordan,Jordan,Spain
+93,round_of_32,86,Portugal,Ghana,Portugal,Ghana
+93,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+93,round_of_32,88,Paraguay,Egypt,Egypt,Paraguay
+93,round_of_16,89,Mexico,Netherlands,Mexico,Netherlands
+93,round_of_16,90,Germany,Morocco,Morocco,Germany
+93,round_of_16,91,Ivory Coast,United States,United States,Ivory Coast
+93,round_of_16,92,Scotland,Ecuador,Ecuador,Scotland
+93,round_of_16,93,Japan,England,Japan,England
+93,round_of_16,94,Croatia,Belgium,Belgium,Croatia
+93,round_of_16,95,Jordan,Argentina,Argentina,Jordan
+93,round_of_16,96,Portugal,Egypt,Portugal,Egypt
+93,quarterfinal,97,Mexico,Morocco,Mexico,Morocco
+93,quarterfinal,98,Japan,Belgium,Belgium,Japan
+93,quarterfinal,99,United States,Ecuador,Ecuador,United States
+93,quarterfinal,100,Argentina,Portugal,Portugal,Argentina
+93,semifinal,101,Mexico,Belgium,Mexico,Belgium
+93,semifinal,102,Ecuador,Portugal,Portugal,Ecuador
+93,final,104,Mexico,Portugal,Mexico,Portugal
+93,third_place,103,Belgium,Ecuador,Ecuador,Belgium
+94,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+94,round_of_32,74,Germany,Bosnia and Herzegovina,Germany,Bosnia and Herzegovina
+94,round_of_32,75,Morocco,Japan,Morocco,Japan
+94,round_of_32,76,Netherlands,Brazil,Netherlands,Brazil
+94,round_of_32,77,Norway,Scotland,Norway,Scotland
+94,round_of_32,78,Mexico,Ecuador,Mexico,Ecuador
+94,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+94,round_of_32,80,United States,Sweden,Sweden,United States
+94,round_of_32,81,Iran,New Zealand,Iran,New Zealand
+94,round_of_32,82,Ghana,DR Congo,DR Congo,Ghana
+94,round_of_32,83,Colombia,England,Colombia,England
+94,round_of_32,84,Canada,Croatia,Croatia,Canada
+94,round_of_32,85,Spain,Austria,Austria,Spain
+94,round_of_32,86,Portugal,Paraguay,Paraguay,Portugal
+94,round_of_32,87,Argentina,Cape Verde,Argentina,Cape Verde
+94,round_of_32,88,Australia,Egypt,Australia,Egypt
+94,round_of_16,89,Switzerland,Morocco,Morocco,Switzerland
+94,round_of_16,90,Germany,Norway,Norway,Germany
+94,round_of_16,91,France,Sweden,France,Sweden
+94,round_of_16,92,Netherlands,Mexico,Netherlands,Mexico
+94,round_of_16,93,Iran,DR Congo,Iran,DR Congo
+94,round_of_16,94,Colombia,Croatia,Colombia,Croatia
+94,round_of_16,95,Austria,Argentina,Argentina,Austria
+94,round_of_16,96,Paraguay,Australia,Australia,Paraguay
+94,quarterfinal,97,Morocco,Norway,Morocco,Norway
+94,quarterfinal,98,Iran,Colombia,Colombia,Iran
+94,quarterfinal,99,France,Netherlands,France,Netherlands
+94,quarterfinal,100,Argentina,Australia,Argentina,Australia
+94,semifinal,101,Morocco,Colombia,Colombia,Morocco
+94,semifinal,102,France,Argentina,France,Argentina
+94,final,104,Colombia,France,France,Colombia
+94,third_place,103,Morocco,Argentina,Argentina,Morocco
+95,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+95,round_of_32,74,Germany,Bosnia and Herzegovina,Bosnia and Herzegovina,Germany
+95,round_of_32,75,Scotland,Japan,Japan,Scotland
+95,round_of_32,76,Netherlands,Brazil,Brazil,Netherlands
+95,round_of_32,77,France,Morocco,France,Morocco
+95,round_of_32,78,Mexico,Ivory Coast,Mexico,Ivory Coast
+95,round_of_32,79,Curaçao,Norway,Norway,Curaçao
+95,round_of_32,80,United States,Sweden,Sweden,United States
+95,round_of_32,81,Belgium,Senegal,Belgium,Senegal
+95,round_of_32,82,England,Uzbekistan,England,Uzbekistan
+95,round_of_32,83,Portugal,Croatia,Portugal,Croatia
+95,round_of_32,84,Canada,Egypt,Egypt,Canada
+95,round_of_32,85,Spain,Austria,Spain,Austria
+95,round_of_32,86,Colombia,Panama,Colombia,Panama
+95,round_of_32,87,Argentina,Saudi Arabia,Argentina,Saudi Arabia
+95,round_of_32,88,Australia,Iran,Australia,Iran
+95,round_of_16,89,Switzerland,Japan,Japan,Switzerland
+95,round_of_16,90,Bosnia and Herzegovina,France,France,Bosnia and Herzegovina
+95,round_of_16,91,Norway,Sweden,Sweden,Norway
+95,round_of_16,92,Brazil,Mexico,Brazil,Mexico
+95,round_of_16,93,Belgium,England,England,Belgium
+95,round_of_16,94,Portugal,Egypt,Portugal,Egypt
+95,round_of_16,95,Spain,Argentina,Argentina,Spain
+95,round_of_16,96,Colombia,Australia,Colombia,Australia
+95,quarterfinal,97,Japan,France,Japan,France
+95,quarterfinal,98,England,Portugal,England,Portugal
+95,quarterfinal,99,Sweden,Brazil,Brazil,Sweden
+95,quarterfinal,100,Argentina,Colombia,Colombia,Argentina
+95,semifinal,101,Japan,England,Japan,England
+95,semifinal,102,Brazil,Colombia,Colombia,Brazil
+95,final,104,Japan,Colombia,Colombia,Japan
+95,third_place,103,England,Brazil,Brazil,England
+96,round_of_32,73,Czechia,Canada,Canada,Czechia
+96,round_of_32,74,Germany,South Africa,Germany,South Africa
+96,round_of_32,75,Morocco,Netherlands,Netherlands,Morocco
+96,round_of_32,76,Sweden,Brazil,Brazil,Sweden
+96,round_of_32,77,France,Scotland,France,Scotland
+96,round_of_32,78,Mexico,Japan,Japan,Mexico
+96,round_of_32,79,Ivory Coast,Norway,Norway,Ivory Coast
+96,round_of_32,80,United States,Algeria,United States,Algeria
+96,round_of_32,81,Iran,Spain,Spain,Iran
+96,round_of_32,82,Ghana,Uzbekistan,Ghana,Uzbekistan
+96,round_of_32,83,Colombia,Croatia,Colombia,Croatia
+96,round_of_32,84,Switzerland,Belgium,Switzerland,Belgium
+96,round_of_32,85,Cape Verde,Argentina,Cape Verde,Argentina
+96,round_of_32,86,Portugal,England,Portugal,England
+96,round_of_32,87,Austria,Uruguay,Uruguay,Austria
+96,round_of_32,88,Australia,Egypt,Australia,Egypt
+96,round_of_16,89,Canada,Netherlands,Canada,Netherlands
+96,round_of_16,90,Germany,France,France,Germany
+96,round_of_16,91,Norway,United States,United States,Norway
+96,round_of_16,92,Brazil,Japan,Brazil,Japan
+96,round_of_16,93,Spain,Ghana,Spain,Ghana
+96,round_of_16,94,Colombia,Switzerland,Colombia,Switzerland
+96,round_of_16,95,Cape Verde,Uruguay,Cape Verde,Uruguay
+96,round_of_16,96,Portugal,Australia,Portugal,Australia
+96,quarterfinal,97,Canada,France,France,Canada
+96,quarterfinal,98,Spain,Colombia,Spain,Colombia
+96,quarterfinal,99,United States,Brazil,Brazil,United States
+96,quarterfinal,100,Cape Verde,Portugal,Portugal,Cape Verde
+96,semifinal,101,France,Spain,Spain,France
+96,semifinal,102,Brazil,Portugal,Portugal,Brazil
+96,final,104,Spain,Portugal,Spain,Portugal
+96,third_place,103,France,Brazil,Brazil,France
+97,round_of_32,73,South Korea,Switzerland,Switzerland,South Korea
+97,round_of_32,74,Germany,Czechia,Germany,Czechia
+97,round_of_32,75,Morocco,Sweden,Morocco,Sweden
+97,round_of_32,76,Netherlands,Brazil,Brazil,Netherlands
+97,round_of_32,77,Norway,Scotland,Norway,Scotland
+97,round_of_32,78,Mexico,Japan,Mexico,Japan
+97,round_of_32,79,Ivory Coast,Iraq,Ivory Coast,Iraq
+97,round_of_32,80,United States,France,France,United States
+97,round_of_32,81,Egypt,Cape Verde,Cape Verde,Egypt
+97,round_of_32,82,England,Algeria,England,Algeria
+97,round_of_32,83,Colombia,Croatia,Colombia,Croatia
+97,round_of_32,84,Canada,Paraguay,Canada,Paraguay
+97,round_of_32,85,Uruguay,Argentina,Argentina,Uruguay
+97,round_of_32,86,Portugal,Ghana,Portugal,Ghana
+97,round_of_32,87,Austria,Spain,Spain,Austria
+97,round_of_32,88,Australia,New Zealand,Australia,New Zealand
+97,round_of_16,89,Switzerland,Morocco,Morocco,Switzerland
+97,round_of_16,90,Germany,Norway,Norway,Germany
+97,round_of_16,91,Ivory Coast,France,France,Ivory Coast
+97,round_of_16,92,Brazil,Mexico,Brazil,Mexico
+97,round_of_16,93,Cape Verde,England,Cape Verde,England
+97,round_of_16,94,Colombia,Canada,Colombia,Canada
+97,round_of_16,95,Argentina,Spain,Argentina,Spain
+97,round_of_16,96,Portugal,Australia,Australia,Portugal
+97,quarterfinal,97,Morocco,Norway,Morocco,Norway
+97,quarterfinal,98,Cape Verde,Colombia,Colombia,Cape Verde
+97,quarterfinal,99,France,Brazil,Brazil,France
+97,quarterfinal,100,Argentina,Australia,Argentina,Australia
+97,semifinal,101,Morocco,Colombia,Morocco,Colombia
+97,semifinal,102,Brazil,Argentina,Argentina,Brazil
+97,final,104,Morocco,Argentina,Argentina,Morocco
+97,third_place,103,Colombia,Brazil,Colombia,Brazil
+98,round_of_32,73,South Korea,Switzerland,South Korea,Switzerland
+98,round_of_32,74,Germany,Qatar,Germany,Qatar
+98,round_of_32,75,Morocco,Japan,Japan,Morocco
+98,round_of_32,76,Netherlands,Scotland,Scotland,Netherlands
+98,round_of_32,77,Norway,Brazil,Brazil,Norway
+98,round_of_32,78,Mexico,Sweden,Mexico,Sweden
+98,round_of_32,79,Ivory Coast,France,France,Ivory Coast
+98,round_of_32,80,United States,Senegal,Senegal,United States
+98,round_of_32,81,Egypt,Austria,Egypt,Austria
+98,round_of_32,82,England,Uzbekistan,Uzbekistan,England
+98,round_of_32,83,Portugal,Croatia,Croatia,Portugal
+98,round_of_32,84,Canada,Ghana,Canada,Ghana
+98,round_of_32,85,Spain,Algeria,Algeria,Spain
+98,round_of_32,86,Colombia,Turkey,Colombia,Turkey
+98,round_of_32,87,Argentina,Saudi Arabia,Argentina,Saudi Arabia
+98,round_of_32,88,Australia,Belgium,Australia,Belgium
+98,round_of_16,89,South Korea,Japan,Japan,South Korea
+98,round_of_16,90,Germany,Brazil,Brazil,Germany
+98,round_of_16,91,France,Senegal,France,Senegal
+98,round_of_16,92,Scotland,Mexico,Mexico,Scotland
+98,round_of_16,93,Egypt,Uzbekistan,Egypt,Uzbekistan
+98,round_of_16,94,Croatia,Canada,Croatia,Canada
+98,round_of_16,95,Algeria,Argentina,Argentina,Algeria
+98,round_of_16,96,Colombia,Australia,Colombia,Australia
+98,quarterfinal,97,Japan,Brazil,Brazil,Japan
+98,quarterfinal,98,Egypt,Croatia,Croatia,Egypt
+98,quarterfinal,99,France,Mexico,France,Mexico
+98,quarterfinal,100,Argentina,Colombia,Argentina,Colombia
+98,semifinal,101,Brazil,Croatia,Croatia,Brazil
+98,semifinal,102,France,Argentina,France,Argentina
+98,final,104,Croatia,France,Croatia,France
+98,third_place,103,Brazil,Argentina,Argentina,Brazil
+99,round_of_32,73,South Africa,Canada,Canada,South Africa
+99,round_of_32,74,Germany,South Korea,South Korea,Germany
+99,round_of_32,75,Morocco,Netherlands,Netherlands,Morocco
+99,round_of_32,76,Japan,Brazil,Brazil,Japan
+99,round_of_32,77,France,Scotland,France,Scotland
+99,round_of_32,78,Mexico,Sweden,Mexico,Sweden
+99,round_of_32,79,Ivory Coast,Senegal,Ivory Coast,Senegal
+99,round_of_32,80,United States,Bosnia and Herzegovina,United States,Bosnia and Herzegovina
+99,round_of_32,81,Egypt,Norway,Norway,Egypt
+99,round_of_32,82,Ghana,Algeria,Ghana,Algeria
+99,round_of_32,83,Colombia,Panama,Panama,Colombia
+99,round_of_32,84,Switzerland,DR Congo,Switzerland,DR Congo
+99,round_of_32,85,Spain,Austria,Spain,Austria
+99,round_of_32,86,Portugal,England,England,Portugal
+99,round_of_32,87,Argentina,Cape Verde,Cape Verde,Argentina
+99,round_of_32,88,Australia,Belgium,Belgium,Australia
+99,round_of_16,89,Canada,Netherlands,Netherlands,Canada
+99,round_of_16,90,South Korea,France,France,South Korea
+99,round_of_16,91,Ivory Coast,United States,United States,Ivory Coast
+99,round_of_16,92,Brazil,Mexico,Mexico,Brazil
+99,round_of_16,93,Norway,Ghana,Norway,Ghana
+99,round_of_16,94,Panama,Switzerland,Switzerland,Panama
+99,round_of_16,95,Spain,Cape Verde,Spain,Cape Verde
+99,round_of_16,96,England,Belgium,Belgium,England
+99,quarterfinal,97,Netherlands,France,France,Netherlands
+99,quarterfinal,98,Norway,Switzerland,Switzerland,Norway
+99,quarterfinal,99,United States,Mexico,Mexico,United States
+99,quarterfinal,100,Spain,Belgium,Spain,Belgium
+99,semifinal,101,France,Switzerland,France,Switzerland
+99,semifinal,102,Mexico,Spain,Mexico,Spain
+99,final,104,France,Mexico,Mexico,France
+99,third_place,103,Switzerland,Spain,Spain,Switzerland

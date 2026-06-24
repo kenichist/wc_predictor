@@ -1,0 +1,130 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "live": "all"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1489402,
+        "referee": "Said Martinez, Honduras",
+        "timezone": "UTC",
+        "date": "2026-06-23T20:00:00+00:00",
+        "timestamp": 1782244800,
+        "periods": {
+          "first": 1782244800,
+          "second": 1782248400
+        },
+        "venue": {
+          "id": 1618,
+          "name": "Gillette Stadium",
+          "city": "Boston"
+        },
+        "status": {
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 66,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 1,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null,
+        "season": 2026,
+        "round": "Group Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 10,
+          "name": "England",
+          "logo": "https://media.api-sports.io/football/teams/10.png",
+          "winner": null
+        },
+        "away": {
+          "id": 1504,
+          "name": "Ghana",
+          "logo": "https://media.api-sports.io/football/teams/1504.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": [
+        {
+          "time": {
+            "elapsed": 41,
+            "extra": null
+          },
+          "team": {
+            "id": 10,
+            "name": "England",
+            "logo": "https://media.api-sports.io/football/teams/10.png"
+          },
+          "player": {
+            "id": 2937,
+            "name": "D. Rice"
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Card",
+          "detail": "Yellow Card",
+          "comments": "Roughing"
+        },
+        {
+          "time": {
+            "elapsed": 60,
+            "extra": null
+          },
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "player": {
+            "id": 47294,
+            "name": "I. Williams"
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Card",
+          "detail": "Yellow Card",
+          "comments": "Tripping"
+        }
+      ]
+    }
+  ]
+}

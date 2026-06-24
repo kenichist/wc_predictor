@@ -1,0 +1,22 @@
+fixture_id,date,team,player,status,reason,importance,source,updated_at,api_provider,scenario_only
+1489377,2026-06-15,Belgium,Z. Debast,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True
+1489395,2026-06-21,Belgium,Z. Debast,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True
+1489415,2026-06-27,Belgium,J. Doku,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True
+1489415,2026-06-27,Belgium,N. Ngoy,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True
+1489371,2026-06-13,Brazil,Neymar,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True
+1489389,2026-06-20,Brazil,Neymar,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True
+1489406,2026-06-24,Brazil,Neymar,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True
+1489398,2026-06-21,Uruguay,G. de Arrascaeta,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True
+1489398,2026-06-21,Uruguay,R. Araújo,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True
+1489394,2026-06-21,Japan,T. Kubo,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True
+1539011,2026-06-25,Japan,S. Machino,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True
+1539010,2026-06-25,Czechia,D. Jurásek,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True
+1539009,2026-06-24,Bosnia and Herzegovina,T. Muharemović,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True
+1489407,2026-06-25,South Africa,T. Mokoena,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True
+1489418,2026-06-28,Algeria,M. Amoura,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True
+1489413,2026-06-27,Cape Verde,S. Lopes Cabral,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True
+1539009,2026-06-24,Qatar,Homam Ahmed,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True
+1539009,2026-06-24,Qatar,Assim Madibo,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True
+1489411,2026-06-26,Paraguay,M. Almirón,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True
+1489391,2026-06-19,United States,C. Pulišić,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True
+1489408,2026-06-24,Canada,I. Koné,unknown,,,api_football:/injuries,2026-06-24T00:11:50+00:00,api_football,True

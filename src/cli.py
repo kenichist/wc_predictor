@@ -10,6 +10,22 @@ import pandas as pd
 from src.backtesting.worldcup_backtest import run_worldcup_backtests
 from src.backtesting.worldcup_tournament_simulation import run_worldcup_tournament_simulation_backtest
 from src.config import config_path, ensure_configured_directories, load_config
+from src.config import resolve_project_path
+from src.data_sources.api_football_client import ApiFootballClient
+from src.data_sources.config import (
+    API_FOOTBALL_INJURIES_LIVE_PATH,
+    API_FOOTBALL_ODDS_2010_PROBE_PATH,
+    API_FOOTBALL_ODDS_2026_PATH,
+    SPORTMONKS_INJURIES_LIVE_PATH,
+    SPORTMONKS_ODDS_2026_PATH,
+    THE_ODDS_API_ODDS_2026_PATH,
+)
+from src.data_sources.coverage import check_2010_odds_coverage, run_api_coverage_check, validate_staged_api_data
+from src.data_sources.injury_transform import write_injury_staging
+from src.data_sources.merge_market_odds import merge_staged_market_odds
+from src.data_sources.odds_transform import write_market_staging
+from src.data_sources.sportmonks_client import SportmonksClient
+from src.data_sources.the_odds_api_client import TheOddsApiClient
 from src.dedupe import deduplicate_matches
 from src.experiments.ablation_runner import run_ablation
 from src.features.external_feature_joiner import build_advanced_features
@@ -52,6 +68,8 @@ from src.sources.external_data_validation import prepare_external_templates, val
 from src.sources.world_football_elo import load_world_football_elo
 from src.sources.worldcup_json import download_worldcup_2026_json, normalize_worldcup_matches, parse_worldcup_json
 from src.validation import CORE_COLUMNS, add_missing_columns
+from dashboard.live_api import generate_live_predictions as generate_dashboard_live_predictions
+from dashboard.live_api import refresh_live_data as refresh_dashboard_live_data
 
 
 logger = logging.getLogger(__name__)
@@ -230,6 +248,23 @@ def build_parser() -> argparse.ArgumentParser:
 
     subparsers.add_parser("build-advanced-features", help="Build SOTA-style external and dynamic feature files")
     subparsers.add_parser("build-internal-historical-elo", help="Reconstruct internal historical Elo ratings and write coverage report")
+    subparsers.add_parser("api-coverage-check", help="Probe configured paid APIs and write API coverage report")
+    api_football_odds = subparsers.add_parser("fetch-api-football-odds", help="Fetch API-Football World Cup market odds into staging")
+    api_football_odds.add_argument("--season", type=int, default=2026)
+    api_football_odds.add_argument("--competition", default="World Cup")
+    api_football_injuries = subparsers.add_parser("fetch-api-football-injuries", help="Fetch API-Football injury data into scenario staging")
+    api_football_injuries.add_argument("--season", type=int, default=2026)
+    api_football_injuries.add_argument("--competition", default="World Cup")
+    subparsers.add_parser("fetch-the-odds-api-odds", help="Fetch The Odds API World Cup market odds into staging when available")
+    subparsers.add_parser("fetch-sportmonks-football-data", help="Fetch Sportmonks World Cup odds and injuries into staging when available")
+    subparsers.add_parser("validate-staged-api-data", help="Validate staged API odds and injury files")
+    merge_api_odds = subparsers.add_parser("merge-staged-market-odds", help="Validate and merge staged market odds into production odds file")
+    merge_api_odds.add_argument("--input", required=True, help="Staged market odds CSV to merge")
+    merge_api_odds.add_argument("--prefer-api", action="store_true", help="Replace existing curated duplicate rows with staged API rows")
+    subparsers.add_parser("check-2010-odds-coverage", help="Check market_odds.csv coverage against all 64 2010 World Cup matches")
+    refresh_live = subparsers.add_parser("refresh-live-worldcup-data", help="Fetch live World Cup data into data/live and regenerate live predictions")
+    refresh_live.add_argument("--fetch-lineups", action="store_true", help="Fetch lineups too; may use additional API quota")
+    subparsers.add_parser("generate-live-predictions", help="Generate live/scenario predictions from local live CSVs")
 
     train = subparsers.add_parser("train-model", help="Train a match WDL model")
     train.add_argument("--model", default="catboost", choices=["catboost", "xgboost", "hist_gradient_boosting", "logistic"])
@@ -395,6 +430,59 @@ def main(argv: list[str] | None = None) -> int:
         build_advanced_features(config=config)
     elif args.command == "build-internal-historical-elo":
         build_internal_historical_elo_artifacts(config=config)
+    elif args.command == "api-coverage-check":
+        report_path = run_api_coverage_check()
+        logger.info("Wrote API coverage check report to %s", report_path)
+    elif args.command == "fetch-api-football-odds":
+        client = ApiFootballClient()
+        odds, raw_path, candidates = client.fetch_worldcup_odds(args.season)
+        output_path = API_FOOTBALL_ODDS_2010_PROBE_PATH if args.season == 2010 else API_FOOTBALL_ODDS_2026_PATH if args.season == 2026 else resolve_project_path(f"data/staging/api_football_market_odds_{args.season}.csv")
+        write_market_staging(odds, output_path)
+        validate_staged_api_data(config=config)
+        logger.info("Wrote %s API-Football odds rows to %s from raw payload %s", len(odds), output_path, raw_path)
+        logger.info("World Cup league candidates discovered: %s", len(candidates))
+    elif args.command == "fetch-api-football-injuries":
+        client = ApiFootballClient()
+        injuries, raw_path, candidates = client.fetch_live_injuries_for_worldcup_teams(season=args.season)
+        write_injury_staging(injuries, API_FOOTBALL_INJURIES_LIVE_PATH)
+        validate_staged_api_data(config=config)
+        logger.info("Wrote %s API-Football injury rows to %s from raw payload %s", len(injuries), API_FOOTBALL_INJURIES_LIVE_PATH, raw_path)
+        logger.info("World Cup league candidates discovered: %s", len(candidates))
+    elif args.command == "fetch-the-odds-api-odds":
+        client = TheOddsApiClient()
+        odds, raw_path, sport_key = client.fetch_worldcup_2026_odds_if_available()
+        write_market_staging(odds, THE_ODDS_API_ODDS_2026_PATH)
+        validate_staged_api_data(config=config)
+        logger.info("Wrote %s The Odds API rows to %s from raw payload %s; sport_key=%s", len(odds), THE_ODDS_API_ODDS_2026_PATH, raw_path, sport_key)
+    elif args.command == "fetch-sportmonks-football-data":
+        client = SportmonksClient()
+        odds, odds_raw_path = client.fetch_worldcup_2026_odds_if_available()
+        injuries, injuries_raw_path = client.fetch_worldcup_injuries_if_available()
+        write_market_staging(odds, SPORTMONKS_ODDS_2026_PATH)
+        write_injury_staging(injuries, SPORTMONKS_INJURIES_LIVE_PATH)
+        validate_staged_api_data(config=config)
+        logger.info("Wrote %s Sportmonks odds rows to %s from raw payload %s", len(odds), SPORTMONKS_ODDS_2026_PATH, odds_raw_path)
+        logger.info("Wrote %s Sportmonks injury rows to %s from raw payload %s", len(injuries), SPORTMONKS_INJURIES_LIVE_PATH, injuries_raw_path)
+    elif args.command == "validate-staged-api-data":
+        market_report, injury_report = validate_staged_api_data(config=config)
+        logger.info("Wrote staged market validation report to %s", market_report)
+        logger.info("Wrote staged injury validation report to %s", injury_report)
+    elif args.command == "merge-staged-market-odds":
+        summary = merge_staged_market_odds(args.input, prefer_api=args.prefer_api)
+        for key, value in summary.items():
+            print(f"{key}={value}")
+    elif args.command == "check-2010-odds-coverage":
+        report_path, summary = check_2010_odds_coverage()
+        print(f"WORLD_CUP_2010_ODDS_COVERAGE={summary['coverage']:.3f}")
+        print(f"WORLD_CUP_2010_ROWS_PRESENT={summary['rows_present']}")
+        print(f"WORLD_CUP_2010_ROWS_MISSING={summary['rows_missing']}")
+        logger.info("Wrote 2010 odds coverage report to %s", report_path)
+    elif args.command == "refresh-live-worldcup-data":
+        summary = refresh_dashboard_live_data(fetch_lineups=args.fetch_lineups)
+        _print_live_summary(summary)
+    elif args.command == "generate-live-predictions":
+        summary = generate_dashboard_live_predictions()
+        _print_live_summary(summary)
     elif args.command == "train-model":
         train_match_model(model_name=args.model, feature_set=args.feature_set, config=config)
     elif args.command == "backtest-world-cups":
@@ -416,6 +504,21 @@ def main(argv: list[str] | None = None) -> int:
     else:
         parser.error(f"Unknown command: {args.command}")
     return 0
+
+
+def _print_live_summary(summary: dict[str, Any]) -> None:
+    for key in [
+        "LIVE_FIXTURES",
+        "LIVE_ODDS_ROWS",
+        "LIVE_INJURY_ROWS",
+        "LIVE_LINEUP_ROWS",
+        "LIVE_PREDICTION_ROWS",
+        "INVALID_ODDS",
+        "UNMATCHED_TEAMS",
+        "LAST_UPDATED",
+        "SUCCESS",
+    ]:
+        print(f"{key}={summary.get(key)}")
 
 
 if __name__ == "__main__":

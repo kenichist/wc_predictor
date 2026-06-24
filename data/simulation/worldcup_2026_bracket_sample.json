@@ -497,224 +497,256 @@
       "stage": "round_of_32",
       "home_team": "South Africa",
       "away_team": "Canada",
-      "winner": "South Africa"
+      "winner": "South Africa",
+      "loser": "Canada"
     },
     {
       "match_number": 74,
       "stage": "round_of_32",
       "home_team": "Germany",
       "away_team": "South Korea",
-      "winner": "Germany"
+      "winner": "Germany",
+      "loser": "South Korea"
     },
     {
       "match_number": 75,
       "stage": "round_of_32",
       "home_team": "Scotland",
       "away_team": "Netherlands",
-      "winner": "Netherlands"
+      "winner": "Netherlands",
+      "loser": "Scotland"
     },
     {
       "match_number": 76,
       "stage": "round_of_32",
       "home_team": "Japan",
       "away_team": "Brazil",
-      "winner": "Brazil"
+      "winner": "Brazil",
+      "loser": "Japan"
     },
     {
       "match_number": 77,
       "stage": "round_of_32",
       "home_team": "Norway",
       "away_team": "Morocco",
-      "winner": "Morocco"
+      "winner": "Morocco",
+      "loser": "Norway"
     },
     {
       "match_number": 78,
       "stage": "round_of_32",
       "home_team": "Mexico",
       "away_team": "Ecuador",
-      "winner": "Mexico"
+      "winner": "Mexico",
+      "loser": "Ecuador"
     },
     {
       "match_number": 79,
       "stage": "round_of_32",
       "home_team": "Ivory Coast",
       "away_team": "France",
-      "winner": "France"
+      "winner": "France",
+      "loser": "Ivory Coast"
     },
     {
       "match_number": 80,
       "stage": "round_of_32",
       "home_team": "United States",
       "away_team": "Bosnia and Herzegovina",
-      "winner": "United States"
+      "winner": "United States",
+      "loser": "Bosnia and Herzegovina"
     },
     {
       "match_number": 81,
       "stage": "round_of_32",
       "home_team": "Egypt",
       "away_team": "Saudi Arabia",
-      "winner": "Saudi Arabia"
+      "winner": "Saudi Arabia",
+      "loser": "Egypt"
     },
     {
       "match_number": 82,
       "stage": "round_of_32",
       "home_team": "England",
       "away_team": "Austria",
-      "winner": "Austria"
+      "winner": "Austria",
+      "loser": "England"
     },
     {
       "match_number": 83,
       "stage": "round_of_32",
       "home_team": "DR Congo",
       "away_team": "Croatia",
-      "winner": "Croatia"
+      "winner": "Croatia",
+      "loser": "DR Congo"
     },
     {
       "match_number": 84,
       "stage": "round_of_32",
       "home_team": "Switzerland",
       "away_team": "Sweden",
-      "winner": "Sweden"
+      "winner": "Sweden",
+      "loser": "Switzerland"
     },
     {
       "match_number": 85,
       "stage": "round_of_32",
       "home_team": "Uruguay",
       "away_team": "Algeria",
-      "winner": "Algeria"
+      "winner": "Algeria",
+      "loser": "Uruguay"
     },
     {
       "match_number": 86,
       "stage": "round_of_32",
       "home_team": "Colombia",
       "away_team": "Portugal",
-      "winner": "Colombia"
+      "winner": "Colombia",
+      "loser": "Portugal"
     },
     {
       "match_number": 87,
       "stage": "round_of_32",
       "home_team": "Argentina",
       "away_team": "Spain",
-      "winner": "Spain"
+      "winner": "Spain",
+      "loser": "Argentina"
     },
     {
       "match_number": 88,
       "stage": "round_of_32",
       "home_team": "Australia",
       "away_team": "Belgium",
-      "winner": "Belgium"
+      "winner": "Belgium",
+      "loser": "Australia"
     },
     {
       "match_number": 89,
       "stage": "round_of_16",
       "home_team": "South Africa",
       "away_team": "Netherlands",
-      "winner": "Netherlands"
+      "winner": "Netherlands",
+      "loser": "South Africa"
     },
     {
       "match_number": 90,
       "stage": "round_of_16",
       "home_team": "Germany",
       "away_team": "Morocco",
-      "winner": "Germany"
+      "winner": "Germany",
+      "loser": "Morocco"
     },
     {
       "match_number": 91,
       "stage": "round_of_16",
       "home_team": "France",
       "away_team": "United States",
-      "winner": "France"
+      "winner": "France",
+      "loser": "United States"
     },
     {
       "match_number": 92,
       "stage": "round_of_16",
       "home_team": "Brazil",
       "away_team": "Mexico",
-      "winner": "Brazil"
+      "winner": "Brazil",
+      "loser": "Mexico"
     },
     {
       "match_number": 93,
       "stage": "round_of_16",
       "home_team": "Saudi Arabia",
       "away_team": "Austria",
-      "winner": "Saudi Arabia"
+      "winner": "Saudi Arabia",
+      "loser": "Austria"
     },
     {
       "match_number": 94,
       "stage": "round_of_16",
       "home_team": "Croatia",
       "away_team": "Sweden",
-      "winner": "Sweden"
+      "winner": "Sweden",
+      "loser": "Croatia"
     },
     {
       "match_number": 95,
       "stage": "round_of_16",
       "home_team": "Algeria",
       "away_team": "Spain",
-      "winner": "Spain"
+      "winner": "Spain",
+      "loser": "Algeria"
     },
     {
       "match_number": 96,
       "stage": "round_of_16",
       "home_team": "Colombia",
       "away_team": "Belgium",
-      "winner": "Belgium"
+      "winner": "Belgium",
+      "loser": "Colombia"
     },
     {
       "match_number": 97,
       "stage": "quarterfinal",
       "home_team": "Netherlands",
       "away_team": "Germany",
-      "winner": "Netherlands"
+      "winner": "Netherlands",
+      "loser": "Germany"
     },
     {
       "match_number": 98,
       "stage": "quarterfinal",
       "home_team": "Saudi Arabia",
       "away_team": "Sweden",
-      "winner": "Saudi Arabia"
+      "winner": "Saudi Arabia",
+      "loser": "Sweden"
     },
     {
       "match_number": 99,
       "stage": "quarterfinal",
       "home_team": "France",
       "away_team": "Brazil",
-      "winner": "Brazil"
+      "winner": "Brazil",
+      "loser": "France"
     },
     {
       "match_number": 100,
       "stage": "quarterfinal",
       "home_team": "Spain",
       "away_team": "Belgium",
-      "winner": "Belgium"
+      "winner": "Belgium",
+      "loser": "Spain"
     },
     {
       "match_number": 101,
       "stage": "semifinal",
       "home_team": "Netherlands",
       "away_team": "Saudi Arabia",
-      "winner": "Netherlands"
+      "winner": "Netherlands",
+      "loser": "Saudi Arabia"
     },
     {
       "match_number": 102,
       "stage": "semifinal",
       "home_team": "Brazil",
       "away_team": "Belgium",
-      "winner": "Brazil"
+      "winner": "Brazil",
+      "loser": "Belgium"
     },
     {
       "match_number": 104,
       "stage": "final",
       "home_team": "Netherlands",
       "away_team": "Brazil",
-      "winner": "Netherlands"
+      "winner": "Netherlands",
+      "loser": "Brazil"
     },
     {
       "match_number": 103,
       "stage": "third_place",
       "home_team": "Saudi Arabia",
       "away_team": "Belgium",
-      "winner": "Belgium"
+      "winner": "Belgium",
+      "loser": "Saudi Arabia"
     }
   ],
   "round_of_16": [

@@ -1,0 +1,289 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "live": "all"
+  },
+  "errors": [],
+  "results": 2,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1498356,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2026-06-23T21:30:00+00:00",
+        "timestamp": 1782250200,
+        "periods": {
+          "first": 1782250200,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": "Estadio Nueva Chicago",
+          "city": "Buenos Aires"
+        },
+        "status": {
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 3,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 129,
+        "name": "Primera Nacional",
+        "country": "Argentina",
+        "logo": "https://media.api-sports.io/football/leagues/129.png",
+        "flag": "https://media.api-sports.io/flags/ar.svg",
+        "season": 2026,
+        "round": "Regular Season - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 484,
+          "name": "Nueva Chicago",
+          "logo": "https://media.api-sports.io/football/teams/484.png",
+          "winner": null
+        },
+        "away": {
+          "id": 465,
+          "name": "Atletico DE Rafaela",
+          "logo": "https://media.api-sports.io/football/teams/465.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": []
+    },
+    {
+      "fixture": {
+        "id": 1489402,
+        "referee": "Said Martinez, Honduras",
+        "timezone": "UTC",
+        "date": "2026-06-23T20:00:00+00:00",
+        "timestamp": 1782244800,
+        "periods": {
+          "first": 1782244800,
+          "second": 1782248400
+        },
+        "venue": {
+          "id": 1618,
+          "name": "Gillette Stadium",
+          "city": "Boston"
+        },
+        "status": {
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 73,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 1,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null,
+        "season": 2026,
+        "round": "Group Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 10,
+          "name": "England",
+          "logo": "https://media.api-sports.io/football/teams/10.png",
+          "winner": null
+        },
+        "away": {
+          "id": 1504,
+          "name": "Ghana",
+          "logo": "https://media.api-sports.io/football/teams/1504.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": [
+        {
+          "time": {
+            "elapsed": 41,
+            "extra": null
+          },
+          "team": {
+            "id": 10,
+            "name": "England",
+            "logo": "https://media.api-sports.io/football/teams/10.png"
+          },
+          "player": {
+            "id": 2937,
+            "name": "D. Rice"
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Card",
+          "detail": "Yellow Card",
+          "comments": "Roughing"
+        },
+        {
+          "time": {
+            "elapsed": 60,
+            "extra": null
+          },
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "player": {
+            "id": 47294,
+            "name": "I. Williams"
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Card",
+          "detail": "Yellow Card",
+          "comments": "Tripping"
+        },
+        {
+          "time": {
+            "elapsed": 66,
+            "extra": null
+          },
+          "team": {
+            "id": 10,
+            "name": "England",
+            "logo": "https://media.api-sports.io/football/teams/10.png"
+          },
+          "player": {
+            "id": 138787,
+            "name": "A. Gordon"
+          },
+          "assist": {
+            "id": 1460,
+            "name": "B. Saka"
+          },
+          "type": "subst",
+          "detail": "Substitution 1",
+          "comments": null
+        },
+        {
+          "time": {
+            "elapsed": 66,
+            "extra": null
+          },
+          "team": {
+            "id": 10,
+            "name": "England",
+            "logo": "https://media.api-sports.io/football/teams/10.png"
+          },
+          "player": {
+            "id": 19235,
+            "name": "D. Spence"
+          },
+          "assist": {
+            "id": 307123,
+            "name": "N. O'Reilly"
+          },
+          "type": "subst",
+          "detail": "Substitution 2",
+          "comments": null
+        },
+        {
+          "time": {
+            "elapsed": 66,
+            "extra": null
+          },
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "player": {
+            "id": 47294,
+            "name": "I. Williams"
+          },
+          "assist": {
+            "id": 303467,
+            "name": "I. Fatawu"
+          },
+          "type": "subst",
+          "detail": "Substitution 1",
+          "comments": null
+        },
+        {
+          "time": {
+            "elapsed": 67,
+            "extra": null
+          },
+          "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+          },
+          "player": {
+            "id": 3428,
+            "name": "J. Ayew"
+          },
+          "assist": {
+            "id": 410016,
+            "name": "P. Adu"
+          },
+          "type": "subst",
+          "detail": "Substitution 2",
+          "comments": null
+        }
+      ]
+    }
+  ]
+}

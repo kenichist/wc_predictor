@@ -110,6 +110,8 @@ paths:
   simulation_dir: "data/simulation"
   simulation_results: "data/simulation/worldcup_2026_simulation_results.csv"
   simulation_stage_probabilities: "data/simulation/worldcup_2026_stage_probabilities.csv"
+  simulation_matchup_probabilities: "data/simulation/worldcup_2026_matchup_probabilities.csv"
+  simulation_bracket_path_samples: "data/simulation/worldcup_2026_bracket_path_samples.csv"
   simulation_bracket_sample: "data/simulation/worldcup_2026_bracket_sample.json"
   simulation_metadata: "data/simulation/worldcup_2026_simulation_metadata.json"
   models_dir: "models"

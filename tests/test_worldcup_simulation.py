@@ -87,6 +87,35 @@ def test_worldcup_2026_stage_probability_sums(tmp_path) -> None:
         assert abs(results[column].sum() - target) <= 1e-6
 
 
+def test_worldcup_2026_matchup_probability_outputs(tmp_path) -> None:
+    cfg = _simulation_config(tmp_path)
+
+    simulate_worldcup(n_sims=10, config=cfg, seed=7)
+
+    matchup_path = tmp_path / "worldcup_2026_matchup_probabilities.csv"
+    sample_path = tmp_path / "worldcup_2026_bracket_path_samples.csv"
+    matchup = pd.read_csv(matchup_path)
+    sample = pd.read_csv(sample_path)
+
+    expected_columns = {
+        "stage",
+        "team_a",
+        "team_b",
+        "matchup_count",
+        "matchup_probability",
+        "team_a_wins",
+        "team_b_wins",
+        "team_a_win_probability",
+        "team_b_win_probability",
+        "n_sims",
+    }
+    assert expected_columns.issubset(matchup.columns)
+    assert {"simulation_id", "stage", "match_slot", "team_a", "team_b", "winner", "loser"}.issubset(sample.columns)
+    assert set(matchup["n_sims"]) == {10}
+    assert matchup["matchup_probability"].between(0, 1).all()
+    assert not matchup[["team_a", "team_b"]].apply(lambda row: row["team_a"] > row["team_b"], axis=1).any()
+
+
 def test_worldcup_2026_elimination_stage_counts_and_no_placeholders(tmp_path) -> None:
     _, stage_df = simulate_worldcup(n_sims=1, config=_simulation_config(tmp_path), seed=4)
 
@@ -104,6 +133,8 @@ def _simulation_config(tmp_path):
     paths = cfg["paths"].copy()
     paths["simulation_results"] = str(tmp_path / "worldcup_2026_simulation_results.csv")
     paths["simulation_stage_probabilities"] = str(tmp_path / "worldcup_2026_stage_probabilities.csv")
+    paths["simulation_matchup_probabilities"] = str(tmp_path / "worldcup_2026_matchup_probabilities.csv")
+    paths["simulation_bracket_path_samples"] = str(tmp_path / "worldcup_2026_bracket_path_samples.csv")
     paths["simulation_bracket_sample"] = str(tmp_path / "worldcup_2026_bracket_sample.json")
     paths["simulation_metadata"] = str(tmp_path / "worldcup_2026_simulation_metadata.json")
     paths["simulation_dynamic_predictions_parquet"] = str(tmp_path / "simulation_dynamic_predictions.parquet")

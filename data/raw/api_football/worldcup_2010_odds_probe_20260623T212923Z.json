@@ -1,0 +1,106 @@
+{
+  "get": "odds",
+  "parameters": {
+    "league": "1",
+    "season": "2010"
+  },
+  "errors": [],
+  "results": 0,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [],
+  "league_candidates": [
+    {
+      "league_id": 1,
+      "name": "World Cup",
+      "country": "World"
+    },
+    {
+      "league_id": 8,
+      "name": "World Cup - Women",
+      "country": "World"
+    },
+    {
+      "league_id": 15,
+      "name": "FIFA Club World Cup",
+      "country": "World"
+    },
+    {
+      "league_id": 37,
+      "name": "World Cup - Qualification Intercontinental Play-offs",
+      "country": "World"
+    },
+    {
+      "league_id": 490,
+      "name": "World Cup - U20",
+      "country": "World"
+    },
+    {
+      "league_id": 31,
+      "name": "World Cup - Qualification CONCACAF",
+      "country": "World"
+    },
+    {
+      "league_id": 32,
+      "name": "World Cup - Qualification Europe",
+      "country": "World"
+    },
+    {
+      "league_id": 33,
+      "name": "World Cup - Qualification Oceania",
+      "country": "World"
+    },
+    {
+      "league_id": 34,
+      "name": "World Cup - Qualification South America",
+      "country": "World"
+    },
+    {
+      "league_id": 29,
+      "name": "World Cup - Qualification Africa",
+      "country": "World"
+    },
+    {
+      "league_id": 30,
+      "name": "World Cup - Qualification Asia",
+      "country": "World"
+    },
+    {
+      "league_id": 587,
+      "name": "World Cup - U17",
+      "country": "World"
+    },
+    {
+      "league_id": 920,
+      "name": "World Cup - U20 - Women",
+      "country": "World"
+    },
+    {
+      "league_id": 927,
+      "name": "World Cup - Women - Qualification Concacaf",
+      "country": "World"
+    },
+    {
+      "league_id": 950,
+      "name": "World Cup - U17 - Women",
+      "country": "World"
+    },
+    {
+      "league_id": 880,
+      "name": "World Cup - Women - Qualification Europe",
+      "country": "World"
+    },
+    {
+      "league_id": 1186,
+      "name": "FIFA Club World Cup - Play-In",
+      "country": "World"
+    },
+    {
+      "league_id": 1213,
+      "name": "Kings World Cup Nations",
+      "country": "World"
+    }
+  ]
+}
