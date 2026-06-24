@@ -62,6 +62,107 @@ def api_available() -> bool:
     return bool(os.getenv("API_FOOTBALL_KEY", "").strip())
 
 
+def fetch_api_football_status() -> dict[str, Any]:
+    """Fetch API-Football quota/account status without modifying project data.
+
+    The API response shape can differ by provider/plan/version, so this parser
+    accepts both `response` and `results` payload roots and falls back to
+    rate-limit headers when the JSON body omits request counters.
+    """
+    ensure_live_directories()
+    load_dashboard_environment()
+    api_key = os.getenv("API_FOOTBALL_KEY", "").strip()
+    status: dict[str, Any] = {
+        "API_FOOTBALL_AVAILABLE": bool(api_key),
+        "API_FOOTBALL_KEY": safe_key_label(api_key),
+        "checked_at": _now(),
+        "endpoint": f"{API_FOOTBALL_BASE_URL}/status",
+        "used_today": None,
+        "daily_limit": None,
+        "remaining_today": None,
+        "plan": "unknown",
+        "subscription_active": None,
+        "reset_note": "Daily quota normally resets at 00:00 UTC.",
+        "errors": [],
+    }
+    if not api_key:
+        status["errors"].append("API_FOOTBALL_KEY is not configured")
+        _write_api_football_quota_report(status)
+        return status
+
+    try:
+        response = requests.get(
+            f"{API_FOOTBALL_BASE_URL}/status",
+            headers={"x-apisports-key": api_key},
+            timeout=30,
+        )
+        status["http_status_code"] = response.status_code
+        header_map = {str(key).lower(): value for key, value in response.headers.items()}
+        status["rate_limit_remaining_header"] = _header_value(
+            header_map,
+            "x-ratelimit-requests-remaining",
+            "x-ratelimit-remaining",
+            "x-ratelimit-requests-remaining-day",
+        )
+        status["rate_limit_limit_header"] = _header_value(
+            header_map,
+            "x-ratelimit-limit",
+            "x-ratelimit-requests-limit",
+            "x-ratelimit-limit-day",
+        )
+        response.raise_for_status()
+        payload = response.json()
+        raw_path = save_raw_payload(_redact_status_payload(payload), "api_football_status")
+        status["raw_payload_file"] = str(raw_path)
+
+        root = _status_payload_root(payload)
+        account = root.get("account", {}) if isinstance(root, dict) else {}
+        subscription = root.get("subscription", {}) if isinstance(root, dict) else {}
+        requests_info = root.get("requests", {}) if isinstance(root, dict) else {}
+        if not isinstance(requests_info, dict):
+            requests_info = {}
+
+        status["account_email_present"] = bool(account.get("email")) if isinstance(account, dict) else False
+        status["plan"] = _first_present_value(subscription.get("plan"), subscription.get("name"), status["plan"]) if isinstance(subscription, dict) else status["plan"]
+        status["subscription_active"] = _first_present_value(subscription.get("active"), status["subscription_active"]) if isinstance(subscription, dict) else status["subscription_active"]
+        status["subscription_end"] = _first_present_value(subscription.get("end"), subscription.get("ends_at"), None) if isinstance(subscription, dict) else None
+
+        used = _first_numeric_value(
+            requests_info.get("current"),
+            requests_info.get("used"),
+            requests_info.get("requests_current"),
+            requests_info.get("current_day"),
+        )
+        limit = _first_numeric_value(
+            requests_info.get("limit_day"),
+            requests_info.get("limit"),
+            requests_info.get("daily_limit"),
+            status.get("rate_limit_limit_header"),
+        )
+        remaining = _first_numeric_value(
+            requests_info.get("remaining"),
+            status.get("rate_limit_remaining_header"),
+        )
+        if remaining is None and used is not None and limit is not None:
+            remaining = max(0, limit - used)
+        if used is None and remaining is not None and limit is not None:
+            used = max(0, limit - remaining)
+
+        status["used_today"] = used
+        status["daily_limit"] = limit
+        status["remaining_today"] = remaining
+        if limit and remaining is not None:
+            status["usage_percent"] = (limit - remaining) / limit
+        elif limit and used is not None:
+            status["usage_percent"] = used / limit
+        else:
+            status["usage_percent"] = None
+    except Exception as exc:
+        status["errors"].append(str(exc))
+    _write_api_football_quota_report(status)
+    return status
+
+
 def ensure_live_directories() -> None:
     for path in (LIVE_DIR, LIVE_RAW_DIR, LIVE_REPORTS_DIR):
         path.mkdir(parents=True, exist_ok=True)
@@ -479,6 +580,91 @@ def _write_live_prediction_report(summary: dict[str, Any]) -> Path:
     return _write_report(LIVE_PREDICTION_REPORT, lines)
 
 
+
+def _write_api_football_quota_report(status: dict[str, Any]) -> Path:
+    path = LIVE_REPORTS_DIR / "api_football_quota_report.md"
+    lines = [
+        "# API-Football Quota Report",
+        "",
+        "This report is generated by the dashboard quota checker. It does not modify prediction or odds files.",
+        "",
+        "## Summary",
+        "",
+        f"- checked_at: `{status.get('checked_at')}`",
+        f"- API_FOOTBALL_AVAILABLE: `{status.get('API_FOOTBALL_AVAILABLE')}`",
+        f"- API_FOOTBALL_KEY: `{status.get('API_FOOTBALL_KEY')}`",
+        f"- plan: `{status.get('plan')}`",
+        f"- subscription_active: `{status.get('subscription_active')}`",
+        f"- subscription_end: `{status.get('subscription_end', 'unknown')}`",
+        f"- used_today: `{status.get('used_today')}`",
+        f"- daily_limit: `{status.get('daily_limit')}`",
+        f"- remaining_today: `{status.get('remaining_today')}`",
+        f"- usage_percent: `{status.get('usage_percent')}`",
+        f"- reset_note: `{status.get('reset_note')}`",
+        f"- raw_payload_file: `{status.get('raw_payload_file', '')}`",
+        "",
+        "## Header Fallbacks",
+        "",
+        f"- rate_limit_remaining_header: `{status.get('rate_limit_remaining_header')}`",
+        f"- rate_limit_limit_header: `{status.get('rate_limit_limit_header')}`",
+    ]
+    if status.get("errors"):
+        lines.extend(["", "## Errors", "", *[f"- {error}" for error in status["errors"]]])
+    return _write_report(path, lines)
+
+
+def _status_payload_root(payload: Any) -> dict[str, Any]:
+    if not isinstance(payload, dict):
+        return {}
+    for key in ("response", "results", "result", "data"):
+        value = payload.get(key)
+        if isinstance(value, dict):
+            return value
+        if isinstance(value, list) and value and isinstance(value[0], dict):
+            return value[0]
+    return payload
+
+
+def _redact_status_payload(payload: Any) -> Any:
+    if isinstance(payload, dict):
+        redacted = {}
+        for key, value in payload.items():
+            if str(key).lower() in {"email", "firstname", "lastname", "first_name", "last_name"}:
+                redacted[key] = "REDACTED"
+            else:
+                redacted[key] = _redact_status_payload(value)
+        return redacted
+    if isinstance(payload, list):
+        return [_redact_status_payload(item) for item in payload]
+    return payload
+
+
+def _header_value(headers: dict[str, Any], *keys: str) -> Any:
+    for key in keys:
+        value = headers.get(key.lower())
+        if value is not None:
+            return value
+    return None
+
+
+def _first_present_value(*values: Any) -> Any:
+    for value in values:
+        if value is not None and str(value).strip() != "":
+            return value
+    return None
+
+
+def _first_numeric_value(*values: Any) -> int | None:
+    for value in values:
+        if value is None or str(value).strip() == "":
+            continue
+        try:
+            return int(float(value))
+        except (TypeError, ValueError):
+            continue
+    return None
+
+
 def _write_report(path: Path, lines: list[str]) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(lines), encoding="utf-8")
@@ -511,7 +697,7 @@ def _lineup_row(team: str | None, player: dict[str, Any], starter: bool, formati
 
 
 def _date_key(value: Any) -> str | None:
-    timestamp = pd.to_datetime(value, errors="coerce", format="mixed")
+    timestamp = pd.to_datetime(value, errors="coerce", format="mixed", utc=True)
     if pd.isna(timestamp):
         return None
     return timestamp.strftime("%Y-%m-%d")
