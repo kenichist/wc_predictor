@@ -209,7 +209,7 @@ The Odds API and Sportmonks keys are displayed in Developer Mode if configured, 
 - The Risk & Bankroll Lab is an educational risk model, not betting advice.
 - The app does not place bets, create bet slips, handle money, or link to sportsbooks.
 - Do not claim true SOTA.
-- Do not claim market blend is production-ready unless 2026 odds coverage is at least 90%.
+- Do not claim market blend is production-ready unless active fixture odds coverage is at least 90%.
 - Do not claim live injuries improve accuracy unless historical as-of validation proves it.
 - Live/scenario data is never silently merged into official model files.
 

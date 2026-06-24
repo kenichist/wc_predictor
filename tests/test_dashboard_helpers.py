@@ -1,7 +1,11 @@
+import sys
+from types import SimpleNamespace
+
 import pandas as pd
 import pytest
 
 from dashboard.components import _actual_outcome_text, _score_text, confidence_label, percent, status_badge
+from dashboard.live_api import _status_requests_info
 from dashboard.parsers import markdown_table_after_heading
 from dashboard.scenario import (
     advancement_probabilities,
@@ -10,6 +14,18 @@ from dashboard.scenario import (
     find_fixture_prediction,
     infer_probability_columns,
 )
+
+
+class _StreamlitImportStub(SimpleNamespace):
+    def cache_data(self, *args, **kwargs):
+        def decorator(func):
+            return func
+
+        return decorator
+
+
+sys.modules.setdefault("streamlit", _StreamlitImportStub())
+from dashboard.app import _is_finished_match, _market_metadata_for_match
 
 
 def test_markdown_table_after_heading_parses_numeric_values() -> None:
@@ -90,3 +106,51 @@ def test_finished_score_renders_final_actual_outcome() -> None:
 
     assert "Actual: Draw" in _actual_outcome_text(row)
     assert _score_text(row) == "Final: 0-0"
+
+
+def test_finished_match_helper_accepts_row_or_status() -> None:
+    assert _is_finished_match(pd.Series({"status": "Match Finished"}))
+    assert _is_finished_match("Full Time")
+    assert not _is_finished_match(pd.Series({"status": "Second Half"}))
+
+
+def test_market_metadata_prefers_live_odds_by_fixture_id() -> None:
+    row = pd.Series({"fixture_id": "m1", "date": "2026-06-11", "home_team": "Argentina", "away_team": "France"})
+    frames = {
+        "live_odds": pd.DataFrame(
+            [
+                {
+                    "fixture_id": "m1",
+                    "date": "2026-06-11",
+                    "home_team": "Argentina",
+                    "away_team": "France",
+                    "bookmaker": "api_football_average",
+                    "source": "api_football:/odds",
+                    "updated_at": "2026-06-10T00:00:00+00:00",
+                }
+            ]
+        ),
+        "market_odds": pd.DataFrame(
+            [
+                {
+                    "date": "2026-06-11",
+                    "home_team": "Argentina",
+                    "away_team": "France",
+                    "bookmaker": "external",
+                    "source": "manual",
+                    "updated_at": "2026-06-09",
+                }
+            ]
+        ),
+    }
+
+    metadata = _market_metadata_for_match(row, frames)
+
+    assert metadata is not None
+    assert metadata["bookmaker"] == "api_football_average"
+
+
+def test_quota_parser_handles_documented_response_shapes() -> None:
+    assert _status_requests_info({"results": {"requests": {"current": 10}}})["current"] == 10
+    assert _status_requests_info({"response": {"requests": {"used": 11}}})["used"] == 11
+    assert _status_requests_info({"requests": {"remaining": 12}})["remaining"] == 12

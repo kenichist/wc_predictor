@@ -118,7 +118,7 @@ def fetch_api_football_status() -> dict[str, Any]:
         root = _status_payload_root(payload)
         account = root.get("account", {}) if isinstance(root, dict) else {}
         subscription = root.get("subscription", {}) if isinstance(root, dict) else {}
-        requests_info = root.get("requests", {}) if isinstance(root, dict) else {}
+        requests_info = _status_requests_info(payload)
         if not isinstance(requests_info, dict):
             requests_info = {}
 
@@ -623,6 +623,31 @@ def _status_payload_root(payload: Any) -> dict[str, Any]:
         if isinstance(value, list) and value and isinstance(value[0], dict):
             return value[0]
     return payload
+
+
+def _status_requests_info(payload: Any) -> dict[str, Any]:
+    for path in (
+        ("results", "requests"),
+        ("response", "requests"),
+        ("response", "results", "requests"),
+        ("requests",),
+        ("data", "requests"),
+    ):
+        value = _nested_dict_value(payload, path)
+        if isinstance(value, dict):
+            return value
+    root = _status_payload_root(payload)
+    value = root.get("requests") if isinstance(root, dict) else None
+    return value if isinstance(value, dict) else {}
+
+
+def _nested_dict_value(payload: Any, path: tuple[str, ...]) -> Any:
+    value = payload
+    for key in path:
+        if not isinstance(value, dict):
+            return None
+        value = value.get(key)
+    return value
 
 
 def _redact_status_payload(payload: Any) -> Any:

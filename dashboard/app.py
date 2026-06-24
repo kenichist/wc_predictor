@@ -97,13 +97,20 @@ OPTIONAL_FILES = {
 
 
 @st.cache_data(show_spinner=False)
-def cached_csv(path: str) -> pd.DataFrame:
+def cached_csv(path: str, mtime: float | None = None) -> pd.DataFrame:
     return read_csv_safe(Path(path))
 
 
 @st.cache_data(show_spinner=False)
-def cached_text(path: str) -> str:
+def cached_text(path: str, mtime: float | None = None) -> str:
     return read_markdown_safe(Path(path))
+
+
+def file_mtime(path: Path) -> float:
+    try:
+        return path.stat().st_mtime
+    except OSError:
+        return 0.0
 
 
 
@@ -119,8 +126,8 @@ def _metric_or_unknown(value: object) -> str:
 def main() -> None:
     st.set_page_config(page_title="World Cup 2026 Prediction Research Dashboard", layout="wide")
     inject_styles()
-    reports = {name: cached_text(str(path)) for name, path in REPORT_FILES.items()}
-    frames = {name: cached_csv(str(path)) for name, path in CSV_FILES.items()}
+    reports = {name: cached_text(str(path), file_mtime(path)) for name, path in REPORT_FILES.items()}
+    frames = {name: cached_csv(str(path), file_mtime(path)) for name, path in CSV_FILES.items()}
     values = parsed_overview_values(reports)
 
     mode = render_sidebar(values)
@@ -149,8 +156,13 @@ def render_sidebar(values: dict[str, object]) -> str:
     if st.sidebar.button("Refresh live data"):
         with st.spinner("Refreshing live data..."):
             summary = refresh_live_data()
+        st.session_state["last_live_refresh_summary"] = summary
         st.sidebar.success(f"Live refresh complete. Rows: {summary.get('LIVE_PREDICTION_ROWS', 0)}")
         st.cache_data.clear()
+        st.rerun()
+    last_live_refresh = st.session_state.get("last_live_refresh_summary")
+    if isinstance(last_live_refresh, dict) and last_live_refresh.get("LAST_UPDATED"):
+        st.sidebar.caption(f"Live data updated: `{last_live_refresh.get('LAST_UPDATED')}`")
     active_coverage = values.get("active_fixture_coverage_2026")
     full_coverage = values.get("coverage_2026")
     missing_active = values.get("missing_active_fixtures")
@@ -158,10 +170,10 @@ def render_sidebar(values: dict[str, object]) -> str:
         st.sidebar.metric("Active fixture odds coverage", f"{active_coverage:.1%}")
         if missing_active is not None:
             st.sidebar.caption(f"Missing active fixtures: {missing_active}")
-    elif isinstance(full_coverage, float):
-        st.sidebar.metric("2026 odds coverage", f"{full_coverage:.1%}")
-    if isinstance(full_coverage, float):
-        st.sidebar.caption(f"Full 2026 prediction-file coverage: {full_coverage:.1%}")
+    elif mode == "Developer Mode":
+        st.sidebar.metric("Active fixture odds coverage", "unknown")
+    if mode == "Developer Mode" and isinstance(full_coverage, float):
+        st.sidebar.caption(f"Full prediction-file market coverage: {full_coverage:.1%}")
 
     st.sidebar.divider()
     st.sidebar.subheader("API-Football quota")
@@ -174,10 +186,13 @@ def render_sidebar(values: dict[str, object]) -> str:
         used = quota.get("used_today")
         limit = quota.get("daily_limit")
         remaining = quota.get("remaining_today")
+        usage = quota.get("usage_percent")
         if used is not None and limit is not None:
             st.sidebar.metric("Requests used today", f"{used}/{limit}")
         if remaining is not None:
             st.sidebar.metric("Requests remaining", str(remaining))
+        if isinstance(usage, (int, float)):
+            st.sidebar.metric("Usage", f"{float(usage):.1%}")
         if quota.get("errors"):
             st.sidebar.warning("Quota check failed. See Developer Mode → Live API Status.")
     else:
@@ -199,7 +214,7 @@ def parsed_overview_values(reports: dict[str, str]) -> dict[str, object]:
     refresh_report = reports.get("refresh_market_odds_report", "")
     blend = reports.get("market_blend_report", "")
     significance = reports.get("benchmark_significance_report", "")
-    coverage = _extract_coverage(market_debug) or extract_regex_float(
+    coverage = _extract_full_prediction_file_coverage(market_debug) or extract_regex_float(
         recommendation,
         [r"World Cup 2026 market feature coverage\s*[:|]\s*([0-9.]+)"],
     )
@@ -308,7 +323,7 @@ def render_user_live_matches(live_predictions: pd.DataFrame, frames: dict[str, p
     scores = frames.get("live_scores", pd.DataFrame())
     view = _attach_scores(live_predictions, scores)
     col1, col2, col3, col4 = st.columns(4)
-    status_filter = col1.selectbox("Status", ["All", "Live only", "Upcoming only", "Finished"], key="user_match_status_filter")
+    status_filter = col1.selectbox("Status", ["All", "Live only", "Upcoming only", "Finished"], index=2, key="user_match_status_filter")
     team_query = col2.text_input("Team search", key="user_match_team_search")
     sort_by = col3.selectbox("Sort", ["Kickoff time", "Confidence", "EV/IDR rate"], key="user_match_sort")
     positive_ev_only = col4.checkbox("Positive EV only", value=False, key="user_match_positive_ev_only")
@@ -346,11 +361,13 @@ def render_user_live_matches(live_predictions: pd.DataFrame, frames: dict[str, p
                 st.caption("Previewing the next available matches:")
                 for _, row in fallback.iterrows():
                     render_match_card(row)
-                    render_live_match_risk_note(row, frames)
+                    render_match_market_metadata(row, frames)
+                    render_live_match_risk_note_if_needed(row, frames)
         return
     for _, row in view.head(40).iterrows():
         render_match_card(row)
-        render_live_match_risk_note(row, frames)
+        render_match_market_metadata(row, frames)
+        render_live_match_risk_note_if_needed(row, frames)
 
 
 def render_user_match_detail(live_predictions: pd.DataFrame, frames: dict[str, pd.DataFrame]) -> None:
@@ -380,7 +397,9 @@ def render_user_match_detail(live_predictions: pd.DataFrame, frames: dict[str, p
                 st.write(f"- {factor.get('team')}: {factor.get('description')}")
     explanation = _plain_english_explanation(row, factors)
     st.info(explanation)
-    render_user_risk_panel(row, frames)
+    render_match_market_metadata(row, frames)
+    if not _is_finished_match(row):
+        render_user_risk_panel(row, frames)
 
 
 def render_user_bracket(frames: dict[str, pd.DataFrame]) -> None:
@@ -423,7 +442,7 @@ This is a World Cup 2026 prediction and research dashboard. It is not a betting 
 - Official model: `{SAFE_MODEL}`
 - Official feature set: `{SAFE_FEATURE_SET}`
 - Project label: SOTA-inspired, historically backtested, benchmarked against bookmaker odds, but not true SOTA
-- Market blend status: benchmark-only unless 2026 odds coverage reaches 90%
+- Market blend status: benchmark-only unless active fixture odds coverage reaches 90%
 - Best market alpha currently shown by reports: `{values.get("best_alpha", "unknown")}`
 
 Live-adjusted predictions are scenario-based and may change when API data updates. Predictions are uncertain.
@@ -442,9 +461,13 @@ def render_dev_overview(reports: dict[str, str], frames: dict[str, pd.DataFrame]
     cols[1].metric("Live odds", len(frames["live_odds"]))
     cols[2].metric("Live injuries", len(frames["live_injuries"]))
     cols[3].metric("Live lineups", len(frames["live_lineups"]))
-    coverage = values.get("coverage_2026")
+    active_coverage = values.get("active_fixture_coverage_2026")
+    full_coverage = values.get("coverage_2026")
+    missing_active = values.get("missing_active_fixtures")
     st.write(f"Market blend status: `{MARKET_BLEND_STATUS}`")
-    st.write(f"2026 odds coverage: `{coverage if coverage is not None else 'unknown'}`")
+    st.write(f"Active fixture odds coverage: `{active_coverage if active_coverage is not None else 'unknown'}`")
+    st.write(f"Missing active fixtures: `{missing_active if missing_active is not None else 'unknown'}`")
+    st.write(f"Full prediction-file market coverage: `{full_coverage if full_coverage is not None else 'unknown'}`")
     st.write(f"Statistical significance: `{values.get('statistically_meaningful', 'unknown')}`")
     st.subheader("File Timestamps")
     st.dataframe(file_presence({**REPORT_FILES, **CSV_FILES}), use_container_width=True)
@@ -456,12 +479,18 @@ def render_live_api_status(reports: dict[str, str]) -> None:
     if st.button("Refresh live data now"):
         with st.spinner("Fetching live API data and regenerating live predictions..."):
             summary = refresh_live_data(fetch_lineups=fetch_lineups)
-        st.json(summary)
+        st.session_state["last_live_refresh_summary"] = summary
         st.cache_data.clear()
+        st.rerun()
     if st.button("Generate live predictions from local live CSVs"):
         summary = generate_live_predictions()
-        st.json(summary)
+        st.session_state["last_live_refresh_summary"] = summary
         st.cache_data.clear()
+        st.rerun()
+    last_live_refresh = st.session_state.get("last_live_refresh_summary")
+    if isinstance(last_live_refresh, dict):
+        st.success(f"Last live refresh rows: {last_live_refresh.get('LIVE_PREDICTION_ROWS', 'unknown')}")
+        st.json(last_live_refresh)
 
     st.subheader("API Key Status")
     st.write(f"API_FOOTBALL_KEY detected: `{bool(os.getenv('API_FOOTBALL_KEY', '').strip())}`")
@@ -556,8 +585,9 @@ def render_raw_files(frames: dict[str, pd.DataFrame], reports: dict[str, str]) -
 
 
 def render_overview(reports: dict[str, str], frames: dict[str, pd.DataFrame], values: dict[str, object]) -> None:
-    coverage = values.get("coverage_2026")
-    production_ready = isinstance(coverage, float) and coverage >= MARKET_PRODUCTION_THRESHOLD
+    active_coverage = values.get("active_fixture_coverage_2026")
+    full_coverage = values.get("coverage_2026")
+    production_ready = isinstance(active_coverage, float) and active_coverage >= MARKET_PRODUCTION_THRESHOLD
     prediction_rows = len(frames["actual_team_match_predictions"])
     simulation_teams = len(frames["worldcup_2026_simulation_results"])
     cols = st.columns(5)
@@ -567,12 +597,14 @@ def render_overview(reports: dict[str, str], frames: dict[str, pd.DataFrame], va
     cols[3].metric("Simulation teams", simulation_teams)
     cols[4].metric("Market blend", MARKET_BLEND_STATUS)
     cols = st.columns(5)
-    cols[0].metric("2026 odds coverage", f"{coverage:.1%}" if isinstance(coverage, float) else "unknown")
+    cols[0].metric("Active fixture odds coverage", f"{active_coverage:.1%}" if isinstance(active_coverage, float) else "unknown")
     cols[1].metric("Odds conversion", str(values.get("best_odds_conversion", "unknown")))
     cols[2].metric("Best alpha", str(values.get("best_alpha", "unknown")))
     cols[3].metric("Stat meaningful", str(values.get("statistically_meaningful", "unknown")))
     cols[4].metric("Production-ready", str(production_ready))
-    st.warning("Market blend is benchmark-only, not production-ready for 2026, unless 2026 market odds coverage is at least 90%.")
+    if isinstance(full_coverage, float):
+        st.caption(f"Full prediction-file market coverage: {full_coverage:.1%}")
+    st.warning("Market blend is benchmark-only, not production-ready for 2026, unless active fixture odds coverage is at least 90%.")
     st.warning("This dashboard is a research viewer and scenario lab. It is not a betting tool.")
     with st.expander("Final Model Recommendation"):
         st.markdown(reports.get("final_model_recommendation") or "Missing report.")
@@ -855,11 +887,16 @@ def render_market_odds_coverage(reports: dict[str, str], market_odds: pd.DataFra
         st.subheader("Odds Rows By Year")
         st.dataframe(rows_by_year, use_container_width=True)
     debug = reports.get("market_odds_join_debug", "")
-    coverage = _extract_coverage(debug)
-    if coverage is not None:
-        st.metric("2026 active fixture coverage", f"{coverage:.1%}")
-        if coverage < MARKET_PRODUCTION_THRESHOLD:
-            st.warning("2026 odds coverage is below 90%; market_blend remains benchmark-only.")
+    refresh_report = reports.get("refresh_market_odds_report", "")
+    active_coverage = extract_regex_float(refresh_report, [r"ACTIVE_FIXTURE_COVERAGE_AFTER\s*=\s*([0-9.]+)"])
+    missing_active = extract_regex_value(refresh_report, [r"MISSING_ACTIVE_FIXTURES\s*=\s*([0-9]+)"], default="unknown")
+    full_coverage = _extract_full_prediction_file_coverage(debug)
+    cols = st.columns(3)
+    cols[0].metric("Active fixture odds coverage", f"{active_coverage:.1%}" if isinstance(active_coverage, float) else "unknown")
+    cols[1].metric("Missing active fixtures", str(missing_active))
+    cols[2].metric("Full prediction-file market coverage", f"{full_coverage:.1%}" if isinstance(full_coverage, float) else "unknown")
+    if isinstance(active_coverage, float) and active_coverage < MARKET_PRODUCTION_THRESHOLD:
+        st.warning("Active fixture odds coverage is below 90%; market_blend remains benchmark-only.")
     st.subheader("Parsed Tables")
     for heading in ("Historical Coverage", "Unmatched Odds", "Missing Active Fixtures"):
         table = markdown_table_after_heading(debug, heading)
@@ -867,7 +904,8 @@ def render_market_odds_coverage(reports: dict[str, str], market_odds: pd.DataFra
             st.write(heading)
             st.dataframe(table, use_container_width=True)
     st.subheader("Missing Active Fixtures")
-    missing_template = cached_csv(str(CSV_FILES["missing_market_odds_template"]))
+    missing_template_path = CSV_FILES["missing_market_odds_template"]
+    missing_template = cached_csv(str(missing_template_path), file_mtime(missing_template_path))
     if missing_template.empty:
         st.info("Run `python -m src.cli generate-missing-odds-template` to create a missing odds template.")
     else:
@@ -879,7 +917,6 @@ def render_market_odds_coverage(reports: dict[str, str], market_odds: pd.DataFra
             "text/csv",
         )
     st.subheader("Provider Fetch Results")
-    refresh_report = reports.get("refresh_market_odds_report", "")
     st.markdown(refresh_report or "Run `python -m src.cli refresh-market-odds` to create this report.")
     st.subheader("Merge Status")
     st.markdown(reports.get("market_odds_api_merge_report") or "No merge report is available yet.")
@@ -1064,9 +1101,79 @@ def _score_number_or_none(value: object) -> float | None:
         return None
 
 
-def _is_finished_match(status: object) -> bool:
+def render_live_match_risk_note_if_needed(row: pd.Series, frames: dict[str, pd.DataFrame]) -> None:
+    if not _is_finished_match(row):
+        render_live_match_risk_note(row, frames)
+
+
+def render_match_market_metadata(row: pd.Series, frames: dict[str, pd.DataFrame]) -> None:
+    metadata = _market_metadata_for_match(row, frames)
+    if metadata is None:
+        st.caption("Market: Missing")
+        return
+    bookmaker = metadata.get("bookmaker") or metadata.get("api_provider") or "available"
+    updated_at = metadata.get("updated_at")
+    source = metadata.get("source")
+    parts = [f"Market: Available", f"Provider/bookmaker: {bookmaker}"]
+    if updated_at is not None and str(updated_at).strip() and str(updated_at).strip().lower() != "nan":
+        parts.append(f"Last odds update: {updated_at}")
+    if source is not None and str(source).strip() and str(source).strip().lower() != "nan":
+        parts.append(f"Source: {source}")
+    st.caption(" | ".join(parts))
+
+
+def _market_metadata_for_match(row: pd.Series, frames: dict[str, pd.DataFrame]) -> dict[str, object] | None:
+    for frame_name in ("live_odds", "market_odds"):
+        odds = frames.get(frame_name, pd.DataFrame())
+        match = _match_market_row(row, odds)
+        if match is not None:
+            return match
+    return None
+
+
+def _match_market_row(row: pd.Series, odds: pd.DataFrame) -> dict[str, object] | None:
+    if odds is None or odds.empty:
+        return None
+    frame = odds.copy()
+    if "fixture_id" in frame.columns and pd.notna(row.get("fixture_id")):
+        by_fixture = frame[frame["fixture_id"].astype(str).eq(str(row.get("fixture_id")))]
+        if not by_fixture.empty:
+            return by_fixture.iloc[0].to_dict()
+    required = {"date", "home_team", "away_team"}
+    if not required.issubset(frame.columns):
+        return None
+    date_key = _date_key_for_display(row.get("date"))
+    home_key = _team_key_for_display(row.get("home_team"))
+    away_key = _team_key_for_display(row.get("away_team"))
+    if not date_key or not home_key or not away_key:
+        return None
+    frame["_date_key"] = frame["date"].map(_date_key_for_display)
+    frame["_home_key"] = frame["home_team"].map(_team_key_for_display)
+    frame["_away_key"] = frame["away_team"].map(_team_key_for_display)
+    match = frame[frame["_date_key"].eq(date_key) & frame["_home_key"].eq(home_key) & frame["_away_key"].eq(away_key)]
+    if match.empty:
+        return None
+    return match.iloc[0].drop(labels=["_date_key", "_home_key", "_away_key"], errors="ignore").to_dict()
+
+
+def _date_key_for_display(value: object) -> str | None:
+    timestamp = pd.to_datetime(value, errors="coerce", format="mixed")
+    if pd.isna(timestamp):
+        return None
+    return timestamp.strftime("%Y-%m-%d")
+
+
+def _team_key_for_display(value: object) -> str | None:
+    normalized = normalize_team_name(value)
+    if normalized is None:
+        return None
+    return re.sub(r"[^a-z0-9]+", "", normalized.lower())
+
+
+def _is_finished_match(row: object) -> bool:
+    status = row.get("status", "") if isinstance(row, pd.Series) else row
     text = str(status or "").lower()
-    return any(term in text for term in ["finished", "full time", "fulltime", "ft"])
+    return any(term in text for term in ["finished", "match finished", "full time", "fulltime", "ft"])
 
 
 def _plain_english_explanation(row: pd.Series, factors: pd.DataFrame) -> str:
@@ -1091,11 +1198,9 @@ def _plain_english_explanation(row: pd.Series, factors: pd.DataFrame) -> str:
     return " ".join(parts)
 
 
-def _extract_coverage(text: str) -> float | None:
+def _extract_full_prediction_file_coverage(text: str) -> float | None:
     patterns = [
         r"Current generated advanced prediction coverage.*?(\d+)\s*/\s*(\d+).*?\(([0-9.]+)\)",
-        r"After fix.*?coverage.*?(\d+)\s*/\s*(\d+).*?\(([0-9.]+)\)",
-        r"2026 active fixture odds coverage.*?(\d+)\s*/\s*(\d+).*?\(([0-9.]+)\)",
     ]
     for pattern in patterns:
         match = re.search(pattern, text or "", flags=re.IGNORECASE)

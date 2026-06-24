@@ -1,0 +1,202 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "live": "all"
+  },
+  "errors": [],
+  "results": 2,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "fixture": {
+        "id": 1525054,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2026-06-24T01:30:00+00:00",
+        "timestamp": 1782264600,
+        "periods": {
+          "first": 1782264600,
+          "second": 1782268200
+        },
+        "venue": {
+          "id": null,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 80,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 256,
+        "name": "USL League Two",
+        "country": "USA",
+        "logo": "https://media.api-sports.io/football/leagues/256.png",
+        "flag": "https://media.api-sports.io/flags/us.svg",
+        "season": 2026,
+        "round": "Group Stage",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 23120,
+          "name": "Midlakes United",
+          "logo": "https://media.api-sports.io/football/teams/23120.png",
+          "winner": false
+        },
+        "away": {
+          "id": 25948,
+          "name": "Snohomish United",
+          "logo": "https://media.api-sports.io/football/teams/25948.png",
+          "winner": true
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 3
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": [
+        {
+          "time": {
+            "elapsed": 2,
+            "extra": null
+          },
+          "team": {
+            "id": 25948,
+            "name": "Snohomish United",
+            "logo": "https://media.api-sports.io/football/teams/25948.png"
+          },
+          "player": {
+            "id": null,
+            "name": null
+          },
+          "assist": {
+            "id": null,
+            "name": null
+          },
+          "type": "Goal",
+          "detail": "Normal Goal",
+          "comments": null
+        }
+      ]
+    },
+    {
+      "fixture": {
+        "id": 1539008,
+        "referee": "Maurizio Mariani, Italy",
+        "timezone": "UTC",
+        "date": "2026-06-24T02:00:00+00:00",
+        "timestamp": 1782266400,
+        "periods": {
+          "first": 1782266400,
+          "second": 1782270000
+        },
+        "venue": {
+          "id": 1076,
+          "name": "Estadio Akron",
+          "city": "Guadalajara"
+        },
+        "status": {
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 53,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 1,
+        "name": "World Cup",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/1.png",
+        "flag": null,
+        "season": 2026,
+        "round": "Group Stage - 2",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 8,
+          "name": "Colombia",
+          "logo": "https://media.api-sports.io/football/teams/8.png",
+          "winner": null
+        },
+        "away": {
+          "id": 1508,
+          "name": "Congo DR",
+          "logo": "https://media.api-sports.io/football/teams/1508.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      },
+      "events": [
+        {
+          "time": {
+            "elapsed": 46,
+            "extra": null
+          },
+          "team": {
+            "id": 1508,
+            "name": "Congo DR",
+            "logo": "https://media.api-sports.io/football/teams/1508.png"
+          },
+          "player": {
+            "id": 375598,
+            "name": "N. Mukau"
+          },
+          "assist": {
+            "id": 365331,
+            "name": "N. Sadiki"
+          },
+          "type": "subst",
+          "detail": "Substitution 1",
+          "comments": null
+        }
+      ]
+    }
+  ]
+}

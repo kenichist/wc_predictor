@@ -1,85 +1,74 @@
 fixture_id,date,home_team,away_team,status,minute,home_score,away_score,home_red_cards,away_red_cards,source,updated_at
-1489369,2026-06-11,Mexico,South Africa,Match Finished,90.0,2.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1538999,2026-06-12,South Korea,Czechia,Match Finished,90.0,2.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1539000,2026-06-12,Canada,Bosnia and Herzegovina,Match Finished,90.0,1.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489370,2026-06-13,United States,Paraguay,Match Finished,90.0,4.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489373,2026-06-13,Qatar,Switzerland,Match Finished,90.0,1.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489371,2026-06-13,Brazil,Morocco,Match Finished,90.0,1.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489372,2026-06-14,Haiti,Scotland,Match Finished,90.0,0.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1539001,2026-06-14,Australia,Turkey,Match Finished,90.0,2.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489374,2026-06-14,Germany,Curacao,Match Finished,90.0,7.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489376,2026-06-14,Netherlands,Japan,Match Finished,90.0,2.0,2.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489375,2026-06-14,Ivory Coast,Ecuador,Match Finished,90.0,1.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1539002,2026-06-15,Sweden,Tunisia,Match Finished,90.0,5.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489380,2026-06-15,Spain,Cape Verde,Match Finished,90.0,0.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489377,2026-06-15,Belgium,Egypt,Match Finished,90.0,1.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489379,2026-06-15,Saudi Arabia,Uruguay,Match Finished,90.0,1.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489378,2026-06-16,Iran,New Zealand,Match Finished,90.0,2.0,2.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489383,2026-06-16,France,Senegal,Match Finished,90.0,3.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1539016,2026-06-16,Iraq,Norway,Match Finished,90.0,1.0,4.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489381,2026-06-17,Argentina,Algeria,Match Finished,90.0,3.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489382,2026-06-17,Austria,Jordan,Match Finished,90.0,3.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1539003,2026-06-17,Portugal,DR Congo,Match Finished,90.0,1.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489384,2026-06-17,England,Croatia,Match Finished,90.0,4.0,2.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489385,2026-06-17,Ghana,Panama,Match Finished,90.0,1.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489386,2026-06-18,Uzbekistan,Colombia,Match Finished,90.0,1.0,3.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1539004,2026-06-18,Czechia,South Africa,Match Finished,90.0,1.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1539005,2026-06-18,Switzerland,Bosnia and Herzegovina,Match Finished,90.0,4.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489387,2026-06-18,Canada,Qatar,Match Finished,90.0,6.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489388,2026-06-19,Mexico,South Korea,Match Finished,90.0,1.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489391,2026-06-19,United States,Australia,Match Finished,90.0,2.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489390,2026-06-19,Scotland,Morocco,Match Finished,90.0,0.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489389,2026-06-20,Brazil,Haiti,Match Finished,90.0,3.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1539006,2026-06-20,Turkey,Paraguay,Match Finished,90.0,0.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1539007,2026-06-20,Netherlands,Sweden,Match Finished,90.0,5.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489393,2026-06-20,Germany,Ivory Coast,Match Finished,90.0,2.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489392,2026-06-21,Ecuador,Curacao,Match Finished,90.0,0.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489394,2026-06-21,Tunisia,Japan,Match Finished,90.0,0.0,4.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489397,2026-06-21,Spain,Saudi Arabia,Match Finished,90.0,4.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489395,2026-06-21,Belgium,Iran,Match Finished,90.0,0.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489398,2026-06-21,Uruguay,Cape Verde,Match Finished,90.0,2.0,2.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489396,2026-06-22,New Zealand,Egypt,Match Finished,90.0,1.0,3.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489399,2026-06-22,Argentina,Austria,Match Finished,90.0,2.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1539017,2026-06-22,France,Iraq,Match Finished,90.0,3.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489401,2026-06-23,Norway,Senegal,Match Finished,90.0,3.0,2.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489400,2026-06-23,Jordan,Algeria,Match Finished,90.0,1.0,2.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489404,2026-06-23,Portugal,Uzbekistan,Match Finished,90.0,5.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489402,2026-06-23,England,Ghana,Match Finished,90.0,0.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1539008,2026-06-24,Colombia,DR Congo,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489408,2026-06-24,Switzerland,Canada,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1539009,2026-06-24,Bosnia and Herzegovina,Qatar,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489405,2026-06-24,Morocco,Haiti,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489406,2026-06-24,Scotland,Brazil,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1539010,2026-06-25,Czechia,Mexico,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489407,2026-06-25,South Africa,South Korea,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489410,2026-06-25,Ecuador,Germany,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489409,2026-06-25,Curacao,Ivory Coast,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1539011,2026-06-25,Japan,Sweden,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489412,2026-06-25,Tunisia,Netherlands,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1539012,2026-06-26,Turkey,United States,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489411,2026-06-26,Paraguay,Australia,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1539074,2026-06-26,Senegal,Iraq,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489416,2026-06-26,Norway,France,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489417,2026-06-27,Uruguay,Spain,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489413,2026-06-27,Cape Verde,Saudi Arabia,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489414,2026-06-27,Egypt,Iran,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489415,2026-06-27,New Zealand,Belgium,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489420,2026-06-27,Croatia,Ghana,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489422,2026-06-27,Panama,England,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489419,2026-06-27,Colombia,Portugal,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1539013,2026-06-27,DR Congo,Uzbekistan,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489418,2026-06-28,Algeria,Austria,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1489421,2026-06-28,Jordan,Argentina,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T00:37:30+00:00
-1525058,2026-06-24,Hill Country Lobos,Laredo Heat,First Half,31.0,0.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:32+00:00
-1525065,2026-06-24,Peoria,St. Louis Ambush,First Half,1.0,0.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:32+00:00
-1544423,2026-06-24,Everton de Vina,U. Catolica,First Half,7.0,1.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:32+00:00
-1544424,2026-06-24,Palestino,A. Italiano,First Half,8.0,0.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:32+00:00
-1489403,2026-06-23,Panama,Croatia,Second Half,79.0,0.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:32+00:00
-1520730,2026-06-23,America Mineiro,Criciuma,Second Half,78.0,0.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:32+00:00
-1525057,2026-06-23,Boston City,Vermont Green,Second Half,57.0,1.0,3.0,0,0,api_football:/fixtures,2026-06-24T00:37:32+00:00
-1525059,2026-06-23,Nona,Brooke House,Second Half,68.0,4.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:32+00:00
-1525063,2026-06-23,Union Macomb,Lansing City,Second Half,77.0,2.0,2.0,0,0,api_football:/fixtures,2026-06-24T00:37:32+00:00
-1547696,2026-06-23,Valeriodoce,Ipatinga,Second Half,81.0,1.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:32+00:00
-1554507,2026-06-23,Annapolis Blues,Santos Laguna,Second Half,72.0,0.0,1.0,0,0,api_football:/fixtures,2026-06-24T00:37:32+00:00
-1525061,2026-06-23,Sporting Jax 2,Shark Coast,Halftime,45.0,1.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:32+00:00
-1525066,2026-06-23,Southern Soccer Academy,Montgomery United,Halftime,45.0,1.0,0.0,0,0,api_football:/fixtures,2026-06-24T00:37:32+00:00
+1489369,2026-06-11,Mexico,South Africa,Match Finished,90.0,2.0,0.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1538999,2026-06-12,South Korea,Czechia,Match Finished,90.0,2.0,1.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1539000,2026-06-12,Canada,Bosnia and Herzegovina,Match Finished,90.0,1.0,1.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489370,2026-06-13,United States,Paraguay,Match Finished,90.0,4.0,1.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489373,2026-06-13,Qatar,Switzerland,Match Finished,90.0,1.0,1.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489371,2026-06-13,Brazil,Morocco,Match Finished,90.0,1.0,1.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489372,2026-06-14,Haiti,Scotland,Match Finished,90.0,0.0,1.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1539001,2026-06-14,Australia,Turkey,Match Finished,90.0,2.0,0.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489374,2026-06-14,Germany,Curacao,Match Finished,90.0,7.0,1.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489376,2026-06-14,Netherlands,Japan,Match Finished,90.0,2.0,2.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489375,2026-06-14,Ivory Coast,Ecuador,Match Finished,90.0,1.0,0.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1539002,2026-06-15,Sweden,Tunisia,Match Finished,90.0,5.0,1.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489380,2026-06-15,Spain,Cape Verde,Match Finished,90.0,0.0,0.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489377,2026-06-15,Belgium,Egypt,Match Finished,90.0,1.0,1.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489379,2026-06-15,Saudi Arabia,Uruguay,Match Finished,90.0,1.0,1.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489378,2026-06-16,Iran,New Zealand,Match Finished,90.0,2.0,2.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489383,2026-06-16,France,Senegal,Match Finished,90.0,3.0,1.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1539016,2026-06-16,Iraq,Norway,Match Finished,90.0,1.0,4.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489381,2026-06-17,Argentina,Algeria,Match Finished,90.0,3.0,0.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489382,2026-06-17,Austria,Jordan,Match Finished,90.0,3.0,1.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1539003,2026-06-17,Portugal,DR Congo,Match Finished,90.0,1.0,1.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489384,2026-06-17,England,Croatia,Match Finished,90.0,4.0,2.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489385,2026-06-17,Ghana,Panama,Match Finished,90.0,1.0,0.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489386,2026-06-18,Uzbekistan,Colombia,Match Finished,90.0,1.0,3.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1539004,2026-06-18,Czechia,South Africa,Match Finished,90.0,1.0,1.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1539005,2026-06-18,Switzerland,Bosnia and Herzegovina,Match Finished,90.0,4.0,1.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489387,2026-06-18,Canada,Qatar,Match Finished,90.0,6.0,0.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489388,2026-06-19,Mexico,South Korea,Match Finished,90.0,1.0,0.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489391,2026-06-19,United States,Australia,Match Finished,90.0,2.0,0.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489390,2026-06-19,Scotland,Morocco,Match Finished,90.0,0.0,1.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489389,2026-06-20,Brazil,Haiti,Match Finished,90.0,3.0,0.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1539006,2026-06-20,Turkey,Paraguay,Match Finished,90.0,0.0,1.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1539007,2026-06-20,Netherlands,Sweden,Match Finished,90.0,5.0,1.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489393,2026-06-20,Germany,Ivory Coast,Match Finished,90.0,2.0,1.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489392,2026-06-21,Ecuador,Curacao,Match Finished,90.0,0.0,0.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489394,2026-06-21,Tunisia,Japan,Match Finished,90.0,0.0,4.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489397,2026-06-21,Spain,Saudi Arabia,Match Finished,90.0,4.0,0.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489395,2026-06-21,Belgium,Iran,Match Finished,90.0,0.0,0.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489398,2026-06-21,Uruguay,Cape Verde,Match Finished,90.0,2.0,2.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489396,2026-06-22,New Zealand,Egypt,Match Finished,90.0,1.0,3.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489399,2026-06-22,Argentina,Austria,Match Finished,90.0,2.0,0.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1539017,2026-06-22,France,Iraq,Match Finished,90.0,3.0,0.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489401,2026-06-23,Norway,Senegal,Match Finished,90.0,3.0,2.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489400,2026-06-23,Jordan,Algeria,Match Finished,90.0,1.0,2.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489404,2026-06-23,Portugal,Uzbekistan,Match Finished,90.0,5.0,0.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489402,2026-06-23,England,Ghana,Match Finished,90.0,0.0,0.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489403,2026-06-23,Panama,Croatia,Match Finished,90.0,0.0,1.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489408,2026-06-24,Switzerland,Canada,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1539009,2026-06-24,Bosnia and Herzegovina,Qatar,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489405,2026-06-24,Morocco,Haiti,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489406,2026-06-24,Scotland,Brazil,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1539010,2026-06-25,Czechia,Mexico,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489407,2026-06-25,South Africa,South Korea,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489410,2026-06-25,Ecuador,Germany,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489409,2026-06-25,Curacao,Ivory Coast,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1539011,2026-06-25,Japan,Sweden,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489412,2026-06-25,Tunisia,Netherlands,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1539012,2026-06-26,Turkey,United States,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489411,2026-06-26,Paraguay,Australia,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1539074,2026-06-26,Senegal,Iraq,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489416,2026-06-26,Norway,France,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489417,2026-06-27,Uruguay,Spain,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489413,2026-06-27,Cape Verde,Saudi Arabia,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489414,2026-06-27,Egypt,Iran,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489415,2026-06-27,New Zealand,Belgium,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489420,2026-06-27,Croatia,Ghana,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489422,2026-06-27,Panama,England,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489419,2026-06-27,Colombia,Portugal,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1539013,2026-06-27,DR Congo,Uzbekistan,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489418,2026-06-28,Algeria,Austria,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1489421,2026-06-28,Jordan,Argentina,Not Started,,,,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1525054,2026-06-24,Midlakes United,Snohomish United,Second Half,80.0,0.0,4.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
+1539008,2026-06-24,Colombia,DR Congo,Second Half,53.0,0.0,0.0,0,0,api_football:/fixtures,2026-06-24T03:14:19+00:00
