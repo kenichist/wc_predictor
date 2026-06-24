@@ -8,6 +8,12 @@ from typing import Any
 import pandas as pd
 
 from src.backtesting.worldcup_backtest import run_worldcup_backtests
+from src.backtesting.stage5_benchmark import run_stage5_benchmark
+from src.backtesting.stage5_ablation_reconciliation import run_stage5_ablation_reconciliation
+from src.backtesting.stage5_calibrated_market import run_stage5_calibrated_market
+from src.backtesting.stage5_draw_calibration import run_stage5_draw_calibration
+from src.backtesting.stage5_failure_diagnosis import run_stage5_failure_diagnosis
+from src.backtesting.stage5_signal_discovery import run_stage5_signal_discovery
 from src.backtesting.worldcup_tournament_simulation import run_worldcup_tournament_simulation_backtest
 from src.config import config_path, ensure_configured_directories, load_config
 from src.config import resolve_project_path
@@ -297,6 +303,39 @@ def build_parser() -> argparse.ArgumentParser:
     tournament_backtest.add_argument("--feature-set", default="core_football_only")
     tournament_backtest.add_argument("--n-sims", type=int, default=1000)
 
+    stage5 = subparsers.add_parser("stage5-benchmark", help="Run Stage 5 historical benchmark, calibration, and significance suite")
+    stage5.add_argument("--years", default="2014,2018,2022", help="Comma-separated World Cup years to evaluate")
+    stage5.add_argument("--n-bootstrap", type=int, default=1000)
+    stage5.add_argument("--include-market", action="store_true")
+    stage5.add_argument("--include-poisson", action="store_true")
+    stage5.add_argument("--include-dixon-coles", action="store_true")
+    stage5.add_argument("--output-dir", default="data/backtests")
+    stage5.add_argument("--model", default="catboost", choices=["catboost", "xgboost", "hist_gradient_boosting", "logistic"])
+    stage5.add_argument("--feature-set", default="core_football_only")
+
+    stage5_diagnose = subparsers.add_parser("stage5-diagnose-failures", help="Diagnose why Stage 5 benchmark evidence did not pass")
+    stage5_diagnose.add_argument("--output-dir", default="data/backtests")
+
+    stage5_reconcile = subparsers.add_parser("stage5-reconcile-ablation", help="Explain why ablation validation and Stage 5 benchmark metrics differ")
+    stage5_reconcile.add_argument("--output-dir", default="data/backtests")
+
+    stage5_calibrated = subparsers.add_parser("stage5-calibrated-market", help="Run time-safe calibration, tuned market blend, and model+market stacker benchmarks")
+    stage5_calibrated.add_argument("--years", default="2014,2018,2022", help="Comma-separated World Cup years to evaluate")
+    stage5_calibrated.add_argument("--n-bootstrap", type=int, default=1000)
+    stage5_calibrated.add_argument("--alpha-grid-step", type=float, default=0.05)
+    stage5_calibrated.add_argument("--include-stacker", action="store_true")
+    stage5_calibrated.add_argument("--include-draw-adjustment", action="store_true")
+    stage5_calibrated.add_argument("--output-dir", default="data/backtests")
+
+    stage5_signal = subparsers.add_parser("stage5-signal-discovery", help="Discover where the official model adds or loses signal against bookmaker odds")
+    stage5_signal.add_argument("--output-dir", default="data/backtests")
+    stage5_signal.add_argument("--n-bootstrap", type=int, default=1000)
+
+    stage5_draw = subparsers.add_parser("stage5-draw-calibration", help="Run time-safe draw and confidence calibration diagnostics")
+    stage5_draw.add_argument("--years", default="2014,2018,2022", help="Comma-separated World Cup years to evaluate")
+    stage5_draw.add_argument("--n-bootstrap", type=int, default=1000)
+    stage5_draw.add_argument("--output-dir", default="data/backtests")
+
     subparsers.add_parser("train-poisson", help="Train Poisson scoreline model and create scoreline predictions")
     subparsers.add_parser("run-ablation", help="Run time-aware feature ablation")
     calibrate = subparsers.add_parser("calibrate-model", help="Fit probability calibration and save calibrated predictions")
@@ -531,6 +570,86 @@ def main(argv: list[str] | None = None) -> int:
         run_worldcup_backtests(model_name=args.model, feature_set=args.feature_set, config=config)
     elif args.command == "backtest-worldcup-tournaments":
         run_worldcup_tournament_simulation_backtest(model_name=args.model, feature_set=args.feature_set, n_sims=args.n_sims, config=config)
+    elif args.command == "stage5-benchmark":
+        years = _parse_years(args.years)
+        result = run_stage5_benchmark(
+            years=years,
+            n_bootstrap=args.n_bootstrap,
+            include_market=args.include_market,
+            include_poisson=args.include_poisson,
+            include_dixon_coles=args.include_dixon_coles,
+            output_dir=args.output_dir,
+            model_name=args.model,
+            feature_set=args.feature_set,
+            config=config,
+        )
+        print(f"STAGE5_ACHIEVED={result.stage5_achieved}")
+        print(f"STAGE5_METRICS_ROWS={len(result.metrics)}")
+        print(f"STAGE5_PREDICTION_ROWS={len(result.predictions)}")
+        print(f"STAGE5_REPORT={result.report_path}")
+        print(f"STAGE5_DECISION={result.decision_path}")
+    elif args.command == "stage5-diagnose-failures":
+        result = run_stage5_failure_diagnosis(output_dir=args.output_dir, config=config)
+        print(f"STAGE5_FAILURE_REPORT={result.report_path}")
+        print(f"STAGE5_FAILURE_BY_YEAR={result.by_year_path}")
+        print(f"STAGE5_FAILURE_BY_STAGE={result.by_stage_path}")
+        print(f"STAGE5_FAILURE_BY_OUTCOME={result.by_outcome_path}")
+        print(f"STAGE5_WORST_MATCHES={result.worst_matches_path}")
+        print(f"STAGE5_ABLATION_RECONCILIATION={result.ablation_reconciliation_path}")
+        print(f"STAGE5_ACHIEVED={result.stage5_achieved}")
+    elif args.command == "stage5-reconcile-ablation":
+        result = run_stage5_ablation_reconciliation(output_dir=args.output_dir)
+        print(f"STAGE5_ABLATION_RECONCILIATION={result.csv_path}")
+        print(f"STAGE5_ABLATION_RECONCILIATION_REPORT={result.report_path}")
+        print(f"STAGE5_ACHIEVED={result.stage5_achieved}")
+    elif args.command == "stage5-calibrated-market":
+        years = _parse_years(args.years)
+        result = run_stage5_calibrated_market(
+            years=years,
+            n_bootstrap=args.n_bootstrap,
+            alpha_grid_step=args.alpha_grid_step,
+            include_stacker=args.include_stacker,
+            include_draw_adjustment=args.include_draw_adjustment,
+            output_dir=args.output_dir,
+            config=config,
+        )
+        print(f"STAGE5_CALIBRATED_MARKET_METRICS_ROWS={len(result.metrics)}")
+        print(f"STAGE5_CALIBRATED_MARKET_PREDICTION_ROWS={len(result.predictions)}")
+        print(f"STAGE5_MARKET_VALUE_SIGNIFICANCE_ROWS={len(result.significance)}")
+        print(f"STAGE5_ALPHA_TUNING_ROWS={len(result.alpha_tuning)}")
+        print(f"STAGE5_STACKER_COEFFICIENT_ROWS={len(result.stacker_coefficients)}")
+        print(f"STAGE5_CALIBRATED_MARKET_REPORT={result.report_path}")
+        print(f"STAGE5_CALIBRATED_MARKET_DECISION={result.decision_path}")
+        print(f"STAGE5_ACHIEVED={result.stage5_achieved}")
+    elif args.command == "stage5-signal-discovery":
+        result = run_stage5_signal_discovery(
+            output_dir=args.output_dir,
+            n_bootstrap=args.n_bootstrap,
+            config=config,
+        )
+        print(f"STAGE5_SIGNAL_BY_SEGMENT={resolve_project_path(args.output_dir) / 'stage5_signal_by_segment.csv'}")
+        print(f"STAGE5_SIGNAL_WINNING_SEGMENTS={resolve_project_path(args.output_dir) / 'stage5_signal_winning_segments.csv'}")
+        print(f"STAGE5_SIGNAL_LOSING_SEGMENTS={resolve_project_path(args.output_dir) / 'stage5_signal_losing_segments.csv'}")
+        print(f"STAGE5_SIGNAL_WORST_MATCHES={resolve_project_path(args.output_dir) / 'stage5_signal_worst_matches.csv'}")
+        print(f"STAGE5_SIGNAL_FEATURE_HYPOTHESES={resolve_project_path(args.output_dir) / 'stage5_signal_feature_hypotheses.csv'}")
+        print(f"STAGE5_SIGNAL_DISCOVERY_REPORT={result.report_path}")
+        print(f"STAGE5_ACHIEVED={result.stage5_achieved}")
+    elif args.command == "stage5-draw-calibration":
+        years = _parse_years(args.years)
+        result = run_stage5_draw_calibration(
+            years=years,
+            n_bootstrap=args.n_bootstrap,
+            output_dir=args.output_dir,
+            config=config,
+        )
+        output_root = resolve_project_path(args.output_dir)
+        print(f"STAGE5_DRAW_CALIBRATION_METRICS={output_root / 'stage5_draw_calibration_metrics.csv'}")
+        print(f"STAGE5_DRAW_CALIBRATION_PREDICTIONS={output_root / 'stage5_draw_calibration_predictions.csv'}")
+        print(f"STAGE5_DRAW_CALIBRATION_SIGNIFICANCE={output_root / 'stage5_draw_calibration_significance.csv'}")
+        print(f"STAGE5_DRAW_CALIBRATION_TUNING={output_root / 'stage5_draw_calibration_tuning.csv'}")
+        print(f"STAGE5_DRAW_CALIBRATION_REPORT={result.report_path}")
+        print(f"STAGE5_DRAW_CALIBRATION_DECISION={result.decision_path}")
+        print(f"STAGE5_ACHIEVED={result.stage5_achieved}")
     elif args.command == "train-poisson":
         train_poisson_model(config=config)
     elif args.command == "run-ablation":
@@ -561,6 +680,16 @@ def _print_live_summary(summary: dict[str, Any]) -> None:
         "SUCCESS",
     ]:
         print(f"{key}={summary.get(key)}")
+
+
+def _parse_years(value: str) -> list[int]:
+    years: list[int] = []
+    for part in str(value or "").split(","):
+        part = part.strip()
+        if not part:
+            continue
+        years.append(int(part))
+    return years
 
 
 if __name__ == "__main__":

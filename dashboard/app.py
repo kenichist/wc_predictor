@@ -67,6 +67,8 @@ REPORT_FILES = {
     "api_football_quota_report": LIVE_REPORTS_DIR / "api_football_quota_report.md",
     "live_prediction_report": LIVE_REPORTS_DIR / "live_prediction_report.md",
     "live_risk_report": LIVE_REPORTS_DIR / "live_risk_report.md",
+    "stage5_benchmark_report": REPORTS_DIR / "stage5_benchmark_report.md",
+    "stage5_research_decision": REPORTS_DIR / "stage5_research_decision.md",
 }
 
 CSV_FILES = {
@@ -88,6 +90,10 @@ CSV_FILES = {
     "live_prediction_factors": LIVE_DIR / "live_prediction_factors.csv",
     "live_risk_analysis": LIVE_DIR / "live_risk_analysis.csv",
     "missing_market_odds_template": STAGING_DIR / "missing_market_odds_template_2026.csv",
+    "stage5_benchmark_metrics": BACKTESTS_DIR / "stage5_benchmark_metrics.csv",
+    "stage5_match_predictions": BACKTESTS_DIR / "stage5_match_predictions.csv",
+    "stage5_significance_tests": BACKTESTS_DIR / "stage5_significance_tests.csv",
+    "stage5_calibration_table": BACKTESTS_DIR / "stage5_calibration_table.csv",
 }
 
 OPTIONAL_FILES = {
@@ -567,6 +573,8 @@ def render_report_expanders(reports: dict[str, str]) -> None:
         "benchmark_significance_report",
         "worldcup_backtest_report",
         "worldcup_tournament_simulation_backtest_report",
+        "stage5_benchmark_report",
+        "stage5_research_decision",
     ]:
         with st.expander(name):
             st.markdown(reports.get(name) or "Missing report.")
@@ -974,6 +982,18 @@ def render_backtests(reports: dict[str, str], frames: dict[str, pd.DataFrame]) -
         st.markdown(reports.get("worldcup_backtest_report") or "Missing report.")
     with st.expander("Raw tournament simulation report"):
         st.markdown(reports.get("worldcup_tournament_simulation_backtest_report") or "Missing report.")
+    stage5_metrics = frames.get("stage5_benchmark_metrics", pd.DataFrame())
+    stage5_significance = frames.get("stage5_significance_tests", pd.DataFrame())
+    if not stage5_metrics.empty:
+        st.subheader("Stage 5 Benchmark Metrics")
+        st.dataframe(stage5_metrics, use_container_width=True)
+    if not stage5_significance.empty:
+        st.subheader("Stage 5 Significance Tests")
+        st.dataframe(stage5_significance, use_container_width=True)
+    with st.expander("Stage 5 benchmark report"):
+        st.markdown(reports.get("stage5_benchmark_report") or "Run `python -m src.cli stage5-benchmark` to create this report.")
+    with st.expander("Stage 5 research decision"):
+        st.markdown(reports.get("stage5_research_decision") or "Run `python -m src.cli stage5-benchmark` to create this decision report.")
 
 
 def render_significance(significance: str) -> None:

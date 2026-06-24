@@ -1,0 +1,16 @@
+candidate_model,baseline_model,metric,mean_delta,ci_lower,ci_upper,statistically_meaningful,n_matches,interpretation
+official_model_draw_calibrated,official_model,log_loss,0.03500161700896661,0.005792934951271745,0.06067025775452816,False,188,candidate is worse on mean metric
+official_model_draw_calibrated,official_model,brier,0.02187189389430749,0.0009284146666276135,0.040120864586789574,False,188,candidate is worse on mean metric
+official_model_draw_calibrated,official_model,rps,0.003284794539222679,-0.001207279622180866,0.007474127895445333,False,188,candidate is worse on mean metric
+official_model_draw_confidence_calibrated,official_model,log_loss,0.03716884858422977,0.006629238834559938,0.06476075083968334,False,188,candidate is worse on mean metric
+official_model_draw_confidence_calibrated,official_model,brier,0.019618803547690522,0.0015873417860314029,0.0354808808523075,False,188,candidate is worse on mean metric
+official_model_draw_confidence_calibrated,official_model,rps,0.004207238620839856,0.00019605557127054508,0.007707203506746669,False,188,candidate is worse on mean metric
+official_model_draw_confidence_calibrated,bookmaker_odds_only,log_loss,0.07615837654491814,0.024929943907120635,0.12598248558324646,False,188,candidate is worse on mean metric
+official_model_draw_confidence_calibrated,bookmaker_odds_only,brier,0.0456392392662115,0.013724355812783877,0.07619972730845247,False,188,candidate is worse on mean metric
+official_model_draw_confidence_calibrated,bookmaker_odds_only,rps,0.015154689136305572,0.002416357938931076,0.02738054396754921,False,188,candidate is worse on mean metric
+market_blend_draw_calibrated,bookmaker_odds_only,log_loss,0.007008453098118786,-0.005920220248274111,0.01923819323970965,False,188,candidate is worse on mean metric
+market_blend_draw_calibrated,bookmaker_odds_only,brier,0.006579518518780498,-0.001600758844479696,0.014388159905192183,False,188,candidate is worse on mean metric
+market_blend_draw_calibrated,bookmaker_odds_only,rps,0.0015195659081947161,-0.0014493783718416042,0.004146615592454854,False,188,candidate is worse on mean metric
+market_blend_draw_calibrated,market_blend_tuned,log_loss,0.00319194362145465,-0.006007675433962838,0.012822788727336514,False,188,candidate is worse on mean metric
+market_blend_draw_calibrated,market_blend_tuned,brier,0.0022965434528007885,-0.0035473403512876088,0.0080289404010636,False,188,candidate is worse on mean metric
+market_blend_draw_calibrated,market_blend_tuned,rps,-0.0001483579684046653,-0.0018861745107190573,0.001814638635339533,False,188,"candidate improves mean metric, but CI crosses 0"

@@ -8,14 +8,14 @@
 
 | model_name | log_loss | ci_lower | ci_upper | n_matches |
 | --- | --- | --- | --- | --- |
-| final_model | 0.980710 | 0.910057 | 1.054094 | 188 |
+| final_model | 1.005457 | 0.934590 | 1.076891 | 188 |
 | bookmaker_odds_only | 0.966467 | 0.889407 | 1.047646 | 188 |
-| market_blend | 0.962821 | 0.891187 | 1.040796 | 188 |
+| market_blend | 0.966467 | 0.888488 | 1.049264 | 188 |
 
 ## Paired Delta Confidence Intervals
 
 | comparison | log_loss_delta | ci_lower | ci_upper | statistically_meaningful | n_matches |
 | --- | --- | --- | --- | --- | --- |
-| market_blend_minus_bookmaker_odds_only | -0.003646 | -0.015687 | 0.007937 | False | 188 |
-| market_blend_minus_final_model | -0.017889 | -0.045609 | 0.008059 | False | 188 |
-| final_model_minus_bookmaker_odds_only | 0.014243 | -0.025572 | 0.055032 | False | 188 |
+| market_blend_minus_bookmaker_odds_only | 0.000000 | -0.000000 | 0.000000 | False | 188 |
+| market_blend_minus_final_model | -0.038990 | -0.079331 | -0.002517 | True | 188 |
+| final_model_minus_bookmaker_odds_only | 0.038990 | 0.001700 | 0.076875 | True | 188 |

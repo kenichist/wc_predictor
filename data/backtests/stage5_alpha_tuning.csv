@@ -1,0 +1,64 @@
+test_year,alpha,tuning_years,tuning_log_loss,selected_alpha,selected,notes
+2014,0.0,none,,0.0,True,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2014,0.05,none,,0.0,False,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2014,0.1,none,,0.0,False,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2014,0.15,none,,0.0,False,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2014,0.2,none,,0.0,False,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2014,0.25,none,,0.0,False,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2014,0.3,none,,0.0,False,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2014,0.35,none,,0.0,False,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2014,0.4,none,,0.0,False,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2014,0.45,none,,0.0,False,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2014,0.5,none,,0.0,False,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2014,0.55,none,,0.0,False,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2014,0.6,none,,0.0,False,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2014,0.65,none,,0.0,False,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2014,0.7,none,,0.0,False,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2014,0.75,none,,0.0,False,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2014,0.8,none,,0.0,False,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2014,0.85,none,,0.0,False,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2014,0.9,none,,0.0,False,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2014,0.95,none,,0.0,False,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2014,1.0,none,,0.0,False,limited: no prior tournament with paired model and market rows; safe default alpha=0.0
+2018,0.0,2014,0.952306951042265,0.4,False,alpha selected using only prior tournament rows
+2018,0.05,2014,0.9514693651494219,0.4,False,alpha selected using only prior tournament rows
+2018,0.1,2014,0.9507416724016516,0.4,False,alpha selected using only prior tournament rows
+2018,0.15,2014,0.9501228168950323,0.4,False,alpha selected using only prior tournament rows
+2018,0.2,2014,0.9496119077398227,0.4,False,alpha selected using only prior tournament rows
+2018,0.25,2014,0.9492082137001838,0.4,False,alpha selected using only prior tournament rows
+2018,0.3,2014,0.9489111589395764,0.4,False,alpha selected using only prior tournament rows
+2018,0.35,2014,0.9487203198068594,0.4,False,alpha selected using only prior tournament rows
+2018,0.4,2014,0.9486354226160845,0.4,True,alpha selected using only prior tournament rows
+2018,0.45,2014,0.9486563423895691,0.4,False,alpha selected using only prior tournament rows
+2018,0.5,2014,0.9487831025496078,0.4,False,alpha selected using only prior tournament rows
+2018,0.55,2014,0.9490158755595998,0.4,False,alpha selected using only prior tournament rows
+2018,0.6,2014,0.9493549845309575,0.4,False,alpha selected using only prior tournament rows
+2018,0.65,2014,0.9498009058283815,0.4,False,alpha selected using only prior tournament rows
+2018,0.7,2014,0.9503542727234897,0.4,False,alpha selected using only prior tournament rows
+2018,0.75,2014,0.9510158801659739,0.4,False,alpha selected using only prior tournament rows
+2018,0.8,2014,0.9517866907631228,0.4,False,alpha selected using only prior tournament rows
+2018,0.85,2014,0.9526678420835457,0.4,False,alpha selected using only prior tournament rows
+2018,0.9,2014,0.9536606554303062,0.4,False,alpha selected using only prior tournament rows
+2018,0.95,2014,0.9547666462637467,0.4,False,alpha selected using only prior tournament rows
+2018,1.0,2014,0.9559875364967557,0.4,False,alpha selected using only prior tournament rows
+2022,0.0,"2014,2018",0.9441981456812372,0.2,False,alpha selected using only prior tournament rows
+2022,0.05,"2014,2018",0.9435847059270948,0.2,False,alpha selected using only prior tournament rows
+2022,0.1,"2014,2018",0.9431614419606716,0.2,False,alpha selected using only prior tournament rows
+2022,0.15,"2014,2018",0.9429208705968171,0.2,False,alpha selected using only prior tournament rows
+2022,0.2,"2014,2018",0.942856816806571,0.2,True,alpha selected using only prior tournament rows
+2022,0.25,"2014,2018",0.9429641988656793,0.2,False,alpha selected using only prior tournament rows
+2022,0.3,"2014,2018",0.9432388655249216,0.2,False,alpha selected using only prior tournament rows
+2022,0.35,"2014,2018",0.943677471566843,0.2,False,alpha selected using only prior tournament rows
+2022,0.4,"2014,2018",0.9442773823044667,0.2,False,alpha selected using only prior tournament rows
+2022,0.45,"2014,2018",0.9450366003835508,0.2,False,alpha selected using only prior tournament rows
+2022,0.5,"2014,2018",0.9459537101739375,0.2,False,alpha selected using only prior tournament rows
+2022,0.55,"2014,2018",0.9470278363872426,0.2,False,alpha selected using only prior tournament rows
+2022,0.6,"2014,2018",0.948258614533374,0.2,False,alpha selected using only prior tournament rows
+2022,0.65,"2014,2018",0.9496461715544039,0.2,False,alpha selected using only prior tournament rows
+2022,0.7,"2014,2018",0.9511911155366409,0.2,False,alpha selected using only prior tournament rows
+2022,0.75,"2014,2018",0.9528945338601085,0.2,False,alpha selected using only prior tournament rows
+2022,0.8,"2014,2018",0.9547579995435278,0.2,False,alpha selected using only prior tournament rows
+2022,0.85,"2014,2018",0.9567835859184078,0.2,False,alpha selected using only prior tournament rows
+2022,0.9,"2014,2018",0.9589738901509085,0.2,False,alpha selected using only prior tournament rows
+2022,0.95,"2014,2018",0.9613320665593836,0.2,False,alpha selected using only prior tournament rows
+2022,1.0,"2014,2018",0.9638618711900929,0.2,False,alpha selected using only prior tournament rows

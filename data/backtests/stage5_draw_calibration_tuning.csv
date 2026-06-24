@@ -1,0 +1,286 @@
+model_name,test_year,parameter,value,tuning_source_years,tuning_log_loss,selected_value,selected,notes,bucket_n,bucket_mean_confidence,bucket_empirical_accuracy
+official_model_draw_calibrated,2014,draw_multiplier,0.55,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,0.6,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,0.65,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,0.7,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,0.75,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,0.8,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,0.85,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,0.9,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,0.95,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,1.0,none,,1.0,True,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,1.05,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,1.1,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,1.15,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,1.2,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,1.25,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,1.3,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,1.35,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,1.4,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,1.45,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,1.5,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,1.55,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,1.6,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,1.65,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,1.7,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,1.75,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_draw_calibrated,2014,draw_multiplier,1.8,none,,1.0,False,limited: no prior tournament rows; identity draw multiplier,,,
+official_model_confidence_calibrated,2014,confidence_gamma:0.00-0.40,1.0,none,,1.0,True,limited: no prior rows; identity confidence calibration,,,
+official_model_confidence_calibrated,2014,confidence_gamma:0.40-0.50,1.0,none,,1.0,True,limited: no prior rows; identity confidence calibration,,,
+official_model_confidence_calibrated,2014,confidence_gamma:0.50-0.60,1.0,none,,1.0,True,limited: no prior rows; identity confidence calibration,,,
+official_model_confidence_calibrated,2014,confidence_gamma:0.60-0.70,1.0,none,,1.0,True,limited: no prior rows; identity confidence calibration,,,
+official_model_confidence_calibrated,2014,confidence_gamma:0.70-1.00,1.0,none,,1.0,True,limited: no prior rows; identity confidence calibration,,,
+official_model_draw_confidence_calibrated,2014,confidence_gamma:0.00-0.40,1.0,none,,1.0,True,limited: no prior rows; identity confidence calibration,,,
+official_model_draw_confidence_calibrated,2014,confidence_gamma:0.40-0.50,1.0,none,,1.0,True,limited: no prior rows; identity confidence calibration,,,
+official_model_draw_confidence_calibrated,2014,confidence_gamma:0.50-0.60,1.0,none,,1.0,True,limited: no prior rows; identity confidence calibration,,,
+official_model_draw_confidence_calibrated,2014,confidence_gamma:0.60-0.70,1.0,none,,1.0,True,limited: no prior rows; identity confidence calibration,,,
+official_model_draw_confidence_calibrated,2014,confidence_gamma:0.70-1.00,1.0,none,,1.0,True,limited: no prior rows; identity confidence calibration,,,
+official_model_draw_calibrated,2018,draw_multiplier,0.55,2014,1.90297918036041,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,0.6,2014,1.8300568869791978,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,0.65,2014,1.7638908553170225,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,0.7,2014,1.7034539001118512,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,0.75,2014,1.6479328012005114,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,0.8,2014,1.5966729116744705,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,0.85,2014,1.5491395932634515,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,0.9,2014,1.5048906956267911,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,0.95,2014,1.4635564899472349,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,1.0,2014,1.424824758650187,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,1.05,2014,1.3884295293780844,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,1.1,2014,1.3541424344770177,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,1.15,2014,1.321765994720558,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,1.2,2014,1.2911283352065794,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,1.25,2014,1.2620789821540348,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,1.3,2014,1.2344854858847516,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,1.35,2014,1.2082306826450422,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,1.4,2014,1.1832104556687948,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,1.45,2014,1.1593318902122578,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,1.5,2014,1.136511742299482,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,1.55,2014,1.1146751593595265,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,1.6,2014,1.0937546046901523,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,1.65,2014,1.0736889480475034,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,1.7,2014,1.05442269254848,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,1.75,2014,1.0359053141290524,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2018,draw_multiplier,1.8,2014,1.0180906944921682,1.8,True,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_confidence_calibrated,2018,confidence_gamma:0.00-0.40,1.0,2014,,1.0,True,identity: insufficient rows/classes in bucket,,,
+official_model_confidence_calibrated,2018,confidence_gamma:0.40-0.50,0.55,2014,1.0830799854290556,0.6000000000000001,False,bucket gamma selected using prior tournament rows only,28.0,0.4533292091780461,0.39285714285714285
+official_model_confidence_calibrated,2018,confidence_gamma:0.40-0.50,0.6000000000000001,2014,1.083061769199895,0.6000000000000001,True,bucket gamma selected using prior tournament rows only,28.0,0.4533292091780461,0.39285714285714285
+official_model_confidence_calibrated,2018,confidence_gamma:0.40-0.50,0.65,2014,1.0832694301871448,0.6000000000000001,False,bucket gamma selected using prior tournament rows only,28.0,0.4533292091780461,0.39285714285714285
+official_model_confidence_calibrated,2018,confidence_gamma:0.40-0.50,0.7000000000000001,2014,1.0837012304256748,0.6000000000000001,False,bucket gamma selected using prior tournament rows only,28.0,0.4533292091780461,0.39285714285714285
+official_model_confidence_calibrated,2018,confidence_gamma:0.40-0.50,0.75,2014,1.0843553724067696,0.6000000000000001,False,bucket gamma selected using prior tournament rows only,28.0,0.4533292091780461,0.39285714285714285
+official_model_confidence_calibrated,2018,confidence_gamma:0.40-0.50,0.8,2014,1.0852300032115383,0.6000000000000001,False,bucket gamma selected using prior tournament rows only,28.0,0.4533292091780461,0.39285714285714285
+official_model_confidence_calibrated,2018,confidence_gamma:0.40-0.50,0.8500000000000001,2014,1.086323218488241,0.6000000000000001,False,bucket gamma selected using prior tournament rows only,28.0,0.4533292091780461,0.39285714285714285
+official_model_confidence_calibrated,2018,confidence_gamma:0.40-0.50,0.9,2014,1.0876330662675766,0.6000000000000001,False,bucket gamma selected using prior tournament rows only,28.0,0.4533292091780461,0.39285714285714285
+official_model_confidence_calibrated,2018,confidence_gamma:0.40-0.50,0.95,2014,1.089157550612305,0.6000000000000001,False,bucket gamma selected using prior tournament rows only,28.0,0.4533292091780461,0.39285714285714285
+official_model_confidence_calibrated,2018,confidence_gamma:0.40-0.50,1.0,2014,1.0908946350997188,0.6000000000000001,False,bucket gamma selected using prior tournament rows only,28.0,0.4533292091780461,0.39285714285714285
+official_model_confidence_calibrated,2018,confidence_gamma:0.50-0.60,1.0,2014,0.7754944397786169,1.35,False,bucket gamma selected using prior tournament rows only,16.0,0.5456785623575484,0.8125
+official_model_confidence_calibrated,2018,confidence_gamma:0.50-0.60,1.05,2014,0.7648788857592477,1.35,False,bucket gamma selected using prior tournament rows only,16.0,0.5456785623575484,0.8125
+official_model_confidence_calibrated,2018,confidence_gamma:0.50-0.60,1.1,2014,0.7547625203753225,1.35,False,bucket gamma selected using prior tournament rows only,16.0,0.5456785623575484,0.8125
+official_model_confidence_calibrated,2018,confidence_gamma:0.50-0.60,1.15,2014,0.74513913913524,1.35,False,bucket gamma selected using prior tournament rows only,16.0,0.5456785623575484,0.8125
+official_model_confidence_calibrated,2018,confidence_gamma:0.50-0.60,1.2,2014,0.7360022126515824,1.35,False,bucket gamma selected using prior tournament rows only,16.0,0.5456785623575484,0.8125
+official_model_confidence_calibrated,2018,confidence_gamma:0.50-0.60,1.25,2014,0.7273449071419061,1.35,False,bucket gamma selected using prior tournament rows only,16.0,0.5456785623575484,0.8125
+official_model_confidence_calibrated,2018,confidence_gamma:0.50-0.60,1.3,2014,0.7191601054558064,1.35,False,bucket gamma selected using prior tournament rows only,16.0,0.5456785623575484,0.8125
+official_model_confidence_calibrated,2018,confidence_gamma:0.50-0.60,1.35,2014,0.7114404285020008,1.35,True,bucket gamma selected using prior tournament rows only,16.0,0.5456785623575484,0.8125
+official_model_confidence_calibrated,2018,confidence_gamma:0.60-0.70,0.55,2014,0.9637693826151781,0.8,False,bucket gamma selected using prior tournament rows only,10.0,0.6589247558664584,0.6
+official_model_confidence_calibrated,2018,confidence_gamma:0.60-0.70,0.6000000000000001,2014,0.9586704432381012,0.8,False,bucket gamma selected using prior tournament rows only,10.0,0.6589247558664584,0.6
+official_model_confidence_calibrated,2018,confidence_gamma:0.60-0.70,0.65,2014,0.9547579538085685,0.8,False,bucket gamma selected using prior tournament rows only,10.0,0.6589247558664584,0.6
+official_model_confidence_calibrated,2018,confidence_gamma:0.60-0.70,0.7000000000000001,2014,0.9520207476295368,0.8,False,bucket gamma selected using prior tournament rows only,10.0,0.6589247558664584,0.6
+official_model_confidence_calibrated,2018,confidence_gamma:0.60-0.70,0.75,2014,0.9504450935154853,0.8,False,bucket gamma selected using prior tournament rows only,10.0,0.6589247558664584,0.6
+official_model_confidence_calibrated,2018,confidence_gamma:0.60-0.70,0.8,2014,0.9500148211279529,0.8,True,bucket gamma selected using prior tournament rows only,10.0,0.6589247558664584,0.6
+official_model_confidence_calibrated,2018,confidence_gamma:0.60-0.70,0.8500000000000001,2014,0.9507114664220317,0.8,False,bucket gamma selected using prior tournament rows only,10.0,0.6589247558664584,0.6
+official_model_confidence_calibrated,2018,confidence_gamma:0.60-0.70,0.9,2014,0.9525144343575617,0.8,False,bucket gamma selected using prior tournament rows only,10.0,0.6589247558664584,0.6
+official_model_confidence_calibrated,2018,confidence_gamma:0.60-0.70,0.95,2014,0.9554011758002989,0.8,False,bucket gamma selected using prior tournament rows only,10.0,0.6589247558664584,0.6
+official_model_confidence_calibrated,2018,confidence_gamma:0.60-0.70,1.0,2014,0.9593473754072944,0.8,False,bucket gamma selected using prior tournament rows only,10.0,0.6589247558664584,0.6
+official_model_confidence_calibrated,2018,confidence_gamma:0.70-1.00,1.0,2014,,1.0,True,identity: insufficient rows/classes in bucket,,,
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.00-0.40,1.0,2014,,1.0,True,identity: insufficient rows/classes in bucket,,,
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.40-0.50,0.55,2014,1.132284119726347,0.55,True,bucket gamma selected using prior tournament rows only,28.0,0.4246848722094655,0.2857142857142857
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.40-0.50,0.6000000000000001,2014,1.136628410659003,0.55,False,bucket gamma selected using prior tournament rows only,28.0,0.4246848722094655,0.2857142857142857
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.40-0.50,0.65,2014,1.1411749547247756,0.55,False,bucket gamma selected using prior tournament rows only,28.0,0.4246848722094655,0.2857142857142857
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.40-0.50,0.7000000000000001,2014,1.145920829058877,0.55,False,bucket gamma selected using prior tournament rows only,28.0,0.4246848722094655,0.2857142857142857
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.40-0.50,0.75,2014,1.1508630629054204,0.55,False,bucket gamma selected using prior tournament rows only,28.0,0.4246848722094655,0.2857142857142857
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.40-0.50,0.8,2014,1.1559986444460435,0.55,False,bucket gamma selected using prior tournament rows only,28.0,0.4246848722094655,0.2857142857142857
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.40-0.50,0.8500000000000001,2014,1.161324527442691,0.55,False,bucket gamma selected using prior tournament rows only,28.0,0.4246848722094655,0.2857142857142857
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.40-0.50,0.9,2014,1.1668376376687095,0.55,False,bucket gamma selected using prior tournament rows only,28.0,0.4246848722094655,0.2857142857142857
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.40-0.50,0.95,2014,1.1725348791060388,0.55,False,bucket gamma selected using prior tournament rows only,28.0,0.4246848722094655,0.2857142857142857
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.40-0.50,1.0,2014,1.1784131398899007,0.55,False,bucket gamma selected using prior tournament rows only,28.0,0.4246848722094655,0.2857142857142857
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.50-0.60,1.0,2014,0.919622213413816,1.35,False,bucket gamma selected using prior tournament rows only,16.0,0.45810461672535036,0.75
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.50-0.60,1.05,2014,0.9147719413855513,1.35,False,bucket gamma selected using prior tournament rows only,16.0,0.45810461672535036,0.75
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.50-0.60,1.1,2014,0.9102369179706937,1.35,False,bucket gamma selected using prior tournament rows only,16.0,0.45810461672535036,0.75
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.50-0.60,1.15,2014,0.9060075613108934,1.35,False,bucket gamma selected using prior tournament rows only,16.0,0.45810461672535036,0.75
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.50-0.60,1.2,2014,0.9020744876452131,1.35,False,bucket gamma selected using prior tournament rows only,16.0,0.45810461672535036,0.75
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.50-0.60,1.25,2014,0.8984285198932944,1.35,False,bucket gamma selected using prior tournament rows only,16.0,0.45810461672535036,0.75
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.50-0.60,1.3,2014,0.895060694607875,1.35,False,bucket gamma selected using prior tournament rows only,16.0,0.45810461672535036,0.75
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.50-0.60,1.35,2014,0.8919622674257554,1.35,True,bucket gamma selected using prior tournament rows only,16.0,0.45810461672535036,0.75
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.60-0.70,1.0,2014,0.8614866796742756,1.3,False,bucket gamma selected using prior tournament rows only,10.0,0.5753294725943007,0.6
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.60-0.70,1.05,2014,0.8578982287044381,1.3,False,bucket gamma selected using prior tournament rows only,10.0,0.5753294725943007,0.6
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.60-0.70,1.1,2014,0.8549773765968242,1.3,False,bucket gamma selected using prior tournament rows only,10.0,0.5753294725943007,0.6
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.60-0.70,1.15,2014,0.8527057637573254,1.3,False,bucket gamma selected using prior tournament rows only,10.0,0.5753294725943007,0.6
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.60-0.70,1.2,2014,0.8510649776260483,1.3,False,bucket gamma selected using prior tournament rows only,10.0,0.5753294725943007,0.6
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.60-0.70,1.25,2014,0.8500366052922408,1.3,False,bucket gamma selected using prior tournament rows only,10.0,0.5753294725943007,0.6
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.60-0.70,1.3,2014,0.8496022830063433,1.3,True,bucket gamma selected using prior tournament rows only,10.0,0.5753294725943007,0.6
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.60-0.70,1.35,2014,0.8497437424876659,1.3,False,bucket gamma selected using prior tournament rows only,10.0,0.5753294725943007,0.6
+official_model_draw_confidence_calibrated,2018,confidence_gamma:0.70-1.00,1.0,2014,,1.0,True,identity: insufficient rows/classes in bucket,,,
+official_model_draw_calibrated,2022,draw_multiplier,0.55,"2014,2018",1.8566616343076277,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,0.6,"2014,2018",1.7843121513304205,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,0.65,"2014,2018",1.718703701713759,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,0.7,"2014,2018",1.6588097522911986,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,0.75,"2014,2018",1.6038176952916559,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,0.8,"2014,2018",1.5530734596799352,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,0.85,"2014,2018",1.506042949406509,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,0.9,"2014,2018",1.4622845252845713,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,0.95,"2014,2018",1.4214289409218894,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,1.0,"2014,2018",1.3831644345588634,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,1.05,"2014,2018",1.3472254649670552,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,1.1,"2014,2018",1.313384072686735,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,1.15,"2014,2018",1.2814431653470602,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,1.2,"2014,2018",1.2512312350210208,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,1.25,"2014,2018",1.222598156356444,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,1.3,"2014,2018",1.1954118107807172,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,1.35,"2014,2018",1.1695553494451516,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,1.4,"2014,2018",1.1449249553204697,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,1.45,"2014,2018",1.1214279991823304,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,1.5,"2014,2018",1.0989815092335957,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,1.55,"2014,2018",1.0775108925513102,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,1.6,"2014,2018",1.0569488602992594,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,1.65,"2014,2018",1.037234519011086,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,1.7,"2014,2018",1.018312598135572,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,1.75,"2014,2018",1.00013279009174,1.8,False,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_draw_calibrated,2022,draw_multiplier,1.8,"2014,2018",0.9826491837713833,1.8,True,draw-specific log loss selected using prior tournament draw rows only,,,
+official_model_confidence_calibrated,2022,confidence_gamma:0.00-0.40,0.55,"2014,2018",1.1001345684320827,0.55,True,bucket gamma selected using prior tournament rows only,15.0,0.37887501662144313,0.3333333333333333
+official_model_confidence_calibrated,2022,confidence_gamma:0.00-0.40,0.6000000000000001,"2014,2018",1.100593781991335,0.55,False,bucket gamma selected using prior tournament rows only,15.0,0.37887501662144313,0.3333333333333333
+official_model_confidence_calibrated,2022,confidence_gamma:0.00-0.40,0.65,"2014,2018",1.101105127760661,0.55,False,bucket gamma selected using prior tournament rows only,15.0,0.37887501662144313,0.3333333333333333
+official_model_confidence_calibrated,2022,confidence_gamma:0.00-0.40,0.7000000000000001,"2014,2018",1.1016682792235062,0.55,False,bucket gamma selected using prior tournament rows only,15.0,0.37887501662144313,0.3333333333333333
+official_model_confidence_calibrated,2022,confidence_gamma:0.00-0.40,0.75,"2014,2018",1.102282905515058,0.55,False,bucket gamma selected using prior tournament rows only,15.0,0.37887501662144313,0.3333333333333333
+official_model_confidence_calibrated,2022,confidence_gamma:0.00-0.40,0.8,"2014,2018",1.1029486716487134,0.55,False,bucket gamma selected using prior tournament rows only,15.0,0.37887501662144313,0.3333333333333333
+official_model_confidence_calibrated,2022,confidence_gamma:0.00-0.40,0.8500000000000001,"2014,2018",1.103665238740897,0.55,False,bucket gamma selected using prior tournament rows only,15.0,0.37887501662144313,0.3333333333333333
+official_model_confidence_calibrated,2022,confidence_gamma:0.00-0.40,0.9,"2014,2018",1.1044322642339663,0.55,False,bucket gamma selected using prior tournament rows only,15.0,0.37887501662144313,0.3333333333333333
+official_model_confidence_calibrated,2022,confidence_gamma:0.00-0.40,0.95,"2014,2018",1.1052494021169461,0.55,False,bucket gamma selected using prior tournament rows only,15.0,0.37887501662144313,0.3333333333333333
+official_model_confidence_calibrated,2022,confidence_gamma:0.00-0.40,1.0,"2014,2018",1.1061163031438563,0.55,False,bucket gamma selected using prior tournament rows only,15.0,0.37887501662144313,0.3333333333333333
+official_model_confidence_calibrated,2022,confidence_gamma:0.40-0.50,0.55,"2014,2018",1.0801696436368917,0.65,False,bucket gamma selected using prior tournament rows only,47.0,0.4468718704171103,0.3829787234042553
+official_model_confidence_calibrated,2022,confidence_gamma:0.40-0.50,0.6000000000000001,"2014,2018",1.0798595216214582,0.65,False,bucket gamma selected using prior tournament rows only,47.0,0.4468718704171103,0.3829787234042553
+official_model_confidence_calibrated,2022,confidence_gamma:0.40-0.50,0.65,"2014,2018",1.0797684920785757,0.65,True,bucket gamma selected using prior tournament rows only,47.0,0.4468718704171103,0.3829787234042553
+official_model_confidence_calibrated,2022,confidence_gamma:0.40-0.50,0.7000000000000001,"2014,2018",1.0798943436482582,0.65,False,bucket gamma selected using prior tournament rows only,47.0,0.4468718704171103,0.3829787234042553
+official_model_confidence_calibrated,2022,confidence_gamma:0.40-0.50,0.75,"2014,2018",1.080234822360513,0.65,False,bucket gamma selected using prior tournament rows only,47.0,0.4468718704171103,0.3829787234042553
+official_model_confidence_calibrated,2022,confidence_gamma:0.40-0.50,0.8,"2014,2018",1.080787637050251,0.65,False,bucket gamma selected using prior tournament rows only,47.0,0.4468718704171103,0.3829787234042553
+official_model_confidence_calibrated,2022,confidence_gamma:0.40-0.50,0.8500000000000001,"2014,2018",1.0815504644472484,0.65,False,bucket gamma selected using prior tournament rows only,47.0,0.4468718704171103,0.3829787234042553
+official_model_confidence_calibrated,2022,confidence_gamma:0.40-0.50,0.9,"2014,2018",1.0825209539382834,0.65,False,bucket gamma selected using prior tournament rows only,47.0,0.4468718704171103,0.3829787234042553
+official_model_confidence_calibrated,2022,confidence_gamma:0.40-0.50,0.95,"2014,2018",1.083696732002487,0.65,False,bucket gamma selected using prior tournament rows only,47.0,0.4468718704171103,0.3829787234042553
+official_model_confidence_calibrated,2022,confidence_gamma:0.40-0.50,1.0,"2014,2018",1.0850754063243957,0.65,False,bucket gamma selected using prior tournament rows only,47.0,0.4468718704171103,0.3829787234042553
+official_model_confidence_calibrated,2022,confidence_gamma:0.50-0.60,1.0,"2014,2018",0.8687816168862463,1.35,False,bucket gamma selected using prior tournament rows only,35.0,0.5499664021102474,0.6857142857142857
+official_model_confidence_calibrated,2022,confidence_gamma:0.50-0.60,1.05,"2014,2018",0.8632313749264092,1.35,False,bucket gamma selected using prior tournament rows only,35.0,0.5499664021102474,0.6857142857142857
+official_model_confidence_calibrated,2022,confidence_gamma:0.50-0.60,1.1,"2014,2018",0.8582045420567889,1.35,False,bucket gamma selected using prior tournament rows only,35.0,0.5499664021102474,0.6857142857142857
+official_model_confidence_calibrated,2022,confidence_gamma:0.50-0.60,1.15,"2014,2018",0.8536931094501292,1.35,False,bucket gamma selected using prior tournament rows only,35.0,0.5499664021102474,0.6857142857142857
+official_model_confidence_calibrated,2022,confidence_gamma:0.50-0.60,1.2,"2014,2018",0.8496887892324311,1.35,False,bucket gamma selected using prior tournament rows only,35.0,0.5499664021102474,0.6857142857142857
+official_model_confidence_calibrated,2022,confidence_gamma:0.50-0.60,1.25,"2014,2018",0.8461830388063929,1.35,False,bucket gamma selected using prior tournament rows only,35.0,0.5499664021102474,0.6857142857142857
+official_model_confidence_calibrated,2022,confidence_gamma:0.50-0.60,1.3,"2014,2018",0.8431670852213394,1.35,False,bucket gamma selected using prior tournament rows only,35.0,0.5499664021102474,0.6857142857142857
+official_model_confidence_calibrated,2022,confidence_gamma:0.50-0.60,1.35,"2014,2018",0.8406319494783097,1.35,True,bucket gamma selected using prior tournament rows only,35.0,0.5499664021102474,0.6857142857142857
+official_model_confidence_calibrated,2022,confidence_gamma:0.60-0.70,0.55,"2014,2018",0.9612560143155252,0.8,False,bucket gamma selected using prior tournament rows only,19.0,0.6504221652764427,0.5789473684210527
+official_model_confidence_calibrated,2022,confidence_gamma:0.60-0.70,0.6000000000000001,"2014,2018",0.9557257346976682,0.8,False,bucket gamma selected using prior tournament rows only,19.0,0.6504221652764427,0.5789473684210527
+official_model_confidence_calibrated,2022,confidence_gamma:0.60-0.70,0.65,"2014,2018",0.951338887613766,0.8,False,bucket gamma selected using prior tournament rows only,19.0,0.6504221652764427,0.5789473684210527
+official_model_confidence_calibrated,2022,confidence_gamma:0.60-0.70,0.7000000000000001,"2014,2018",0.948083338959307,0.8,False,bucket gamma selected using prior tournament rows only,19.0,0.6504221652764427,0.5789473684210527
+official_model_confidence_calibrated,2022,confidence_gamma:0.60-0.70,0.75,"2014,2018",0.9459447373853945,0.8,False,bucket gamma selected using prior tournament rows only,19.0,0.6504221652764427,0.5789473684210527
+official_model_confidence_calibrated,2022,confidence_gamma:0.60-0.70,0.8,"2014,2018",0.9449066307488312,0.8,True,bucket gamma selected using prior tournament rows only,19.0,0.6504221652764427,0.5789473684210527
+official_model_confidence_calibrated,2022,confidence_gamma:0.60-0.70,0.8500000000000001,"2014,2018",0.9449505980179407,0.8,False,bucket gamma selected using prior tournament rows only,19.0,0.6504221652764427,0.5789473684210527
+official_model_confidence_calibrated,2022,confidence_gamma:0.60-0.70,0.9,"2014,2018",0.9460563943503866,0.8,False,bucket gamma selected using prior tournament rows only,19.0,0.6504221652764427,0.5789473684210527
+official_model_confidence_calibrated,2022,confidence_gamma:0.60-0.70,0.95,"2014,2018",0.9482021068984448,0.8,False,bucket gamma selected using prior tournament rows only,19.0,0.6504221652764427,0.5789473684210527
+official_model_confidence_calibrated,2022,confidence_gamma:0.60-0.70,1.0,"2014,2018",0.9513643188076792,0.8,False,bucket gamma selected using prior tournament rows only,19.0,0.6504221652764427,0.5789473684210527
+official_model_confidence_calibrated,2022,confidence_gamma:0.70-1.00,1.0,"2014,2018",,1.0,True,identity: insufficient rows/classes in bucket,,,
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.00-0.40,0.55,"2014,2018",1.1304649114290855,0.55,True,bucket gamma selected using prior tournament rows only,15.0,0.4532708266782286,0.26666666666666666
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.00-0.40,0.6000000000000001,"2014,2018",1.1345766413186014,0.55,False,bucket gamma selected using prior tournament rows only,15.0,0.4532708266782286,0.26666666666666666
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.00-0.40,0.65,"2014,2018",1.13889288510097,0.55,False,bucket gamma selected using prior tournament rows only,15.0,0.4532708266782286,0.26666666666666666
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.00-0.40,0.7000000000000001,"2014,2018",1.1434137196658782,0.55,False,bucket gamma selected using prior tournament rows only,15.0,0.4532708266782286,0.26666666666666666
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.00-0.40,0.75,"2014,2018",1.1481391203047082,0.55,False,bucket gamma selected using prior tournament rows only,15.0,0.4532708266782286,0.26666666666666666
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.00-0.40,0.8,"2014,2018",1.153068960566347,0.55,False,bucket gamma selected using prior tournament rows only,15.0,0.4532708266782286,0.26666666666666666
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.00-0.40,0.8500000000000001,"2014,2018",1.158203012337666,0.55,False,bucket gamma selected using prior tournament rows only,15.0,0.4532708266782286,0.26666666666666666
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.00-0.40,0.9,"2014,2018",1.1635409461489905,0.55,False,bucket gamma selected using prior tournament rows only,15.0,0.4532708266782286,0.26666666666666666
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.00-0.40,0.95,"2014,2018",1.1690823317037726,0.55,False,bucket gamma selected using prior tournament rows only,15.0,0.4532708266782286,0.26666666666666666
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.00-0.40,1.0,"2014,2018",1.1748266386305908,0.55,False,bucket gamma selected using prior tournament rows only,15.0,0.4532708266782286,0.26666666666666666
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.40-0.50,0.55,"2014,2018",1.1362188622779652,0.55,True,bucket gamma selected using prior tournament rows only,47.0,0.436379370674921,0.2553191489361702
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.40-0.50,0.6000000000000001,"2014,2018",1.1412837329104526,0.55,False,bucket gamma selected using prior tournament rows only,47.0,0.436379370674921,0.2553191489361702
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.40-0.50,0.65,"2014,2018",1.1466044136774316,0.55,False,bucket gamma selected using prior tournament rows only,47.0,0.436379370674921,0.2553191489361702
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.40-0.50,0.7000000000000001,"2014,2018",1.1521762699680265,0.55,False,bucket gamma selected using prior tournament rows only,47.0,0.436379370674921,0.2553191489361702
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.40-0.50,0.75,"2014,2018",1.1579946150369929,0.55,False,bucket gamma selected using prior tournament rows only,47.0,0.436379370674921,0.2553191489361702
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.40-0.50,0.8,"2014,2018",1.1640547245790753,0.55,False,bucket gamma selected using prior tournament rows only,47.0,0.436379370674921,0.2553191489361702
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.40-0.50,0.8500000000000001,"2014,2018",1.1703518503748243,0.55,False,bucket gamma selected using prior tournament rows only,47.0,0.436379370674921,0.2553191489361702
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.40-0.50,0.9,"2014,2018",1.176881232979454,0.55,False,bucket gamma selected using prior tournament rows only,47.0,0.436379370674921,0.2553191489361702
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.40-0.50,0.95,"2014,2018",1.1836381134427565,0.55,False,bucket gamma selected using prior tournament rows only,47.0,0.436379370674921,0.2553191489361702
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.40-0.50,1.0,"2014,2018",1.190617744062447,0.55,False,bucket gamma selected using prior tournament rows only,47.0,0.436379370674921,0.2553191489361702
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.50-0.60,1.0,"2014,2018",0.9536990337267497,1.35,False,bucket gamma selected using prior tournament rows only,35.0,0.4636011858132714,0.5714285714285714
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.50-0.60,1.05,"2014,2018",0.951083341675371,1.35,False,bucket gamma selected using prior tournament rows only,35.0,0.4636011858132714,0.5714285714285714
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.50-0.60,1.1,"2014,2018",0.9488108856052744,1.35,False,bucket gamma selected using prior tournament rows only,35.0,0.4636011858132714,0.5714285714285714
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.50-0.60,1.15,"2014,2018",0.9468696995043105,1.35,False,bucket gamma selected using prior tournament rows only,35.0,0.4636011858132714,0.5714285714285714
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.50-0.60,1.2,"2014,2018",0.94524814914654,1.35,False,bucket gamma selected using prior tournament rows only,35.0,0.4636011858132714,0.5714285714285714
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.50-0.60,1.25,"2014,2018",0.9439349380387796,1.35,False,bucket gamma selected using prior tournament rows only,35.0,0.4636011858132714,0.5714285714285714
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.50-0.60,1.3,"2014,2018",0.9429191110619002,1.35,False,bucket gamma selected using prior tournament rows only,35.0,0.4636011858132714,0.5714285714285714
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.50-0.60,1.35,"2014,2018",0.9421900560691102,1.35,True,bucket gamma selected using prior tournament rows only,35.0,0.4636011858132714,0.5714285714285714
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.60-0.70,1.0,"2014,2018",0.8828368247252601,1.25,False,bucket gamma selected using prior tournament rows only,19.0,0.5618046095518424,0.5789473684210527
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.60-0.70,1.05,"2014,2018",0.8801889656347649,1.25,False,bucket gamma selected using prior tournament rows only,19.0,0.5618046095518424,0.5789473684210527
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.60-0.70,1.1,"2014,2018",0.8781700952857455,1.25,False,bucket gamma selected using prior tournament rows only,19.0,0.5618046095518424,0.5789473684210527
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.60-0.70,1.15,"2014,2018",0.8767602133844455,1.25,False,bucket gamma selected using prior tournament rows only,19.0,0.5618046095518424,0.5789473684210527
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.60-0.70,1.2,"2014,2018",0.8759395777022932,1.25,False,bucket gamma selected using prior tournament rows only,19.0,0.5618046095518424,0.5789473684210527
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.60-0.70,1.25,"2014,2018",0.8756887395151761,1.25,True,bucket gamma selected using prior tournament rows only,19.0,0.5618046095518424,0.5789473684210527
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.60-0.70,1.3,"2014,2018",0.8759885749667639,1.25,False,bucket gamma selected using prior tournament rows only,19.0,0.5618046095518424,0.5789473684210527
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.60-0.70,1.35,"2014,2018",0.8768203125801564,1.25,False,bucket gamma selected using prior tournament rows only,19.0,0.5618046095518424,0.5789473684210527
+official_model_draw_confidence_calibrated,2022,confidence_gamma:0.70-1.00,1.0,"2014,2018",,1.0,True,identity: insufficient rows/classes in bucket,,,
+market_blend_draw_calibrated,2014,alpha,0.0,none,,0.0,True,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2014,alpha,0.05,none,,0.0,False,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2014,alpha,0.1,none,,0.0,False,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2014,alpha,0.15,none,,0.0,False,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2014,alpha,0.2,none,,0.0,False,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2014,alpha,0.25,none,,0.0,False,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2014,alpha,0.3,none,,0.0,False,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2014,alpha,0.35,none,,0.0,False,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2014,alpha,0.4,none,,0.0,False,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2014,alpha,0.45,none,,0.0,False,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2014,alpha,0.5,none,,0.0,False,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2014,alpha,0.55,none,,0.0,False,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2014,alpha,0.6,none,,0.0,False,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2014,alpha,0.65,none,,0.0,False,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2014,alpha,0.7,none,,0.0,False,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2014,alpha,0.75,none,,0.0,False,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2014,alpha,0.8,none,,0.0,False,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2014,alpha,0.85,none,,0.0,False,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2014,alpha,0.9,none,,0.0,False,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2014,alpha,0.95,none,,0.0,False,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2014,alpha,1.0,none,,0.0,False,limited: no prior calibrated rows; safe default alpha=0.0,,,
+market_blend_draw_calibrated,2018,alpha,0.0,2014,0.952306951042265,0.4,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2018,alpha,0.05,2014,0.9514693651494219,0.4,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2018,alpha,0.1,2014,0.9507416724016516,0.4,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2018,alpha,0.15,2014,0.9501228168950323,0.4,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2018,alpha,0.2,2014,0.9496119077398227,0.4,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2018,alpha,0.25,2014,0.9492082137001838,0.4,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2018,alpha,0.3,2014,0.9489111589395764,0.4,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2018,alpha,0.35,2014,0.9487203198068596,0.4,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2018,alpha,0.4,2014,0.9486354226160845,0.4,True,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2018,alpha,0.45,2014,0.9486563423895691,0.4,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2018,alpha,0.5,2014,0.9487831025496078,0.4,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2018,alpha,0.55,2014,0.9490158755595998,0.4,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2018,alpha,0.6,2014,0.9493549845309575,0.4,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2018,alpha,0.65,2014,0.9498009058283815,0.4,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2018,alpha,0.7,2014,0.9503542727234897,0.4,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2018,alpha,0.75,2014,0.9510158801659739,0.4,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2018,alpha,0.8,2014,0.9517866907631228,0.4,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2018,alpha,0.85,2014,0.9526678420835457,0.4,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2018,alpha,0.9,2014,0.9536606554303062,0.4,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2018,alpha,0.95,2014,0.9547666462637467,0.4,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2018,alpha,1.0,2014,0.9559875364967557,0.4,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,0.0,"2014,2018",0.9441981456812372,0.0,True,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,0.05,"2014,2018",0.9444278851313785,0.0,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,0.1,"2014,2018",0.944915633573298,0.0,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,0.15,"2014,2018",0.9456527002262701,0.0,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,0.2,"2014,2018",0.9466322103326675,0.0,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,0.25,"2014,2018",0.9478488551139493,0.0,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,0.3,"2014,2018",0.9492987050398433,0.0,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,0.35,"2014,2018",0.9509790717856419,0.0,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,0.4,"2014,2018",0.9528884088140128,0.0,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,0.45,"2014,2018",0.9550262437091095,0.0,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,0.5,"2014,2018",0.95739313771791,0.0,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,0.55,"2014,2018",0.9599906697444885,0.0,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,0.6,"2014,2018",0.9628214435231183,0.0,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,0.65,"2014,2018",0.9658891180360729,0.0,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,0.7,"2014,2018",0.969198462588835,0.0,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,0.75,"2014,2018",0.9727554394591658,0.0,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,0.8,"2014,2018",0.9765673188780312,0.0,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,0.85,"2014,2018",0.9806428335282503,0.0,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,0.9,"2014,2018",0.9849923831349148,0.0,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,0.95,"2014,2018",0.9896283046687838,0.0,False,alpha selected using prior tournament rows only,,,
+market_blend_draw_calibrated,2022,alpha,1.0,"2014,2018",0.9945652311949299,0.0,False,alpha selected using prior tournament rows only,,,

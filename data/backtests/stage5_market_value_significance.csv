@@ -1,0 +1,19 @@
+candidate_model,baseline_model,metric,mean_delta,ci_lower,ci_upper,statistically_meaningful,n_matches,interpretation
+official_model_calibrated,bookmaker_odds_only,log_loss,0.0469227504134879,-0.00030997702500232765,0.08672157839601766,False,188,candidate is worse on mean metric
+official_model_calibrated,bookmaker_odds_only,brier,0.029665524467159702,0.0008777440402037405,0.055070819365761886,False,188,candidate is worse on mean metric
+official_model_calibrated,bookmaker_odds_only,rps,0.012689639385966003,-0.00020412003201063618,0.02420016324956283,False,188,candidate is worse on mean metric
+market_blend_tuned,bookmaker_odds_only,log_loss,0.0038165094766641015,-0.009126672009134683,0.014546431744945708,False,188,candidate is worse on mean metric
+market_blend_tuned,bookmaker_odds_only,brier,0.004282975065979722,-0.003365708254603395,0.010916522938469586,False,188,candidate is worse on mean metric
+market_blend_tuned,bookmaker_odds_only,rps,0.0016679238765993783,-0.0016157649408949212,0.00451035392968674,False,188,candidate is worse on mean metric
+stacked_model_market,bookmaker_odds_only,log_loss,0.02248795727478762,-0.020250657800962656,0.07069424199738804,False,125,candidate is worse on mean metric
+stacked_model_market,bookmaker_odds_only,brier,0.017488495067490162,-0.0036515711117898466,0.04210393068549509,False,125,candidate is worse on mean metric
+stacked_model_market,bookmaker_odds_only,rps,0.005667635991306129,-0.0011959644907542893,0.013379444300335459,False,125,candidate is worse on mean metric
+market_blend_tuned,official_model,log_loss,-0.03517301848402425,-0.0640092302619331,-0.0012759554922497063,True,188,candidate significantly improves baseline
+market_blend_tuned,official_model,brier,-0.021737460652541275,-0.04066146294309356,-0.0003539438119742368,True,188,candidate significantly improves baseline
+market_blend_tuned,official_model,rps,-0.009279526638866336,-0.017958105178157345,0.0005266076714560492,False,188,"candidate improves mean metric, but CI crosses 0"
+stacked_model_market,official_model,log_loss,-0.03429727770902441,-0.08049804214239269,0.008757277074810721,False,125,"candidate improves mean metric, but CI crosses 0"
+stacked_model_market,official_model,brier,-0.022917107657382176,-0.04872883530875459,0.002538266339867631,False,125,"candidate improves mean metric, but CI crosses 0"
+stacked_model_market,official_model,rps,-0.011162304655464217,-0.021692651134611732,-0.0018636406137434774,True,125,candidate significantly improves baseline
+official_model_calibrated,official_model,log_loss,0.00793322245279954,-0.002436153422764652,0.017719892492119593,False,188,candidate is worse on mean metric
+official_model_calibrated,official_model,brier,0.00364508874863871,-0.002272066751880888,0.00928823108245157,False,188,candidate is worse on mean metric
+official_model_calibrated,official_model,rps,0.0017421888705002903,-0.0008155118846714807,0.004200395026942075,False,188,candidate is worse on mean metric
